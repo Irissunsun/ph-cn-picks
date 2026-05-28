@@ -1,0 +1,11 @@
+{
+  "name": "ph-cn-picks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check script.js && node --check scripts/fetch-producthunt.mjs && node --check scripts/import-decohack-public.mjs && bash -n scripts/run-daily.sh",
+    "serve": "python3 -m http.server 4177",
+    "update:daily": "bash scripts/run-daily.sh"
+  }
+}

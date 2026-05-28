@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PH 中文精选每天自动整理 Product Hunt 热榜中的 AI、开发、效率和设计工具，提供中文摘要、热度数据和直达链接。"
+    />
+    <title>产品灵感日报 | PH 中文精选</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260528-daily-deploy" />
+  </head>
+  <body>
+    <div class="magazine-shell">
+      <aside class="issue-sidebar" aria-label="日报期数">
+        <a class="latest-card" href="#daily">
+          <span>最新一期</span>
+          <strong id="sidebar-date">2026-05-28</strong>
+        </a>
+
+        <div class="month-group">
+          <div class="month-title">
+            <span>2026 年 5 月</span>
+            <small>28</small>
+          </div>
+          <nav class="issue-list" id="issue-list" aria-label="历史日报"></nav>
+        </div>
+      </aside>
+
+      <main class="daily-page" id="daily">
+        <nav class="top-links" aria-label="辅助链接">
+          <a href="https://www.producthunt.com/" target="_blank" rel="noreferrer">Product Hunt</a>
+          <a href="https://api.producthunt.com/v2/docs" target="_blank" rel="noreferrer">API</a>
+          <a href="./data/products.json" target="_blank" rel="noreferrer">JSON</a>
+        </nav>
+
+        <section class="daily-cover" aria-labelledby="page-title">
+          <p class="issue-meta">
+            <span></span>
+            <strong id="volume-label">VOL.2026.05.28</strong>
+            <span>·</span>
+            <strong id="stories-label">0 STORIES</strong>
+            <span>·</span>
+            <strong>PRODUCT INSPIRATION DAILY</strong>
+          </p>
+
+          <h1 id="page-title"><span>产品灵感</span>日报</h1>
+
+          <div class="cover-bottom">
+            <p id="date-line">二〇二六年五月二十八日　星期四</p>
+            <div class="cover-rule"></div>
+            <p>DAILY · 每早八时</p>
+          </div>
+        </section>
+
+        <section class="controls-panel" aria-label="本期检索和筛选">
+          <div class="search-wrap">
+            <label for="search-input">本期检索</label>
+            <input id="search-input" type="search" placeholder="例如：AI、design、developer tools" autocomplete="off" />
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">分类</span>
+            <div class="segment-group" id="topic-filters" role="group" aria-label="分类筛选">
+              <button class="segment active" type="button" data-topic="all">全部</button>
+              <button class="segment" type="button" data-topic="ai">AI</button>
+              <button class="segment" type="button" data-topic="developer">开发</button>
+              <button class="segment" type="button" data-topic="productivity">效率</button>
+              <button class="segment" type="button" data-topic="design">设计</button>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="daily-section">
+          <div class="section-heading">
+            <div>
+              <h2>产品发布/更新</h2>
+              <p>Product launches and updates from today's Product Hunt.</p>
+            </div>
+            <span id="result-summary">正在载入</span>
+          </div>
+
+          <div class="story-stack" id="product-list" aria-live="polite"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <strong>没有匹配结果</strong>
+            <p>换一个关键词，或切回“全部”分类看看。</p>
+          </div>
+        </section>
+
+        <section class="daily-note" aria-label="日报说明">
+          <div>
+            <h2>数据来源</h2>
+            <p>
+              数据来自 Product Hunt API。本站仅做非商业中文整理，产品原始信息和投票请以 Product Hunt 页面为准。
+            </p>
+          </div>
+          <div>
+            <h2>自动化</h2>
+            <p id="last-updated">等待更新时间</p>
+          </div>
+          <div>
+            <h2>榜单口径</h2>
+            <p id="ranking-window">等待榜单日期</p>
+          </div>
+          <div>
+            <h2>筛选规则</h2>
+            <p>默认取 PH 当日热榜前 30，并优先保留 AI、开发、效率、设计、营销和无代码相关产品。</p>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <p>
+            Product data attributed to
+            <a href="https://www.producthunt.com/" target="_blank" rel="noreferrer">Product Hunt</a>.
+            API commercial usage requires Product Hunt approval.
+          </p>
+        </footer>
+      </main>
+    </div>
+
+    <template id="product-card-template">
+      <article class="story-card">
+        <header class="story-header">
+          <div>
+            <h3><a class="title-link" target="_blank" rel="noreferrer"></a></h3>
+            <div class="source-line"></div>
+          </div>
+          <div class="rank-pill"></div>
+        </header>
+        <dl class="story-fields">
+          <div>
+            <dt>标语</dt>
+            <dd class="tagline"></dd>
+          </div>
+          <div>
+            <dt>介绍</dt>
+            <dd class="summary"></dd>
+          </div>
+          <div>
+            <dt>产品网站</dt>
+            <dd><a class="website-text-link" target="_blank" rel="noreferrer">立即访问</a></dd>
+          </div>
+          <div>
+            <dt>Product Hunt</dt>
+            <dd><a class="ph-text-link" target="_blank" rel="noreferrer">View on Product Hunt</a></dd>
+          </div>
+        </dl>
+        <figure class="product-figure">
+          <img class="product-image" alt="" loading="lazy" />
+        </figure>
+        <div class="story-footer">
+          <dl class="meta-list">
+            <div>
+              <dt>关键词</dt>
+              <dd class="keywords"></dd>
+            </div>
+            <div>
+              <dt>票数</dt>
+              <dd class="votes-line"></dd>
+            </div>
+            <div>
+              <dt>是否精选</dt>
+              <dd class="featured-line"></dd>
+            </div>
+            <div>
+              <dt>发布时间</dt>
+              <dd class="published-line"></dd>
+            </div>
+          </dl>
+          <div class="product-actions">
+            <a class="primary-link" target="_blank" rel="noreferrer">PH</a>
+            <a class="secondary-link" target="_blank" rel="noreferrer">官网</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="./script.js?v=20260528-daily-deploy"></script>
+  </body>
+</html>

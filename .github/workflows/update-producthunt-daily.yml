@@ -1,0 +1,55 @@
+name: Update Product Hunt Daily
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check scripts
+        run: npm run check
+
+      - name: Fetch Product Hunt daily picks
+        run: npm run update:daily
+        env:
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          TRANSLATE_API_URL: ${{ secrets.TRANSLATE_API_URL }}
+          TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name "ph-daily-bot"
+          git config user.email "ph-daily-bot@example.com"
+          git add data/products.json
+          git commit -m "Update Product Hunt daily picks" || exit 0
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
