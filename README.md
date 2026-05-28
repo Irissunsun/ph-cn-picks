@@ -15,6 +15,24 @@ npm run serve
 
 Product Hunt 按 `America/Los_Angeles` 的自然日更新榜单。脚本默认抓取“Product Hunt 昨日完整榜单”，适合每天北京时间 16:30 后运行。
 
+## 推到 GitHub
+
+本目录已经可以作为独立仓库使用。创建 GitHub 空仓库后，在本地执行：
+
+```bash
+git remote add origin https://github.com/<owner>/<repo>.git
+git push -u origin main
+```
+
+然后在 GitHub 仓库里配置：
+
+1. `Settings -> Secrets and variables -> Actions -> New repository secret`
+2. 新增 `PRODUCTHUNT_TOKEN`
+3. `Settings -> Pages -> Build and deployment -> Source` 选择 `GitHub Actions`
+4. `Actions -> Update Product Hunt Daily -> Run workflow` 手动试跑一次
+
+试跑成功后，工作流会每天北京时间 16:30 自动更新 `data/products.json` 并部署页面。
+
 ### 本地或 VPS
 
 ```bash
