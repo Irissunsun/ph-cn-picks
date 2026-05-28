@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check script.js && node --check scripts/fetch-producthunt.mjs && node --check scripts/import-decohack-public.mjs && bash -n scripts/run-daily.sh",
+    "check": "node --check script.js && node --check scripts/fetch-producthunt.mjs && node --check scripts/import-decohack-public.mjs && node --check scripts/verify-schedule.mjs && bash -n scripts/run-daily.sh && node scripts/verify-schedule.mjs",
     "serve": "python3 -m http.server 4177",
     "update:daily": "bash scripts/run-daily.sh"
   }

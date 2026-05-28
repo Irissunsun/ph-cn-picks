@@ -2,7 +2,7 @@
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const API_URL = "https://api.producthunt.com/v2/api/graphql";
 const PRODUCT_HUNT_TIMEZONE = "America/Los_Angeles";
@@ -351,7 +351,23 @@ async function main() {
   console.log(`Wrote ${products.length} products to ${args.out}`);
 }
 
-main().catch((error) => {
-  console.error(error.message);
-  process.exitCode = 1;
-});
+function isDirectRun() {
+  return process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+}
+
+if (isDirectRun()) {
+  main().catch((error) => {
+    console.error(error.message);
+    process.exitCode = 1;
+  });
+}
+
+export {
+  ISSUE_TIMEZONE,
+  PRODUCT_HUNT_TIMEZONE,
+  formatDateInTimeZone,
+  getDateWindow,
+  getDefaultProductHuntDate,
+  parseArgs,
+  sortPosts,
+};
