@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-05-28",
+    "date": "2026-05-29",
     "productHuntDate": "2026-05-27",
-    "lastUpdated": "2026-05-28T14:29:06.886Z",
+    "lastUpdated": "2026-05-29T01:24:04.794Z",
     "status": "live",
     "source": "producthunt-api-v2",
     "timezone": "Asia/Shanghai",
@@ -11,7 +11,7 @@
     "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
     "issues": [
       {
-        "day": "28",
+        "day": "29",
         "title": "产品灵感日报 · 20 个新品"
       }
     ]
@@ -26,8 +26,8 @@
       "image": "https://ph-files.imgix.net/bc1bdf28-9b59-4509-9db7-3b604380fb3b.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/powabase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/6BBPF3XTDL5C2Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 431,
-      "comments": 76,
+      "votes": 441,
+      "comments": 77,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 1,
@@ -40,9 +40,9 @@
         "ai",
         "developer"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Bluedot 2.1",
@@ -53,7 +53,7 @@
       "image": "https://ph-files.imgix.net/4eecd806-001b-456a-b591-51fe6051d442.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/bluedot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/FBQTRS2UMIX3RW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 416,
+      "votes": 422,
       "comments": 41,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -66,9 +66,9 @@
       "buckets": [
         "productivity"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "zero.xyz",
@@ -79,8 +79,8 @@
       "image": "https://ph-files.imgix.net/3d0ef16a-bc8c-4349-a667-dce80db88456.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/zero-xyz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/FRR5SI6KDCOK4U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 290,
-      "comments": 71,
+      "votes": 302,
+      "comments": 74,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 3,
@@ -93,9 +93,9 @@
         "ai",
         "productivity"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Oasis Browser for Mac",
@@ -106,8 +106,8 @@
       "image": "https://ph-files.imgix.net/b83aefb0-b6c2-408e-b4b8-9e4a0360e1d6.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/kahana?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/UHWTQ5ARCQU6DH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 252,
-      "comments": 77,
+      "votes": 257,
+      "comments": 81,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 4,
@@ -120,9 +120,9 @@
         "ai",
         "productivity"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Coworker AI",
@@ -133,7 +133,7 @@
       "image": "https://ph-files.imgix.net/9dad5d31-51c7-4423-b0c3-9acfc580effe.svg?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/coworker-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/RDCOGEXDF5HCNW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 213,
+      "votes": 215,
       "comments": 51,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -147,9 +147,9 @@
         "ai",
         "productivity"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Layers",
@@ -160,7 +160,7 @@
       "image": "https://ph-files.imgix.net/7d7ff010-238b-42d5-8bb2-99ad3b2f0bcd.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/layers-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/YCFWJBKFHOTBKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 112,
+      "votes": 115,
       "comments": 14,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -174,9 +174,9 @@
         "developer",
         "design"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Pawse.ai",
@@ -188,7 +188,7 @@
       "productHuntUrl": "https://www.producthunt.com/products/pawse-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/5JER2P2TRVFU6D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "votes": 106,
-      "comments": 17,
+      "comments": 18,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 9,
@@ -200,9 +200,9 @@
       "buckets": [
         "ai"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Calling Skills for AI Agents",
@@ -213,8 +213,8 @@
       "image": "https://ph-files.imgix.net/463b82b8-ed8e-45c5-b1cf-31792cedd0aa.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/cometchat-skills?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/2ADCSZL47YHCEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 110,
-      "comments": 10,
+      "votes": 114,
+      "comments": 18,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 10,
@@ -228,9 +228,9 @@
         "ai",
         "developer"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Krater",
@@ -241,7 +241,7 @@
       "image": "https://ph-files.imgix.net/66083338-9dba-4ba3-a03b-c0c3b89ea903.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/krater-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/AR2I67IFNJK3Q2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 102,
+      "votes": 103,
       "comments": 12,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -256,9 +256,9 @@
         "developer",
         "design"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "BaseBuddy",
@@ -283,9 +283,9 @@
       "buckets": [
         "developer"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "baz.studio",
@@ -309,9 +309,9 @@
       "buckets": [
         "design"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Netfox",
@@ -322,7 +322,7 @@
       "image": "https://ph-files.imgix.net/d6b6a2dc-9124-4fd2-ba58-de87656e4385.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/netfox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/NUUYYT63FHJOXU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 87,
+      "votes": 89,
       "comments": 5,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -335,9 +335,9 @@
       "buckets": [
         "ai"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Phasr",
@@ -364,9 +364,9 @@
         "developer",
         "productivity"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Extend",
@@ -377,8 +377,8 @@
       "image": "https://ph-files.imgix.net/f2b41d8e-5b20-468b-97e2-8acfd05e6bfc.jpeg?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/extend-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/EDUNDTGGYLCAER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 85,
-      "comments": 6,
+      "votes": 88,
+      "comments": 7,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 17,
@@ -389,9 +389,9 @@
       "buckets": [
         "developer"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Archi-Flow",
@@ -402,7 +402,7 @@
       "image": "https://ph-files.imgix.net/fd821c81-480a-4d18-ad3b-7bd786e34723.jpeg?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/archi-flow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/CAWFTJDG27OOJG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 83,
+      "votes": 82,
       "comments": 5,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -416,9 +416,9 @@
         "developer",
         "design"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "QuickSheet v1.2 ",
@@ -441,9 +441,9 @@
       "buckets": [
         "productivity"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Local Panel",
@@ -454,7 +454,7 @@
       "image": "https://ph-files.imgix.net/fb7bc2da-5c22-45e4-8c93-107d98b4a985.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/local-panel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/G434XM7R6CHOPC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 79,
+      "votes": 78,
       "comments": 3,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -468,9 +468,9 @@
         "ai",
         "developer"
       ],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Octolane",
@@ -481,7 +481,7 @@
       "image": "https://ph-files.imgix.net/d6874104-c741-4d34-af3c-940170219ee8.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/octolane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/Y2LOMA5GPSSECJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 167,
+      "votes": 169,
       "comments": 26,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
@@ -491,9 +491,9 @@
         "CRM"
       ],
       "buckets": [],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "Mojito",
@@ -504,8 +504,8 @@
       "image": "https://ph-files.imgix.net/030492a0-a1ed-4495-a4ba-b368e5ade524.png?auto=format",
       "productHuntUrl": "https://www.producthunt.com/products/mojito-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "websiteUrl": "https://www.producthunt.com/r/X37IE5XNEEYXQU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 152,
-      "comments": 22,
+      "votes": 155,
+      "comments": 28,
       "featured": true,
       "publishedAt": "2026-05-27T07:01:00Z",
       "rank": 7,
@@ -515,9 +515,9 @@
         "Menu Bar Apps"
       ],
       "buckets": [],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
     {
       "name": "CircadiaOS",
@@ -539,9 +539,9 @@
         "Tech"
       ],
       "buckets": [],
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "productHuntDate": "2026-05-27",
-      "lastUpdated": "2026-05-28T14:29:06.886Z"
+      "lastUpdated": "2026-05-29T01:24:04.794Z"
     }
   ]
 }
