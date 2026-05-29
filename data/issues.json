@@ -1,0 +1,25 @@
+{
+  "latest": "2026-05-29",
+  "issues": [
+    {
+      "date": "2026-05-29",
+      "day": "29",
+      "title": "产品灵感日报 · 20 个新品",
+      "url": "./data/issues/2026-05-29.json",
+      "productHuntDate": "2026-05-28",
+      "productsCount": 20,
+      "lastUpdated": "2026-05-29T10:14:11.444Z",
+      "status": "live"
+    },
+    {
+      "date": "2026-05-28",
+      "day": "28",
+      "title": "产品灵感日报 · 30 个新品",
+      "url": "./data/issues/2026-05-28.json",
+      "productHuntDate": "2026-05-27",
+      "productsCount": 30,
+      "lastUpdated": "2026-05-28T18:57:19+08:00",
+      "status": "public-page-import"
+    }
+  ]
+}

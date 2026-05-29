@@ -1,8 +1,10 @@
 const DATA_URL = "./data/products.json";
+const ISSUES_URL = "./data/issues.json";
 
 const state = {
   products: [],
   filtered: [],
+  issues: [],
   activeTopic: "all",
   query: "",
   meta: null,
@@ -133,6 +135,16 @@ function applyFilters() {
   render();
 }
 
+function getRequestedDate() {
+  const date = new URLSearchParams(window.location.search).get("date");
+  return /^\d{4}-\d{2}-\d{2}$/.test(date || "") ? date : "";
+}
+
+function getIssueUrl(date) {
+  const issue = state.issues.find((item) => item.date === date);
+  return issue?.url || `./data/issues/${date}.json`;
+}
+
 function renderMeta() {
   const meta = state.meta || {};
   els.sidebarDate.textContent = meta.date || "等待数据";
@@ -149,15 +161,18 @@ function renderMeta() {
 }
 
 function renderIssues(meta) {
-  const issues = Array.isArray(meta.issues) && meta.issues.length > 0
-    ? meta.issues
+  const issues = state.issues.length > 0
+    ? state.issues
+    : Array.isArray(meta.issues) && meta.issues.length > 0
+      ? meta.issues.map((issue) => ({ ...issue, date: meta.date }))
     : buildFallbackIssues(meta.date);
+  const activeDate = meta.date;
 
   els.issueList.replaceChildren(
     ...issues.map((issue, index) => {
       const link = document.createElement("a");
-      link.href = index === 0 ? "#daily" : "#";
-      link.className = `issue-link${index === 0 ? " active" : ""}`;
+      link.href = issue.date ? `?date=${issue.date}` : "#daily";
+      link.className = `issue-link${issue.date === activeDate || (!issue.date && index === 0) ? " active" : ""}`;
       const day = document.createElement("span");
       day.className = "issue-day";
       day.textContent = `${issue.day} 日`;
@@ -300,7 +315,21 @@ function bindEvents() {
 
 async function loadProducts() {
   try {
-    const response = await fetch(DATA_URL, { cache: "no-store" });
+    let dataUrl = DATA_URL;
+    const requestedDate = getRequestedDate();
+    try {
+      const indexResponse = await fetch(ISSUES_URL, { cache: "no-store" });
+      if (indexResponse.ok) {
+        const indexData = await indexResponse.json();
+        state.issues = Array.isArray(indexData.issues) ? indexData.issues : [];
+        const targetDate = requestedDate || indexData.latest || state.issues[0]?.date || "";
+        if (targetDate) dataUrl = getIssueUrl(targetDate);
+      }
+    } catch {
+      if (requestedDate) dataUrl = getIssueUrl(requestedDate);
+    }
+
+    const response = await fetch(dataUrl, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     state.meta = data.meta || {};

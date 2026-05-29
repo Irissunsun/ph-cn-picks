@@ -18,6 +18,8 @@ const TARGET_TOPICS = {
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_OUT = resolve(__dirname, "../data/products.json");
+const DEFAULT_ISSUES_DIR = resolve(__dirname, "../data/issues");
+const DEFAULT_ISSUES_INDEX = resolve(__dirname, "../data/issues.json");
 
 function parseArgs(argv) {
   const defaultDate = getDefaultProductHuntDate();
@@ -25,6 +27,8 @@ function parseArgs(argv) {
     date: defaultDate,
     issueDate: getNextDate(defaultDate),
     out: DEFAULT_OUT,
+    issuesDir: DEFAULT_ISSUES_DIR,
+    issuesIndex: DEFAULT_ISSUES_INDEX,
     limit: DEFAULT_LIMIT,
   };
 
@@ -33,6 +37,8 @@ function parseArgs(argv) {
     if (item === "--date") args.date = argv[index + 1];
     if (item === "--issue-date") args.issueDate = argv[index + 1];
     if (item === "--out") args.out = resolve(argv[index + 1]);
+    if (item === "--issues-dir") args.issuesDir = resolve(argv[index + 1]);
+    if (item === "--issues-index") args.issuesIndex = resolve(argv[index + 1]);
     if (item === "--limit") args.limit = Number(argv[index + 1]);
   }
 
@@ -300,6 +306,39 @@ async function writeData(path, data) {
   await writeFile(path, `${JSON.stringify(data, null, 2)}\n`, "utf8");
 }
 
+function createIssueEntry(data, issuesDir = DEFAULT_ISSUES_DIR) {
+  const date = data.meta?.date;
+  const relativePath = `./data/issues/${date}.json`;
+  return {
+    date,
+    day: String(date || "").slice(-2),
+    title: `产品灵感日报 · ${(data.products || []).length} 个新品`,
+    url: relativePath,
+    productHuntDate: data.meta?.productHuntDate || null,
+    productsCount: (data.products || []).length,
+    lastUpdated: data.meta?.lastUpdated || null,
+    status: data.meta?.status || null,
+  };
+}
+
+async function updateIssuesIndex(path, entry) {
+  const previous = await readPreviousData(path);
+  const issues = Array.isArray(previous?.issues) ? previous.issues : [];
+  const nextIssues = [entry, ...issues.filter((issue) => issue.date !== entry.date)]
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  await writeData(path, {
+    latest: nextIssues[0]?.date || entry.date,
+    issues: nextIssues,
+  });
+}
+
+async function writeIssueArchive({ out, issuesDir, issuesIndex, data }) {
+  await writeData(out, data);
+  const issuePath = resolve(issuesDir, `${data.meta.date}.json`);
+  await writeData(issuePath, data);
+  await updateIssuesIndex(issuesIndex, createIssueEntry(data, issuesDir));
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const token = process.env.PRODUCTHUNT_TOKEN;
@@ -314,7 +353,7 @@ async function main() {
 
   if (posts.length === 0) {
     const fallback = previous || { products: [] };
-    await writeData(args.out, {
+    const fallbackData = {
       ...fallback,
       meta: {
         ...(fallback.meta || {}),
@@ -323,6 +362,12 @@ async function main() {
         status: "fallback",
         error: "Product Hunt API returned no posts for the selected date.",
       },
+    };
+    await writeIssueArchive({
+      out: args.out,
+      issuesDir: args.issuesDir,
+      issuesIndex: args.issuesIndex,
+      data: fallbackData,
     });
     console.warn("Product Hunt returned no posts. Existing data was preserved with fallback status.");
     return;
@@ -336,7 +381,7 @@ async function main() {
 
   const products = pickProducts(mapped);
   const issueDay = args.issueDate.split("-").at(-1);
-  await writeData(args.out, {
+  const data = {
     meta: {
       date: args.issueDate,
       productHuntDate: args.date,
@@ -353,9 +398,15 @@ async function main() {
       }],
     },
     products,
+  };
+  await writeIssueArchive({
+    out: args.out,
+    issuesDir: args.issuesDir,
+    issuesIndex: args.issuesIndex,
+    data,
   });
 
-  console.log(`Wrote ${products.length} products to ${args.out}`);
+  console.log(`Wrote ${products.length} products for ${args.issueDate} to ${args.out}`);
 }
 
 function isDirectRun() {

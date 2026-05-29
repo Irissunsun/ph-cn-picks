@@ -15,6 +15,9 @@ import {
 const workflow = await readFile(".github/workflows/update-producthunt-daily.yml", "utf8");
 const html = await readFile("index.html", "utf8");
 const script = await readFile("script.js", "utf8");
+const issuesIndex = JSON.parse(await readFile("data/issues.json", "utf8"));
+const issue28 = JSON.parse(await readFile("data/issues/2026-05-28.json", "utf8"));
+const issue29 = JSON.parse(await readFile("data/issues/2026-05-29.json", "utf8"));
 
 const summerRun = new Date("2026-05-29T09:00:00.000Z");
 assert.equal(formatDateInTimeZone(summerRun, ISSUE_TIMEZONE), "2026-05-29");
@@ -61,5 +64,15 @@ assert.match(workflow, /id-token:\s*write/);
 assert.match(html, /id="ranking-window"/);
 assert.match(script, /北京时间每日 17:00 后自动生成/);
 assert.match(script, /meta\.productHuntDate/);
+assert.match(script, /ISSUES_URL/);
+assert.match(script, /getRequestedDate/);
+assert.equal(issuesIndex.latest, "2026-05-29");
+assert.deepEqual(issuesIndex.issues.map((issue) => issue.date), ["2026-05-29", "2026-05-28"]);
+assert.equal(issue28.meta.date, "2026-05-28");
+assert.equal(issue28.meta.productHuntDate, "2026-05-27");
+assert.equal(issue28.products.length, 30);
+assert.equal(issue28.products[0].summaryZh, "使用Postgres、RAG和智能代理构建AI应用程序");
+assert.equal(issue29.meta.date, "2026-05-29");
+assert.equal(issue29.meta.productHuntDate, "2026-05-28");
 
 console.log("Schedule verification passed.");
