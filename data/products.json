@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-05-29",
+    "date": "2026-05-28",
     "productHuntDate": "2026-05-27",
     "lastUpdated": "2026-05-29T01:24:04.794Z",
     "status": "live",
@@ -11,7 +11,7 @@
     "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
     "issues": [
       {
-        "day": "29",
+        "day": "28",
         "title": "产品灵感日报 · 20 个新品"
       }
     ]
@@ -40,7 +40,7 @@
         "ai",
         "developer"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -66,7 +66,7 @@
       "buckets": [
         "productivity"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -93,7 +93,7 @@
         "ai",
         "productivity"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -120,7 +120,7 @@
         "ai",
         "productivity"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -147,7 +147,7 @@
         "ai",
         "productivity"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -174,7 +174,7 @@
         "developer",
         "design"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -200,7 +200,7 @@
       "buckets": [
         "ai"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -228,7 +228,7 @@
         "ai",
         "developer"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -256,7 +256,7 @@
         "developer",
         "design"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -283,7 +283,7 @@
       "buckets": [
         "developer"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -309,7 +309,7 @@
       "buckets": [
         "design"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -335,7 +335,7 @@
       "buckets": [
         "ai"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -364,7 +364,7 @@
         "developer",
         "productivity"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -389,7 +389,7 @@
       "buckets": [
         "developer"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -416,7 +416,7 @@
         "developer",
         "design"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -441,7 +441,7 @@
       "buckets": [
         "productivity"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -468,7 +468,7 @@
         "ai",
         "developer"
       ],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -491,7 +491,7 @@
         "CRM"
       ],
       "buckets": [],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -515,7 +515,7 @@
         "Menu Bar Apps"
       ],
       "buckets": [],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     },
@@ -539,7 +539,7 @@
         "Tech"
       ],
       "buckets": [],
-      "date": "2026-05-29",
+      "date": "2026-05-28",
       "productHuntDate": "2026-05-27",
       "lastUpdated": "2026-05-29T01:24:04.794Z"
     }

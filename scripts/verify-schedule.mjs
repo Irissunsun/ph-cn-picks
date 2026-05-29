@@ -6,6 +6,7 @@ import {
   formatDateInTimeZone,
   getDateWindow,
   getDefaultProductHuntDate,
+  getNextDate,
   ISSUE_TIMEZONE,
   PRODUCT_HUNT_TIMEZONE,
   sortPosts,
@@ -18,6 +19,7 @@ const script = await readFile("script.js", "utf8");
 const summerRun = new Date("2026-05-29T08:30:00.000Z");
 assert.equal(formatDateInTimeZone(summerRun, ISSUE_TIMEZONE), "2026-05-29");
 assert.equal(getDefaultProductHuntDate(summerRun), "2026-05-28");
+assert.equal(getNextDate(getDefaultProductHuntDate(summerRun)), "2026-05-29");
 assert.deepEqual(getDateWindow("2026-05-28"), {
   postedAfter: "2026-05-28T07:00:00.000Z",
   postedBefore: "2026-05-29T07:00:00.000Z",
@@ -26,10 +28,16 @@ assert.deepEqual(getDateWindow("2026-05-28"), {
 const winterRun = new Date("2026-01-10T08:30:00.000Z");
 assert.equal(formatDateInTimeZone(winterRun, ISSUE_TIMEZONE), "2026-01-10");
 assert.equal(getDefaultProductHuntDate(winterRun), "2026-01-09");
+assert.equal(getNextDate(getDefaultProductHuntDate(winterRun)), "2026-01-10");
 assert.deepEqual(getDateWindow("2026-01-09"), {
   postedAfter: "2026-01-09T08:00:00.000Z",
   postedBefore: "2026-01-10T08:00:00.000Z",
 });
+
+const earlyManualRun = new Date("2026-05-29T01:24:00.000Z");
+assert.equal(formatDateInTimeZone(earlyManualRun, ISSUE_TIMEZONE), "2026-05-29");
+assert.equal(getDefaultProductHuntDate(earlyManualRun), "2026-05-27");
+assert.equal(getNextDate(getDefaultProductHuntDate(earlyManualRun)), "2026-05-28");
 
 assert.equal(PRODUCT_HUNT_TIMEZONE, "America/Los_Angeles");
 assert.equal(ISSUE_TIMEZONE, "Asia/Shanghai");

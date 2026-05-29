@@ -20,9 +20,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_OUT = resolve(__dirname, "../data/products.json");
 
 function parseArgs(argv) {
+  const defaultDate = getDefaultProductHuntDate();
   const args = {
-    date: getDefaultProductHuntDate(),
-    issueDate: formatDateInTimeZone(new Date(), ISSUE_TIMEZONE),
+    date: defaultDate,
+    issueDate: getNextDate(defaultDate),
     out: DEFAULT_OUT,
     limit: DEFAULT_LIMIT,
   };
@@ -62,6 +63,12 @@ function formatDateInTimeZone(date, timeZone) {
 function getDefaultProductHuntDate(now = new Date()) {
   const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
   return formatDateInTimeZone(yesterday, PRODUCT_HUNT_TIMEZONE);
+}
+
+function getNextDate(date) {
+  const next = new Date(`${date}T00:00:00.000Z`);
+  next.setUTCDate(next.getUTCDate() + 1);
+  return formatDateInTimeZone(next, "UTC");
 }
 
 function getZonedParts(date, timeZone) {
@@ -368,6 +375,7 @@ export {
   formatDateInTimeZone,
   getDateWindow,
   getDefaultProductHuntDate,
+  getNextDate,
   parseArgs,
   sortPosts,
 };
