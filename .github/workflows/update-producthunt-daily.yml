@@ -34,6 +34,9 @@ jobs:
         run: npm run update:daily
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
           TRANSLATE_API_URL: ${{ secrets.TRANSLATE_API_URL }}
           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
 

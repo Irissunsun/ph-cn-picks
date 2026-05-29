@@ -54,8 +54,24 @@ cron 示例：
 需要在 GitHub 仓库 Secrets 里配置：
 
 - `PRODUCTHUNT_TOKEN`：必填，Product Hunt API v2 token。
-- `TRANSLATE_API_URL`：可选，中文翻译接口。
-- `TRANSLATE_API_KEY`：可选，翻译接口鉴权。
+- `OPENAI_API_KEY`：推荐，OpenAI-compatible 翻译接口 key。
+- `TRANSLATE_API_URL`：可选，自定义中文翻译接口。
+- `TRANSLATE_API_KEY`：可选，自定义翻译接口鉴权。
+
+如果使用 OpenAI 翻译，进入 `Settings -> Secrets and variables -> Actions -> New repository secret`，新增：
+
+```text
+OPENAI_API_KEY
+```
+
+可选在 `Settings -> Secrets and variables -> Actions -> Variables` 新增：
+
+```text
+OPENAI_MODEL=gpt-4o-mini
+OPENAI_BASE_URL=https://api.openai.com/v1
+```
+
+没有配置 `OPENAI_API_KEY` 时，脚本会保留 `待翻译：...` fallback。
 
 推到 GitHub 后，进入仓库的 `Actions` 页面，可以手动点 `Update Product Hunt Daily` 里的 `Run workflow` 先试跑一次。正常跑完会自动提交更新后的 `data/products.json`，随后立刻部署 GitHub Pages。
 

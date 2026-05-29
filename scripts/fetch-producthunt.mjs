@@ -176,8 +176,13 @@ async function fetchProductHuntPosts({ token, date, limit }) {
             votesCount
             commentsCount
             featuredAt
+            media {
+              type
+              url(width: 1200, height: 675)
+              videoUrl
+            }
             thumbnail {
-              url
+              url(width: 800, height: 450)
             }
             topics(first: 8) {
               edges {
@@ -233,8 +238,15 @@ function sortPosts(posts) {
 }
 
 async function translateText(text, productName) {
+  const value = String(text || "").trim();
+  if (!value) return "";
+
+  if (process.env.OPENAI_API_KEY) {
+    return translateWithOpenAI(value, productName);
+  }
+
   const endpoint = process.env.TRANSLATE_API_URL;
-  if (!endpoint || !text) return `待翻译：${text || productName}`;
+  if (!endpoint) return `待翻译：${value || productName}`;
 
   const response = await fetch(endpoint, {
     method: "POST",
@@ -243,7 +255,7 @@ async function translateText(text, productName) {
       ...(process.env.TRANSLATE_API_KEY ? { Authorization: `Bearer ${process.env.TRANSLATE_API_KEY}` } : {}),
     },
     body: JSON.stringify({
-      text,
+      text: value,
       targetLanguage: "zh-CN",
       style: "concise product summary",
       productName,
@@ -253,7 +265,55 @@ async function translateText(text, productName) {
   if (!response.ok) throw new Error(`Translation service failed with HTTP ${response.status}`);
 
   const data = await response.json();
-  return String(data.translation || data.text || data.result || "").trim() || `待翻译：${text}`;
+  return String(data.translation || data.text || data.result || "").trim() || `待翻译：${value}`;
+}
+
+function extractOpenAIText(data) {
+  if (data.output_text) return data.output_text;
+  const text = data.output
+    ?.flatMap((item) => item.content || [])
+    ?.map((content) => content.text || "")
+    ?.filter(Boolean)
+    ?.join("\n");
+  return text || "";
+}
+
+async function translateWithOpenAI(text, productName) {
+  const baseUrl = (process.env.OPENAI_BASE_URL || "https://api.openai.com/v1").replace(/\/+$/, "");
+  const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
+  const response = await fetch(`${baseUrl}/responses`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      input: [
+        {
+          role: "system",
+          content: "你是产品情报编辑。把英文产品介绍翻译成自然、准确、克制的简体中文。保留产品名、技术名词和专有名词；不要添加主观看法；只输出译文。",
+        },
+        {
+          role: "user",
+          content: `产品：${productName || "Unknown"}\n\n原文：${text}`,
+        },
+      ],
+    }),
+  });
+
+  const data = await response.json().catch(() => null);
+  if (!response.ok) {
+    throw new Error(`OpenAI translation failed with HTTP ${response.status}: ${JSON.stringify(data)}`);
+  }
+
+  return extractOpenAIText(data).trim() || `待翻译：${text}`;
+}
+
+function getBestImage(post) {
+  const media = Array.isArray(post.media) ? post.media : [];
+  const imageMedia = media.find((item) => item?.url && item.type !== "video") || media.find((item) => item?.url);
+  return imageMedia?.url || post.thumbnail?.url || "";
 }
 
 async function mapPost(post, index, date, issueDate, lastUpdated) {
@@ -261,23 +321,34 @@ async function mapPost(post, index, date, issueDate, lastUpdated) {
     .map((topic) => topic.name || topic.slug)
     .filter(Boolean);
   const buckets = classify(topics);
-  const baseText = post.description || post.tagline || "";
+  const taglineText = post.tagline || "";
+  const descriptionText = post.description || post.tagline || "";
+  const image = getBestImage(post);
   let summaryZh;
+  let descriptionZh;
 
   try {
-    summaryZh = await translateText(baseText, post.name);
+    summaryZh = await translateText(taglineText, post.name);
   } catch (error) {
-    summaryZh = `待翻译：${baseText || post.name}`;
-    console.warn(`[translate] ${post.name}: ${error.message}`);
+    summaryZh = `待翻译：${taglineText || post.name}`;
+    console.warn(`[translate tagline] ${post.name}: ${error.message}`);
+  }
+
+  try {
+    descriptionZh = await translateText(descriptionText, post.name);
+  } catch (error) {
+    descriptionZh = `待翻译：${descriptionText || post.name}`;
+    console.warn(`[translate description] ${post.name}: ${error.message}`);
   }
 
   return {
     name: post.name,
     tagline: post.tagline || "",
     summaryZh,
+    descriptionZh,
     description: post.description || "",
     thumbnail: post.thumbnail?.url || "",
-    image: post.thumbnail?.url || "",
+    image,
     productHuntUrl: post.url || "",
     websiteUrl: post.website || "",
     votes: Number(post.votesCount || 0),

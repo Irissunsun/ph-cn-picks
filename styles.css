@@ -494,14 +494,14 @@ input::placeholder {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 2px;
-  background: #111318;
+  background: #f6f8fa;
 }
 
 .product-image {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 8.8;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .story-footer {
