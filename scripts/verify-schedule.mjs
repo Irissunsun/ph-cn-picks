@@ -51,7 +51,7 @@ assert.deepEqual(
   ["A", "B", "C"],
 );
 
-assert.match(workflow, /cron:\s*"0 9 \* \* \*"/);
+assert.match(workflow, /cron:\s*"7 9 \* \* \*"/);
 assert.match(workflow, /PRODUCTHUNT_TOKEN:\s*\$\{\{\s*secrets\.PRODUCTHUNT_TOKEN\s*\}\}/);
 assert.match(workflow, /actions\/upload-pages-artifact@v3/);
 assert.match(workflow, /actions\/deploy-pages@v4/);
@@ -59,7 +59,7 @@ assert.match(workflow, /pages:\s*write/);
 assert.match(workflow, /id-token:\s*write/);
 
 assert.match(html, /id="ranking-window"/);
-assert.match(script, /北京时间每日 17:00 自动生成/);
+assert.match(script, /北京时间每日 17:00 后自动生成/);
 assert.match(script, /meta\.productHuntDate/);
 
 console.log("Schedule verification passed.");
