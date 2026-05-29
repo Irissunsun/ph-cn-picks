@@ -58,7 +58,7 @@ cron 示例：
 - `TRANSLATE_API_URL`：可选，自定义中文翻译接口。
 - `TRANSLATE_API_KEY`：可选，自定义翻译接口鉴权。
 
-如果使用 OpenAI 翻译，进入 `Settings -> Secrets and variables -> Actions -> New repository secret`，新增：
+如果使用 OpenAI 或 DeepSeek 翻译，进入 `Settings -> Secrets and variables -> Actions -> New repository secret`，新增：
 
 ```text
 OPENAI_API_KEY
@@ -71,7 +71,15 @@ OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 ```
 
-没有配置 `OPENAI_API_KEY` 时，脚本会保留 `待翻译：...` fallback。
+DeepSeek 配置示例：
+
+```text
+OPENAI_API_KEY=你的 DeepSeek API Key
+OPENAI_MODEL=deepseek-chat
+OPENAI_BASE_URL=https://api.deepseek.com
+```
+
+没有配置 `OPENAI_API_KEY`，或翻译接口报错时，脚本会保留 `待翻译：...` fallback。
 
 推到 GitHub 后，进入仓库的 `Actions` 页面，可以手动点 `Update Product Hunt Daily` 里的 `Run workflow` 先试跑一次。正常跑完会自动提交更新后的 `data/products.json`，随后立刻部署 GitHub Pages。
 
