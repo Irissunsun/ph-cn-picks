@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-05-29",
     "productHuntDate": "2026-05-28",
-    "lastUpdated": "2026-05-29T11:27:58.812Z",
+    "lastUpdated": "2026-05-29T11:31:26.771Z",
     "status": "live",
     "source": "producthunt-api-v2",
     "timezone": "Asia/Shanghai",
@@ -20,8 +20,8 @@
     {
       "name": "Pancake",
       "tagline": "OpenClaw in Slack that makes your company autonomous",
-      "summaryZh": "待翻译：OpenClaw in Slack that makes your company autonomous",
-      "descriptionZh": "待翻译：Every other AI product is a tool that makes you more productive. A copilot. An assistant. A coworker. Something you use. Pancake makes your company autonomous. Agents with roles, goals, and a heartbeat working while you sleep. You set direction, approve the irreversible, the rest runs. Prepare yourself to be prompted by Pancake.",
+      "summaryZh": "产品：Pancake\n\n原文：Slack中的OpenClaw，让你的公司实现自主运营",
+      "descriptionZh": "产品：Pancake\n\n其他AI产品都是提升效率的工具——副驾驶、助手、同事，是你使用的工具。Pancake让公司实现自主运作。拥有角色、目标和心跳的智能体在你休息时持续工作。你只需设定方向，批准不可逆的决策，其余流程自动运行。准备好接收Pancake的指令吧。",
       "description": "Every other AI product is a tool that makes you more productive. A copilot. An assistant. A coworker. Something you use. Pancake makes your company autonomous. Agents with roles, goals, and a heartbeat working while you sleep. You set direction, approve the irreversible, the rest runs. Prepare yourself to be prompted by Pancake.",
       "thumbnail": "https://ph-files.imgix.net/97c3d3e6-3484-4fe5-9a56-bf795d31eaa5.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/fbcd71c9-6136-462c-a915-690fd6291005.png?auto=format&h=675&w=1200",
@@ -43,13 +43,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Pitch Agent",
       "tagline": "On-brand presentations, generated in seconds",
-      "summaryZh": "待翻译：On-brand presentations, generated in seconds",
-      "descriptionZh": "待翻译：Most AI tools apply your colors to generic layouts and call it “on brand.” Pitch Agent builds from your template, design language, and image style. Generate slides from a prompt and file attachments, then refine them via chat. Agent lives inside Pitch, the workspace where teams collaborate on and deliver presentations.",
+      "summaryZh": "产品：Pitch Agent\n\n原文：品牌化演示文稿，数秒内生成",
+      "descriptionZh": "产品：Pitch Agent\n\n大多数AI工具将你的颜色套用到通用布局上，便称之为“符合品牌调性”。Pitch Agent则基于你的模板、设计语言和图像风格进行构建。通过提示词和文件附件生成幻灯片，再通过聊天进行优化。该Agent内置于Pitch工作区中，团队可在此协作并交付演示文稿。",
       "description": "Most AI tools apply your colors to generic layouts and call it “on brand.” Pitch Agent builds from your template, design language, and image style. Generate slides from a prompt and file attachments, then refine them via chat. Agent lives inside Pitch, the workspace where teams collaborate on and deliver presentations.",
       "thumbnail": "https://ph-files.imgix.net/414fc13b-c9e8-4b04-96a8-acc7dd458d0e.gif?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/70145771-b0af-427e-bea2-4d12e9349e20.jpeg?auto=format&h=675&w=1200",
@@ -71,13 +71,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Revolte",
       "tagline": "AI for Software Engineering",
-      "summaryZh": "待翻译：AI for Software Engineering",
-      "descriptionZh": "待翻译：Revolte is for engineering teams to turn intent into production-ready software faster, safer, and with more control. Its agents plan changes, generate code, run quality and security checks, create PRs, support deployment, monitor runtime behavior, and surface risks early. Engineers approve the important decisions. Revolte handles the delivery heavy lifting. Built for higher delivery throughput across SDLC, stronger governance, and more value shipped per engineer.",
+      "summaryZh": "产品：Revolte\n\n原文：面向软件工程的人工智能",
+      "descriptionZh": "产品：Revolte\n\nRevolte帮助工程团队将意图更快、更安全、更具可控性地转化为生产就绪的软件。其智能体负责规划变更、生成代码、执行质量与安全检查、创建PR、支持部署、监控运行时行为，并提前暴露风险。工程师审批关键决策，Revolte承担交付中的繁重工作。该产品旨在提升SDLC全流程的交付吞吐量、强化治理能力，并提高每位工程师交付的价值。",
       "description": "Revolte is for engineering teams to turn intent into production-ready software faster, safer, and with more control. Its agents plan changes, generate code, run quality and security checks, create PRs, support deployment, monitor runtime behavior, and surface risks early. Engineers approve the important decisions. Revolte handles the delivery heavy lifting. Built for higher delivery throughput across SDLC, stronger governance, and more value shipped per engineer.",
       "thumbnail": "https://ph-files.imgix.net/dee4d70a-480f-46f4-8fd2-726dc3d35ed2.gif?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/c4ed5948-91ae-4146-9b6f-9b72bf7f1e31.png?auto=format&h=675&w=1200",
@@ -99,13 +99,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Buffer API",
       "tagline": "One API to publish across every social platform.",
-      "summaryZh": "待翻译：One API to publish across every social platform.",
-      "descriptionZh": "待翻译：Buffer's API lets you publish and manage content across 11 social platforms through a single endpoint. Connect it to AI assistants, no-code automation tools, or build full custom integrations. Ships with an MCP server, pre-built automation templates, a CLI, and an interactive API explorer. Available on every Buffer plan, including Free.",
+      "summaryZh": "产品：Buffer API\n\n一个API即可在所有社交平台发布内容。",
+      "descriptionZh": "产品：Buffer API\n\nBuffer的API允许您通过单一端点跨11个社交平台发布和管理内容。可将其连接至AI助手、无代码自动化工具，或构建完整的自定义集成。随附MCP服务器、预构建的自动化模板、CLI及交互式API浏览器。适用于所有Buffer套餐，包括免费版。",
       "description": "Buffer's API lets you publish and manage content across 11 social platforms through a single endpoint. Connect it to AI assistants, no-code automation tools, or build full custom integrations. Ships with an MCP server, pre-built automation templates, a CLI, and an interactive API explorer. Available on every Buffer plan, including Free.",
       "thumbnail": "https://ph-files.imgix.net/4f06eced-8b12-4f6d-9aee-dcfc20ba63d4.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/a1db521b-f601-41e7-9d87-59985f733086.png?auto=format&h=675&w=1200",
@@ -127,13 +127,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Angel Match 4.0",
       "tagline": "A database of 125K+ angels and VCs to raise your seed round",
-      "summaryZh": "待翻译：A database of 125K+ angels and VCs to raise your seed round",
-      "descriptionZh": "待翻译：Angel Match connects you with 125,000+ angel investors and venture capitalists in one platform so you save time on the grueling process of searching for investors.",
+      "summaryZh": "产品：Angel Match 4.0\n\n原文：包含超过12.5万天使投资人和风险投资机构的数据库，助你完成种子轮融资。",
+      "descriptionZh": "产品：Angel Match 4.0\n\nAngel Match 在一个平台上连接您与超过125,000名天使投资人和风险资本家，从而节省您在寻找投资者这一艰辛过程中的时间。",
       "description": "Angel Match connects you with 125,000+ angel investors and venture capitalists in one platform so you save time on the grueling process of searching for investors.",
       "thumbnail": "https://ph-files.imgix.net/54381826-e164-4537-850e-e5ae3a9bc05b.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/bfec8915-3627-4eaa-9a9f-0fd858b4e092.jpeg?auto=format&h=675&w=1200",
@@ -156,13 +156,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Robinhood Agentic Trading",
       "tagline": "Let your agent trade",
-      "summaryZh": "待翻译：Let your agent trade",
-      "descriptionZh": "待翻译：Customers can connect their own AI agents to Robinhood to help manage and automate trading and credit card purchases, with built-in safety controls and a real-time activity feed. Trade in a dedicated agentic account to stay in control of every trade your agent makes.",
+      "summaryZh": "产品：Robinhood Agentic Trading\n\n原文：让您的智能体进行交易",
+      "descriptionZh": "产品：Robinhood Agentic Trading\n\n客户可将自有AI代理连接至Robinhood，借助内置安全控制与实时活动信息流，帮助管理和自动化交易及信用卡购买。在专属代理账户中进行交易，以保持对代理每笔交易的掌控。",
       "description": "Customers can connect their own AI agents to Robinhood to help manage and automate trading and credit card purchases, with built-in safety controls and a real-time activity feed. Trade in a dedicated agentic account to stay in control of every trade your agent makes.",
       "thumbnail": "https://ph-files.imgix.net/a7f4e15f-626d-4212-9d0c-d7b1279a569c.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/d80cb8ca-9889-4be4-9eda-c1bad412b34f.png?auto=format&h=675&w=1200",
@@ -183,13 +183,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Memori",
       "tagline": "Persistent memory from agent trace, not just conversation",
-      "summaryZh": "待翻译：Persistent memory from agent trace, not just conversation",
-      "descriptionZh": "待翻译：Memori launched its new agent-native memory infrastructure, enabling agents to create structured, long-term memory directly from agent trace — including execution paths, tool results, workflow steps, outcomes, and decision-making logic. This allows memory to also be generated from what an agent actually does. Benchmark results: 81.95% accuracy on LoCoMo using only 1,294 tokens per query, roughly 5% of full-context cost, saving users 95%+ on inference spend. 15K GitHub stars, 200000+ downloads",
+      "summaryZh": "产品：Memori\n\n来自智能体追踪的持久记忆，而不仅仅是对话",
+      "descriptionZh": "产品：Memori\n\nMemori 推出了其新的智能体原生记忆基础设施，使智能体能够直接从智能体轨迹中创建结构化的长期记忆——包括执行路径、工具结果、工作流步骤、结果和决策逻辑。这使得记忆也可以从智能体的实际行为中生成。基准测试结果：在 LoCoMo 上达到 81.95% 的准确率，每次查询仅使用 1,294 个 token，约为全上下文成本的 5%，为用户节省 95% 以上的推理开销。GitHub 星标数 15,000，下载量超过 200,000 次。",
       "description": "Memori launched its new agent-native memory infrastructure, enabling agents to create structured, long-term memory directly from agent trace — including execution paths, tool results, workflow steps, outcomes, and decision-making logic. This allows memory to also be generated from what an agent actually does. Benchmark results: 81.95% accuracy on LoCoMo using only 1,294 tokens per query, roughly 5% of full-context cost, saving users 95%+ on inference spend. 15K GitHub stars, 200000+ downloads",
       "thumbnail": "https://ph-files.imgix.net/7f09d0c4-c84c-4a4f-91a2-c8c775492ae3.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/85893161-4317-4359-a7bc-f9e7310de737.jpeg?auto=format&h=675&w=1200",
@@ -211,13 +211,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Marked 3",
       "tagline": "Preview and Publish your Markdown",
-      "summaryZh": "待翻译：Preview and Publish your Markdown",
-      "descriptionZh": "待翻译：Marked is a powerful markdown preview and converter. It supports HTML, PDF, DOCX, EPUB, and more, along with writing and analysis tools, custom style builder, and much more.",
+      "summaryZh": "产品：Marked 3\n\n预览并发布你的 Markdown",
+      "descriptionZh": "产品：Marked 3\n\nMarked 是一款功能强大的 Markdown 预览与转换工具。它支持 HTML、PDF、DOCX、EPUB 等多种格式，并提供写作与分析工具、自定义样式构建器等功能。",
       "description": "Marked is a powerful markdown preview and converter. It supports HTML, PDF, DOCX, EPUB, and more, along with writing and analysis tools, custom style builder, and much more.",
       "thumbnail": "https://ph-files.imgix.net/b9d8f1d0-8e33-4d05-b0c9-27c18f6857a4.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/d602ec1e-897a-4bbf-b981-caa88a83a0d9.jpeg?auto=format&h=675&w=1200",
@@ -238,13 +238,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Growati",
       "tagline": "The autopilot for YouTube post-production",
-      "summaryZh": "待翻译：The autopilot for YouTube post-production",
-      "descriptionZh": "待翻译：Generate personalised YouTube titles, descriptions, and thumbnails in minutes and update them based on video performance — built for creators exhausted by post-production work.",
+      "summaryZh": "产品：Growati\n\nYouTube后期制作的自动驾驶仪",
+      "descriptionZh": "产品：Growati\n\n在几分钟内生成个性化的YouTube标题、描述和缩略图，并根据视频表现进行更新——专为厌倦后期制作的创作者打造。",
       "description": "Generate personalised YouTube titles, descriptions, and thumbnails in minutes and update them based on video performance — built for creators exhausted by post-production work.",
       "thumbnail": "https://ph-files.imgix.net/f5f45fac-93e4-4f7f-bec2-8fcc7b4f96e4.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/ee701ac1-68fa-41d0-b00f-428e12b6a50e.png?auto=format&h=675&w=1200",
@@ -266,13 +266,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "SoMerch",
       "tagline": "Merch for distributed teams, handled end to end",
-      "summaryZh": "待翻译：Merch for distributed teams, handled end to end",
-      "descriptionZh": "待翻译：Managing merch for a distributed team is messier than it looks - multiple vendors, no shared history, manual shipping to individual addresses across Europe, a process that restarts every order. SoMerch handles the full lifecycle from one platform: curated catalogue, same-day mockups, in-house production, kitting, warehousing, and EU-wide multi-address delivery. Built for remote-first and multi-country teams. Production is not outsourced - the whole chain sits under one roof.",
+      "summaryZh": "产品：SoMerch\n\n为分布式团队提供端到端的周边商品服务",
+      "descriptionZh": "产品：SoMerch\n\n为分布式团队管理周边产品比表面看起来更混乱——多个供应商、无共享历史记录、需手动向欧洲各地单独地址发货，且每个订单都要重复这一流程。SoMerch 在一个平台上处理完整生命周期：精选目录、当日样机、内部生产、组装、仓储及覆盖欧盟的多地址配送。专为远程优先和多国团队打造。生产环节不外包——整条供应链均在统一管理下运作。",
       "description": "Managing merch for a distributed team is messier than it looks - multiple vendors, no shared history, manual shipping to individual addresses across Europe, a process that restarts every order. SoMerch handles the full lifecycle from one platform: curated catalogue, same-day mockups, in-house production, kitting, warehousing, and EU-wide multi-address delivery. Built for remote-first and multi-country teams. Production is not outsourced - the whole chain sits under one roof.",
       "thumbnail": "https://ph-files.imgix.net/f048e8fe-fa5e-42ae-bff2-61b7a8f21bb3.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/3c7e3af8-3199-4722-9bbc-0b758388a6ad.jpeg?auto=format&h=675&w=1200",
@@ -293,13 +293,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Granite",
       "tagline": "A vault for every document that matters",
-      "summaryZh": "待翻译：A vault for every document that matters",
-      "descriptionZh": "待翻译：Drop your paperwork. Granite reads every document the moment you upload, files it correctly, and remembers it indefinitely. Find anything later by asking in plain English.",
+      "summaryZh": "产品：Granite\n\n为每一份重要文件打造的保险库",
+      "descriptionZh": "产品：Granite\n\n放下你的文书工作。Granite在你上传文件的瞬间就能读取每份文档，正确归档，并永久记忆。之后只需用简单英语提问，就能找到任何内容。",
       "description": "Drop your paperwork. Granite reads every document the moment you upload, files it correctly, and remembers it indefinitely. Find anything later by asking in plain English.",
       "thumbnail": "https://ph-files.imgix.net/c90d9ec2-bfc3-48f5-810c-b4337af38809.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/7d0db703-0d9e-4bc7-9a30-aa6950a2db35.png?auto=format&h=675&w=1200",
@@ -321,13 +321,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "AccountyCat",
       "tagline": "A focus companion that actually gets context",
-      "summaryZh": "待翻译：A focus companion that actually gets context",
-      "descriptionZh": "待翻译：AccountyCat is a focus companion for macOS that reads context instead of blocking lists. It sits in your menu bar, sees your active app and window title (and a screenshot only when needed), then quietly nudges when you drift. Sometimes YouTube is procrastination, sometimes it's the tutorial — AC tells the difference. Runs fully on-device with Qwen via llama.cpp, or with your own OpenRouter key. Open source, auditable, private. Interrupting legitimate work is treated as a bug.",
+      "summaryZh": "产品：AccountyCat\n\n一款真正理解上下文环境的专注助手",
+      "descriptionZh": "产品：AccountyCat\n\nAccountyCat 是一款 macOS 专注辅助工具，通过读取上下文而非屏蔽列表来工作。它驻留在菜单栏中，查看当前活跃应用和窗口标题（仅在需要时截取屏幕截图），当您分心时轻声提醒。有时 YouTube 是拖延，有时是教程——AC 能区分两者。完全在设备端通过 llama.cpp 运行 Qwen，或使用您自己的 OpenRouter 密钥。开源、可审计、保护隐私。干扰正当工作被视为缺陷。",
       "description": "AccountyCat is a focus companion for macOS that reads context instead of blocking lists. It sits in your menu bar, sees your active app and window title (and a screenshot only when needed), then quietly nudges when you drift. Sometimes YouTube is procrastination, sometimes it's the tutorial — AC tells the difference. Runs fully on-device with Qwen via llama.cpp, or with your own OpenRouter key. Open source, auditable, private. Interrupting legitimate work is treated as a bug.",
       "thumbnail": "https://ph-files.imgix.net/ccf86f06-f073-4091-8902-696a2d821ed2.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/c526e6f3-fa42-47d3-bf06-1fa54e648072.png?auto=format&h=675&w=1200",
@@ -350,13 +350,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Compartment",
       "tagline": "Open-source runtime for internal team software",
-      "summaryZh": "待翻译：Open-source runtime for internal team software",
-      "descriptionZh": "待翻译：Compartment is a self-hosted open-source runtime for AI-built internal apps. It gives teams one place to run and share the apps, scripts, workers, and automations created with AI coding agents, on infrastructure they own. Use Cursor, Claude, Codex, or any stack your team already works with. Compartment turns the code into team-ready software with isolation, RBAC, SSO, and audit logs built in.",
+      "summaryZh": "产品：Compartment\n\n原文：内部团队软件的开源运行时",
+      "descriptionZh": "产品：Compartment\n\nCompartment 是一个自托管开源运行时，用于运行由AI构建的内部应用。它为团队提供了一个统一平台，可在自有基础设施上运行和共享通过AI编程代理创建的应用、脚本、工作进程及自动化任务。支持使用Cursor、Claude、Codex或团队现有的任何技术栈。Compartment通过内置隔离机制、基于角色的访问控制（RBAC）、单点登录（SSO）和审计日志，将代码转化为可直接投入团队使用的软件。",
       "description": "Compartment is a self-hosted open-source runtime for AI-built internal apps. It gives teams one place to run and share the apps, scripts, workers, and automations created with AI coding agents, on infrastructure they own. Use Cursor, Claude, Codex, or any stack your team already works with. Compartment turns the code into team-ready software with isolation, RBAC, SSO, and audit logs built in.",
       "thumbnail": "https://ph-files.imgix.net/5e3673bb-f652-4bba-8ba1-c174d7bdd061.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/7a4b773c-9f4c-4092-974f-42f30384d8e3.png?auto=format&h=675&w=1200",
@@ -377,13 +377,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Stage",
       "tagline": "Screen recording for demos, bugs, and updates",
-      "summaryZh": "待翻译：Screen recording for demos, bugs, and updates",
-      "descriptionZh": "待翻译：Record your product walkthrough with screen, camera, audio, cursor, and keystrokes all in sync. Add subtitles, clean it up fast, and publish a polished demo without becoming a video editor.",
+      "summaryZh": "产品：Stage\n\n屏幕录制，用于演示、错误记录和更新",
+      "descriptionZh": "产品：Stage\n\n使用屏幕、摄像头、音频、光标和按键记录产品演示，所有内容同步。添加字幕，快速清理，发布精炼的演示，无需成为视频编辑。",
       "description": "Record your product walkthrough with screen, camera, audio, cursor, and keystrokes all in sync. Add subtitles, clean it up fast, and publish a polished demo without becoming a video editor.",
       "thumbnail": "https://ph-files.imgix.net/372c96f1-22c8-4222-8cd7-944a4cb6833b.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/0e1fa60f-0775-4709-8827-e0f0e93545f2.png?auto=format&h=675&w=1200",
@@ -405,13 +405,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "KugelAudio",
       "tagline": "Real-time text-to-speech model you can self-host",
-      "summaryZh": "待翻译：Real-time text-to-speech model you can self-host",
-      "descriptionZh": "待翻译：Most natural real-time TTS with voice cloning and sub-60ms latency, on-prem or via API. Grammar-aware normalization reads phone numbers, IBANs, addresses, and medications naturally across 25+ languages, with word-level timestamps and IPA support. Adapters for LiveKit, Pipecat, and Vapi. Built by 4 in Berlin.",
+      "summaryZh": "产品：KugelAudio\n\n原文：可自行部署的实时文本转语音模型",
+      "descriptionZh": "产品：KugelAudio\n\n最自然的实时文本转语音，支持声音克隆，延迟低于60毫秒，可本地部署或通过API使用。具备语法感知的规范化处理，能自然读出电话号码、IBAN、地址和药物名称，覆盖25种以上语言，支持单词级时间戳和IPA音标。提供LiveKit、Pipecat和Vapi适配器。由柏林4人团队开发。",
       "description": "Most natural real-time TTS with voice cloning and sub-60ms latency, on-prem or via API. Grammar-aware normalization reads phone numbers, IBANs, addresses, and medications naturally across 25+ languages, with word-level timestamps and IPA support. Adapters for LiveKit, Pipecat, and Vapi. Built by 4 in Berlin.",
       "thumbnail": "https://ph-files.imgix.net/8f982928-27f4-4513-9f5a-8b1b0999db98.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/6353f6f5-623f-4fbe-9e9f-31446a79bb34.png?auto=format&h=675&w=1200",
@@ -433,13 +433,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Kim Personal Health Assistant",
       "tagline": "The intelligence layer for Apple Health",
-      "summaryZh": "待翻译：The intelligence layer for Apple Health",
-      "descriptionZh": "待翻译：Meet Kim, a personal health assistant that turns your health data into simple conversations and personal experiments, helping you understand what actually works for your body. Kim becomes more personalized the more data you provide.",
+      "summaryZh": "产品：Kim Personal Health Assistant\n\n原文：Apple Health的智能层",
+      "descriptionZh": "产品：Kim 个人健康助手\n\n原文：认识 Kim，一款个人健康助手，能将你的健康数据转化为简单的对话和个人实验，帮助你了解什么真正适合你的身体。你提供的数据越多，Kim 就越个性化。",
       "description": "Meet Kim, a personal health assistant that turns your health data into simple conversations and personal experiments, helping you understand what actually works for your body. Kim becomes more personalized the more data you provide.",
       "thumbnail": "https://ph-files.imgix.net/30e875c0-476e-462f-97da-7ea61fd90e83.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/1831c697-0cdc-49e9-be9c-4772370029d7.png?auto=format&h=675&w=1200",
@@ -460,13 +460,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "Crew44",
       "tagline": "Turn coding agents into specialist teams",
-      "summaryZh": "待翻译：Turn coding agents into specialist teams",
-      "descriptionZh": "待翻译：Crew44 — a crew of specialist AI agents in one local-first workspace. Each role on the model that wins its job, with memory and skills that compound. No account, free, open source.",
+      "summaryZh": "将编码代理转化为专业团队",
+      "descriptionZh": "产品：Crew44\n\n译文：Crew44 — 一个由专业AI代理组成的团队，集成于本地优先的工作空间中。每个角色在各自擅长的任务上表现最优，具备累积的记忆与技能。无需账户，免费，开源。",
       "description": "Crew44 — a crew of specialist AI agents in one local-first workspace. Each role on the model that wins its job, with memory and skills that compound. No account, free, open source.",
       "thumbnail": "https://ph-files.imgix.net/d349d2d4-a089-4f05-94a9-263cb52ae814.png?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/50673b0a-607b-4d8d-87ba-ea4ffc3a90f0.png?auto=format&h=675&w=1200",
@@ -489,13 +489,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "LaunchOS",
       "tagline": "Bring Back the Classic Launchpad Experience on macOS 26+",
-      "summaryZh": "待翻译：Bring Back the Classic Launchpad Experience on macOS 26+",
-      "descriptionZh": "待翻译：LaunchOS is a Launchpad alternative for macOS 26+ that brings back the classic native Launchpad experience. It recreates the familiar full-screen app grid, folders, pages, and drag-to-organize workflow many Mac users still miss, while fitting naturally into modern macOS with Liquid Glass support. It also adds more flexible ways to launch your apps, including trackpad pinch, Hot Corners, F4, keyboard shortcuts, and thoughtful customization.",
+      "summaryZh": "产品：LaunchOS\n\n在 macOS 26 及以上版本中，重现经典 Launchpad 体验",
+      "descriptionZh": "产品：LaunchOS\n\nLaunchOS 是 macOS 26+ 的 Launchpad 替代方案，旨在还原经典的原生 Launchpad 体验。它重现了熟悉的满屏应用网格、文件夹、页面以及拖拽整理流程——这些仍是许多 Mac 用户所怀念的功能——同时通过支持 Liquid Glass 自然融入现代 macOS。此外，它还提供了更灵活的应用启动方式，包括触控板捏合、热角、F4 键、键盘快捷键以及贴心的自定义选项。",
       "description": "LaunchOS is a Launchpad alternative for macOS 26+ that brings back the classic native Launchpad experience. It recreates the familiar full-screen app grid, folders, pages, and drag-to-organize workflow many Mac users still miss, while fitting naturally into modern macOS with Liquid Glass support. It also adds more flexible ways to launch your apps, including trackpad pinch, Hot Corners, F4, keyboard shortcuts, and thoughtful customization.",
       "thumbnail": "https://ph-files.imgix.net/6f1163f0-5f2d-472e-9a39-f0742beeb084.svg?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/f91c8e40-44fc-4038-92b1-4e4689602d0e.jpeg?auto=format&h=675&w=1200",
@@ -517,13 +517,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "NeuralAgent 2.5",
       "tagline": "Talk to your computer, it responds and gets things done.",
-      "summaryZh": "待翻译：Talk to your computer, it responds and gets things done.",
-      "descriptionZh": "待翻译：NeuralAgent 2.5 introduces Voice Mode, Watch & Learn, and Parallel Agents. Talk to NeuralAgent and it talks back, it listens, responds, and executes tasks without you touching the keyboard. Show it a task once and it saves it as a workflow it repeats any time. Spawn multiple agents working simultaneously, research 30 competitors at once, an hour of work in minutes. Combined with Workflows, @ Mentions, and a smarter memory system, this is the biggest update we've shipped.",
+      "summaryZh": "产品：NeuralAgent 2.5\n\n与你的电脑对话，它会回应并完成任务。",
+      "descriptionZh": "NeuralAgent 2.5 引入语音模式、观察学习与并行代理功能。与 NeuralAgent 对话，它便能回应、倾听、响应并执行任务，无需触碰键盘。向其展示一次任务，它便会保存为可随时重复执行的工作流程。可生成多个同时工作的代理，一次性研究 30 个竞争对手，将一小时的工作压缩至几分钟完成。结合工作流程、@提及功能以及更智能的记忆系统，这是我们发布的最大更新。",
       "description": "NeuralAgent 2.5 introduces Voice Mode, Watch & Learn, and Parallel Agents. Talk to NeuralAgent and it talks back, it listens, responds, and executes tasks without you touching the keyboard. Show it a task once and it saves it as a workflow it repeats any time. Spawn multiple agents working simultaneously, research 30 competitors at once, an hour of work in minutes. Combined with Workflows, @ Mentions, and a smarter memory system, this is the biggest update we've shipped.",
       "thumbnail": "https://ph-files.imgix.net/d5ba3679-9589-4008-981b-1c97777e352e.jpeg?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/deff7552-d815-45fc-8dab-1e8e2555db84.png?auto=format&h=675&w=1200",
@@ -545,13 +545,13 @@
       ],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     },
     {
       "name": "SpotsNow",
       "tagline": "Track who's advertising across podcasts w/ campaign insights",
-      "summaryZh": "待翻译：Track who's advertising across podcasts w/ campaign insights",
-      "descriptionZh": "待翻译：Track who's advertising on every podcast, what they're spending, and where their campaigns are running — then buy open inventory directly from publishers, all in one place. The competitive intelligence layer for podcast ads.",
+      "summaryZh": "产品：SpotsNow\n\n通过广告活动洞察追踪各播客中的广告投放方",
+      "descriptionZh": "产品：SpotsNow\n\n追踪每个播客上的广告主、其投放预算及广告活动覆盖范围——随后直接从发布商处购买公开库存，所有操作集中完成。播客广告的竞争情报层。",
       "description": "Track who's advertising on every podcast, what they're spending, and where their campaigns are running — then buy open inventory directly from publishers, all in one place. The competitive intelligence layer for podcast ads.",
       "thumbnail": "https://ph-files.imgix.net/dd079df8-e8a8-428c-b263-4239b32c3ad8.jpeg?auto=format&h=450&w=800",
       "image": "https://ph-files.imgix.net/98e060c1-583f-46e2-98ab-819228bb31fa.png?auto=format&h=675&w=1200",
@@ -570,7 +570,7 @@
       "buckets": [],
       "date": "2026-05-29",
       "productHuntDate": "2026-05-28",
-      "lastUpdated": "2026-05-29T11:27:58.812Z"
+      "lastUpdated": "2026-05-29T11:31:26.771Z"
     }
   ]
 }
