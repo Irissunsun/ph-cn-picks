@@ -278,6 +278,14 @@ function extractOpenAIText(data) {
   return text || "";
 }
 
+function cleanTranslation(text) {
+  return String(text || "")
+    .replace(/^产品[:：][^\n]*\n+/i, "")
+    .replace(/^原文[:：]\s*/i, "")
+    .replace(/^译文[:：]\s*/i, "")
+    .trim();
+}
+
 async function translateWithOpenAI(text, productName) {
   const baseUrl = (process.env.OPENAI_BASE_URL || "https://api.openai.com/v1").replace(/\/+$/, "");
   const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
@@ -293,11 +301,11 @@ async function translateWithOpenAI(text, productName) {
       messages: [
         {
           role: "system",
-          content: "你是产品情报编辑。把英文产品介绍翻译成自然、准确、克制的简体中文。保留产品名、技术名词和专有名词；不要添加主观看法；只输出译文。",
+          content: "你是产品情报编辑。把英文产品文案翻译成自然、准确、克制的简体中文。保留产品名、技术名词和专有名词；不要添加主观看法；不要输出“产品”“原文”“译文”等标签；只输出译文。",
         },
         {
           role: "user",
-          content: `产品：${productName || "Unknown"}\n\n原文：${text}`,
+          content: text,
         },
       ],
     }),
@@ -308,7 +316,7 @@ async function translateWithOpenAI(text, productName) {
     throw new Error(`OpenAI translation failed with HTTP ${response.status}: ${JSON.stringify(data)}`);
   }
 
-  return String(data?.choices?.[0]?.message?.content || extractOpenAIText(data)).trim() || `待翻译：${text}`;
+  return cleanTranslation(data?.choices?.[0]?.message?.content || extractOpenAIText(data)) || `待翻译：${text}`;
 }
 
 function getBestImage(post) {
