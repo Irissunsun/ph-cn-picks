@@ -13,7 +13,7 @@ npm run serve
 
 ## 每天自动更新
 
-Product Hunt 按 `America/Los_Angeles` 的自然日更新榜单。脚本默认抓取“Product Hunt 昨日完整榜单”，适合每天北京时间 16:30 后运行。
+Product Hunt 按 `America/Los_Angeles` 的自然日更新榜单。脚本默认抓取“Product Hunt 昨日完整榜单”，适合每天北京时间 17:00 后运行。
 
 ## 推到 GitHub
 
@@ -31,7 +31,7 @@ git push -u origin main
 3. `Settings -> Pages -> Build and deployment -> Source` 选择 `GitHub Actions`
 4. `Actions -> Update Product Hunt Daily -> Run workflow` 手动试跑一次
 
-试跑成功后，工作流会每天北京时间 16:30 自动更新 `data/products.json` 并部署页面。
+试跑成功后，工作流会每天北京时间 17:00 自动更新 `data/products.json` 并部署页面。
 
 ### 本地或 VPS
 
@@ -44,12 +44,12 @@ npm run update:daily
 cron 示例：
 
 ```cron
-30 16 * * * cd /path/to/ph-cn-picks && PRODUCTHUNT_TOKEN=你的token npm run update:daily
+0 17 * * * cd /path/to/ph-cn-picks && PRODUCTHUNT_TOKEN=你的token npm run update:daily
 ```
 
 ### GitHub Actions
 
-把本目录作为仓库根目录使用时，`.github/workflows/update-producthunt-daily.yml` 会每天 UTC 08:30 运行，也就是北京时间 16:30。
+把本目录作为仓库根目录使用时，`.github/workflows/update-producthunt-daily.yml` 会每天 UTC 09:00 运行，也就是北京时间 17:00。
 
 需要在 GitHub 仓库 Secrets 里配置：
 
@@ -65,7 +65,7 @@ cron 示例：
 
 有两条发布路径：
 
-- `update-producthunt-daily.yml`：每天北京时间 16:30 更新数据，并在同一次任务里部署页面。
+- `update-producthunt-daily.yml`：每天北京时间 17:00 更新数据，并在同一次任务里部署页面。
 - `deploy-pages.yml`：普通 push 到 `main` 或手动触发时部署页面，适合改样式、改文案后发布。
 
 如果用 Vercel 或 Cloudflare Pages，发布根目录就是这个项目目录，不需要构建命令。

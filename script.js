@@ -139,7 +139,7 @@ function renderMeta() {
   els.volumeLabel.textContent = `VOL.${formatVolumeDate(meta.date)}`;
   els.storiesLabel.textContent = `${state.products.length} STORIES`;
   els.dateLine.textContent = formatChineseDate(meta.date);
-  els.lastUpdated.textContent = `北京时间每日 16:30 自动生成；最后成功更新：${formatDateTime(meta.lastUpdated)}`;
+  els.lastUpdated.textContent = `北京时间每日 17:00 自动生成；最后成功更新：${formatDateTime(meta.lastUpdated)}`;
   if (els.rankingWindow) {
     const phDate = meta.productHuntDate ? formatDate(meta.productHuntDate) : "等待数据";
     const issueDate = meta.date ? formatDate(meta.date) : "等待数据";

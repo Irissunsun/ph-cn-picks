@@ -2,7 +2,7 @@ name: Update Product Hunt Daily
 
 on:
   schedule:
-    - cron: "30 8 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 permissions:
