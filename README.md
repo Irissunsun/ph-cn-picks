@@ -49,7 +49,7 @@ cron 示例：
 
 ### GitHub Actions
 
-把本目录作为仓库根目录使用时，`.github/workflows/update-producthunt-daily.yml` 会每天 UTC 09:07 运行，也就是北京时间 17:07。
+把本目录作为仓库根目录使用时，`.github/workflows/update-producthunt-daily.yml` 会每天 UTC 09:07、10:07、11:07 尝试运行，也就是北京时间 17:07、18:07、19:07。当天日报已经生成后，后续备份触发会自动跳过。
 
 需要在 GitHub 仓库 Secrets 里配置：
 
@@ -89,7 +89,7 @@ OPENAI_BASE_URL=https://api.deepseek.com
 
 有两条发布路径：
 
-- `update-producthunt-daily.yml`：每天北京时间 17:07 更新数据，并在同一次任务里部署页面。
+- `update-producthunt-daily.yml`：每天北京时间 17:07 更新数据，并在 18:07、19:07 备用重试；同一次任务里部署页面。
 - `deploy-pages.yml`：普通 push 到 `main` 或手动触发时部署页面，适合改样式、改文案后发布。
 
 如果用 Vercel 或 Cloudflare Pages，发布根目录就是这个项目目录，不需要构建命令。

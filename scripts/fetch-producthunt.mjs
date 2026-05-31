@@ -30,6 +30,7 @@ function parseArgs(argv) {
     issuesDir: DEFAULT_ISSUES_DIR,
     issuesIndex: DEFAULT_ISSUES_INDEX,
     limit: DEFAULT_LIMIT,
+    skipExisting: false,
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -40,6 +41,7 @@ function parseArgs(argv) {
     if (item === "--issues-dir") args.issuesDir = resolve(argv[index + 1]);
     if (item === "--issues-index") args.issuesIndex = resolve(argv[index + 1]);
     if (item === "--limit") args.limit = Number(argv[index + 1]);
+    if (item === "--skip-existing") args.skipExisting = true;
   }
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(args.date)) {
@@ -428,6 +430,11 @@ async function main() {
   }
 
   const previous = await readPreviousData(args.out);
+  const existingIssue = await readPreviousData(resolve(args.issuesDir, `${args.issueDate}.json`));
+  if (args.skipExisting && existingIssue?.meta?.date === args.issueDate && existingIssue?.meta?.status === "live") {
+    console.log(`Issue ${args.issueDate} already exists. Skipping.`);
+    return;
+  }
   const lastUpdated = new Date().toISOString();
   const posts = await fetchProductHuntPosts({ token, date: args.date, limit: args.limit });
 

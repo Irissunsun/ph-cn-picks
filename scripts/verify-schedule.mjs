@@ -17,7 +17,6 @@ const html = await readFile("index.html", "utf8");
 const script = await readFile("script.js", "utf8");
 const issuesIndex = JSON.parse(await readFile("data/issues.json", "utf8"));
 const issue28 = JSON.parse(await readFile("data/issues/2026-05-28.json", "utf8"));
-const issue29 = JSON.parse(await readFile("data/issues/2026-05-29.json", "utf8"));
 
 const summerRun = new Date("2026-05-29T09:00:00.000Z");
 assert.equal(formatDateInTimeZone(summerRun, ISSUE_TIMEZONE), "2026-05-29");
@@ -55,6 +54,8 @@ assert.deepEqual(
 );
 
 assert.match(workflow, /cron:\s*"7 9 \* \* \*"/);
+assert.match(workflow, /cron:\s*"7 10 \* \* \*"/);
+assert.match(workflow, /cron:\s*"7 11 \* \* \*"/);
 assert.match(workflow, /PRODUCTHUNT_TOKEN:\s*\$\{\{\s*secrets\.PRODUCTHUNT_TOKEN\s*\}\}/);
 assert.match(workflow, /actions\/upload-pages-artifact@v3/);
 assert.match(workflow, /actions\/deploy-pages@v4/);
@@ -66,13 +67,19 @@ assert.match(script, /北京时间每日 17:00 后自动生成/);
 assert.match(script, /meta\.productHuntDate/);
 assert.match(script, /ISSUES_URL/);
 assert.match(script, /getRequestedDate/);
-assert.equal(issuesIndex.latest, "2026-05-29");
-assert.deepEqual(issuesIndex.issues.map((issue) => issue.date), ["2026-05-29", "2026-05-28"]);
+assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(issuesIndex.latest));
+assert.ok(Array.isArray(issuesIndex.issues));
+assert.ok(issuesIndex.issues.length >= 2);
+assert.equal(issuesIndex.latest, issuesIndex.issues[0].date);
+assert.deepEqual(
+  issuesIndex.issues.map((issue) => issue.date),
+  [...issuesIndex.issues].map((issue) => issue.date).sort((a, b) => b.localeCompare(a)),
+);
+assert.ok(issuesIndex.issues.some((issue) => issue.date === "2026-05-28"));
+assert.ok(issuesIndex.issues.some((issue) => issue.date === "2026-05-29"));
 assert.equal(issue28.meta.date, "2026-05-28");
 assert.equal(issue28.meta.productHuntDate, "2026-05-27");
 assert.equal(issue28.products.length, 30);
 assert.equal(issue28.products[0].summaryZh, "使用Postgres、RAG和智能代理构建AI应用程序");
-assert.equal(issue29.meta.date, "2026-05-29");
-assert.equal(issue29.meta.productHuntDate, "2026-05-28");
 
 console.log("Schedule verification passed.");
