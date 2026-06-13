@@ -1,6 +1,16 @@
 {
-  "latest": "2026-06-12",
+  "latest": "2026-06-13",
   "issues": [
+    {
+      "date": "2026-06-13",
+      "day": "13",
+      "title": "产品灵感日报 · 20 个新品",
+      "url": "./data/issues/2026-06-13.json",
+      "productHuntDate": "2026-06-12",
+      "productsCount": 20,
+      "lastUpdated": "2026-06-13T11:23:41.693Z",
+      "status": "live"
+    },
     {
       "date": "2026-06-12",
       "day": "12",
