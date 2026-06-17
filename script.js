@@ -3,14 +3,14 @@ const ISSUES_URL = "./data/issues.json";
 
 const state = {
   products: [], filtered: [], issues: [], activeTopic: "all", query: "",
-  meta: null, selectedId: null, saved: new Set(JSON.parse(localStorage.getItem("ph-cn-saved") || "[]")),
+  meta: null, selectedId: null, archiveExpanded: false, saved: new Set(JSON.parse(localStorage.getItem("ph-cn-saved") || "[]")),
 };
 
 const $ = (selector) => document.querySelector(selector);
 const els = {
   sidebarDate: $("#sidebar-date"), sidebarVolume: $("#sidebar-volume"), currentIssueLink: $("#current-issue-link"),
   calendarMonth: $("#calendar-month"), calendarGrid: $("#calendar-grid"), archiveCount: $("#archive-count"),
-  issueRail: $("#issue-rail"), volume: $("#volume-label"),
+  issueRail: $("#issue-rail"), toggleIssues: $("#toggle-issues"), volume: $("#volume-label"),
   stories: $("#stories-label"), dateLine: $("#date-line"), lastUpdated: $("#last-updated"),
   rankingWindow: $("#ranking-window"), search: $("#search-input"), topics: $("#topic-filters"),
   list: $("#product-list"), summary: $("#result-summary"), empty: $("#empty-state"),
@@ -22,6 +22,13 @@ const productId = (p) => String(p.id || p.slug || p.name);
 const phUrl = (p) => p.productHuntUrl || `https://www.producthunt.com/search?q=${encodeURIComponent(p.name || "")}`;
 const siteUrl = (p) => p.websiteUrl || phUrl(p);
 const topicLabel = { ai: "AI", developer: "开发", productivity: "效率", design: "设计" };
+const ARCHIVE_LIMIT = 14;
+
+function dateUrl(date) {
+  const url = new URL(location.href);
+  url.searchParams.set("date", date);
+  return url;
+}
 
 function formatChineseDate(value) {
   if (!value) return "日期待更新";
@@ -60,10 +67,8 @@ function renderCalendar(dateValue) {
     const item = document.createElement(issue ? "a" : "span");
     item.className = "calendar-day";
     if (issue) {
-      item.dataset.date = calendarDate;
-      const url = new URL(location.href);
-      url.searchParams.set("date", calendarDate);
-      item.href = url.toString();
+      item.dataset.issueDate = calendarDate;
+      item.href = dateUrl(calendarDate).toString();
       item.title = `${calendarDate} · ${issue.title || "产品灵感日报"}`;
       item.setAttribute("aria-label", `查看 ${calendarDate} 日报`);
     }
@@ -99,23 +104,30 @@ function renderMeta() {
   const activeIssue = state.issues.find((issue) => issue.date === meta.date) || { date: meta.date, title: "产品灵感日报" };
   const activeIndex = Math.max(0, state.issues.findIndex((issue) => issue.date === meta.date));
   els.sidebarVolume.textContent = `Vol. ${volumeNumber(activeIssue, activeIndex)}`;
-  els.currentIssueLink.href = `?date=${meta.date}`;
+  els.currentIssueLink.href = dateUrl(meta.date).toString();
+  els.currentIssueLink.dataset.issueDate = meta.date;
   els.archiveCount.textContent = `(${state.issues.length || 1})`;
   renderCalendar(meta.date);
-  els.issueRail.replaceChildren(...state.issues.map((issue, index) => {
+  const visibleIssues = state.archiveExpanded ? state.issues : state.issues.slice(0, ARCHIVE_LIMIT);
+  els.issueRail.replaceChildren(...visibleIssues.map((issue, index) => {
+    const issueIndex = state.issues.findIndex((x) => x.date === issue.date);
     const link = document.createElement("a");
     link.className = `issue-link${issue.date === meta.date ? " active" : ""}`;
-    link.href = issue.date === meta.date ? location.pathname + location.search : `?date=${issue.date}`;
+    link.href = dateUrl(issue.date).toString();
+    link.dataset.issueDate = issue.date;
     link.setAttribute("aria-current", issue.date === meta.date ? "page" : "false");
     const date = document.createElement("span");
     date.className = "issue-date";
     date.textContent = issue.date || "待定";
     const title = document.createElement("span");
     title.className = "issue-title";
-    title.textContent = `Vol. ${volumeNumber(issue, index)}`;
+    title.textContent = `Vol. ${volumeNumber(issue, issueIndex >= 0 ? issueIndex : index)}`;
     link.append(date, title);
     return link;
   }));
+  els.toggleIssues.hidden = state.issues.length <= ARCHIVE_LIMIT;
+  els.toggleIssues.textContent = state.archiveExpanded ? "收起日报 ↑" : "更早的日报 ↓";
+  els.toggleIssues.setAttribute("aria-expanded", String(state.archiveExpanded));
 }
 
 function renderRow(p) {
@@ -189,17 +201,30 @@ async function loadProducts() {
     const index = await fetch(ISSUES_URL, { cache: "no-store" }).then((r) => r.json());
     state.issues = index.issues || [];
     const date = getRequestedDate() || index.latest || state.issues[0]?.date;
-    const issue = state.issues.find((x) => x.date === date);
-    const data = await fetch(issue?.url || DATA_URL, { cache: "no-store" }).then((r) => r.json());
-    state.meta = data.meta || {};
-    state.products = data.products || [];
-    state.selectedId = productId(state.products[0] || {});
-    render();
+    await loadIssue(date, { push: false });
   } catch (error) {
     console.error(error);
     els.summary.textContent = "数据暂时不可用";
     els.empty.hidden = false;
   }
+}
+
+async function loadIssue(date, options = {}) {
+  const { push = true } = options;
+  const issue = state.issues.find((x) => x.date === date) || state.issues[0];
+  if (!issue) return;
+  if (state.meta?.date === issue.date) {
+    if (push) history.replaceState({ date: issue.date }, "", dateUrl(issue.date).toString());
+    return;
+  }
+
+  els.summary.textContent = "正在载入日报...";
+  const data = await fetch(issue.url || DATA_URL, { cache: "no-store" }).then((r) => r.json());
+  state.meta = data.meta || { date: issue.date };
+  state.products = data.products || [];
+  state.selectedId = productId(state.products[0] || {});
+  render();
+  if (push) history.pushState({ date: state.meta.date || issue.date }, "", dateUrl(state.meta.date || issue.date).toString());
 }
 
 els.search.addEventListener("input", (event) => { state.query = event.target.value; render(); });
@@ -216,6 +241,28 @@ els.save.addEventListener("click", () => {
   localStorage.setItem("ph-cn-saved", JSON.stringify([...state.saved]));
   const p = state.products.find((x) => productId(x) === state.selectedId);
   if (p) selectProduct(p, false);
+});
+els.toggleIssues.addEventListener("click", () => {
+  state.archiveExpanded = !state.archiveExpanded;
+  renderMeta();
+});
+document.addEventListener("click", (event) => {
+  const link = event.target.closest("a[data-issue-date]");
+  if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  loadIssue(link.dataset.issueDate).catch((error) => {
+    console.error(error);
+    els.summary.textContent = "数据暂时不可用";
+    els.empty.hidden = false;
+  });
+});
+window.addEventListener("popstate", () => {
+  const date = getRequestedDate() || state.issues[0]?.date;
+  loadIssue(date, { push: false }).catch((error) => {
+    console.error(error);
+    els.summary.textContent = "数据暂时不可用";
+    els.empty.hidden = false;
+  });
 });
 
 loadProducts();

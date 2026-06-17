@@ -186,10 +186,14 @@ a.calendar-day.muted { color: color-mix(in srgb, var(--accent) 56%, var(--faint)
   display: grid;
   place-items: center;
   min-height: 44px;
+  width: 100%;
   margin-top: 14px;
   border: 1px solid var(--line);
   border-radius: 6px;
   color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
 }
 .more-issues:hover { color: var(--accent); border-color: var(--accent); }
 .sidebar-links {
@@ -271,24 +275,6 @@ h1 em { color: var(--accent); font-style: normal; }
 .segment { min-width: 60px; border: 0; border-left: 1px solid var(--line); color: var(--muted); background: transparent; font: 500 11px var(--mono); }
 .segment:hover, .segment.active { color: var(--paper-bright); background: var(--ink); }
 
-.workbench-head {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px;
-  gap: 40px;
-  align-items: end;
-  padding: 18px 0;
-  border-bottom: 1px solid var(--line-dark);
-}
-.workbench-head h2 {
-  margin: 10px 0 0;
-  font-size: 28px;
-  letter-spacing: -.05em;
-}
-.workbench-head p {
-  margin: 0;
-  color: var(--muted);
-}
-
 .editorial-layout { display: grid; grid-template-columns: minmax(560px,.95fr) minmax(520px,1.05fr); min-height: 720px; border-bottom: 1px solid var(--line-dark); }
 .ranking-column { border-right: 1px solid var(--line-dark); }
 .column-heading { display: flex; justify-content: space-between; align-items: end; min-height: 92px; padding: 20px 28px 18px 0; border-bottom: 1px solid var(--line); }
@@ -297,12 +283,12 @@ h1 em { color: var(--accent); font-style: normal; }
 .ranking-list { display: grid; }
 .product-row {
   display: grid;
-  grid-template-columns: 22px 34px 48px minmax(150px,1fr) minmax(74px,.32fr) 84px;
-  gap: 14px;
+  grid-template-columns: 24px 38px 54px minmax(190px,1fr) minmax(96px,.34fr) 92px;
+  gap: 16px;
   align-items: center;
   width: 100%;
-  min-height: 72px;
-  padding: 12px 28px 12px 0;
+  min-height: 84px;
+  padding: 14px 28px 14px 0;
   border: 0;
   border-bottom: 1px solid var(--line);
   color: var(--ink);
@@ -318,20 +304,20 @@ h1 em { color: var(--accent); font-style: normal; }
 }
 .product-row:hover, .product-row.active { padding-left: 10px; background: var(--paper-bright); }
 .product-row.active { box-shadow: inset 3px 0 var(--accent); }
-.rank, .product-score { color: var(--muted); font: 500 11px var(--mono); }
+.rank, .product-score { color: var(--muted); font: 500 12px var(--mono); }
 .product-thumb {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--paper-bright);
 }
 .product-thumb img { width: 100%; height: 100%; object-fit: cover; }
-.product-copy { display: grid; gap: 6px; min-width: 0; }
-.product-name { overflow: hidden; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
-.product-tagline { overflow: hidden; color: var(--muted); font-size: 13px; text-overflow: ellipsis; white-space: nowrap; }
-.product-topics { overflow: hidden; color: var(--faint); font: 500 10px var(--mono); text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; }
+.product-copy { display: grid; gap: 7px; min-width: 0; }
+.product-name { overflow: hidden; font-size: 18px; letter-spacing: -.02em; text-overflow: ellipsis; white-space: nowrap; }
+.product-tagline { overflow: hidden; color: var(--muted); font-size: 15px; line-height: 1.35; text-overflow: ellipsis; white-space: nowrap; }
+.product-topics { overflow: hidden; color: var(--faint); font: 500 11px var(--mono); text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; }
 .product-score { color: var(--accent); text-align: right; }
 
 .feature-column { position: sticky; top: 58px; align-self: start; height: calc(100vh - 58px); min-height: 680px; padding: 22px 0 30px 32px; overflow: auto; }
@@ -387,7 +373,6 @@ h1 em { color: var(--accent); font-style: normal; }
   .editorial-layout { grid-template-columns: minmax(340px,.8fr) minmax(420px,1.2fr); }
   .product-row { grid-template-columns: 22px 34px 42px 1fr 55px; }
   .product-topics { display: none; }
-  .workbench-head { grid-template-columns: 1fr; }
 }
 @media (max-width: 780px) {
   body::before { background-size: 25vw 100%; }
