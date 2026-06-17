@@ -61,9 +61,12 @@ assert.match(workflow, /actions\/upload-pages-artifact@v3/);
 assert.match(workflow, /actions\/deploy-pages@v4/);
 assert.match(workflow, /pages:\s*write/);
 assert.match(workflow, /id-token:\s*write/);
-
 assert.match(html, /id="ranking-window"/);
-assert.match(script, /北京时间每日 17:00 后自动生成/);
+assert.match(html, /rel="alternate" type="application\/rss\+xml"/);
+assert.match(html, /href="\.\/feed\.xml"/);
+assert.match(html, /RSS 订阅/);
+assert.match(script, /每日 17:00 后/);
+assert.match(script, /Product Hunt \$\{meta\.productHuntDate\} 日榜/);
 assert.match(script, /meta\.productHuntDate/);
 assert.match(script, /ISSUES_URL/);
 assert.match(script, /getRequestedDate/);

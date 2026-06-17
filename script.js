@@ -2,355 +2,220 @@ const DATA_URL = "./data/products.json";
 const ISSUES_URL = "./data/issues.json";
 
 const state = {
-  products: [],
-  filtered: [],
-  issues: [],
-  activeTopic: "all",
-  query: "",
-  meta: null,
+  products: [], filtered: [], issues: [], activeTopic: "all", query: "",
+  meta: null, selectedId: null, saved: new Set(JSON.parse(localStorage.getItem("ph-cn-saved") || "[]")),
 };
 
+const $ = (selector) => document.querySelector(selector);
 const els = {
-  sidebarDate: document.querySelector("#sidebar-date"),
-  issueList: document.querySelector("#issue-list"),
-  volumeLabel: document.querySelector("#volume-label"),
-  storiesLabel: document.querySelector("#stories-label"),
-  dateLine: document.querySelector("#date-line"),
-  lastUpdated: document.querySelector("#last-updated"),
-  rankingWindow: document.querySelector("#ranking-window"),
-  search: document.querySelector("#search-input"),
-  topicFilters: document.querySelector("#topic-filters"),
-  list: document.querySelector("#product-list"),
-  summary: document.querySelector("#result-summary"),
-  empty: document.querySelector("#empty-state"),
-  template: document.querySelector("#product-card-template"),
+  sidebarDate: $("#sidebar-date"), sidebarVolume: $("#sidebar-volume"), currentIssueLink: $("#current-issue-link"),
+  calendarMonth: $("#calendar-month"), calendarGrid: $("#calendar-grid"), archiveCount: $("#archive-count"),
+  issueRail: $("#issue-rail"), volume: $("#volume-label"),
+  stories: $("#stories-label"), dateLine: $("#date-line"), lastUpdated: $("#last-updated"),
+  rankingWindow: $("#ranking-window"), search: $("#search-input"), topics: $("#topic-filters"),
+  list: $("#product-list"), summary: $("#result-summary"), empty: $("#empty-state"),
+  template: $("#product-row-template"), detail: $("#feature-detail"), save: $("#save-product"),
 };
 
-function formatDate(value) {
-  if (!value) return "未知日期";
-  return new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date(`${value}T00:00:00+08:00`));
-}
-
-function formatVolumeDate(value) {
-  return String(value || "").replaceAll("-", ".");
-}
+const normalize = (value) => String(value || "").trim().toLowerCase();
+const productId = (p) => String(p.id || p.slug || p.name);
+const phUrl = (p) => p.productHuntUrl || `https://www.producthunt.com/search?q=${encodeURIComponent(p.name || "")}`;
+const siteUrl = (p) => p.websiteUrl || phUrl(p);
+const topicLabel = { ai: "AI", developer: "开发", productivity: "效率", design: "设计" };
 
 function formatChineseDate(value) {
   if (!value) return "日期待更新";
   const date = new Date(`${value}T00:00:00+08:00`);
-  const digits = ["〇", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
-  const months = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"];
-  const year = String(date.getFullYear()).split("").map((digit) => digits[Number(digit)]).join("");
-  const dayNumber = date.getDate();
-  const day = dayNumber <= 10
-    ? `初${digits[dayNumber]}`
-    : dayNumber < 20
-      ? `十${digits[dayNumber - 10]}`
-      : dayNumber === 20
-        ? "二十"
-        : dayNumber < 30
-          ? `二十${digits[dayNumber - 20]}`
-          : dayNumber === 30
-            ? "三十"
-            : "三十一";
-  const dateText = `${year}年${months[date.getMonth()]}${day}日`;
-  const weekday = new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
-    weekday: "long",
-  }).format(date);
-  return `${dateText}　${weekday}`;
+  const weekday = new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", weekday: "long" }).format(date);
+  return `${value.replaceAll("-", ".")}　${weekday}`;
 }
 
-function formatDateTime(value) {
-  if (!value) return "暂无成功更新时间";
-  return new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(new Date(value));
+function volumeNumber(issue, index = 0) {
+  const fromIssue = String(issue?.volume || issue?.vol || "").match(/\d+/)?.[0];
+  if (fromIssue) return fromIssue.padStart(4, "0");
+  return String(Math.max(1, 361 - index)).padStart(4, "0");
 }
 
-function formatPublishTime(value, fallbackDate) {
-  const date = value ? new Date(value) : new Date(`${fallbackDate || state.meta?.date}T15:01:00+08:00`);
-  if (Number.isNaN(date.getTime())) return "暂无发布时间";
-  const parts = new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-  }).formatToParts(date).reduce((acc, part) => {
-    acc[part.type] = part.value;
-    return acc;
-  }, {});
-  return `${parts.year}年${parts.month}月${parts.day}日 ${parts.hour}:${parts.minute} (北京时间)`;
-}
+function renderCalendar(dateValue) {
+  if (!dateValue) return;
+  const active = new Date(`${dateValue}T00:00:00+08:00`);
+  const year = active.getFullYear();
+  const month = active.getMonth();
+  const issueByDate = new Map(state.issues.map((issue) => [issue.date, issue]));
+  els.calendarMonth.textContent = `${year}年${month + 1}月`;
 
-function normalizeText(value) {
-  return String(value || "").trim().toLowerCase();
-}
+  const first = new Date(year, month, 1);
+  const start = new Date(first);
+  start.setDate(first.getDate() - first.getDay());
 
-function productMatchesTopic(product) {
-  if (state.activeTopic === "all") return true;
-  const buckets = product.buckets || [];
-  const topics = (product.topics || []).map((topic) => normalizeText(topic));
-  return buckets.includes(state.activeTopic) || topics.some((topic) => topic.includes(state.activeTopic));
-}
-
-function productMatchesQuery(product) {
-  const query = normalizeText(state.query);
-  if (!query) return true;
-
-  const haystack = [
-    product.name,
-    product.tagline,
-    product.summaryZh,
-    product.description,
-    ...(product.topics || []),
-  ]
-    .map(normalizeText)
-    .join(" ");
-
-  return haystack.includes(query);
-}
-
-function sortProducts(products) {
-  return [...products].sort((a, b) => {
-    return (a.rank || 999) - (b.rank || 999);
+  const nodes = Array.from({ length: 42 }, (_, index) => {
+    const day = new Date(start);
+    day.setDate(start.getDate() + index);
+    const calendarDate = [
+      day.getFullYear(),
+      String(day.getMonth() + 1).padStart(2, "0"),
+      String(day.getDate()).padStart(2, "0"),
+    ].join("-");
+    const issue = issueByDate.get(calendarDate);
+    const item = document.createElement(issue ? "a" : "span");
+    item.className = "calendar-day";
+    if (issue) {
+      item.dataset.date = calendarDate;
+      const url = new URL(location.href);
+      url.searchParams.set("date", calendarDate);
+      item.href = url.toString();
+      item.title = `${calendarDate} · ${issue.title || "产品灵感日报"}`;
+      item.setAttribute("aria-label", `查看 ${calendarDate} 日报`);
+    }
+    if (day.getMonth() !== month) item.classList.add("muted");
+    if (
+      day.getFullYear() === active.getFullYear() &&
+      day.getMonth() === active.getMonth() &&
+      day.getDate() === active.getDate()
+    ) item.classList.add("active");
+    item.textContent = String(day.getDate());
+    return item;
   });
+  els.calendarGrid.replaceChildren(...nodes);
 }
 
-function applyFilters() {
-  state.filtered = sortProducts(state.products.filter(productMatchesTopic).filter(productMatchesQuery));
-  render();
-}
-
-function getRequestedDate() {
-  const date = new URLSearchParams(window.location.search).get("date");
-  return /^\d{4}-\d{2}-\d{2}$/.test(date || "") ? date : "";
-}
-
-function getIssueUrl(date) {
-  const issue = state.issues.find((item) => item.date === date);
-  return issue?.url || `./data/issues/${date}.json`;
+function productMatches(p) {
+  const buckets = p.buckets || [];
+  const topicMatch = state.activeTopic === "all" || buckets.includes(state.activeTopic);
+  const text = [p.name, p.tagline, p.summaryZh, p.descriptionZh, ...(p.topics || [])].map(normalize).join(" ");
+  return topicMatch && (!state.query || text.includes(normalize(state.query)));
 }
 
 function renderMeta() {
   const meta = state.meta || {};
   els.sidebarDate.textContent = meta.date || "等待数据";
-  els.volumeLabel.textContent = `VOL.${formatVolumeDate(meta.date)}`;
-  els.storiesLabel.textContent = `${state.products.length} STORIES`;
+  els.volume.textContent = `VOL.${String(meta.date || "").replaceAll("-", ".")}`;
+  els.stories.textContent = `${state.products.length} STORIES`;
   els.dateLine.textContent = formatChineseDate(meta.date);
-  els.lastUpdated.textContent = `北京时间每日 17:00 后自动生成；最后成功更新：${formatDateTime(meta.lastUpdated)}`;
-  if (els.rankingWindow) {
-    const phDate = meta.productHuntDate ? formatDate(meta.productHuntDate) : "等待数据";
-    const issueDate = meta.date ? formatDate(meta.date) : "等待数据";
-    els.rankingWindow.textContent = `本期发布日：${issueDate}；数据基于 Product Hunt ${phDate} 日榜。`;
-  }
-  renderIssues(meta);
+  els.lastUpdated.textContent = meta.lastUpdated
+    ? new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", dateStyle: "medium", timeStyle: "short" }).format(new Date(meta.lastUpdated))
+    : "每日 17:00 后";
+  els.rankingWindow.textContent = meta.productHuntDate ? `Product Hunt ${meta.productHuntDate} 日榜` : "Product Hunt 当日热榜";
+  const activeIssue = state.issues.find((issue) => issue.date === meta.date) || { date: meta.date, title: "产品灵感日报" };
+  const activeIndex = Math.max(0, state.issues.findIndex((issue) => issue.date === meta.date));
+  els.sidebarVolume.textContent = `Vol. ${volumeNumber(activeIssue, activeIndex)}`;
+  els.currentIssueLink.href = `?date=${meta.date}`;
+  els.archiveCount.textContent = `(${state.issues.length || 1})`;
+  renderCalendar(meta.date);
+  els.issueRail.replaceChildren(...state.issues.map((issue, index) => {
+    const link = document.createElement("a");
+    link.className = `issue-link${issue.date === meta.date ? " active" : ""}`;
+    link.href = issue.date === meta.date ? location.pathname + location.search : `?date=${issue.date}`;
+    link.setAttribute("aria-current", issue.date === meta.date ? "page" : "false");
+    const date = document.createElement("span");
+    date.className = "issue-date";
+    date.textContent = issue.date || "待定";
+    const title = document.createElement("span");
+    title.className = "issue-title";
+    title.textContent = `Vol. ${volumeNumber(issue, index)}`;
+    link.append(date, title);
+    return link;
+  }));
 }
 
-function renderIssues(meta) {
-  const issues = state.issues.length > 0
-    ? state.issues
-    : Array.isArray(meta.issues) && meta.issues.length > 0
-      ? meta.issues.map((issue) => ({ ...issue, date: meta.date }))
-    : buildFallbackIssues(meta.date);
-  const activeDate = meta.date;
-
-  els.issueList.replaceChildren(
-    ...issues.map((issue, index) => {
-      const link = document.createElement("a");
-      link.href = issue.date ? `?date=${issue.date}` : "#daily";
-      link.className = `issue-link${issue.date === activeDate || (!issue.date && index === 0) ? " active" : ""}`;
-      const day = document.createElement("span");
-      day.className = "issue-day";
-      day.textContent = `${issue.day} 日`;
-      const title = document.createElement("span");
-      title.className = "issue-title";
-      title.textContent = issue.title;
-      link.append(day, title);
-      return link;
-    }),
-  );
+function renderRow(p) {
+  const row = els.template.content.firstElementChild.cloneNode(true);
+  row.dataset.id = productId(p);
+  row.classList.toggle("active", productId(p) === state.selectedId);
+  row.querySelector(".rank").textContent = String(p.rank || "—").padStart(2, "0");
+  const thumb = row.querySelector(".product-thumb img");
+  thumb.src = p.image || "";
+  thumb.alt = "";
+  row.querySelector(".product-name").textContent = p.name || "Untitled";
+  row.querySelector(".product-tagline").textContent = p.summaryZh || p.tagline || "暂无标语";
+  row.querySelector(".product-topics").textContent = (p.buckets || []).map((x) => topicLabel[x] || x).join(" · ");
+  row.querySelector(".product-score").textContent = `▲ ${p.votes || 0}`;
+  row.addEventListener("click", () => selectProduct(p));
+  return row;
 }
 
-function buildFallbackIssues(date) {
-  const base = date ? new Date(`${date}T00:00:00+08:00`) : new Date();
-  return [{
-    day: String(base.getDate()).padStart(2, "0"),
-    title: "产品灵感日报 · 本期",
-  }];
+function intro(p) {
+  return p.descriptionZh || p.summaryZh || p.description || p.tagline || "这个产品值得加入今天的灵感研究清单。";
 }
 
-function createTag(label) {
-  const tag = document.createElement("span");
-  tag.textContent = label;
-  return tag;
-}
-
-function isGenericProductHuntUrl(url) {
-  const value = String(url || "").replace(/\/+$/, "");
-  return value === "https://www.producthunt.com" || value === "https://producthunt.com";
-}
-
-function isProductHuntProductPage(url) {
-  try {
-    const parsed = new URL(url);
-    return parsed.hostname.replace(/^www\./, "") === "producthunt.com" && parsed.pathname.startsWith("/products/");
-  } catch {
-    return false;
-  }
-}
-
-function getProductHuntUrl(product) {
-  if (product.productHuntUrl && !isGenericProductHuntUrl(product.productHuntUrl)) {
-    return product.productHuntUrl;
-  }
-  return `https://www.producthunt.com/search?q=${encodeURIComponent(product.name || "")}`;
-}
-
-function buildChineseIntro(product) {
-  if (product.descriptionZh) return product.descriptionZh;
-  const summary = product.summaryZh || product.tagline || "这个产品提供了一组新的工具能力。";
-  const topics = (product.topics || []).slice(0, 4).join("、");
-  const topicText = topics ? `它主要关联 ${topics} 等方向，` : "";
-  const bucketMap = {
-    ai: "AI 应用和自动化探索",
-    developer: "开发者工作流优化",
-    productivity: "个人或团队效率提升",
-    design: "设计、内容或发布素材生产",
-  };
-  const scenes = (product.buckets || []).map((bucket) => bucketMap[bucket]).filter(Boolean);
-  const sceneText = scenes.length > 0 ? `适合关注${[...new Set(scenes)].join("、")}的人进一步研究。` : "适合加入当天的产品灵感池继续观察。";
-  return `${summary} ${topicText}${sceneText}`;
-}
-
-function renderProduct(product) {
-  const node = els.template.content.firstElementChild.cloneNode(true);
-  const phLink = node.querySelector(".primary-link");
-  const websiteLink = node.querySelector(".secondary-link");
-  const phTextLink = node.querySelector(".ph-text-link");
-  const websiteTextLink = node.querySelector(".website-text-link");
-  const titleLink = node.querySelector(".title-link");
-  const image = node.querySelector(".product-image");
-  const topics = product.topics || [];
-  const keywords = [
-    product.name,
-    ...topics,
-    ...(product.buckets || []).map((bucket) => ({ ai: "AI", developer: "开发工具", productivity: "效率", design: "设计工具" })[bucket] || bucket),
-  ].filter(Boolean);
-  const phUrl = getProductHuntUrl(product);
-  const hasProductHuntPage = product.productHuntUrl && !isGenericProductHuntUrl(product.productHuntUrl);
-  const hasSpecificWebsite = product.websiteUrl && !isGenericProductHuntUrl(product.websiteUrl) && !isProductHuntProductPage(product.websiteUrl);
-  const siteUrl = hasSpecificWebsite ? product.websiteUrl : phUrl;
-
-  node.querySelector(".rank-pill").textContent = `${product.votes || 0} 票 · ${product.comments || 0} 评`;
-  titleLink.textContent = `${product.rank || "-"}. ${product.name || "Untitled"}`;
-  titleLink.href = phUrl;
-  node.querySelector(".summary").textContent = buildChineseIntro(product);
-  node.querySelector(".tagline").textContent = product.summaryZh || product.tagline || "暂无标语";
-  const source = node.querySelector(".source-line");
-  source.append(createTag("官方"), document.createTextNode(`${product.name || "Product"} · Product Hunt`));
-  node.querySelector(".keywords").textContent = [...new Set(keywords)].join("，");
-  node.querySelector(".votes-line").textContent = `▲ ${product.votes || 0}`;
-  node.querySelector(".featured-line").textContent = product.featured === false ? "否" : "是";
-  node.querySelector(".published-line").textContent = product.publishedAtText || formatPublishTime(product.publishedAt, product.date);
-
-  image.src = product.image || `https://placehold.co/1200x630/f7f1f3/8f2f46?text=${encodeURIComponent(product.name || "Product")}`;
-  image.alt = product.name ? `${product.name} 产品展示图` : "产品展示图";
-  image.onerror = () => {
-    image.src = `https://placehold.co/1200x630/f7f1f3/8f2f46?text=${encodeURIComponent(product.name || "Product")}`;
-  };
-
-  phLink.href = phUrl;
-  phTextLink.href = phUrl;
-  if (!hasProductHuntPage) {
-    phLink.textContent = "搜索 PH";
-    phTextLink.textContent = "在 Product Hunt 搜索";
-  }
-  websiteLink.href = siteUrl;
-  websiteTextLink.href = siteUrl;
-  if (!hasSpecificWebsite) {
-    websiteLink.textContent = "来源页";
-    websiteTextLink.textContent = "查看来源页";
-  }
-
-  return node;
+function selectProduct(p, scroll = true) {
+  state.selectedId = productId(p);
+  const saved = state.saved.has(state.selectedId);
+  els.save.textContent = saved ? "已收藏" : "收藏本项";
+  els.save.classList.toggle("saved", saved);
+  els.detail.innerHTML = `
+    <figure class="feature-visual">
+      <img src="${p.image || ""}" alt="${p.name || "产品"} 产品展示图" />
+      <span class="feature-rank">NO.${String(p.rank || "—").padStart(2, "0")}</span>
+    </figure>
+    <div class="feature-head">
+      <div><h2>${p.name || "Untitled"}</h2><p>${p.summaryZh || p.tagline || "暂无标语"}</p></div>
+      <div class="metric"><strong>${p.votes || 0}</strong><span>UPVOTES · ${p.comments || 0} COMMENTS</span></div>
+    </div>
+    <div class="feature-body">
+      <p>${intro(p)}</p>
+      <dl class="feature-meta">
+        <div><dt>Category</dt><dd>${(p.buckets || []).map((x) => topicLabel[x] || x).join(" · ") || "其他"}</dd></div>
+        <div><dt>Topics</dt><dd>${(p.topics || []).slice(0, 5).join(" · ") || "暂无标签"}</dd></div>
+        <div><dt>Featured</dt><dd>${p.featured === false ? "否" : "是"}</dd></div>
+      </dl>
+    </div>
+    <div class="feature-actions">
+      <a href="${siteUrl(p)}" target="_blank" rel="noreferrer">访问官网</a>
+      <a href="${phUrl(p)}" target="_blank" rel="noreferrer">Product Hunt</a>
+    </div>`;
+  els.list.querySelectorAll(".product-row").forEach((row) => row.classList.toggle("active", row.dataset.id === state.selectedId));
+  if (scroll && matchMedia("(max-width: 780px)").matches) $(".feature-column").scrollIntoView({ behavior: "smooth" });
 }
 
 function render() {
   renderMeta();
-  els.list.replaceChildren(...state.filtered.map(renderProduct));
-  els.empty.hidden = state.filtered.length !== 0;
-  els.summary.textContent = `显示 ${state.filtered.length} / ${state.products.length} 个产品`;
+  state.filtered = state.products.filter(productMatches).sort((a, b) => (a.rank || 999) - (b.rank || 999));
+  els.list.replaceChildren(...state.filtered.map(renderRow));
+  els.empty.hidden = state.filtered.length > 0;
+  els.summary.textContent = `${state.filtered.length} / ${state.products.length} PRODUCTS`;
+  const selected = state.filtered.find((p) => productId(p) === state.selectedId) || state.filtered[0];
+  if (selected) selectProduct(selected, false);
+  else els.detail.innerHTML = "";
 }
 
-function bindEvents() {
-  els.search.addEventListener("input", (event) => {
-    state.query = event.target.value;
-    applyFilters();
-  });
-
-  els.topicFilters.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-topic]");
-    if (!button) return;
-    state.activeTopic = button.dataset.topic;
-    els.topicFilters.querySelectorAll(".segment").forEach((segment) => {
-      segment.classList.toggle("active", segment === button);
-    });
-    applyFilters();
-  });
+function getRequestedDate() {
+  const date = new URLSearchParams(location.search).get("date");
+  return /^\d{4}-\d{2}-\d{2}$/.test(date || "") ? date : "";
 }
 
 async function loadProducts() {
   try {
-    let dataUrl = DATA_URL;
-    const requestedDate = getRequestedDate();
-    try {
-      const indexResponse = await fetch(ISSUES_URL, { cache: "no-store" });
-      if (indexResponse.ok) {
-        const indexData = await indexResponse.json();
-        state.issues = Array.isArray(indexData.issues) ? indexData.issues : [];
-        const targetDate = requestedDate || indexData.latest || state.issues[0]?.date || "";
-        if (targetDate) dataUrl = getIssueUrl(targetDate);
-      }
-    } catch {
-      if (requestedDate) dataUrl = getIssueUrl(requestedDate);
-    }
-
-    const response = await fetch(dataUrl, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
+    const index = await fetch(ISSUES_URL, { cache: "no-store" }).then((r) => r.json());
+    state.issues = index.issues || [];
+    const date = getRequestedDate() || index.latest || state.issues[0]?.date;
+    const issue = state.issues.find((x) => x.date === date);
+    const data = await fetch(issue?.url || DATA_URL, { cache: "no-store" }).then((r) => r.json());
     state.meta = data.meta || {};
-    state.products = Array.isArray(data.products) ? data.products : [];
-    applyFilters();
-  } catch (error) {
-    state.meta = {
-      date: new Date().toISOString().slice(0, 10),
-      lastUpdated: null,
-      status: "fallback",
-    };
-    state.products = [];
-    state.filtered = [];
+    state.products = data.products || [];
+    state.selectedId = productId(state.products[0] || {});
     render();
-    els.summary.textContent = "数据文件未能载入";
-    els.empty.hidden = false;
-    els.empty.querySelector("strong").textContent = "数据暂时不可用";
-    els.empty.querySelector("p").textContent = "请检查 data/products.json 是否存在，或稍后重试。";
+  } catch (error) {
     console.error(error);
+    els.summary.textContent = "数据暂时不可用";
+    els.empty.hidden = false;
   }
 }
 
-bindEvents();
+els.search.addEventListener("input", (event) => { state.query = event.target.value; render(); });
+els.topics.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-topic]");
+  if (!button) return;
+  state.activeTopic = button.dataset.topic;
+  els.topics.querySelectorAll(".segment").forEach((x) => x.classList.toggle("active", x === button));
+  render();
+});
+els.save.addEventListener("click", () => {
+  if (!state.selectedId) return;
+  state.saved.has(state.selectedId) ? state.saved.delete(state.selectedId) : state.saved.add(state.selectedId);
+  localStorage.setItem("ph-cn-saved", JSON.stringify([...state.saved]));
+  const p = state.products.find((x) => productId(x) === state.selectedId);
+  if (p) selectProduct(p, false);
+});
+
 loadProducts();
