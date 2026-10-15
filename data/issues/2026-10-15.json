@@ -1,0 +1,579 @@
+{
+  "meta": {
+    "date": "2026-10-15",
+    "productHuntDate": "2026-10-14",
+    "lastUpdated": "2026-10-15T14:07:25.887Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "15",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Pancake",
+      "tagline": "The Vercel for GTM",
+      "summaryZh": "GTM 领域的 Vercel",
+      "descriptionZh": "Pancake 是 GTM 领域的 Vercel。它为你提供构建模块，让你能通过自己常用的 AI 代理（如 Claude 或 Codex）部署任何 go-to-market 想法：一个 GTM Brain、发送基础设施，以及 40 多个数据提供商和数据丰富服务，全部通过一个 MCP 连接即可访问。",
+      "description": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection.",
+      "thumbnail": "https://ph-files.imgix.net/97c3d3e6-3484-4fe5-9a56-bf795d31eaa5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d77de011-9237-4f78-bedc-3e03372e2824.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 561,
+      "comments": 77,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 1,
+      "topics": [
+        "Sales",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Inferock",
+      "tagline": "Serverless inference, with credits back for failed calls.",
+      "summaryZh": "无服务器推理，调用失败返还积分。",
+      "descriptionZh": "注册即获免费额度，可在 Inferock 上使用所有可用模型。自带密钥：接入你的 OpenAI、Claude 或 Gemini 账户，查看调用在哪里失败、花费多少，符合条件的失败调用还可返还额度。无服务器：按 token 付费的 LLM 推理。注册即获额度，马上开始使用。",
+      "description": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using.",
+      "thumbnail": "https://ph-files.imgix.net/7a48325f-d5b7-4547-9aaf-aae3b709d967.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/274f2b0d-879c-4503-970a-1b8da617f155.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/Q5YAUE7WHFYYB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 394,
+      "comments": 46,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 2,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Retriever AI",
+      "tagline": "Free AI browser agent: find leads, reach out, apply to jobs",
+      "summaryZh": "免费AI浏览器代理：寻找潜在客户、联系沟通、申请职位",
+      "descriptionZh": "Retriever 是一款免费的 AI 浏览器代理，能跨网站完成工作。你可以让它寻找潜在客户并发送外联，为下一次营销活动筛选 TikTok 和 Instagram 创作者，或者申请工作。任务可在你自己的 Chrome 浏览器中运行，也可在 rtrvr 托管的云浏览器中运行。它在准确性上胜过 OpenAI、Anthropic 和 Muse，运行速度快 5 倍，成本低 300 倍。",
+      "description": "Retriever is a free AI browser agent that finishes work across websites. Ask it to find leads and send outreach, shortlist TikTok and Instagram creators for your next campaign, or apply to jobs. Run tasks in your own Chrome browser or in cloud browsers hosted by rtrvr. It beats OpenAI, Anthropic, and Muse on accuracy, runs 5x faster, and costs 300x less.",
+      "thumbnail": "https://ph-files.imgix.net/9c8e2898-8610-4813-bbe9-d5a5f51f72e9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/63240eff-1bee-463a-aa93-e005a496c9a5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/WYCLMV7ALKHIUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 224,
+      "comments": 33,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Chrome Extensions",
+        "Productivity",
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Tiden",
+      "tagline": "Intent verification for coding agents",
+      "summaryZh": "编码代理的意图验证",
+      "descriptionZh": "Tiden 验证你的编码代理是否构建了你真正要求的东西。大多数检查在编写代码的会话内运行，因此测试从构造上就与代码一致。Tiden 将你的意图保留为像代码一样分支和合并的需求，并对照该记录检查每一次变更。结论来自在你的环境中运行的测试；没有模型为差异评分。由你决定什么可以合并，生产错误可追溯到发布版本。可与 Claude Code、Cursor、Codex 和 Copilot 协同工作。",
+      "description": "Tiden verifies your coding agents built what you actually asked for. Most checks run inside the session that wrote the code, so the tests agree with it by construction. Tiden keeps your intent as requirements that branch and merge like code, and checks every change against that record. The verdict comes from tests run in your environment; no model grades the diff. You decide what merges, and production errors trace back to the release. Works beside Claude Code, Cursor, Codex and Copilot.",
+      "thumbnail": "https://ph-files.imgix.net/75eab5b8-2f1b-4cf3-91f5-575e00d04650.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/02ae7261-0004-43a4-a699-223180ea44d8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KLWVRGQPBSK7MC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 203,
+      "comments": 37,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Software Engineering",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "daily.dev for agents",
+      "tagline": "Where agents discover what's next",
+      "summaryZh": "智能体在此发现未来方向",
+      "descriptionZh": "daily.dev 是数百万开发者了解前沿动态的地方。现在，你的智能体也能做到。连接 Claude、Cursor、Codex 或任意 MCP 客户端，即可阅读个性化信息流、搜索帖子、从讨论中学习、保存书签并调整你的信息流。此外，还有插件市场和应用生态。你的智能体现在可以阅读 daily.dev 了！！",
+      "description": "daily.dev is where millions of developers find out what's next. Now your agent can too. Connect Claude, Cursor, Codex or any MCP client to read personalized feeds, search posts, learn from discussions, save bookmarks and tune your feed. In addition, plugin marketplace and apps ecosystem. YOUR AGENTS CAN READ daily.dev NOW!!",
+      "thumbnail": "https://ph-files.imgix.net/946909a1-6f76-4b14-8c6b-56046f6e02b5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/a6f3ab54-d016-40f1-8829-8e3f3bc332b8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2DYUSJYPHY2MIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 204,
+      "comments": 14,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 5,
+      "topics": [
+        "News",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "AdAnt 2.0",
+      "tagline": "Muse for Social Media Marketing",
+      "summaryZh": "社交媒体营销的缪斯",
+      "descriptionZh": "AdAnt AI 是你的主动型 24/7 社交媒体营销团队。Strategist 在 TikTok、Instagram、YouTube 和 Meta Ads 上研究你的细分领域，并撰写行之有效的内容策略。Creator 将每一项策略转化为一批视频。Analyst 在 X 和 Reddit 上倾听值得参与的对话。Manager 规划日历并发布内容。基于我们创始团队所使用的策略，这些策略曾带来超过 1 亿次自然浏览量，并将付费获客成本平均降低 60%。",
+      "description": "AdAnt AI is your proactive, 24/7 social media marketing team. The Strategist researches your niche on TikTok, Instagram, YouTube and Meta Ads and writes content strategies that work. The Creator turns every strategy into a batch of videos. The Analyst listens on X and Reddit for conversations worth joining. The Manager plans the calendar and posts. Built on the strategies our founding team used to generate 100M+ organic views and cut paid acquisition costs by 60% on average.",
+      "thumbnail": "https://ph-files.imgix.net/df5d768c-62aa-4fdc-9357-88916a232548.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/a6518089-3b02-41c7-87f9-58300843ef25.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/P2S3Z4QRV2ANYE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 180,
+      "comments": 41,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 6,
+      "topics": [
+        "Social Media",
+        "Marketing",
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Reason",
+      "tagline": "A state-of-the-art coding agent for cost efficiency",
+      "summaryZh": "一个面向成本效率的先进编码代理",
+      "descriptionZh": "Reason 是最好的编码智能体，无论云端还是本地。给它一个任务，它就会编写代码、运行测试并提交拉取请求。你可以通过 Mac 应用、终端、网页或 Slack 使用 Reason，并自由选择模型和已连接的订阅。在自己的电脑上免费开始。我们发布的 GPT-6 Astra 评估在 Coding Agent Index 上得分为 65.1，而 Codex 为 62.5，且每个已解决任务的成本低 22%。",
+      "description": "Reason is the best coding agent, in the cloud or locally. Give it a task and it writes code, runs tests and opens a pull request. Use Reason from the Mac app, terminal, web or Slack, with your choice of models and connected subscriptions. Start free on your own computer. Our published GPT-6 Astra evaluation scores 65.1 on the Coding Agent Index vs Codex’s 62.5, at 22% lower cost per solved task.",
+      "thumbnail": "https://ph-files.imgix.net/f9c4e7bb-fbd3-4547-80eb-9b912d7983c4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/da914d3d-a75e-455b-9b88-0aeba55195ef.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ACZF6BMTUGELS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 111,
+      "comments": 16,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Exodus for Google Cloud Run",
+      "tagline": "Upgrade any app to Cloud Run, with your coding agent",
+      "summaryZh": "将任何应用升级到 Cloud Run，借助你的编码代理",
+      "descriptionZh": "Cloud Run 是 Google 的托管平台：无需照看服务器，负载下几秒内即可启动新副本，只在代码运行时计费。Exodus 借助你的编码代理（Claude Code、Codex、Cursor）将应用迁移到那里：它会在你的机器上检查应用，展示你当前和迁移到 Cloud Run 后的费用以及需要改动的地方，依据 50 多个来自真实迁移的 playbook。随后代理会逐项完成任务，或为 Cloud Run 设计一个新应用。免费且开源。今天就在你的仓库上试试吧。",
+      "description": "Cloud Run is Google's managed platform: no servers to look after, new copies in seconds under load, a bill only while your code works. Exodus takes your app there with your coding agent (Claude Code, Codex, Cursor): it checks the app on your machine, shows what you pay today and on Cloud Run and what to change, by 50+ playbooks from real moves. Then the agent makes the move, task by task, or designs a new app for Cloud Run. Free and open source. Try it on your repo today.",
+      "thumbnail": "https://ph-files.imgix.net/d0a2afe3-9645-4be4-b2b3-e95a7b8cde4c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/96c9029d-f256-4cfb-b7f9-1c0e84be40fa.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/exodus-by-elim-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DKRZ5SVMJ577ZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 111,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "AirJelly",
+      "tagline": "Your Proactive, Self-Organizing Second Brain",
+      "summaryZh": "你的主动型、自组织第二大脑",
+      "descriptionZh": "AirJelly 是一款常驻桌面的 AI 智能体，主动捕捉你的意图，整理你的任务，并推动事情完成。通过观察你的屏幕活动，它了解你是谁、你在做什么。它不仅能发现你的待办事项，还能预判下一步并采取行动。它还会追踪你的人际互动，让你不会错过任何跟进事项或忘记承诺。你生活中的一切由 AirJelly 管理，从而释放你的时间，去做 AI 无法完成的事，或者单纯用来享受生活。",
+      "description": "AirJelly is an always-on desktop AI agent that proactively captures your intent, organizes your tasks, and gets things done. By observing your on-screen activities, it knows who you are and what you're working on. It doesn't just spot your to-dos — it foresees what's next and acts. It also tracks your personal interactions, so you'll never miss a follow-up or forget a promise. Everything in your life is managed by AirJelly — freeing your time for what AI can't do, or simply for you to enjoy.",
+      "thumbnail": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d6389614-0e06-4bd1-a708-a50a964e4443.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 104,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 10,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Virtual Assistants"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Specreel",
+      "tagline": "Product demos that update themselves",
+      "summaryZh": "会自我更新的产品演示",
+      "descriptionZh": "粘贴你的应用 URL，Specreel 会在真实浏览器中走查，将你的关键流程转化为带旁白、可分享的演示。已经在用 Playwright？它会在每次绿色构建时从你的测试追踪中渲染演示，因此演示不会过时。开源 CLI + 托管云服务。",
+      "description": "Paste your app's URL and Specreel walks it in a real browser, turning your key flows into narrated, shareable demos. Already on Playwright? It renders them from your test traces on every green build, so a demo can't go stale. Open-source CLI + hosted Cloud.",
+      "thumbnail": "https://ph-files.imgix.net/266ee1c9-c18b-4713-8c47-6d35a6ad68c9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f2f4e192-2c3e-447c-be9a-962c47450061.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/specreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GR4O6J6QXTMJRM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 102,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Open Source",
+        "Marketing",
+        "Developer Tools",
+        "GitHub",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Microsoft Maia 300",
+      "tagline": "Microsoft’s own AI chip, headed to multi-gigawatts",
+      "summaryZh": "微软自研AI芯片，迈向多吉瓦规模",
+      "descriptionZh": "Maia 300是微软的下一代AI推理平台，于2026年10月12日发布。据微软称，它面向长上下文推理、低延迟对话和智能体构建，配备8个HBM4堆栈、台积电N2P计算芯粒和96加速器机架。微软声称每兆瓦token数提升40%。2027年开始量产，Azure Maia可扩展至数吉瓦部署，成为微软产品的主要推理系统。",
+      "description": "Maia 300 is Microsoft’s next-generation AI inference platform, announced Oct 12, 2026. Per Microsoft, it’s built for long-context reasoning, low-latency conversation, and agents, with 8 HBM4 stacks, TSMC N2P compute chiplets, and 96-accelerator racks. Microsoft claims 40% more tokens per megawatt. Production starts in 2027, and Azure Maia scales to multi-gigawatt deployments, becoming the main inference system for Microsoft’s products.",
+      "thumbnail": "https://ph-files.imgix.net/cf060f9b-bfef-4d17-8aae-d3a2587a66f3.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d2c1b210-4c8a-4491-846d-54396f7787bc.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/microsoft-maia-300?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/24TA7VNSGXFMYN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 93,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Hardware",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Rambox",
+      "tagline": "Ready-to-use workspaces as you switch tasks and contexts",
+      "summaryZh": "切换任务和场景时，工作区即开即用",
+      "descriptionZh": "Rambox 重大重新设计，致力于让日常工作更简单、更快捷、更易于导航。新界面减少了操作阻力，减少了在应用、工作区、任务和上下文之间切换所需的点击次数，同时重新设计的入门体验让 Rambox 更易于设置和理解。此版本还增加了对所需内容的更快访问、改进的标签页和上下文持久性、统一搜索、快速查看、命令中心以及新的专注工具。",
+      "description": "A major Rambox redesign focused on making everyday work simpler, faster and easier to navigate. The new interface reduces friction and the number of clicks needed to move between apps, workspaces, tasks and contexts, while a redesigned onboarding experience makes Rambox easier to set up and understand. This release also adds faster access to what you need, improved tabs and context persistence, Unified Search, Quick View, Command Center and new focus tools.",
+      "thumbnail": "https://ph-files.imgix.net/66bb04f2-5e07-4a41-898e-419834f240aa.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/396549b9-e107-4d99-8742-6e0196d549a6.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/rambox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EITQX65ISUJ222?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 91,
+      "comments": 18,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Productivity",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Nimble",
+      "tagline": "SOTA Decision Model",
+      "summaryZh": "SOTA决策模型",
+      "descriptionZh": "今天，我们发布Nimble-v4和Nimble-v4-max，它们正在推动决策模型的前沿，表现优于Jev及其他变体。在Decision Index公开评分中，我们的nimble-v4-max模型和nimble-v4模型分别比Jev 1.13高出+10.5和+5.74，使nimble-v4-max成为表现最佳的模型。除基准测试外，我们进行了大量内部评估，并看到显著改进：错误比Jev减少43%，模型路由决策提升+50个百分点，等等。免费试用：console.bespokelabs.ai",
+      "description": "Today, we are announcing Nimble-v4 and Nimble-v4-max which are pushing the frontier of decision models, outperforming Jev and other variants. On Decision Index public scores, our nimble-v4-max model and nimble-v4 models score +10.5 and +5.74 against Jev 1.13, making nimble-v4-max a top performing model. Beyond benchmarks, we have done a lot of internal evals, and see big improvements: 43% fewer mistakes than Jev, +50pp on model routing decisions, and so on. Try for free: console.bespokelabs.ai",
+      "thumbnail": "https://ph-files.imgix.net/66b6a707-1e6d-4826-9adb-f31d82155874.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/9badb985-c7dd-401b-93a9-5791a041a17e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/nimble-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KIVORSGOXVIOSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 84,
+      "comments": 11,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Mira Tours",
+      "tagline": "AI Walking Tour Guide",
+      "summaryZh": "AI步行导览",
+      "descriptionZh": "Mira是你的AI导游。在世界任何地方进行徒步语音导览：通过聊天打造专属路线，或者直接开始漫步，聆听身边地点的故事。",
+      "description": "Mira is your AI tour guide. Walking audio tours, anywhere in the world: chat to build your own, or just start walking and hear the story of the places around you.",
+      "thumbnail": "https://ph-files.imgix.net/857069cb-cb94-43ba-8bec-f945131fc773.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/146abda5-f7f0-44c0-8d2e-e50dd9b092d1.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/mira-tours?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7SPLOKPPLSTOIM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 83,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 15,
+      "topics": [
+        "Android",
+        "Travel",
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Winq",
+      "tagline": "Control your Mac with a look and a wink",
+      "summaryZh": "用眼神和眨眼控制你的 Mac",
+      "descriptionZh": "注视焦点切换：看向某个窗口，它就会成为活动窗口。单眼眨眼点击：左眼眨眼和右眼眨眼是各自独立的操作。面部手势快捷键：将手势映射到你最常用的操作。刘海岛：刘海区域的小型实时指示器会显示 Winq 检测到的内容。无需额外硬件：使用 Mac 内置摄像头即可，只需进行一次简短的引导校准。隐私优先设计：所有面部追踪都在你的 Mac 上运行，没有任何视频离开设备。",
+      "description": "Gaze focus switching: look at a window and it becomes the active one. Per-eye wink clicks: left wink and right wink are separate actions. Face-gesture shortcuts: map gestures to the actions you use most. Notch island: a small live indicator in the notch area shows what Winq detected. No extra hardware: it works with your Mac’s built-in camera, with a short guided calibration. Private by design: all face tracking runs on your Mac, and no video leaves the device.",
+      "thumbnail": "https://ph-files.imgix.net/9cffe7e9-8ef4-4e9e-bdaf-eabf813dccda.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/c4f4a397-5dba-4724-a393-a08569aa029e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/winq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PGBVUCJNHZOCWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 84,
+      "comments": 13,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 16,
+      "topics": [
+        "Productivity",
+        "User Experience",
+        "Tech",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Table Canon",
+      "tagline": "Automated notes, searchable history, prep ideas for GMs",
+      "summaryZh": "自动笔记、可搜索的历史记录、为GM准备的构思",
+      "descriptionZh": "专注于游戏进程，而非记笔记。用可搜索的记忆库简化你的准备时间，记录桌上发生的一切。Table Canon 将上传的游戏之夜音频转化为回顾、大纲、实体档案、可搜索索引，以及为桌面角色扮演游戏主持人准备的构思。记忆随每次游戏不断演进。无需注册即可开始，免费上传6小时音频！告诉我你在 Product Hunt 上看到了发布消息，我将为你的账户额外充值10小时。",
+      "description": "Focus on the session, not note taking. Simplify your prep time with a searchable memory-bank of what happened at your table. Table Canon turns uploaded game-night audio into a recap, outline, entity dossiers, searchable index, and prep ideas for tabletop RPG game masters. Memory evolves each session. No sign up required to get started, 6 hours of audio upload free! Message me that you saw the launch on Product Hunt and I’ll credit your account with an extra 10 hours.",
+      "thumbnail": "https://ph-files.imgix.net/13e07dd1-4784-4d4c-b7e0-c28c946434b4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/220cdafa-1d02-4596-a1b0-9c7750e4dc6f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/CJNX6OVU3UTFYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 17,
+      "topics": [
+        "Productivity",
+        "RPGs",
+        "Games",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Make0 Brain",
+      "tagline": "A memory store that works across all of your AI agents.",
+      "summaryZh": "一个适用于你所有AI代理的记忆存储。",
+      "descriptionZh": "Make0 Brain 是一个个人记忆存储，可在 ChatGPT、Claude、Cursor 及其他兼容 MCP 的 AI 工具之间通用。AI 代理可以读写这些记忆，并与你的个人上下文保持同步。它就像记忆版的 Dropbox——专为代理使用而打造。你只需 2 分钟即可轻松构建自己的大脑，方式包括从 Claude、ChatGPT 导入对话，甚至直接拖入 Markdown 文件和文档。",
+      "description": "Make0 Brain is a personal memory store that works across ChatGPT, Claude, Cursor, and other MCP-compatible AI tools. AI agents can read and write to this memory and be in sync with your personal context. It is like dropbox but for memories - specifically built for agents to use. You can easily build your brain in just 2 minutes by importing your conversations from Claude, ChatGPT and even dropping your markdown files and documents.",
+      "thumbnail": "https://ph-files.imgix.net/536789a7-7430-4ef7-96a0-ed092dc79fd8.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/cbbd9704-c41b-406e-9fec-f9f2694938e1.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/make0-brain?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7H3KVAWJJDBJQ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 82,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 18,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Epherem",
+      "tagline": "Find login and database flaws in your AI-built app",
+      "summaryZh": "在你的AI构建的应用中查找登录和数据库漏洞",
+      "descriptionZh": "Epherem 是一款免费的源代码安全扫描器，适用于用 AI 构建的应用。它检查涉及身份验证、数据库访问、暴露的 API 密钥和易受攻击的软件包等常见安全问题。上传 ZIP 文件或连接 GitHub 仓库即可扫描你的应用。扫描结果包含通俗易懂的解释、修复建议，以及可粘贴到 Claude Code、Lovable 或 Cursor 中的提示词。报告还可导出，供你的 AI 编程助手审阅，其中包括扫描器无法验证的问题。",
+      "description": "Epherem is a free source code security scanner for apps built with AI. It checks for common security issues involving authentication, database access, exposed API keys and vulnerable packages. Upload a ZIP or connect a GitHub repository to scan your app. Findings include plain-English explanations, suggested fixes and prompts you can paste into Claude Code, Lovable or Cursor. Reports can also be exported for review with your AI coding assistant, including issues the scanner couldn't verify.",
+      "thumbnail": "https://ph-files.imgix.net/66fe8ed3-45cd-4016-a0a7-dcac717e854a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/697eab02-ca06-4bbe-ac32-61b10f760b5c.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/epherem?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YL7RFBRSIMGWCK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 78,
+      "comments": 7,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 19,
+      "topics": [
+        "Developer Tools",
+        "GitHub",
+        "Vibe coding",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Spinachi AI",
+      "tagline": "Personal AI health manager on Whatsapp ",
+      "summaryZh": "WhatsApp上的个人AI健康管家",
+      "descriptionZh": "你的健康，终于汇聚一处。在WhatsApp上转发你的化验报告。Spinachi为你和家人整理归档。看清你的健康状况、变化趋势，以及下次检查何时到期。无需应用。绝不提供诊断。",
+      "description": "Your health, finally in one place. Forward your lab reports on WhatsApp. Spinachi sorts them for you and your family. See where you stand, how it's changing, and when your next test is due. No app. Never a diagnosis.",
+      "thumbnail": "https://ph-files.imgix.net/52d23744-2f18-4c4b-82b2-5594e7512b31.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d31059a9-f466-41c0-a2b8-c060fab17f11.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/spinachi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ENXICIQMFEYCTP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 76,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-10-14T07:01:00Z",
+      "rank": 20,
+      "topics": [
+        "Health & Fitness",
+        "Messaging",
+        "Artificial Intelligence",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    },
+    {
+      "name": "Confidence by Spotify ",
+      "tagline": "Build products at full speed, with both hands on the wheel",
+      "summaryZh": "全速打造产品，双手紧握方向盘",
+      "descriptionZh": "Confidence 是 Spotify 打造的产品情报平台。Spotify 构建产品的方法始终将数据与判断力和品味相结合，而 Confidence 正是将这种科学严谨性带给客户。Confidence 源于实验，但这如今已成为更宏大叙事的一部分。Confidence 分析你的用户信号，呈现有效之处，建议下一步行动，并在发布前验证假设。你始终参与其中，对关键举措予以批准。",
+      "description": "Confidence is a product intelligence platform built by Spotify. Spotify's approach to building products has always combined data with judgment and taste, and that scientific rigor is what Confidence brings to customers. Confidence is born from experimentation, but that’s now part of a wider story. Confidence analyzes your user signals, surfaces what's working, suggests the next move, and validates the hypothesis before it ships. You stay in the loop and approve the moves that matter.",
+      "thumbnail": "https://ph-files.imgix.net/0119dba6-9fcd-48bf-8092-d651f7d76a67.x-icon?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e9bfa8fb-5020-4288-9217-209c5f5a908e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MGDVIGENYLUYIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 125,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-10-14T13:36:15Z",
+      "rank": 7,
+      "topics": [
+        "Analytics",
+        "A/B Testing",
+        "SaaS"
+      ],
+      "buckets": [],
+      "date": "2026-10-15",
+      "productHuntDate": "2026-10-14",
+      "lastUpdated": "2026-10-15T14:07:25.887Z"
+    }
+  ]
+}
