@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-17",
-    "productHuntDate": "2026-10-16",
-    "lastUpdated": "2026-10-17T12:55:02.853Z",
+    "date": "2026-10-18",
+    "productHuntDate": "2026-10-17",
+    "lastUpdated": "2026-10-18T13:12:40.303Z",
     "status": "live",
     "source": "producthunt-api-v2",
     "timezone": "Asia/Shanghai",
@@ -11,56 +11,27 @@
     "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
     "issues": [
       {
-        "day": "17",
+        "day": "18",
         "title": "产品灵感日报 · 20 个新品"
       }
     ]
   },
   "products": [
     {
-      "name": "Jockey by TwelveLabs",
-      "tagline": "Your entire video library: organized, searchable, understood",
-      "summaryZh": "你的整个视频库：井然有序、可搜索、可理解",
-      "descriptionZh": "Jockey 是首个能理解你整个媒体库（涵盖照片和视频）的 AI。它分析数千小时的素材，让你能在视频中查找并关联人物、时刻和上下文。可在 Claude 或 ChatGPT 中使用，也可通过 API/SDK 构建。导入 YouTube、TikTok 和 Instagram Reels 链接；将内容合成为 MP4；创建并分享带可播放片段的视频驱动工件。每次 TwelveLabs 模型升级都会让 Jockey 变得更好，无需重新集成。",
-      "description": "Jockey is the first AI that understands your entire media library across photos and video. It analyzes thousands of hours of footage so you can find and connect people, moments and context across videos. Use it in Claude or ChatGPT, or build with the API/SDK. Ingest YouTube, TikTok and Instagram Reels links; assemble content into MP4s; and create and share video-driven artifacts with playable clips. Every TwelveLabs model upgrade makes Jockey better, without re-integration.",
-      "thumbnail": "https://ph-files.imgix.net/4ad9e370-d353-4eca-a339-a783eaf4d5af.gif?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/18985122-061d-4872-8db4-3b819ca49b15.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/H3AVDIX7A2JROL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 412,
+      "name": "NitroStack",
+      "tagline": "Build, test, and deploy MCP servers in one place",
+      "summaryZh": "在一个地方构建、测试和部署 MCP 服务器",
+      "descriptionZh": "NitroStack 是用于构建生产级 MCP 服务器和 AI 应用的全栈平台。使用开源 TypeScript 与 Python SDK 构建，在 NitroStack Studio 中可视化测试与调试，通过 NitroStack Workflow 编排智能体工作流，在 NitroStack Cloud 上部署，并用 NitroStack Chat 交付品牌化体验。认证、测试、部署与前端保持在同一工作流中。可连接 ChatGPT、Claude 及其他 AI 客户端。已为 80,000+ 个 MCP 服务器提供支持。",
+      "description": "NitroStack is the full-stack platform for building production-ready MCP servers and AI apps. Build with open-source TypeScript & Python SDKs, test and debug visually in NitroStack Studio, orchestrate agent workflows with NitroStack Workflow, deploy on NitroStack Cloud, and ship branded experiences with NitroStack Chat. Auth, testing, deployment and frontend stay in one workflow. Connect to ChatGPT, Claude and other AI clients. Powering 80,000+ MCP servers.",
+      "thumbnail": "https://ph-files.imgix.net/435e7137-2641-4c1c-98eb-f5b3728fd0a8.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/5e19b60e-627e-4cba-a56b-afe217d6e2c1.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/nitrostack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NFV7LZ6PHSL5AT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 295,
       "comments": 29,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
+      "publishedAt": "2026-10-17T07:01:00Z",
       "rank": 1,
-      "topics": [
-        "Productivity",
-        "Artificial Intelligence",
-        "Video"
-      ],
-      "buckets": [
-        "ai",
-        "productivity",
-        "design"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Harness by Autonomous",
-      "tagline": "Every coding agent, every machine, one command center.",
-      "summaryZh": "每个编码代理、每台机器，一个指挥中心。",
-      "descriptionZh": "Harness 是面向编码代理的开源指挥中心。Claude Code 用于工作，Codex 用于家庭，Hermes 用于云端：每台机器上的每个代理，并排呈现。使用原生桌面应用、终端中的 hn，或 iOS 和 Android 应用，通过语音回复代理。端到端加密。然后借助 49 个用于 CAD、电路、机器人、游戏和音乐的 harness，超越代码。在 Mac 和 Linux 上免费。",
-      "description": "Harness is the open-source command center for coding agents. Claude Code at work, Codex at home, Hermes in the cloud: every agent on every machine, side by side. Use the native desktop app, hn in your terminal, or the iOS and Android app to answer agents by voice. End-to-end encrypted. Then go beyond code with 49 harnesses for CAD, circuits, robots, games and music. Free on Mac and Linux.",
-      "thumbnail": "https://ph-files.imgix.net/8dd4ace8-4774-4e1c-9f3d-9ce6674a82db.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/529d55db-7a43-4dec-bfa2-defd01c6605b.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/harness-by-autonomous?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/DTWJQ55RR225ZD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 325,
-      "comments": 27,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 2,
       "topics": [
         "Open Source",
         "Developer Tools",
@@ -71,54 +42,137 @@
         "ai",
         "developer"
       ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "SignWith",
-      "tagline": "E-signatures without the subscription. Pay per doc.",
-      "summaryZh": "无需订阅的电子签名。按文档付费。",
-      "descriptionZh": "每月免费签署3份文件，之后可购买一次性积分包，起价9美元。每个账户均包含签署顺序、邮件OTP验证、审计追踪和完成证书。可通过应用、API，或使用MCP的Claude、ChatGPT等AI助手发送。",
-      "description": "Sign 3 documents free every month, then buy one-time credit packs from $9. Every account gets signing order, email OTP verification, audit trail and certificate of completion. Send from the app, the API, or AI assistants like Claude and ChatGPT using the MCP.",
-      "thumbnail": "https://ph-files.imgix.net/0a009e3c-b630-4961-9873-0f9e10fc13dc.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/47ecf72e-565a-4a25-9a7a-9eb1508d020a.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/signwith?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/IKNOVOIOYZFRKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 213,
-      "comments": 36,
+      "name": "Caldera",
+      "tagline": "Your Obsidian vault as a living profile and linked garden",
+      "summaryZh": "你的 Obsidian 库是一个动态的个人档案与互联花园",
+      "descriptionZh": "Caldera 将你的 Obsidian 库变成一个自动更新的公开页面，以及一座你在公众视野中培育的数字花园。种下一篇笔记，它就会成为一个页面，标记为 seedling、budding 或 evergreen，并附上你选择的许可证。链接到朋友花园中的一篇笔记，反向链接就会出现在对方的页面上。默认私密：除非你主动选择，否则任何内容都不会离开你的库，联系方式会被移除。免费、开源且可自托管。",
+      "description": "Caldera turns your Obsidian vault into a public page that updates itself, and a digital garden of notes you grow in public. Plant a note and it becomes a page marked seedling, budding or evergreen, with a license you choose. Link to a note in a friend's garden and the backlink appears on theirs. Private by default: nothing leaves your vault unless you choose it, and contact details are stripped. Free, open source and self-hostable.",
+      "thumbnail": "https://ph-files.imgix.net/9ddfe38e-133a-4257-8d46-60ee70a63150.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/2c80407b-287d-44aa-9de0-4d61a0f00a9d.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/caldera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2JSRELYQXYA53W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 191,
+      "comments": 22,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 4,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 2,
       "topics": [
         "Productivity",
-        "SaaS",
-        "Legal"
+        "Notes",
+        "GitHub"
       ],
       "buckets": [
+        "developer",
         "productivity"
       ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "Pomerado",
-      "tagline": "Turn any website into an API; Faster & reliable browser use",
-      "summaryZh": "将任何网站转化为API；更快速、可靠的浏览器使用体验",
-      "descriptionZh": "Pomerado 能在几分钟内将任何网站转化为 MCP / API。通过将以往难以访问的网站（如 Google Flights、Zillow、Instacart、遗留门户）转化为智能体的原生工具，实现全面自动化。我们的开源工具负责构建、托管、认证并维护你的集成，让你专注于构建。",
-      "description": "Pomerado turns any website into a MCP / API in minutes. Automate everything by turning previously inaccessible websites (like Google Flights, Zillow, Instacart, legacy portals) into native tools for your agents. Our open-source tool builds, hosts, authenticates, and maintains your integrations, so you can focus on building.",
-      "thumbnail": "https://ph-files.imgix.net/ba981b0d-a39a-4b37-af33-c8198697d818.svg?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/45143ee2-d179-423f-a5ed-25d12dd682af.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/pomerado?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/VN2LP6GB4KYPXX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 171,
-      "comments": 17,
+      "name": "Notion: Context for your agents",
+      "tagline": "Switch AI agents without re-explaining your work",
+      "summaryZh": "切换 AI 代理，无需重新解释你的工作",
+      "descriptionZh": "Notion 3.8 将你的工作区变为团队所用每个 AI 代理的共享上下文层。与每次切换模型都从零开始的聊天工具不同，Notion 将你的文档、数据库和 Skills 集中在一处，任何 MCP 代理都能读取和更新。连接 Claude、ChatGPT 或任何 MCP 代理，将 Notion Agents 接入 150+ 工具，通过新的 Skills API 在所有位置同步 Skills，并在升级后的版本历史中查看每个代理的编辑。此外还有列权限和重建的同步数据库。",
+      "description": "Notion 3.8 turns your workspace into the shared context layer for every AI agent your team uses. Unlike chat tools that start from zero each time you switch models, Notion keeps your docs, databases, and Skills in one place any MCP agent can read and update. Connect Claude, ChatGPT, or any MCP agent, plug Notion Agents into 150+ tools, sync Skills everywhere with the new Skills API, and see every agent edit in upgraded version history. Plus column permissions and rebuilt synced databases.",
+      "thumbnail": "https://ph-files.imgix.net/ff3e2acf-884a-4f4c-a383-6edfe3de0d88.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/fd5e596d-3937-4c8c-a7c8-e8c8f0d1b7f4.gif?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/notion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/6JUMUPF3NCHFPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 181,
+      "comments": 5,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Notion"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Emochi",
+      "tagline": "Voice journal to understand yourself through art and science",
+      "summaryZh": "用艺术与科学理解自我的声音日记",
+      "descriptionZh": "Emochi 将你的语音笔记转化为一个鲜活的生成式角色，映照你的情感世界。倾诉一天的经历，梳理思绪，或与自己对话。你的话语即时转写，帮助你觉察情绪模式。Emochi 由一位医生、一位设计师和两位 AI 工程师打造，将情感科学与趣味艺术融入私密、非临床的自我反思。从一段语音笔记开始，遇见你的 Mochi。",
+      "description": "Emochi turns your voice notes into a living, generative character that reflects your emotional world. Vent about your day, untangle a thought, or check in with yourself. Your words are transcribed instantly, helping you notice patterns in how you feel. Built by a doctor, a designer, and two AI engineers, Emochi brings affective science and playful art to private, non-clinical self-reflection. Start with a voice note. Meet your Mochi.",
+      "thumbnail": "https://ph-files.imgix.net/9a76b94d-5022-4931-ac22-2e629f56fecd.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/5affd85e-0b75-4a80-8dca-664fa98185ac.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/emochi-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YAJULXSMGNIKDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 157,
+      "comments": 16,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 4,
+      "topics": [
+        "iOS",
+        "Health & Fitness",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Train with Pasta",
+      "tagline": "A personal trainer powered by Apple Intelligence",
+      "summaryZh": "由 Apple Intelligence 驱动的私人教练",
+      "descriptionZh": "Pasta 是你口袋里的私人教练。说一句“30分钟上半身训练”，它就会为你量身打造。训练时，应用通过语音引导，让你能专注于全力突破自我。它还能制定计划！告诉它你的训练目标，它就会围绕你能训练的日子写出计划。该应用基于 Apple Intelligence 运行，无需账户。你的进度和健康数据保留在你的设备上。需要运行 iOS 27 且支持 Apple Intelligence 的 iPhone。",
+      "description": "Pasta is a personal trainer in your pocket. Ask for \"a 30 minute upper body workout\", and it'll build it for you. While you train, the app uses voice as a guide, so you can focus on pushing yourself hard. It does plans too! Tell it what you're training for and it writes a plan around the days you can train. The app runs on Apple Intelligence and needs no account. Your progress and health data stays on your device. Requires an iPhone with Apple Intelligence on iOS 27.",
+      "thumbnail": "https://ph-files.imgix.net/5bc5e36c-9f15-48c4-9d90-c8a6f8f89879.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3db92606-07c8-4c1d-aae6-5cb1f0c85805.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/train-with-pasta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RCYFVIP3UANWOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 130,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
       "rank": 5,
       "topics": [
-        "API",
+        "iOS",
+        "Health & Fitness",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Craft Agents",
+      "tagline": "The world's most powerful agents, with the UX they deserve",
+      "summaryZh": "全球最强大的智能体，配得上它们的用户体验",
+      "descriptionZh": "Craft Agents 完全开源，并在你的机器上本地运行——你的数据和密钥永远不会离开本机。可接入任意 AI 提供商：Claude、GPT、Gemini 或本地模型。智能体连接你实际使用的工具（MCP、API、本地文件），并在所有这些工具中执行操作。代码差异、数据表格、图表和实时预览均内联渲染。将结果转化为持久化的 Pages，教授可复用的 Skills，并按计划运行 Automations——这一切都在一个真正适合日常使用的桌面体验中完成。",
+      "description": "Craft Agents is fully open source and runs locally on your machine — your data and keys never leave it. Bring any AI provider: Claude, GPT, Gemini, or local models. Agents connect to your real tools (MCP, APIs, local files) and act across all of them. Code diffs, data tables, diagrams, and live previews render inline. Turn results into persistent Pages, teach reusable Skills, and run Automations on a schedule — all in a desktop UX you can actually live in.",
+      "thumbnail": "https://ph-files.imgix.net/d2dc3a33-894c-4ad6-ba3c-22994aa482fe.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e0266350-146a-43ef-82e8-0b61a9e64e25.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/craft-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ERP56R5DH2SM47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 114,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Open Source",
         "Developer Tools",
         "Artificial Intelligence",
         "GitHub"
@@ -127,434 +181,389 @@
         "ai",
         "developer"
       ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "Hintly for Google Meet™",
-      "tagline": "Real-time hints for every term you miss on Google Meet",
-      "summaryZh": "在Google Meet中，每当你错过一个术语，都会得到实时提示。",
-      "descriptionZh": "Hintly 会在 Google Meet 通话中有人提到术语、名称和事物后，随即进行解释。",
-      "description": "Hintly explains the terms, names and things people mention on your Google Meet calls, a moment after they come up.",
-      "thumbnail": "https://ph-files.imgix.net/814bafa3-8385-456f-a131-4f31bd9cbc6f.gif?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/c08b65d4-ec47-4e0a-8a39-2c57d96fef06.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/hintly-for-google-meet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/F6EPOLKJZA3EMU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 132,
-      "comments": 13,
+      "name": "GPU Terminal by Context.dev",
+      "tagline": "Compare GPU rental prices across cloud providers",
+      "summaryZh": "比较各云服务提供商的GPU租赁价格",
+      "descriptionZh": "GPU云定价分散在数十家提供商之间。GPU Terminal将近期的小时费率汇集到一个仪表盘中。选择你的GPU，比较各提供商的报价，探索价格历史，并查看原始来源。开源项目，由Context.dev构建。",
+      "description": "GPU cloud pricing is scattered across dozens of providers. GPU Terminal brings recent hourly rates into one dashboard. Pick your GPU, compare provider offers, explore price history, and check original sources. Open source and built by Context.dev.",
+      "thumbnail": "https://ph-files.imgix.net/67d3c38f-e5ee-4be9-97b1-8eda63e24a80.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e990aafa-d516-4377-9d00-8b724a034226.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DF6JU33ZTEEQI3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 110,
+      "comments": 1,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 6,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 8,
       "topics": [
-        "Chrome Extensions",
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Ultracite v8",
+      "tagline": "The linter and formatter for agentic development",
+      "summaryZh": "面向智能体开发的代码检查与格式化工具",
+      "descriptionZh": "现在大部分代码由智能体编写。Ultracite 是面向智能体开发的 linter 和格式化工具，为 Oxlint、Biome 和 ESLint 提供零配置预设，确保智能体编写的代码保持一致且类型安全。Ultracite 能在不到半秒内，依据数百条严格规则检查智能体的每次编辑，因此进入审查环节的是保持一致、类型安全的代码，而非粗制滥造的代码。OpenAI、Vercel、Mintlify 的工程团队以及数千个开源项目都在使用：ultracite.ai",
+      "description": "Agents write most of the code now. Ultracite is the linter and formatter for agentic development, a zero-config preset for Oxlint, Biome, and ESLint that keeps agent-written code consistent and type-safe. Ultracite checks every edit agents make against hundreds of strict rules in under half a second, so what reaches review is consistent, type-safe code instead of slop. Used by engineering teams at OpenAI, Vercel, Mintlify, and thousands of open source projects: ultracite.ai",
+      "thumbnail": "https://ph-files.imgix.net/54b6ab70-0eae-45f3-9020-762f6b00867f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/c74a1b2e-0d67-4b70-b926-911f7cebf36e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ultracite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/E3YR3RCT4JCACA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 109,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Draper",
+      "tagline": "Validate, plan, and launch a business, one step at a time.",
+      "summaryZh": "验证、规划并启动业务，一步一步来。",
+      "descriptionZh": "把你的想法变成真正的产品。用 Draper 验证你的想法是否站得住脚，然后推进后续步骤：商业计划、品牌、产品、落地页、首批客户——全部集中在一处完成。",
+      "description": "Turn your idea into a real product. Use Draper to find out if your idea holds up, and then work through the next steps: business plan, brand, product, landing page, first customers — all in one place.",
+      "thumbnail": "https://ph-files.imgix.net/82d12dea-a060-4c42-bc30-aaea2426e55d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/72248e8f-69af-4dc2-a916-bf2b2f9fe0e6.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/draper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SLX5LIXCHR32E2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 89,
+      "comments": 12,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Branding",
+        "Maker Tools",
+        "Startup Lessons"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Salience",
+      "tagline": "See every request to your website and how it responds.",
+      "summaryZh": "查看对您网站的每个请求及其响应方式。",
+      "descriptionZh": "Salience 将您已生成的服务器和 CDN 数据转化为对每个请求、响应和问题的实时视图，涵盖来自用户、搜索引擎和 AI 机器人的访问。",
+      "description": "Salience turns the server and CDN data you already generate into a live view of every request, response and issue, from people, search engines and AI bots.",
+      "thumbnail": "https://ph-files.imgix.net/9042a8e1-9fc2-4114-bb2f-3936890b6eea.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/c953c5cd-a82c-4274-bbf7-e3372f4e0c43.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/salience?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7LLDB2DFOQWGAZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 85,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Analytics",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Parrot",
+      "tagline": "Smart Meeting Assistant for Mac that helps during the call ",
+      "summaryZh": "Mac 上的智能会议助手，在通话过程中提供帮助",
+      "descriptionZh": "Parrot 是一款免费、开源的 Mac 会议记录工具，在通话过程中提供帮助，而非事后。没有机器人加入会议：它录制 Mac 听到的内容，并在设备上转写。当客户问到你的报价单或常见问题文档中涵盖的内容时，答案会连同其来源文件一起显示。通话结束后，你会收到一份关于所做承诺和遗漏问题的报告，并且可以与你的所有会议进行对话。可使用 Claude、通过 Ollama 运行的免费本地模型，或你自己的服务器。无需账户，无需订阅。",
+      "description": "Parrot is a free, open-source meeting recorder for Mac that helps during the call, not after it. No bot joins: it records what your Mac hears and transcribes on device. When a client asks something your pricing sheet or FAQ covers, the answer appears with the file it came from. After the call you get a report of promises made and questions missed, and you can chat with all your meetings. Use Claude, a free local model with Ollama, or your own server. No account, no subscription.",
+      "thumbnail": "https://ph-files.imgix.net/e7005282-756f-42dd-ae01-82c9c985e5ff.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/af380301-39de-4e8c-8f56-a7e26fd324bd.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/parrot-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZQX2QDSQ6XQ7QN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 84,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Mac",
         "Meetings",
         "Artificial Intelligence"
       ],
       "buckets": [
         "ai"
       ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "Fish Audio Drama 3",
-      "tagline": "AI voice acting you can direct, not just generate",
-      "summaryZh": "你可以指导的AI配音，而不只是生成",
-      "descriptionZh": "Drama 3 是 Fish Audio 最新的 AI 语音模型，专为可导演的表演而打造。借助自然语言控制，将脚本转化为富有表现力的语音，可调控情绪、节奏、耳语、笑声和停顿——甚至能在单句内实现。可创作多角色场景、有声书、游戏对话和旁白，支持 83 种语言。可在网页端、移动端和 API 上使用，并在 Fish Audio 社区许可下提供开放权重以供自托管。",
-      "description": "Drama 3 is Fish Audio's latest AI voice model, built for performances you can direct. Turn scripts into expressive speech with natural-language control over emotion, pacing, whispers, laughter, and pauses — even within a single sentence. Create multi-character scenes, audiobooks, game dialogue, and narration across 83 languages. Available on the web, mobile, and API, with open weights for self-hosting under Fish Audio's community license.",
-      "thumbnail": "https://ph-files.imgix.net/fa155317-cdb3-4612-9bc0-f3e0a5e6788f.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/1bd6f85a-775b-4a2a-a923-5733d9b4c030.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/fish-speech?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/S62DBL7GMHNIII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 123,
-      "comments": 5,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 7,
-      "topics": [
-        "Artificial Intelligence",
-        "Audio"
-      ],
-      "buckets": [
-        "ai"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Dottr",
-      "tagline": "Agent that drafts contracts, flags risks + gets them signed",
-      "summaryZh": "起草合同、标记风险并完成签署的代理",
-      "descriptionZh": "Dottr 是存在于你邮箱中的合同 AI 队友。转发邮件线程或笔记，它便会依据你的模板起草协议，用通俗英文审查风险，发送签署，并持续跟进每位签署人直至完成。签署人无需登录。它还会记住条款和日期，方便你日后查询已同意的内容。从起草到签署一气呵成，让确认不再搁置变冷。",
-      "description": "Dottr is an AI teammate for contracts that lives in your email. Forward a thread or notes and it drafts the agreement from your templates, reviews risks in plain English, sends it for signature, and chases every signer until it’s done. Signers need no login. It also remembers the terms and dates so you can ask what you agreed later. From draft to signed instantly, so the yes doesn’t go cold.",
-      "thumbnail": "https://ph-files.imgix.net/9a147bda-4b76-4580-9d9a-1abc06bb758f.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/6f7127b2-3a87-4b55-a7bf-8f2cf9fdbef6.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/dottr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/4PWEXRFLTRGWJD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 120,
-      "comments": 17,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 9,
-      "topics": [
-        "Sales",
-        "Legal",
-        "Artificial Intelligence"
-      ],
-      "buckets": [
-        "ai"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Parallax",
-      "tagline": "Every coding agent you run, in one place.",
-      "summaryZh": "你运行的每个编码代理，都集中在一处。",
-      "descriptionZh": "Parallax 为你运行编码智能体。Claude Code、Codex 等 40 多款工具集成于一个应用，240 多款模型基于你自己的订阅运行。Captain 处理繁琐工作，快速合并一键提交你的 PR；当某个订阅用尽时，自动回退让你的工作无缝切换到下一个。",
-      "description": "Parallax runs your coding agents for you. Claude Code, Codex and 40+ more in one app, with 240+ models on your own subscriptions. Captain handles the busywork, fast merge ships your PRs in one click, and when a subscription runs out, auto fallback enables your work to move to the next.",
-      "thumbnail": "https://ph-files.imgix.net/08f05d37-acd0-4443-b9c8-4f88a2e4a7cd.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/91d1e35d-72ee-4a62-83e8-92fcf4d33a55.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/parallax-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/23DR2PPSB3MY5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 99,
-      "comments": 8,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 11,
-      "topics": [
-        "Developer Tools",
-        "Artificial Intelligence",
-        "GitHub"
-      ],
-      "buckets": [
-        "ai",
-        "developer"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Lovable Growth Tools",
-      "tagline": "From building your app to growing it, in one chat",
-      "summaryZh": "从构建应用到推动增长，尽在一次对话中",
-      "descriptionZh": "Lovable 现在可以帮助你发展业务。设定一个目标，比如“我的前 100 个注册用户”，然后基于你的应用生成一份发布方案。在 Google 搜索、YouTube、地图、Facebook 和 Instagram 上投放广告。借助 Semrush 数据，在 Google 和 AI 搜索中被发现。基于你的构建创建图像、视频和文案。不同于代理机构或一堆工具，它就在你的应用和流量旁边，并且在任何支出之前都由你批准。",
-      "description": "Lovable can now help you grow your business. Set a goal like “my first 100 signups” and get a launch playbook built from your app. Launch ads to Google Search, YouTube, Maps, Facebook and Instagram. Get found in Google and AI search with Semrush data. Create images, video and copy from your builds. Unlike an agency or a pile of tools, it lives next to your app and traffic, and you approve before anything spends.",
-      "thumbnail": "https://ph-files.imgix.net/90acab39-a7ab-434b-a921-4c4785e55589.gif?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/8ceb942d-0923-4f45-8b7e-170ebb15fea6.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/lovable?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/HOY5AKHJBXDLT7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 99,
-      "comments": 1,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 12,
-      "topics": [
-        "Marketing",
-        "Growth Hacking",
-        "No-Code"
-      ],
-      "buckets": [
-        "developer",
-        "design"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Taim",
-      "tagline": "Capture it. Taim files, schedules & syncs it with your AI.",
-      "summaryZh": "捕捉它。Taim 归档、安排，并与你的 AI 同步。",
-      "descriptionZh": "Taim 是你的想法捕捉助手。说出心中所想，一切自会各归其位：想法自动归入正确的线索，待办事项则转化为任务、提醒和日历事件。通过 MCP 连接后，你使用的每个智能体都能即时获取你的上下文。",
-      "description": "Taim is your thought-capture assistant. Speak your mind and it all falls into place: thoughts land in the right thread automatically, and to-dos become tasks, reminders, and calendar events. Connect via MCP, and every agent you use instantly has your context.",
-      "thumbnail": "https://ph-files.imgix.net/14cdc710-39f6-435a-8961-b1b5d202a45e.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/724a5f00-c8b4-4e58-bd93-715098d8f0e6.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/taim-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/D5WWJHKU6PEMIK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 97,
-      "comments": 30,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 13,
-      "topics": [
-        "Productivity",
-        "Task Management",
-        "Calendar"
-      ],
-      "buckets": [
-        "productivity"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "BOSS Console",
-      "tagline": "A tiny OS for your always-on agents",
-      "summaryZh": "为你的常驻代理打造的微型操作系统",
-      "descriptionZh": "BOSS Console 是一个为常驻代理设计的微型操作系统。你可以用真实工具创建自己的代理，在 fluck.ai 上聊天，并通过 cli.risaboss.com 访问实时会话。",
-      "description": "BOSS Console is a tiny OS for your always-on agents. Create your own agent with real tools, chat at fluck.ai, and access live sessions at cli.risaboss.com.",
-      "thumbnail": "https://ph-files.imgix.net/6c216097-7388-4808-a25d-93a25e7e97b9.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/990d8436-1d3f-4868-8182-249a1e142fca.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/boss-console?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/427GSERRVC6TPQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 93,
-      "comments": 16,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 14,
-      "topics": [
-        "Productivity",
-        "Open Source",
-        "Artificial Intelligence",
-        "GitHub"
-      ],
-      "buckets": [
-        "ai",
-        "developer",
-        "productivity"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Muse Spark Open",
-      "tagline": "The most capable US open weights model to date",
-      "summaryZh": "迄今为止最强大的美国开放权重模型",
-      "descriptionZh": "Meta 面向编程与智能体工作打造的开源权重模型。总参数 816B，激活参数 42B，上下文窗口 1M token，原生支持多模态输入。可在 Hugging Face 下载权重，或在两台搭载 MLX 的 M5 Ultra Mac Studio 上运行。",
-      "description": "Meta's open weights model built for coding and agentic work. 816B total parameters with 42B active, a 1M token context window and native multimodal input. Download the weights on Hugging Face or run it on two M5 Ultra Mac Studios with MLX.",
-      "thumbnail": "https://ph-files.imgix.net/7b98b142-05d6-49fc-86b6-dea81f114c35.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/1d84c4ae-82b4-41ab-a2d0-20a172a7355c.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/muse-spark-open?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/EVSJET3OLU3A6X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "name": "Earnote",
+      "tagline": "Lecture & meeting notes, written on your device",
+      "summaryZh": "讲座与会议笔记，直接在您的设备上撰写",
+      "descriptionZh": "录制讲座、会议或你自己的讲解——Earnote 使用 Whisper 转写，并生成结构化笔记，包含任务、抽认卡和 PDF 学习单。语音识别在 iPhone、iPad 或 Mac 上运行，在 iPhone 15 Pro 及更新机型上，连笔记也在设备端生成。无账户、无广告、无订阅。免费且开源（MIT）；iPhone/iPad 上可选一次性 Pro。",
+      "description": "Record a lecture, meeting or your own explanation – Earnote transcribes it with Whisper and writes a structured note with tasks, flashcards and a PDF study sheet. Speech recognition runs on your iPhone, iPad or Mac, and on iPhone 15 Pro and later even the note is written on-device. No account, no ads, no subscription. Free and open source (MIT); optional one-time Pro on iPhone/iPad.",
+      "thumbnail": "https://ph-files.imgix.net/e7f89ef0-430b-494b-9cdd-be358ec5e0b0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/1e000737-5a25-49dd-b4fb-0c5a062ee42f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/earnote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/L7MNFYD4ZHX6E6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "votes": 84,
-      "comments": 2,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 15,
-      "topics": [
-        "Open Source",
-        "Developer Tools"
-      ],
-      "buckets": [
-        "developer"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Nemotron 3.5 Super VL",
-      "tagline": "NVIDIA’s open multimodal model for specialized agents",
-      "summaryZh": "NVIDIA面向专用智能体的开放多模态模型",
-      "descriptionZh": "Nemotron 3.5 Super VL 是 NVIDIA 面向专用智能体推出的开放、可定制多模态模型。它是一个 120B 混合专家模型，拥有 12B 激活参数，可在单一模型中处理文本、图像、文档和视频输入，并支持推理与工具使用。NVIDIA 称，在单块 GPU 上，其智能体吞吐量最高可达同等规模开放模型的 5 倍。检查点、训练配方和数据集已在 Hugging Face 上发布，并提供 NIM 容器。",
-      "description": "Nemotron 3.5 Super VL is NVIDIA’s open, customizable multimodal model for specialized agents. It is a 120B mixture-of-experts model with 12B active parameters that handles text, image, document, and video input, plus reasoning and tool use, in one model. NVIDIA claims up to 5x higher agentic throughput on a single GPU than open models its size. Checkpoints, training recipes, and datasets are on Hugging Face, with a NIM container.",
-      "thumbnail": "https://ph-files.imgix.net/75e4b8f8-d448-427e-b92f-c11634afb52f.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/9ef897a9-10f7-40a8-9d4c-e28f36fd9ab3.webp?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/ID3MOHR524KFME?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 77,
-      "comments": 2,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 16,
-      "topics": [
-        "Artificial Intelligence"
-      ],
-      "buckets": [
-        "ai"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "GBrain Tools",
-      "tagline": "A password manager for AI",
-      "summaryZh": "用于AI的密码管理器",
-      "descriptionZh": "GBrain Tools 是一款面向 AI 的密码管理器。只需一次连接 Gmail、GitHub、Stripe、Notion 等众多服务，即可在 ChatGPT、Claude、Claude Code、Cursor 或终端中使用它们。没有任何 AI 持有密码，所有操作都记录在同一份日志中。每月 19 美元。",
-      "description": "GBrain Tools is a password manager for AI. Connect Gmail, GitHub, Stripe, Notion and many more once, then use them from ChatGPT, Claude, Claude Code, Cursor or your terminal. No AI holds a password, and every action lands on one log. $19 a month.",
-      "thumbnail": "https://ph-files.imgix.net/a30d2a0a-5ba4-456c-8eaf-004f069a8d94.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/b6e2863b-78de-4958-bba7-c781ce514706.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/gbrain?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/5ARCAPYQEZS7U3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 67,
       "comments": 4,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 17,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 15,
       "topics": [
-        "Artificial Intelligence",
-        "Password manager",
-        "Security"
+        "Productivity",
+        "Open Source",
+        "Education",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "Step 5 Preview",
+      "tagline": "600B open weights, trained for long-running agents",
+      "summaryZh": "600B开放权重，面向长时间运行的智能体训练",
+      "descriptionZh": "Step 5 Preview 是 StepFun 的开源权重 MoE，面向编程、金融研究和长时间运行的智能体。它总参数 600B，每 token 激活 27B，上下文长度 1M token，并支持 vLLM、SGLang 和 Transformers 部署。",
+      "description": "Step 5 Preview is StepFun's open-weight MoE for coding, financial research and long-running agents. It has 600B total parameters, 27B active per token and a 1M-token context, with deployment support for vLLM, SGLang and Transformers.",
+      "thumbnail": "https://ph-files.imgix.net/87e367fb-62a8-4a12-a2b5-512820906ff7.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/81671235-175d-491a-8dd1-a768c2690a0b.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/step-3-5-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/43SXMMGUSWZP6U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 83,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 16,
+      "topics": [
+        "Open Source",
+        "Artificial Intelligence"
       ],
       "buckets": [
         "ai"
       ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "NANI???",
-      "tagline": "Your interpreter and your boss doesn't even know.",
-      "summaryZh": "你的翻译和你的老板甚至都不知道。",
-      "descriptionZh": "什么？你是否曾在通话中全程听不懂，然后才意识到有人刚问了你一个问题？“什么？”会在你的 Mac 上通过声音识别谁在说话，并在任何通话中悬浮显示实时翻译字幕。没有机器人加入，所以没人会发现。当老板问你事情时，它会发出提示音并建议你可以回复的内容，甚至可以用你不会说的语言。通话前添加背景信息和词汇表，通话后获取摘要和行动项。下次，你就不用说“什么？？？”了。",
-      "description": "NANI??? Ever sat through a call understanding nothing, then realised someone just asked you a question? Nani? learns who’s speaking by voice, right on your Mac, and floats live translated subtitles over any call. No bot joins, so nobody sees a thing. When your boss asks you something, it chimes and suggests replies you can say back, even in a language you don’t speak. Add context and a glossary before the call, and get a summary with action items after. Next time, you won’t have to say NANI???",
-      "thumbnail": "https://ph-files.imgix.net/2809980b-682b-46e5-9898-3f4b758c164b.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/67829101-dc1e-4c8b-9dee-76dcd6fc49b6.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/nani-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/AXJGYFOZ2KH23J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 66,
-      "comments": 1,
+      "name": "Korinotch",
+      "tagline": "Your MacBook notch, turned into a command center",
+      "summaryZh": "你的MacBook刘海，变身指挥中心",
+      "descriptionZh": "媒体HUD、通知、文件托盘、剪贴板、保持唤醒、键盘锁定和小组件，全都集成在刘海区域。基于原生SwiftUI，适用于macOS 14及以上版本。免费试用14天，之后一次性付费$11.50终身使用。其中十一项实用工具为独立的免费菜单栏应用。",
+      "description": "Media HUD, notifications, file tray, clipboard, keep awake, keyboard lock and widgets, all in the notch. Native SwiftUI for macOS 14+. Free for 14 days, then $11.50 lifetime. Eleven of the utilities are free standalone menu-bar apps.",
+      "thumbnail": "https://ph-files.imgix.net/2192e831-2401-47d6-9ca5-ae325f792eff.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3d75b356-fb63-4ae9-b1a7-3b3762f17121.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/korinotch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YQDXLXVWKZMVKW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 80,
+      "comments": 7,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 18,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 17,
       "topics": [
         "Mac",
         "Productivity",
-        "Tech"
+        "Developer Tools"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "CrewTower Mod for Claude Code",
+      "tagline": "Talk to Claude Code right from your MacBook notch",
+      "summaryZh": "直接从 MacBook 刘海与 Claude Code 对话",
+      "descriptionZh": "一个 Claude Code 模组，将每个 Claude 会话连接到 Mac 刘海中的 CrewTower。在其卡片上输入 Claude 的下一个提示，停止回合，压缩上下文，并查看是什么占满了上下文窗口。支持终端和 Claude Desktop。数据保留在你的 Mac 上，默认关闭，开启后才运行。",
+      "description": "A Claude Code mod that links every Claude session to CrewTower in your Mac's notch. Type Claude's next prompt on its card, stop the turn, compact it, and see what fills its context. Terminal and Claude Desktop. Stays on your Mac, off until you turn it on.",
+      "thumbnail": "https://ph-files.imgix.net/7477b32b-92b8-48fc-ada5-ac5f374b5b16.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/36be7fd0-89b8-4c2d-b0cb-cdfa33740a3a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/crew-tower?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NMSK3UAZW7HJX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 64,
+      "comments": 12,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 18,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "OptimAI Studio",
+      "tagline": "Your AI creative agent, from idea to final cut",
+      "summaryZh": "你的AI创意代理，从构思到最终剪辑",
+      "descriptionZh": "把一个想法变成互联的创意项目。指挥 AI 智能体规划影片、生成图像、视频和音乐，然后在浏览器编辑器中精修。创作图文故事、发布网站、构建可玩游戏——尽在 OptimAI Studio。",
+      "description": "Turn an idea into a connected creative project. Direct an AI agent to plan films, generate images, video and music, then refine them in a browser editor. Create illustrated stories, publish websites and build playable games—all in OptimAI Studio.",
+      "thumbnail": "https://ph-files.imgix.net/57d5e0ce-94db-47af-a551-dfc083ffa306.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/edfb03b5-c591-4135-9bc0-d823bc3ffde0.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/optimai-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/227TIQMN47NXA2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 23,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 19,
+      "topics": [
+        "Design Tools",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
+    },
+    {
+      "name": "NEWCV.IO",
+      "tagline": "Stand out. Get interviews.",
+      "summaryZh": "脱颖而出，赢得面试机会。",
+      "descriptionZh": "NEWCV.IO 是一个用于创建、定制和审核职业简历的求职申请平台。支持从零创建、导入现有职业信息，使用 Role to Resume 围绕目标职位生成简历，使用 Job Matcher Resume 针对特定职位空缺定制简历，以及使用 Premium Resume Audit 获取面向 ATS 和招聘人员的反馈。包含专业模板、个人品牌和多语言简历工具。",
+      "description": "NEWCV.IO is a career application platform for building, tailoring and auditing professional resumes. Create from scratch, import your existing career information, use Role to Resume to generate around a target role, Job Matcher Resume to tailor for a specific vacancy, and Premium Resume Audit for ATS and recruiter focused feedback. Includes professional templates, personal branding and multilingual resume tools.",
+      "thumbnail": "https://ph-files.imgix.net/46760e48-d147-4d7f-9684-6005f360b9ec.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b29cfca6-a92d-4f79-a526-f92316db45d0.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/newcv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/U3KKYF3ODKU6MB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 19,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 20,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Career"
       ],
       "buckets": [
         "ai",
         "productivity"
       ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "Tidy Design",
-      "tagline": "Open Source Paper / Figma Alternative",
-      "summaryZh": "开源 Paper / Figma 替代品",
-      "descriptionZh": "Tidy 是面向设计师、工程师和 AI 代理的 Figma 与 Paper 开源替代品。你可以直接从编码环境（Claude Code、Codex、Opencode 等）设计界面、浏览源代码，并按自己的工作方式调整工具。",
-      "description": "Tidy is an open source alternative to Figma and Paper for designers, engineers, and AI agents. Design interfaces directly from your coding harness (Claude Code, Codex, Opencode, etc), explore the source code, and adapt the tool to fit how you work.",
-      "thumbnail": "https://ph-files.imgix.net/58782dbd-f887-488b-bf44-f40a6000c2de.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/9a73af7a-88c5-4dc0-afec-0c25eb942d8f.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/tidy-design?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/KIKMJ3DCCFKRMS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 65,
-      "comments": 1,
+      "name": "LooGo",
+      "tagline": "Find public restrooms fast",
+      "summaryZh": "快速找到公共卫生间",
+      "descriptionZh": "LooGo 帮助你在城市外出时快速找到公共洗手间。它基于 OpenStreetMap 数据，为 Android 和 Wear OS 原生构建，让你快速获取门禁码、价格、营业时间和无障碍设施详情。无广告、无追踪、无冗余功能，只提供快速的离线地图和配套的 Wear OS 应用，让你直接从手腕上找到洗手间。",
+      "description": "LooGo helps you find public restrooms instantly when you're out in the city. Built natively for Android and Wear OS using OpenStreetMap data, it gives you quick access to door codes, pricing, opening hours, and accessibility details. No ads, no tracking, and no bloat just fast offline maps and a companion Wear OS app so you can find a spot directly from your wrist.",
+      "thumbnail": "https://ph-files.imgix.net/fcbf3f90-30cd-44f5-862c-04da334ed6b6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e08e85a2-66af-49b0-ba24-50e67c336385.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/loogo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/6QTQ2YZVZFK4KE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 117,
+      "comments": 19,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 19,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 6,
       "topics": [
-        "Design Tools",
-        "Open Source",
-        "Developer Tools",
-        "GitHub"
-      ],
-      "buckets": [
-        "developer",
-        "design"
-      ],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Tesla Roadster",
-      "tagline": "The hypercar that flies",
-      "summaryZh": "飞驰的超级跑车",
-      "descriptionZh": "Roadster 的性能表现超越任何量产车。它超越 Plaid，开启驾驶的全新维度。它挑战设计、工程与物理的极限，成就一款精心打造的非凡座驾。",
-      "description": "Roadster can perform at levels unlike any other production car. It goes beyond Plaid to unlock an entirely new dimension of driving. It challenges the limits of design, engineering and physics to deliver an expertly crafted extra-terrestrial vehicle.",
-      "thumbnail": "https://ph-files.imgix.net/106cfeac-850f-4567-ac42-0a51998ee2f1.jpeg?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/3a39a1e4-01b0-4cf2-91e5-fb00f25133b2.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/tesla-roadster?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/ZPPNXZJWS7FMRU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 243,
-      "comments": 8,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 3,
-      "topics": [
-        "Electric Cars"
+        "Android",
+        "Travel",
+        "Maps"
       ],
       "buckets": [],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "Memory Chess",
-      "tagline": "Study a chess position, then rebuild it from memory",
-      "summaryZh": "研究一个国际象棋局面，然后凭记忆重建它",
-      "descriptionZh": "记忆棋向你展示一个棋局几秒钟，然后清空棋盘，由你将棋子放回原位。2.0版本是我们迄今最大的一次更新：每日棋盘人人可玩一次，双向变动的技能评分，记忆跨度与进度仪表盘，可分享的对局回放，以及支持24种语言的全新设计。免费，无需账户。欢迎来Telegram与其他玩家打招呼、交换分数：t.me/TheMemoryChess",
-      "description": "Memory Chess shows you a chess position for a few seconds, clears the board, and you put the pieces back. Version 2.0 is our biggest update yet: a daily board everyone plays once, a skill rating that moves both ways, a dashboard of your memory span and progress, shareable round replays, and a redesign in 24 languages. Free, no account. Come say hi and swap scores with other players on Telegram: t.me/TheMemoryChess",
-      "thumbnail": "https://ph-files.imgix.net/9153659b-220f-46fa-b5a7-19db87fc1733.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/5e0859bd-b05c-46f8-b602-e3da9289c734.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/memory-chess?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/4SEMA4OXQUPDNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 120,
-      "comments": 9,
+      "name": "Unfenced",
+      "tagline": "Land for sale that actually borders public land",
+      "summaryZh": "真正与公共土地接壤的待售土地",
+      "descriptionZh": "每周对照官方公共土地地图核查约70万条美国房源，显示约13,600处真正毗邻国家森林、土地管理局（BLM）及州属土地的住宅和地块。每处均从县级地块边界测量：以英尺计的共同边界长度、地图标注，以及其后方公共土地面积、海拔、道路通达情况、洪泛区和野火风险。可按邮编或州搜索。免费，无需账户。",
+      "description": "Checks ~700,000 U.S. listings every week against official public-land maps and shows the ~13,600 homes and land parcels that actually touch national forest, BLM and state land. Each one is measured from its county parcel boundary: the shared edge in feet, drawn on a map, plus how much public land is behind it, elevation, road access, flood zone and wildfire hazard. Search by ZIP or state. Free, no account needed.",
+      "thumbnail": "https://ph-files.imgix.net/fed47e71-63f6-43ce-8616-c1a8aad8e2e7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/70840edb-6701-432c-8a04-26275bdc9130.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/unfenced?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PXFKGSHHKBKW2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 96,
+      "comments": 16,
       "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
-      "rank": 8,
-      "topics": [
-        "Board Games",
-        "Education",
-        "Games"
-      ],
-      "buckets": [],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
-    },
-    {
-      "name": "Firefox Enterprise",
-      "tagline": "Firefox for enterprises that want control of their data",
-      "summaryZh": "为希望掌控自身数据的企业打造的Firefox",
-      "descriptionZh": "Firefox Enterprise 将 Mozilla 的独立浏览器技术带给希望加强对 IT 基础设施和数据控制的企业。它基于 Gecko 引擎构建，提供自托管管理控制台，用于集中管理浏览器策略、访问权限、数据流动和 AI 使用。它可与现有的身份、安全和设备管理系统协同工作，帮助企业减少对主导浏览器生态系统的依赖。",
-      "description": "Firefox Enterprise brings Mozilla's independent browser technology to organizations that want more control over their IT infrastructure and data. Built on the Gecko engine, it offers a self-hosted management console for centrally managing browser policies, access, data movement, and AI usage. It works alongside existing identity, security, and device management systems, helping enterprises reduce dependence on dominant browser ecosystems.",
-      "thumbnail": "https://ph-files.imgix.net/fb13e32f-bee0-4797-bf91-0a98207a21ff.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/34b64df1-2f53-4e49-b9c0-c87ee8b34ecb.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/mozilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/4WDS25OV64OZ2N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 99,
-      "comments": 2,
-      "featured": true,
-      "publishedAt": "2026-10-16T07:01:00Z",
+      "publishedAt": "2026-10-17T07:01:00Z",
       "rank": 10,
       "topics": [
-        "Privacy",
-        "Business"
+        "Home",
+        "Maps",
+        "Outdoors"
       ],
       "buckets": [],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     },
     {
-      "name": "Chathonk",
-      "tagline": "Instant chat, web games, and audio calls with friends",
-      "summaryZh": "即时聊天、网页游戏和与朋友的音频通话",
-      "descriptionZh": "一个有趣且引人入胜的聊天平台，让你与朋友保持联系，通过电子邮件或用户名搜索用户，并用表情符号和GIF为对话增添趣味。",
-      "description": "A fun and engaging chat platform that lets you connect with friends, search for users by email or username, and spice up your conversations with emojis and GIFs.",
-      "thumbnail": "https://ph-files.imgix.net/ea6eb7b7-0714-4600-9ce6-45b99ee9075d.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/9e472139-b046-4ecc-b36f-79737e88801e.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/chathonk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/LMPZSHKO3JFKWT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 0,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 883,
+      "name": "Spiralens",
+      "tagline": "Golden ratio camera that tells you where to move your phone",
+      "summaryZh": "黄金比例相机，告诉你手机该往哪儿移",
+      "descriptionZh": "Spiralens 是一款面向从未学过构图的人的 Android 相机。点击拍摄对象，跟随箭头，当圆环变绿时拍摄：拍摄对象位于黄金点上，手机保持水平。提供黄金螺旋、斐波那契网格、三分法、对称和地平线引导。编辑器新增黄金比例裁剪、拉直、拖动裁剪，以及让目标保持清晰的新背景虚化。可离线使用；照片不会离开你的手机。",
+      "description": "Spiralens is an Android camera for people who never learned composition. Tap your subject, follow the arrow, and shoot when the ring turns green: the subject sits on the golden point and the phone is level. Guides for golden spiral, phi grid, rule of thirds, symmetry and horizon. The editor adds a golden-ratio crop, straighten, drag-to-crop and a new background blur that keeps your target sharp. Works offline; photos never leave your phone.",
+      "thumbnail": "https://ph-files.imgix.net/61ae0883-8052-4596-b6a3-299732ca4549.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/48403e31-00df-4c37-82e1-d2277c1bdfdc.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/spiralens?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2O36K2KKQC6THL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 87,
+      "comments": 13,
+      "featured": true,
+      "publishedAt": "2026-10-17T07:01:00Z",
+      "rank": 12,
       "topics": [
-        "Messaging",
-        "Games",
-        "Chat rooms"
+        "Android",
+        "Photo editing"
       ],
       "buckets": [],
-      "date": "2026-10-17",
-      "productHuntDate": "2026-10-16",
-      "lastUpdated": "2026-10-17T12:55:02.853Z"
+      "date": "2026-10-18",
+      "productHuntDate": "2026-10-17",
+      "lastUpdated": "2026-10-18T13:12:40.303Z"
     }
   ]
 }
