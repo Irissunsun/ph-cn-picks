@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "date": "2026-10-19",
+    "productHuntDate": "2026-10-18",
+    "lastUpdated": "2026-10-19T16:32:13.943Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "19",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Inbox Zero",
+      "tagline": "Open-source Superhuman alternative",
+      "summaryZh": "开源版Superhuman替代品",
+      "descriptionZh": "Inbox Zero Mail 是一款面向 Gmail 和 Outlook 的开源邮件客户端。快速、键盘优先、免费使用，支持网页、Mac、Windows 和 iPhone，所有账户集中在一个收件箱。每月 20 美元可添加 AI：每封邮件都会分类，回复会在你打开前以你的语气起草。与团队私下评论，获取 Slack 提醒，并从你的工具中为 AI 提供上下文。",
+      "description": "Inbox Zero Mail is an open-source email client for Gmail and Outlook. Fast, keyboard-first, and free to use, on web, Mac, Windows and iPhone, with all your accounts in one inbox. Add AI for $20/mo: every email is sorted, and replies are drafted in your voice before you open them. Comment privately with your team, get Slack alerts, and give the AI context from your tools.",
+      "thumbnail": "https://ph-files.imgix.net/96996a48-1d05-47a6-8ceb-ecb1ec25cf62.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/42cca38c-6e50-45cb-a864-3d5d4f83e6e7.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FK6F3KNVDZW35Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 350,
+      "comments": 30,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 1,
+      "topics": [
+        "Email",
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "MyLens",
+      "tagline": "1-1 Live Presentations at Scale with AI.",
+      "summaryZh": "1-1 借助 AI 大规模进行实时演示。",
+      "descriptionZh": "MyLens 是面向大规模实时一对一演示的 AI。你添加原始资料，说明重点，并邀请受众。MyLens AI 为每个人提供实时、私密的演示，使用你的资料回答他们的问题，并在演示过程中实时创建新的幻灯片和图层。随后，AI 会告诉你每场会话的进行情况，让你看到谁做得好、谁卡住了，以及下一步该做什么。",
+      "description": "MyLens is AI for live 1-1 presentations at scale. You add your raw sources, say what matters, and invite your audience. MyLens AI gives every person a live, private presentation, answers their questions using your sources, and create new slides and layers in real time during the presentation. Then the AI tells you how each session went, so you can see who’s doing well, who’s stuck, and what to do next.",
+      "thumbnail": "https://ph-files.imgix.net/d4955924-1a85-494c-b2a6-29398e28c916.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/10795ad5-1ad1-45d2-b090-aefb83e41d7b.gif?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/mylens-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RES6VMKW3LGAIK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 212,
+      "comments": 32,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 2,
+      "topics": [
+        "Productivity",
+        "Education",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "shim-cli",
+      "tagline": "See what your coding agent sends. Mask what you can.",
+      "summaryZh": "查看你的编码代理发送了什么。尽可能遮蔽。",
+      "descriptionZh": "一个面向 Claude Code、Codex、Copilot CLI 和 VS Code 的开源钩子与本地代理。在 Claude Code 中，它会在模型读取工具结果之前遮蔽其中的密钥和个人数据，而 shim watch 会显示会话发送了哪些内容以及花费多少。无需账户，无遥测。",
+      "description": "An open-source hook and local proxy for Claude Code, Codex, Copilot CLI and VS Code. In Claude Code it masks secrets and personal data in tool results before the model reads them, and shim watch shows what a session sent and cost. No account, no telemetry.",
+      "thumbnail": "https://ph-files.imgix.net/b8683c25-445b-44e0-aef2-599c509a7880.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b466991a-54d6-4bf2-896d-e6f22eaf00fa.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/shim-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2E657WIGYUKWTP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 190,
+      "comments": 26,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Open Source",
+        "Privacy",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Tower 18 for Mac",
+      "tagline": "The most powerful Git client with a better CLI experience",
+      "summaryZh": "最强大的Git客户端，带来更出色的命令行体验",
+      "descriptionZh": "Tower 18 for Mac 已发布！本次更新专注于提升终端中的 Tower 体验：现在，通过 Tower 命令行工具，只需一条命令即可直接跳转到 Tower 中的任意视图（历史记录、追溯、工作副本、分支审查等）。",
+      "description": "Tower 18 for Mac is here! This update is all about improving the Tower experience in the terminal: the Tower Command Line Tool can now take you straight to any view in Tower (History, Blame, the Working Copy, Branches Review, and more) with a single command.",
+      "thumbnail": "https://ph-files.imgix.net/f9d4dca7-0cd1-4727-9193-00c63b4de9a0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/8fab1bb9-fef1-4f66-bace-5420d0f0fda8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tower?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/H54Y7ZW2KMIL66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 152,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Mac",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "MeetPaw",
+      "tagline": "Instant meetings from your mac menu bar ",
+      "summaryZh": "从 Mac 菜单栏即时发起会议",
+      "descriptionZh": "MeetPaw 是一款轻量的 macOS 菜单栏应用，让你的会议一键即达。需要时，即刻生成 Google Meet、Zoom 或 Microsoft Teams 链接。链接创建后自动复制到剪贴板，在你切换窗口之前就已准备好分享。无需打开标签页，无需翻找，毫无阻碍。",
+      "description": "MeetPaw is a lightweight macOS menu-bar app that puts your meetings one click away. Spin up an instant Google Meet, Zoom, or Microsoft Teams link the moment you need it. The link is created, copied to your clipboard, and ready to share before you've switched windows. No tabs, no digging, no friction.",
+      "thumbnail": "https://ph-files.imgix.net/29ae3820-0cf6-430e-ad7f-ec1e023f88d9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/00a19713-6ffe-4003-8ba9-ce9a4ef41479.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/meetpaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/CLGB7TMIM44O62?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 136,
+      "comments": 12,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 5,
+      "topics": [
+        "Productivity",
+        "Meetings",
+        "GitHub",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "3AM Super Intelligence",
+      "tagline": "Production incidents: investigated, proven, fixed",
+      "summaryZh": "生产事故：已调查、已证实、已修复",
+      "descriptionZh": "认识3AM，它是你无法重写系统的AI值班工程师。它能找到根本原因，预演修复方案，并在Slack中一键解决事件，这一切都在你的网络内部完成。",
+      "description": "Meet 3AM, the AI on-call engineer for systems you can’t rewrite. It finds the root cause, rehearses the fix, and resolves the incident with one tap in Slack, all from inside your network.",
+      "thumbnail": "https://ph-files.imgix.net/9b955935-85b9-465a-b2f2-39ef14aef876.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4059fe3d-d7df-4b89-85bb-73f627b5368e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/3am-super-intelligence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PUH26LXS2WLDLX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 103,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Tomo for ChatGPT",
+      "tagline": "Ask anything. Then play it, Duolingo-style.",
+      "summaryZh": "想问什么就问，然后用多邻国风格玩起来。",
+      "descriptionZh": "向ChatGPT索要一门关于黑洞的Tomo课程，聊天中就会弹出一个游戏。快速问答，心跳加速。任何话题，甚至是你所在的聊天。选择你的老师，从教授到海盗。在ChatGPT的插件中添加Tomo。无需注册即可开始。",
+      "description": "Ask ChatGPT for a Tomo course on black holes and a game drops into the chat. Quick questions, hearts on the line. Any topic, even the chat you’re in. Pick your teacher, from The Professor to The Pirate. Add Tomo from Plugins in ChatGPT. No sign-up to start.",
+      "thumbnail": "https://ph-files.imgix.net/6337c4db-87cc-4024-9bc2-10a4c134cc00.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/488580f2-96a0-4c03-84ec-417d3432ae58.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tomo-for-chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/B7PYM6TZUHFML4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 95,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Education",
+        "Artificial Intelligence",
+        "Games"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Bee Frontier and Bee Eclipse",
+      "tagline": "Amazon's personal AI memory, now on your wrist or phone",
+      "summaryZh": "亚马逊的个人AI记忆，现已登陆你的手腕或手机",
+      "descriptionZh": "Bee Frontier 和 Bee Eclipse 是亚马逊新推出的个人 AI 设备，帮助你记住重要事项。Frontier 可佩戴在手腕或衣物上，Eclipse 则通过磁吸方式附着在手机上。两者都能捕捉对话，并将其转化为有用的摘要、提醒和后续事项，且不会保留音频录音。通过与 Alexa+ 集成，你的个人 AI 记忆可帮助你回忆重要细节，并在之后据此采取行动。",
+      "description": "Bee Frontier and Bee Eclipse are Amazon's new personal AI devices that help you remember what matters. Frontier is a wearable for your wrist or clothing, while Eclipse attaches magnetically to your phone. Both capture conversations and turn them into useful summaries, reminders, and follow-ups without retaining audio recordings. With Alexa+ integration, your personal AI memory can help you recall important details and act on them later.",
+      "thumbnail": "https://ph-files.imgix.net/b14eb43a-99df-45f0-bcaf-abed4d915d39.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f164daef-b6da-48b0-8662-e4c811e51337.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/WNZ6NFZTTN7MBD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 92,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Productivity",
+        "Wearables",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Openbroca",
+      "tagline": "Lightweight AI dictation for Mac that sounds like you",
+      "summaryZh": "轻量级 Mac AI 听写工具，听起来就像你本人",
+      "descriptionZh": "Openbroca 是一款原生 Swift 开发的 Mac AI 听写应用，下载大小约 6.5 MB。按下快捷键，自然说话，即可在正在输入的位置获得干净文本。它会去除填充词和重复内容，同时保留你的原意和语气，无需调整提示词。包含可从纠正中学习的个人词典、Typeless 词典导入，以及翻译成 28 种语言。所有功能均可免费试用。",
+      "description": "Openbroca is a native Swift AI dictation app for Mac, with a ~6.5 MB download. Press a shortcut, speak naturally, and get clean text right where you're typing. It removes fillers and repetition while keeping your meaning and tone, with no prompt tweaking. Includes a personal dictionary that learns from corrections, Typeless dictionary import, and translation into 28 languages. All features are free to try.",
+      "thumbnail": "https://ph-files.imgix.net/0d33d20c-1031-4612-b00d-b7bf4863148f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e2fc17ad-42d3-4e7e-8fdb-c8d652c5c3cb.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/openbroca?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BLEYUJP5LFNQCX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 92,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 10,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Popcraft",
+      "tagline": "Generate video, images & audio from any AI agent",
+      "summaryZh": "从任何AI代理生成视频、图像和音频",
+      "descriptionZh": "将一条 URL 粘贴到 Claude、ChatGPT、Cursor 或 Claude Code 中，你的智能体就能借助 Seedance 2.5、Veo 3.1、Kling 3.0、Nano Banana Pro 等 20 多种模型规划、预览成本并生成视频、图像、音乐和音效。支持 OAuth 登录，无需 API 密钥。赠送 100 个免费积分。",
+      "description": "Paste one URL into Claude, ChatGPT, Cursor or Claude Code and your agent can plan, cost-preview and generate video, images, music and SFX with Seedance 2.5, Veo 3.1, Kling 3.0, Nano Banana Pro and 20+ more. OAuth sign-in, no API key. 100 free credits.",
+      "thumbnail": "https://ph-files.imgix.net/b8e57510-23e6-4830-abfa-0d17f522fa77.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/89971dd1-d364-49fb-bfe2-c6c97e5a0b82.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/popcraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TC4CJ3NY3GZIBV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 90,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "design"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "PasteKit",
+      "tagline": "Format JSON, YAML & SQL privately",
+      "summaryZh": "私密格式化 JSON、YAML 和 SQL",
+      "descriptionZh": "粘贴 JSON、YAML、XML、SQL、CSV 或代码，即可立即获得格式化、验证后的输出。支持 58 种格式、48 种转换器以及 JSON 工具（diff、schema、repair、jq）。所有操作均在浏览器中运行，并由严格的 CSP 强制执行，因此你粘贴的任何内容都不会离开你的设备。",
+      "description": "Paste JSON, YAML, XML, SQL, CSV or code and get formatted, validated output instantly. 58 formats, 48 converters and JSON tools (diff, schema, repair, jq). Everything runs in your browser, enforced by a strict CSP, so nothing you paste leaves your machine.",
+      "thumbnail": "https://ph-files.imgix.net/69210ed3-bc1a-4041-a12a-b04fd2aa1b7a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4d74d2ac-1bbc-4a63-b0bd-ec38a8d12fbd.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pastekit-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ENGL3FNAAX653R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 88,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Productivity",
+        "Privacy",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Gravity Notes",
+      "tagline": "One list of notes, for you and your AI agents",
+      "summaryZh": "一份笔记列表，为你和你的 AI 代理而设",
+      "descriptionZh": "Gravity 是一款基于 Andrej Karpathy 的 append-and-review 笔记法构建的笔记应用。所有内容都进入同一个列表，最新的在最上面。旧笔记会下沉，滑动一下就能把某条笔记调回来。一次付费，笔记保留在你的设备上。自上次发布以来的新增功能：实时 Markdown、清单、完整导出，以及 Mac 上的 gravity CLI，让 Claude Code、Codex 或你自己的脚本可以读写你的笔记。支持 iPhone、iPad、Mac 和 Android。",
+      "description": "Gravity is a notes app built on Andrej Karpathy's append-and-review note. Everything goes into one list, newest at the top. Old notes sink, and a swipe brings one back. You pay once, and your notes stay on your devices. New since the last launch: live Markdown, checklists, full exports, and a gravity CLI on the Mac that lets Claude Code, Codex or your own scripts read and write your notes. For iPhone, iPad, Mac and Android.",
+      "thumbnail": "https://ph-files.imgix.net/fc59ac6d-dbc4-4905-b231-de0239f52ed2.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/22ee1da7-a9de-42c6-b647-accd069e2bb6.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/gravity-notes-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZVCYFNVV6AD5TV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 88,
+      "comments": 17,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Android",
+        "Productivity",
+        "Notes",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Krea 3",
+      "tagline": "Krea's AI image model: 2K edits in under 8 seconds",
+      "summaryZh": "Krea的AI图像模型：8秒内完成2K编辑",
+      "descriptionZh": "Krea 3 是一款面向创作者和生产团队的快速 AI 图像编辑模型。以原生 2K 分辨率在 8 秒内完成图像编辑，每张仅需 0.06 美元。可更改背景、物体、材质或光照，同时保留你想要保留的细节。最多使用 6 张参考图像，在整个营销活动中保持产品、角色和风格的一致性。等待更少，不必要的改动更少，试验空间更大。",
+      "description": "Krea 3 is a fast AI image editing model built for creators and production teams. Edit images in under 8 seconds at native 2K resolution for just $0.06 per image. Change backgrounds, objects, materials, or lighting while preserving the details you want to keep. Use up to 6 reference images to maintain consistent products, characters, and styles across an entire campaign. Less waiting, fewer unwanted changes, and more room to experiment.",
+      "thumbnail": "https://ph-files.imgix.net/2166dc0b-ce4b-4e98-861d-320c7081e4cc.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b74f374a-a25c-4fc1-a193-a2265efcf12f.webp?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/krea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/OSPNBXUM3TCV22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 15,
+      "topics": [
+        "Artificial Intelligence",
+        "Graphics & Design"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "SpeechFast",
+      "tagline": "Local Whisper for Mac",
+      "summaryZh": "Mac 本地 Whisper",
+      "descriptionZh": "按住 fn 键说话。SpeechFast 会在光标处输入整洁文本，适用于任何应用。一切都在你的 Mac 上运行。语音模型只需下载一次；此后，音频和文本都不会离开你的设备。它可离线工作，在飞机上、在受限的企业网络中都能使用。可在 Mail、Slack、Notion、代码编辑器以及任何可输入文字的地方进行听写。借助 Apple Intelligence 清理填充词和口误。为姓名和术语添加你自己的词汇。最近听写历史记录存储在本地。",
+      "description": "Hold fn and talk. SpeechFast types clean text at your cursor, in any app. Everything runs on your Mac. The speech model is downloaded once; after that, no audio and no text ever leaves your machine. It works offline, on a plane, behind a locked-down corporate network. Dictate in Mail, Slack, Notion, your code editor, anywhere you can type Filler words and false starts cleaned up with Apple Intelligence Your own vocabulary for names and jargon History of your recent dictations, stored locally",
+      "thumbnail": "https://ph-files.imgix.net/99120b01-e6ac-44b8-9d4d-dd0bf4a2b0f4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/7e7184fd-9fc6-4da0-adc7-7823d24ee704.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/speechfast?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/42R5V77LP5GJPH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 82,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 16,
+      "topics": [
+        "Productivity",
+        "Menu Bar Apps",
+        "Audio"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Latch",
+      "tagline": "The app blocker you unlock by walking to your key",
+      "summaryZh": "你走到钥匙处才能解锁的应用拦截器",
+      "descriptionZh": "Latch 会锁定那些让人分心的应用，直到你扫描钥匙才解锁，而钥匙放在你必须走过去才能拿到的地方：冰箱上的 NFC 贴纸、打印的二维码，或走够一定步数。无需账号，无广告，无分析追踪。支持 iPhone 和 Android；Pro 版一次性收费 9.99 美元。",
+      "description": "Latch locks distracting apps until you scan your key, and the key lives where you have to walk: an NFC sticker on the fridge, a printed QR code, or a number of steps. No account, no ads, no analytics. iPhone and Android; Pro is $9.99 once.",
+      "thumbnail": "https://ph-files.imgix.net/e80d98d5-c4cb-478a-9720-6c78ac7e771b.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e9600e78-6c97-4238-afd1-ccc14e52d397.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/latch-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DYV54MEQP4QX2M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 80,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 17,
+      "topics": [
+        "Android",
+        "iOS",
+        "Productivity"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Zalcro",
+      "tagline": "The pre-build planning tool for vibe coders and AI builders",
+      "summaryZh": "面向氛围编程者和AI构建者的预构建规划工具",
+      "descriptionZh": "Zalcro 是面向 AI 应用构建者的预构建规划工具。直接开始写提示词通常会陷入死循环，AI 会丢失上下文并破坏你的应用。Zalcro 通过在开始前规划你的架构来解决这个问题。它会生成一份可直接用于构建的计划，让你的 AI 明确知道该做什么。无论你使用 Lovable、Replit、Cursor 还是 Claude Code，Zalcro 都会提供分步提示词，你可以直接粘贴或通过 MCP 连接。更好地构建。先规划，再写提示词。",
+      "description": "Zalcro is the pre-build planning tool for AI app builders. Jumping straight into prompting usually leads to a doom loop where the AI loses context and breaks your app. Zalcro solves this by mapping out your architecture before you begin. It generates a build-ready plan so your AI knows exactly what to do. Whether you use Lovable, Replit, Cursor, or Claude Code, Zalcro gives you step-by-step prompts you paste directly or connect via MCP. Build better. Plan before you prompt,",
+      "thumbnail": "https://ph-files.imgix.net/55675623-6faf-406a-9652-c064eb19d79f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/efac9837-8595-4c13-b15b-58316aa95502.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/zalcro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/R75LTKUWI4ZWPE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 36,
+      "comments": 12,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 18,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Startories",
+      "tagline": "The AI engine that finds your next B2B customers",
+      "summaryZh": "为你找到下一个B2B客户的AI引擎",
+      "descriptionZh": "Startories 是一个 AI 引擎，能在 B2B 买家主动寻找解决方案时捕捉到他们。它监测 Reddit、X、Product Hunt、目录和搜索，以发现新的购买信号，根据你的 ICP 对每家公司进行资格筛选，找到决策者，验证其邮箱并启动个性化外联。Startories 无需等待入站线索到达你的网站，而是发现已在全网发生的需求。",
+      "description": "Startories is an AI engine that catches B2B buyers while they're actively looking for solutions. It monitors Reddit, X, Product Hunt, directories and search for fresh buying signals, qualifies each company against your ICP, finds the decision-maker, verifies their email and starts personalized outreach. Instead of waiting for inbound leads to reach your website, Startories finds the demand already happening across the web.",
+      "thumbnail": "https://ph-files.imgix.net/62ac4af8-3936-47f7-889e-ef3186a2b32c.x-icon?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/c73b3bc6-adaf-4ed7-b32f-448c376b2db8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/startories-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TJ354TXGCACWW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 21,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 19,
+      "topics": [
+        "Email Marketing",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Evane",
+      "tagline": "Every Event Cognitively Convened",
+      "summaryZh": "每个事件都在认知上被召集",
+      "descriptionZh": "Evane 是一款 AI 智能体，专为政企协作和复杂的多方利益相关者项目而设计，在这类项目中，协调一致、责任落实和速度决定成果。它以统一的数据基础取代碎片化的沟通，自动化重复性工作，并为领导者提供实时跟踪和早期瓶颈预警。",
+      "description": "Evane is an AI agent designed for government-enterprise collaboration and complex, multi-stakeholder programs, where alignment, accountability and speed determine outcomes. It replaces fragmented communication with a unified data foundation, automates repetitive work, and gives leaders real-time tracking and early bottleneck alerts.",
+      "thumbnail": "https://ph-files.imgix.net/b54989f6-8332-4082-b1b6-866f523a110c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/7d484567-04fd-4b64-82d7-f464be7acbbb.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/evane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TU23AFS6QM2WPK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 15,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 20,
+      "topics": [
+        "Artificial Intelligence",
+        "Event marketing"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "XBOX Nano Controller",
+      "tagline": "Pocket-sized wireless gamepad with all 18 inputs",
+      "summaryZh": "口袋大小的无线游戏手柄，具备全部18个输入",
+      "descriptionZh": "用XBOX Nano手柄，把游戏带到更多地方。更小巧的外形，让你在日常中享受更多游戏时光。通过蓝牙连接，跨设备畅玩。",
+      "description": "Take play to more places with the XBOX Nano Controller. Fit more play in your everyday in a smaller form factor. Connect via Bluetooth & play across devices.",
+      "thumbnail": "https://ph-files.imgix.net/974c452d-9eac-41d3-a9be-19dc60fd99aa.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/dd2d249b-4462-42ac-9adb-7bfbfd7fbb00.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/microsoft-xbox-series-s?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EAREDKT5V2YY67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 119,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 6,
+      "topics": [
+        "XBox",
+        "Hardware",
+        "Games"
+      ],
+      "buckets": [],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    },
+    {
+      "name": "Vampire Crawlers™",
+      "tagline": "The Turbo Wildcard from Vampire Survivors",
+      "summaryZh": "Vampire Survivors 的 Turbo Wildcard",
+      "descriptionZh": "出自不知何故三度斩获BAFTA大奖的《吸血鬼幸存者》创作者之手，《吸血鬼爬行者：吸血鬼幸存者的涡轮万能牌》将《幸存者》那种滚雪球般的快感，转化为一款超快节奏、以卡牌驱动的回合制BLOBBER游戏，并融入Rogue-lite元素。构筑离谱卡组，以全新视角探索熟悉的地牢，释放毁天灭地的连招。你可以从容布局、讲究策略，也可以以人类极限的速度出牌：结果始终精准无误，我们称之为“超快”自有其道理！",
+      "description": "From the somehow triple-BAFTA‑winning creators of Vampire Survivors, Vampire Crawlers: The Turbo Wildcard from Vampire Survivors turns the snowballing thrill of Survivors into a hyper turn‑based, card‑driven BLOBBER with rogue-lite elements. Build busted decks, explore familiar dungeons from a new perspective, and unleash world‑ending combos. Either take your time and be tactical, or play turns as fast as you humanly can: The outcome is always accurate, we call it hyper for a reason!",
+      "thumbnail": "https://ph-files.imgix.net/899b9f82-09b4-43fb-ae05-f4a12cfcc30d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/fb321bb4-5f10-4cbc-852d-d94aac6758a0.webp?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/vampire-crawlers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/36WK326LVURZJV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 89,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-10-18T07:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Android",
+        "Card Games",
+        "Indie Games",
+        "Games"
+      ],
+      "buckets": [],
+      "date": "2026-10-19",
+      "productHuntDate": "2026-10-18",
+      "lastUpdated": "2026-10-19T16:32:13.943Z"
+    }
+  ]
+}
