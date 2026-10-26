@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "date": "2026-10-26",
+    "productHuntDate": "2026-10-25",
+    "lastUpdated": "2026-10-26T16:04:23.744Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "26",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Moli by Lexmount",
+      "tagline": "The fastest headless browser for agents and harnesses",
+      "summaryZh": "面向智能体和测试框架的最快无头浏览器",
+      "descriptionZh": "Moli by Lexmount 是我们为 AI 智能体从零构建的浏览器引擎。它比 Chrome 启动更快，占用内存更少。通过我们的云浏览器平台 Lexmount Browser 使用 Moli。在支持代理的情况下运行多个隔离的浏览器会话，基础设施由我们负责。让你的智能体浏览网页、填写表单并提取数据。可在我们的 Playground 中试用，或通过我们的 SDK 接入。",
+      "description": "Moli by Lexmount is our browser engine built from scratch for AI agents. It starts faster and uses less memory than Chrome. Use Moli through Lexmount Browser, our cloud browser platform. Run multiple isolated browser sessions with proxy support while we handle the infrastructure. Let your agents browse, fill out forms, and extract data. Try it in our Playground or connect through our SDK.",
+      "thumbnail": "https://ph-files.imgix.net/d7a9d2e2-6db0-4c36-9c37-018bdedffc41.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/51d3c656-21a9-4560-acbb-85df36f5c027.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/lexmount-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RAM2WW7LJWJVNE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 288,
+      "comments": 68,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 1,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Badgey",
+      "tagline": "Your iPhone becomes a name badge that faces the room",
+      "summaryZh": "你的iPhone变成面向全场的姓名牌",
+      "descriptionZh": "Badgey 把你的 iPhone 变成姓名牌。挂在挂绳上时，它会转向你面前的人，并随你的动作摆动。放在胸前口袋时，它会缩小，让你的名字露在口袋边缘上方。支持多个姓名牌、用于你链接的二维码，以及五种设计。",
+      "description": "Badgey turns your iPhone into a name badge. On a lanyard, it turns to face the people you meet and swings as you move. In a chest pocket, it shrinks so your name shows above the edge. Several badges, a QR code for your link, five designs.",
+      "thumbnail": "https://ph-files.imgix.net/67ec826e-3628-4f86-a8fc-23342d4daa05.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/05184431-9613-4016-af31-2d491e372d25.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/badgey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PGZDT6IPQQGLGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 219,
+      "comments": 7,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 2,
+      "topics": [
+        "iOS",
+        "Productivity",
+        "Events"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "AgentGrid.io",
+      "tagline": "Shared workspace for humans and agents",
+      "summaryZh": "人类与代理共享的工作空间",
+      "descriptionZh": "为 Grok Bot、Muse AI、Instinct、Hermes、Claude、GPT、OpenClaw、Cursor、Codex 打造，欢迎所有智能体。在同一批实时工件上协作。文档、报告、幻灯片、应用和设计，具备共享上下文、受控访问和完整版本历史。",
+      "description": "Built for Grok Bot, Muse AI, Instinct, Hermes, Claude, GPT, OpenClaw, Cursor, Codex, all agents are welcome. Work on the same live artifacts. Docs, reports, slides, apps, and designs, with shared context, controlled access, and full version history.",
+      "thumbnail": "https://ph-files.imgix.net/fb81d1a5-1eef-40f5-af62-fe544378a6a8.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/acc15ed1-d067-403d-bd16-b901c6400bfe.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NJM7SLYJGCQILR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 201,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Artificial Intelligence",
+        "Maker Tools",
+        "Vibe coding"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Openstatus Incident Management",
+      "tagline": "Incident management for small teams",
+      "summaryZh": "小型团队的事件管理",
+      "descriptionZh": "开源事件管理，紧邻你的监控和状态页面。从 Slack 发起声明，为每个事件创建专属频道，记录时间线并起草事后复盘。",
+      "description": "Open source incident management next to your monitors and status page. Declare from Slack, get a channel per incident, keep a timeline and draft the postmortem.",
+      "thumbnail": "https://ph-files.imgix.net/694f683b-d48d-4881-a66a-9f007f9f38b2.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/5d1f7556-9442-4f0e-ab7d-02c0e03c1978.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/openstatus-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GUOGK3ES446K7E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 172,
+      "comments": 14,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "git-flow-next",
+      "tagline": "Your favorite Git workflow. Reimagined.",
+      "summaryZh": "你钟爱的 Git 工作流，重新构想。",
+      "descriptionZh": "灵活、现代的流行 git-flow 分支模型方案。下载 CLI 工具，开启更优的 Git 工作流：brew install git-flow-next",
+      "description": "A flexible, modern approach to the popular git-flow branching model. Download the CLI tool to get started with a better Git workflow: brew install git-flow-next",
+      "thumbnail": "https://ph-files.imgix.net/6b768ba9-4e4c-4ba6-9f4c-01b998095f35.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/7465ce15-4661-44ef-a75b-dafafec71fa0.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tower?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RABVKXFBGWEXFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 134,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 5,
+      "topics": [
+        "Open Source",
+        "Software Engineering",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Llama Windows",
+      "tagline": "One local AI server for all your Windows apps",
+      "summaryZh": "一台本地AI服务器，适用于你的所有Windows应用",
+      "descriptionZh": "Llama Windows 将 llama.cpp 带入 Windows 11 系统托盘。一键从 Hugging Face 下载开放模型，通过 Alt+Space 聊天，并让编码代理、编辑器和脚本共享本地 OpenAI 兼容 API 和模型缓存。免费且开源。",
+      "description": "Llama Windows brings llama.cpp to the Windows 11 system tray. Download open models from Hugging Face in one click, chat via Alt+Space, and let coding agents, editors and scripts share a local OpenAI-compatible API and model cache. Free and open source.",
+      "thumbnail": "https://ph-files.imgix.net/5a509c7c-f66e-44df-acf1-0b2e3af21876.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/a42b6534-587a-48d1-b7df-c46f252fafd5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/llama-windows?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4DOJOAGK7YSD6N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 125,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 6,
+      "topics": [
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub",
+        "Development"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Papermark Data Rooms",
+      "tagline": "Secure data rooms your AI agents can run. Live in < 60 sec.",
+      "summaryZh": "你的AI代理可以运行的安全数据室。不到60秒即可上线。",
+      "descriptionZh": "Data Rooms 2.0：在60秒内启动安全数据室。加密、全面认证，具备文件权限、内置问答、完整审计日志和分析功能。可在你的域名上进行白标，或让代理通过API、CLI和MCP运行。",
+      "description": "Data Rooms 2.0: launch a secure data room in under 60 seconds. Encrypted, fully certified, with file permissions, built-in Q&A, a full audit log and analytics. White-label it on your domain, or let agents run it via API, CLI and MCP.",
+      "thumbnail": "https://ph-files.imgix.net/3dff0b80-1d46-452e-bedc-f36006f1da71.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/aa0b2c0a-3285-45e7-8a3a-f8c48afc53e0.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/papermark-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/6I3SVXTE2RWMRM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 117,
+      "comments": 15,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Productivity"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "pawl",
+      "tagline": "a tiny mac focus timer you start by pulling a paw",
+      "summaryZh": "一个通过拉爪子启动的微型 Mac 专注计时器",
+      "descriptionZh": "拉动猫爪即可启动专注计时器，它常驻于 Mac 菜单栏，也可固定为迷你计时器！专注与休息时长可调，提供八种猫爪样式、多款主题，并在计时结束前给予安静的提示。专为 macOS 14 及以上系统打造。一次性付费 $9.99，无订阅。",
+      "description": "start a focus timer by pulling a cat paw, it lives in your mac menu bar or you can pin it like a mini timer! it has adjustable focus and break sessions, eight cat paws, themes, and a quiet heads-up before your timer ends. made for macos 14+. $9.99 once, with no subscription.",
+      "thumbnail": "https://ph-files.imgix.net/dc919d8e-63a1-4f2d-b850-89a50e84287b.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d3eacf45-68d8-4c3f-96b0-2a159f938ab5.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pawl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BTYPHY4G7KJWGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 104,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Clips by Plastic",
+      "tagline": "Lyric video ads for every part of your song, on the beat",
+      "summaryZh": "为歌曲每个部分制作歌词视频广告，精准踩点",
+      "descriptionZh": "放入一首完成的歌曲和你自己的素材或照片。Clips 会找到节拍和每个部分（主歌、预副歌、副歌、桥段），并为每个部分制作竖版歌词视频，按节拍剪辑，歌词同步。选择一个布局和 54 种效果之一，然后一次性导出每个部分在每种背景上的版本，命名完毕，可直接用于 Ads Manager。全部投放一周，把预算押在胜出的部分上。支持离线使用。免费试用，之后一次性收费 99 美元。",
+      "description": "Drop in a finished song and your own footage or photos. Clips finds the tempo and every part (verses, pre-chorus, chorus, bridge) and makes a vertical lyric video for each one, cut on the beat, with the words synced. Pick a layout and one of 54 effects, then export every part on every backdrop at once, named and ready for Ads Manager. Run them all for a week and put your budget behind the part that wins. Works offline. Free to try, then $99 once.",
+      "thumbnail": "https://ph-files.imgix.net/51a684d7-a279-4090-910d-f5961f335075.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/146a3c9d-2d73-4da6-a8e8-f05a70e832e3.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/clips-by-plastic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3SXM2NBTVCXAAC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 91,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 10,
+      "topics": [
+        "Mac",
+        "Music",
+        "Marketing"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Yourcast 2.0",
+      "tagline": "AI summaries with tap-to-jump timestamps, right in Telegram",
+      "summaryZh": "在Telegram中直接查看AI摘要，点击时间戳即可跳转",
+      "descriptionZh": "Yourcast 是一个用于播客的 Telegram 机器人：搜索节目，点击订阅，新单集便会以音频形式直接送达你的聊天。2.0 版本新增带时间戳的 AI 摘要，点击时间戳即可跳转到音频对应位置；可就任意单集提问；支持自动修复的订阅源；支持最大 2 GB 的文件；支持 OPML 导入和通过 Telegram Stars 支付。免费版：每周可按需获取 10 个单集。开源（GPL v3）。支持英语、俄语、葡萄牙语、西班牙语、德语和希伯来语。",
+      "description": "Yourcast is a Telegram bot for podcasts: search a show, tap to subscribe, and new episodes arrive as audio right in your chat. 2.0 adds AI summaries with timestamps you can tap to jump in the audio, questions about any episode, feeds that repair themselves, files up to 2 GB, OPML import and payments in Telegram Stars. Free: 10 episodes a week on demand. Open source (GPL v3). In English, Russian, Portuguese, Spanish, German and Hebrew.",
+      "thumbnail": "https://ph-files.imgix.net/7110d9cc-ca2f-451a-a41d-e27d923a0dfc.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ab30bfb8-f7aa-43c0-9379-5bfddb69ba04.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/yourcast?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7YV4OVM77J3NCU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 89,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub",
+        "Audio"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "How It Spread",
+      "tagline": "See how anything went viral, from the first post",
+      "summaryZh": "看看任何内容是如何走红的，从第一条帖子开始",
+      "descriptionZh": "1,600+ 病毒式传播的影片、产品、模因和营销活动库。",
+      "description": "A library of 1,600+ viral films, products, memes and campaigns.",
+      "thumbnail": "https://ph-files.imgix.net/66fd8683-943c-4247-bd28-0ce04125e438.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/2dcb8544-391b-4945-8058-d686bedb32c2.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/how-it-spread?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UOME7SDZI5LJJT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 88,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Social Media",
+        "Analytics",
+        "Marketing"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Sunlight Diary",
+      "tagline": "AI cheerleader based on daily sunlight target",
+      "summaryZh": "基于每日日照目标的AI啦啦队长",
+      "descriptionZh": "认识Sunlight Diary，一个基于每日日照目标的私人啦啦队。我们的AI助手帮你选择每日日照目标、获取建议的户外活动安排、记录户外时间，并打卡记录你的感受。Louie一路相伴。在手机浏览器中即可试用——无需可穿戴设备。",
+      "description": "Meet Sunlight Diary, a personal cheerleader based on daily sunlight target. Our AI agent helps you choose a daily sunlight goal, get a suggested outdoor routine, record your time outside, and check in with how you feel. Louie is your companion along the way. Try it in your phone's browser — no wearable needed.",
+      "thumbnail": "https://ph-files.imgix.net/8107f0eb-d6fd-494a-86cb-a22058e7c19a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/264fcf22-43db-4eb2-a7bf-f35385304e9d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/sunlight-diary-by-looove?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/G6JKQNFDJOWIYP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 23,
+      "comments": 17,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 13,
+      "topics": [
+        "Health & Fitness",
+        "Biohacking",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "OXYGEN",
+      "tagline": "Superintelligence for GTM",
+      "summaryZh": "通用技术管理超级智能",
+      "descriptionZh": "OXYGEN将为你获取下一位客户。Oxygents 能查找并丰富潜在客户信息，运行可转化的个性化 LinkedIn 和电子邮件序列，并处理枯燥、手动化的 CRM 更新。为确保你的产品被数百万人看到，它还会协助在 LinkedIn 和 X 上发布内容。它构建一个 GTM 大脑，让你能够从流程中抽身。",
+      "description": "OXYGEN will acquire your next customer. Oxygents find and enrich leads, run personalised LinkedIn and email sequences that convert and take care of the boring and manual CRM updates. To make sure your product is seen by millions it helps with content on LinkedIn and X. It builds a GTM brain so that you can remove yourself from the loop.",
+      "thumbnail": "https://ph-files.imgix.net/4d17f2f6-689d-4e30-9a50-bc71fdfc5ad3.x-icon?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3ac9ba08-4f15-49a9-a82e-04581bc19dd4.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/oxygen-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PHVA3WKEA7PDZP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 14,
+      "comments": 11,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 14,
+      "topics": [
+        "Sales",
+        "Email Marketing",
+        "LinkedIn"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Save My Prompts",
+      "tagline": "Save the prompts that work. Reuse them everywhere.",
+      "summaryZh": "保存有效的提示词，在各处重复使用。",
+      "descriptionZh": "Save My Prompts 帮助你在整个工作流程中保存、整理、改进并复用最佳的 AI 提示词。创建带有可自定义变量的可复用模板，即时查找提示词，用看板组织项目，并通过浏览器扩展和受支持的 AI 集成访问你的提示词库。不再从头重写提示词，把更多时间用于从 AI 获得有用的结果。",
+      "description": "Save My Prompts helps you save, organize, improve, and reuse your best AI prompts across your workflow. Create reusable templates with customizable variables, find prompts instantly, organize projects with boards, and access your library through browser extensions and supported AI integrations. Stop rewriting prompts from scratch and spend more time getting useful results from AI.",
+      "thumbnail": "https://ph-files.imgix.net/d38f59a7-2510-446f-9d85-d1a65b6e9a22.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ea19db98-0a4d-492d-8997-a6e8cd7cbcb6.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/save-my-prompts?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZABNCVDEYKODYY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 14,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 15,
+      "topics": [
+        "Productivity"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "LinkedEmbed",
+      "tagline": "LinkedIn Widgets for Websites",
+      "summaryZh": "LinkedIn 网站小部件",
+      "descriptionZh": "LinkedEmbed 是一款无需代码的 LinkedIn 小部件构建工具，可让你将 LinkedIn 动态、帖子、个人资料、推荐、公司职位列表、项目和认证嵌入任何网站。为 WordPress、Webflow、Wix、Shopify、Squarespace 等平台创建美观且可自定义的 LinkedIn 小部件。展示专业社交证明，呈现 LinkedIn 内容，并跟踪小部件浏览量、点击量和互动情况。一切均可通过一个简单的仪表板完成。无需编码。",
+      "description": "LinkedEmbed is a no-code LinkedIn widget builder that lets you embed LinkedIn feeds, posts, profiles, recommendations, company job listings, projects, and certifications on any website. Create beautiful, customizable LinkedIn widgets for WordPress, Webflow, Wix, Shopify, Squarespace, and more. Showcase professional social proof, display LinkedIn content, and track widget views, clicks, and engagement. All from one simple dashboard. No coding required.",
+      "thumbnail": "https://ph-files.imgix.net/993aef99-9b11-4d6f-8c70-c31f6d6a686a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/31ab7b4a-5b84-42e8-b1fa-5a7ed5709dd4.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/linkedembed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UJM27JITOHM6YI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 17,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 16,
+      "topics": [
+        "Social Media",
+        "Marketing",
+        "No-Code"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Benchpress",
+      "tagline": "Every OCR model is #1 somewhere. Test them on your own pages",
+      "summaryZh": "每个OCR模型都有其擅长的领域。用你自己的页面来测试它们吧。",
+      "descriptionZh": "每个OCR模型都在某些基准测试中名列前茅。但它们能处理你的文档吗？💪 放入一页文档，各大OCR和文档AI都会读取它。看看谁读对了，每个在哪里出错，以及谁最快、最便宜。",
+      "description": "Every OCR model is topping some benchmarks. But can they lift your documents? 💪 Drop in one page, and every major OCR and document AI reads it. See who got it right, where each one slipped, and who was fastest and cheapest.",
+      "thumbnail": "https://ph-files.imgix.net/6c47b164-2398-4fad-bec6-479d0bc810a0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/386963e6-aee2-475d-b6fb-661032e84694.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/benchpress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DNGVW5D2KB4ZYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 8,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 18,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Reels Flow",
+      "tagline": "Turn ideas and images into AI-powered videos",
+      "summaryZh": "将创意和图像转化为AI驱动的视频",
+      "descriptionZh": "ReelsFlow 帮助创作者、营销人员和企业将文本提示和图像转化为 AI 生成的视频和视觉内容，适用于 YouTube Shorts、Instagram Reels、TikTok 等平台。探索多种 AI 模型，让创意想法变为现实。",
+      "description": "ReelsFlow helps creators, marketers, and businesses turn text prompts and images into AI-generated videos and visuals for YouTube Shorts, Instagram Reels, TikTok, and more. Explore multiple AI models to bring creative ideas to life.",
+      "thumbnail": "https://ph-files.imgix.net/1715a594-ee6d-4e56-bcdd-e76f8d5c1966.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/576c3edf-0577-4dde-8c75-7b7db64f8347.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/reels-flow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LCLVFANYVGAECC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 6,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 19,
+      "topics": [
+        "Social Media",
+        "Artificial Intelligence",
+        "Photo & Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "MRRaudit",
+      "tagline": "Understand why your MRR differs and get a number you trust",
+      "summaryZh": "理解你的MRR为何存在差异，并获得一个可信的数字",
+      "descriptionZh": "MRRaudit 解释你的 MRR 数字为何存在差异，让你能得出可信的数字。逐客户比较 Stripe 和 ChartMogul，将差异追溯到发票和订阅事件，并选择计费事件如何影响 MRR。由 ChartMogul 团队打造，该团队自 2014 年起专注于 SaaS 指标，并通过电话和支持工单帮助数千家 SaaS 企业手动排查这些差异。只读访问。无需 ChartMogul 账户。",
+      "description": "MRRaudit explains why your MRR numbers differ so you can get to a figure you trust. Compare Stripe and ChartMogul customer by customer, trace discrepancies to invoices and subscription events, and choose how billing events affect MRR. Built by the ChartMogul team, who've obsessed over SaaS metrics since 2014 and helped thousands of SaaS businesses investigate these differences by hand through calls and support tickets. Read-only access. No ChartMogul account required.",
+      "thumbnail": "https://ph-files.imgix.net/7939087a-2479-462f-bddc-7725feec3b41.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/30717c4e-032d-435b-80bf-041530218401.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/mrraudit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/L62GHB4OGSZKLT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 108,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-10-25T07:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Analytics",
+        "Payments",
+        "SaaS"
+      ],
+      "buckets": [],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "TONAUT",
+      "tagline": "Synth, drums, sequencer and 8-track tape for iPhone and iPad",
+      "summaryZh": "适用于iPhone和iPad的合成器、鼓机、音序器和8轨磁带",
+      "descriptionZh": "Tonaut 是一款为 iPhone 和 iPad 打造的合成器、鼓机、音序器和八轨磁带，旨在演奏而非编程。9 个合成引擎、超过 500 种声音、41 套鼓组、一个和弦垫、16 种效果和一个八轨音序器。在 iPhone 上，有五种带按键 LED 的外壳。19.99 美元——iPhone 和 iPad 一次性购买。无订阅，无账户。AUv3 将在 2.0 版本中推出，免费。",
+      "description": "Tonaut is a synth, drum machine, sequencer and eight-track tape for iPhone and iPad, made to be played rather than programmed. 9 synth engines, over 500 sounds, 41 drum kits, a chord pad, 16 effects and an eight-lane sequencer. On iPhone, five housings with key LEDs. $19.99 - one-time purchase for iPhone and iPad. No subscription, no account. AUv3 is coming in 2.0, free.",
+      "thumbnail": "https://ph-files.imgix.net/d5bb55e2-f91c-47e7-9d6e-5a05515495b9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/cd8f8948-011d-422e-bb0b-e6f52ec0142b.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tonaut?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/Y65SB3ZNFEXDAD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 7,
+      "comments": 6,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 17,
+      "topics": [
+        "iOS",
+        "Music",
+        "Audio"
+      ],
+      "buckets": [],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    },
+    {
+      "name": "Your Stressy",
+      "tagline": "One number for your energy, on iPhone and Apple Watch",
+      "summaryZh": "在iPhone和Apple Watch上，一个数字掌握你的能量。",
+      "descriptionZh": "Stressy 将你的 Apple Watch 数据转化为一个数字——你的储备值（0–100%）。睡眠为其充能，压力使其消耗。提供就绪度、睡前教练以及 iPhone 和 Watch 小组件。全部在设备端计算，数据不会离开设备。一次性付费 $4.99，永不订阅。",
+      "description": "Stressy turns your Apple Watch data into one number, your reserve (0–100%). Sleep fills it, stress drains it. Readiness, a bedtime coach and widgets for iPhone and Watch. Calculated on device, nothing leaves it. $4.99 once, never a subscription.",
+      "thumbnail": "https://ph-files.imgix.net/763911d1-bb1c-489d-9c03-dd82f92857cf.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/25daa1b3-fb70-47d1-aa3c-239695f4c46b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/your-stressy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/WZLARS4J2KBXIV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 4,
+      "comments": 4,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 20,
+      "topics": [
+        "iOS",
+        "Apple Watch",
+        "Health & Fitness"
+      ],
+      "buckets": [],
+      "date": "2026-10-26",
+      "productHuntDate": "2026-10-25",
+      "lastUpdated": "2026-10-26T16:04:23.744Z"
+    }
+  ]
+}
