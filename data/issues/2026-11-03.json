@@ -1,0 +1,567 @@
+{
+  "meta": {
+    "date": "2026-11-03",
+    "productHuntDate": "2026-11-02",
+    "lastUpdated": "2026-11-03T16:58:58.721Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "03",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "beacon.sh",
+      "tagline": "Open-source self-improving memory for AI coding agents",
+      "summaryZh": "面向AI编程代理的开源自改进记忆",
+      "descriptionZh": "Beacon 将 Claude Code、Cursor、Codex、OpenCode 及其他 20 多种 harness 中的 agent 会话转化为可累积的知识层，让每个 agent 都比上一个更智能。它捕获你环境中的每一条 agent 轨迹，并将活动转化为清晰的运营可见性。可在 beacon.sh 免费开始使用。",
+      "description": "Beacon turns agent sessions across Claude Code, Cursor, Codex, OpenCode, and 20+ other harnesses into a compounding knowledge layer, so every agent starts smarter than the last. It captures every agent trace across your environment and turns activity into clear operational visibility. Get started for free at beacon.sh",
+      "thumbnail": "https://ph-files.imgix.net/6d868f52-320c-40d2-b20d-ce28773f8ff5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/9fbd8c98-c5aa-4e40-88c2-58905005594a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/WB3BWWZDEG2XEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 418,
+      "comments": 79,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 1,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub",
+        "SDK"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "UnleashX",
+      "tagline": "The AI workforce that turns conversations into outcomes. ",
+      "summaryZh": "将对话转化为成果的AI工作团队。",
+      "descriptionZh": "UnleashX 让你像雇人一样雇用 AI 员工——选择角色、连接你的 CRM 和工具、设定规则，然后交接工作。端到端执行工作流，仅在需要时由人工介入。",
+      "description": "UnleashX lets you hire AI employees like people - pick a role, connect your CRM and tools, set your rules, and hand over the work. Execute workflows end-to-end, with humans stepping in only when needed.",
+      "thumbnail": "https://ph-files.imgix.net/19bed977-5274-4ae2-9034-fab438a25eaa.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/8c1ff980-8f62-41fa-a2f4-99a71d231c1d.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/unleashx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LF5W4HZMDHS2VV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 344,
+      "comments": 115,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 2,
+      "topics": [
+        "Productivity"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Xmind 2027",
+      "tagline": "Your mind map is now an AI thinking partner",
+      "summaryZh": "你的思维导图现在是一个AI思考伙伴",
+      "descriptionZh": "当信息获取变得更容易，理解与判断比以往更重要。Xmind 2027 为你和 AI 提供一个共享的视觉空间，共同梳理想法。借助 Xmind Agent，你可以用本地文档和导图进行研究、发展思路，并通过对话权衡各种可能性。你的导图随思考一同演进。通过 MCP，将同样的上下文带入 ChatGPT、Claude 以及你现有的 AI 工作流，同时方向始终由你掌控。",
+      "description": "As information becomes easier to access, understanding and judgment matter more than ever. Xmind 2027 gives you and AI a shared visual space to work through ideas. With Xmind Agent, use your local documents and maps to research, develop ideas, and weigh possibilities through conversation. Your map evolves with your thinking. With MCP, bring that same context into ChatGPT, Claude, and your existing AI workflow, while you stay in control of the direction.",
+      "thumbnail": "https://ph-files.imgix.net/e38df7cb-67e1-4713-9837-1a78121307d8.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/83293104-0a90-419f-8aaf-d14a04436bae.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ITN3N4YT7NIKXS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 313,
+      "comments": 49,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Productivity",
+        "Notes",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Cedric AI for Meetings",
+      "tagline": "The first AI agent to present your slides and attend for you",
+      "summaryZh": "首个能替你展示幻灯片并代你出席的AI智能体",
+      "descriptionZh": "让 Cedric 加入你的 Zoom、Meet 或 Teams 通话。他展示你的幻灯片，并利用你工具中的实时数据回答问题。加入晚了？他会帮你跟上进度。无法加入？他代表你出席。之后，你批准笔记和后续事项，他负责处理工作。",
+      "description": "Send Cedric to your Zoom, Meet, or Teams calls. He presents your slides, and answers questions using live data from your tools. Join late? He catches you up. Can’t join? He represents you. Afterwards, approve the notes and follow-ups, and he handles the work.",
+      "thumbnail": "https://ph-files.imgix.net/69d303d3-67c8-4ef1-9d36-fc7c597ace1b.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/066b7fd8-7b22-49ec-8993-4378bfc63017.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3WNUZE5QLV6YEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 237,
+      "comments": 33,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Sales",
+        "Meetings",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Hera",
+      "tagline": "AI Creative Canvas",
+      "summaryZh": "AI创意画布",
+      "descriptionZh": "在同一画布上生成图像、设计和动画。同时指挥多个AI代理。通过可编辑图层保持掌控。用你自己的品牌制作广告、发布视频和社交帖子。粘贴你的网站以获取品牌套件。写几条提示词，并排生成数十个符合品牌调性的广告。将你喜欢的任何广告作为参考放入，通过反馈或手动修正细节，然后将最佳作品制作成动态广告。调整尺寸以适配每种格式，全部在同一画板上完成。",
+      "description": "Generate images, design, and animate on one canvas. Direct multiple AI agents at the same time. Stay in control with editable layers. Make ads, launch videos, and social posts in your own brand. Paste your website to get your brand kit. Write a few prompts and get dozens of on-brand ads side by side. Drop in any ad you like as a reference, fix details with feedback or by hand, then animate your best ones into motion ads. Resize to every format, all on the same board.",
+      "thumbnail": "https://ph-files.imgix.net/328a9988-e1a7-4452-ab6d-a87977934629.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ba7d992a-d17f-490c-8c45-89c168d78a16.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/6URUWPJU6AOJT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 214,
+      "comments": 35,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 5,
+      "topics": [
+        "Design Tools",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Clayzo",
+      "tagline": "Create animations and motion design with your coding agent",
+      "summaryZh": "用你的编码代理创建动画和动态设计",
+      "descriptionZh": "Clayzo 让 Claude Code、Codex 和 Cursor 等编码代理能够极其轻松地创建网页动画和动态图形。你的代理用代码编写，并逐帧审查；你可以导出视频，或在网站上实时播放。而且它是免费的！",
+      "description": "Clayzo makes it incredibly easy for coding agents like Claude Code, Codex and Cursor to create web animations and motion graphics. Your agent writes it in code and reviews every frame; you export a video or play it live on your site. And it’s free!",
+      "thumbnail": "https://ph-files.imgix.net/931fde18-2158-44a2-ab88-37917e032214.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/96dbb70d-157c-4dbc-8ec1-e4e5dd0c496b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/clayzo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PQXQECJKP5FJNI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 192,
+      "comments": 35,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 6,
+      "topics": [
+        "Design Tools",
+        "Graphics & Design",
+        "Animation"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Self-Growing Websites by Greta.sh",
+      "tagline": "Build a website that can do its own SEO & AEO automatically",
+      "summaryZh": "构建一个能够自动进行SEO和AEO的网站",
+      "descriptionZh": "你建了网站或应用，为什么没人访问？要在 Google 和 ChatGPT、Perplexity 等 AI 工具中被发现，需要数月的 SEO 和 AEO。Self-Growing Websites 能解决这个问题。Greta.sh 找到客户搜索的内容，撰写能回答这些问题的页面，让你出现在 Google、ChatGPT 及各处。借助 Greta.sh MCP，你可以在 Claude、ChatGPT 或 Cursor 中运行这一切：只需让它构建、增长、发布或报告。别再只是建网站，用 Greta.sh 打造吸引客户的磁石！",
+      "description": "You built a website/app, so why is nobody visiting? Getting found on Google & AI tools like ChatGPT, Perplexity etc takes months of SEO & AEO. Self-Growing Websites fix that. Greta.sh finds what customers search for, writes pages that answer them, and gets you showing up on Google, ChatGPT & everywhere With the Greta.sh MCP, you can run it all from Claude, ChatGPT or Cursor: just ask it to build, grow, publish or report. Don't just build a website anymore, build a customer magnet with Greta.sh!",
+      "thumbnail": "https://ph-files.imgix.net/5f6397bc-5eef-465d-bcac-64cbe2eddaff.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4ef859a6-6bf9-4e72-8986-72548f4c9bad.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/gretabyquestera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/A4SAVBJLKDKRDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 157,
+      "comments": 22,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Marketing",
+        "SEO"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Display 1.0",
+      "tagline": "Create docs and apps with any agent, in one workspace",
+      "summaryZh": "在一个工作区中，用任意智能体创建文档和应用",
+      "descriptionZh": "与团队共同创建和协作处理文档、原型和应用。存储你的智能体生成的文件，在空间和文件夹中组织知识工作，并将这一切转化为你的内部知识库。可与任何智能体、任何方案配合使用，价格统一。",
+      "description": "Create and collaborate on docs, prototypes and apps with your team. Store the files your agents make, organise knowledge work in Spaces and Folders, and turn it all into your internal knowledge base. Work with any agent and any plan, at a flat price.",
+      "thumbnail": "https://ph-files.imgix.net/60a5d6a6-9f42-4e6f-af98-1661fb3a8014.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/e0bcf085-48e3-4dc9-80ed-860662882011.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7NCNIIQEMH52HJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 150,
+      "comments": 49,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Agent Inbox",
+      "tagline": "Give your agent an email address, Slack and Telegram handle",
+      "summaryZh": "为你的代理分配一个电子邮件地址、Slack 和 Telegram 账号",
+      "descriptionZh": "Agent Inbox 为每个 AI agent 提供专属的电子邮件地址、Slack 账号和 Telegram 账号，全部通过一个 API 统一管理。你可以从日常使用的任意平台给 agent 发消息，它会在同一对话线程中回复。它兼容 Claude、Grok、OpenAI、Hermes 以及其他任何 agent 框架。无需再为每个渠道编写胶水代码：你的 agent 拥有一个收件箱，你也拥有一个可以联系它的统一入口。",
+      "description": "Agent Inbox gives every AI agent its own email address, Slack handle and Telegram handle, all behind one API. Message your agent from wherever you already work, and it replies in the same thread. It works with Claude, Grok, OpenAI, Hermes and any other agent framework. No more glue code for each channel: your agent gets one inbox, and you get one place to reach it.",
+      "thumbnail": "https://ph-files.imgix.net/9c5b7532-07f4-493e-87e4-3c0f51aecc08.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d5e19ce0-28c2-4ec0-bc5a-32dfb328fa40.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/VVMJ7O2SOEPDB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 139,
+      "comments": 21,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Email",
+        "Messaging",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Hyperresearch",
+      "tagline": "Durable, verified agentic search",
+      "summaryZh": "持久、经过验证的智能体搜索",
+      "descriptionZh": "Hyperresearch 负责研究并展示证据。提出问题，即可获得一份带引用的报告；每条引用陈述都会对照其来源进行核查，所有来源都保存在可搜索的库中。在 DRACO 基准测试中，我们是全球排名第一的研究智能体。新增：Answers MCP 和 API。你的智能体调用 ask，即可获得带有逐字引文的简短回答，或者得到简单的“未找到”，而不是幻觉。我们整合了 4 个 AI 搜索引擎和 40 多个其他数据源，以实现最广泛、最深入的访问。",
+      "description": "Hyperresearch does the research and shows the evidence. Ask a question, get a cited report; each cited claim is checked against its source, and all sources are kept in a searchable vault. On the DRACO benchmark, we are the world's number-one research agent. New: Answers MCP and API. Your agent calls ask and gets a short answer with word-for-word quotes, or a simple \"not found\" instead of a hallucination. We combine 4 AI search engines and 40+ other data sources for the widest and deepest access.",
+      "thumbnail": "https://ph-files.imgix.net/6708e2f8-83f3-43c3-9645-1f21e3f8a714.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/04939a78-a41a-4b50-a71a-da03ca0cbe74.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PC2E463TYUYTKB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 123,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 10,
+      "topics": [
+        "API",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Friday Work",
+      "tagline": "When Claude hits its limit, your task keeps going",
+      "summaryZh": "当 Claude 达到使用上限时，你的任务仍会继续",
+      "descriptionZh": "其他工具让智能体并行运行。Friday 则让它们协同工作：当 Claude 在任务中途用尽额度时，你已在运行的另一智能体会带着当前进度接手，智能体之间直接互相发消息，无需你在终端之间复制粘贴。",
+      "description": "Other tools run agents side by side. Friday makes them work together: when Claude runs out mid-task, another agent you already run picks it up with the progress so far, and agents message each other instead of you copy-pasting between terminals.",
+      "thumbnail": "https://ph-files.imgix.net/8945ae4f-9aec-4b4c-a453-e44456795707.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/fdac631b-167c-4d51-85b6-8974e7c2437a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/friday-work?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/QVYJUP52MHYJE4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 120,
+      "comments": 15,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "diff-tour",
+      "tagline": "AI writes the code. Learn to read it like a senior engineer.",
+      "summaryZh": "AI 编写代码。学会像资深工程师一样阅读它。",
+      "descriptionZh": "既然 AI 来写代码，工程师该学什么？理解代码仍然重要，而理解代码意味着学习资深工程师如何思考。diff-tour 把一次 git diff 变成一段可以用 → 和 ← 逐步浏览的导览：这次改动是为了什么、该看哪里、资深工程师会问什么（如果运行两次会怎样？能回滚吗？）、哪些必须修、哪些只是小问题，以及他们会在哪里说“等等”——这些都以问题形式提出，让你先自己猜。它运行在你的 AI 编程 CLI 上。只读、开源。",
+      "description": "Now that AI writes the code, what should engineers learn? Understanding code still matters, and understanding code means learning how a senior engineer thinks. diff-tour turns a git diff into a tour you step through with → and ←: what the change is for, where to look, what a senior asks (what if it runs twice? can it roll back?), what must be fixed and what is a nit, and where they'd say \"wait\", asked as questions so you guess first. Runs on your AI coding CLI. Read-only, open source.",
+      "thumbnail": "https://ph-files.imgix.net/79495780-0db2-42cb-a98a-e3aa2462f8b1.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/36c894d4-bfdf-4afa-b851-33c983bdab4c.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/diff-tour?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SU7NU3BKIXRMC4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 99,
+      "comments": 11,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Education",
+        "Software Engineering",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Looper",
+      "tagline": "If Grok Bot supported team collaboration and was Open Source",
+      "summaryZh": "如果Grok Bot支持团队协作并且是开源的",
+      "descriptionZh": "一个专为你关心的某个指标而设的AI员工。它每天在Gmail、GitHub、Search Console等工具中工作，任何内容发出前都会先询问你的团队，每两周进行一次1:1沟通以持续改进。开源。在你已付费的ChatGPT或Grok套餐上免费运行。",
+      "description": "An AI hire for one number you care about. It works daily in Gmail, GitHub, Search Console and the rest, asks your team before anything goes out, and gets a 1:1 every two weeks to improve. Open source. Runs free on the ChatGPT or Grok plan you already pay for.",
+      "thumbnail": "https://ph-files.imgix.net/5439cb66-d364-476d-9047-8ab2b16b4481.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/0dbfd5d4-bf85-4559-a7bb-e646077729ed.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/looper-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UA3CSQFSDMWYN5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 96,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Productivity",
+        "Task Management",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "CuriousLM",
+      "tagline": "Private AI that runs on your device. No account.",
+      "summaryZh": "在你的设备上运行的私密AI。无需账户。",
+      "descriptionZh": "CuriousLM 是一款免费 AI 应用，模型在你的手机或电脑上运行，因此聊天内容就在那里生成并保存，且经过加密。无需账户，也没有聊天服务器。模型不确定的词语会保留下划线：点击即可查看它原本还可能说什么，并换一种方式获取答案。语音和 Pocket Wikipedia 同样在设备上运行；在 Android 上，经你许可，它还能告诉你谁在等你。",
+      "description": "CuriousLM is a free AI app that runs the model on your phone or computer, so your chats are written and kept there, encrypted. No account, no chat server. Words the model was unsure of stay underlined: tap one to see what else it nearly said, and take the answer another way. Voice and Pocket Wikipedia run on the device too, and on Android it can tell you who is waiting on you, with your permission.",
+      "thumbnail": "https://ph-files.imgix.net/7c9fcc05-578d-4293-a2de-813f1dbacdd9.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/87130332-6018-4804-9328-f0a9846b84ae.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/curiouslm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SEVXAUMX6XMFDX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 93,
+      "comments": 11,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 15,
+      "topics": [
+        "Android",
+        "Privacy",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Linkly AI Clipper",
+      "tagline": "Save web as an Agent-friendly Markdown browser extension",
+      "summaryZh": "将网页保存为对Agent友好的Markdown浏览器扩展",
+      "descriptionZh": "一键即可将当前页面转换为格式整洁的 Markdown，你可以直接在侧边面板中预览、复制或下载。简单、轻量，保存的所有内容都针对 AI 代理的使用进行了优化。",
+      "description": "One click turns the page you are on into cleanly formatted Markdown that you can preview, copy or download right from the side panel. Simple, lightweight, and everything it saves is optimised for AI agents to use.",
+      "thumbnail": "https://ph-files.imgix.net/4b99a08f-cd6a-413e-8b5d-9e1b66be7af8.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/46ecd63e-cb00-4e99-8c80-3744434a69ad.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/linkly-ai-clipper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/G7P2WHWJFELHJL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 92,
+      "comments": 7,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 16,
+      "topics": [
+        "Chrome Extensions",
+        "Productivity",
+        "Notes"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "redu.cloud",
+      "tagline": "Run machines at agent speed, not human speed.",
+      "summaryZh": "以代理速度而非人类速度运行机器。",
+      "descriptionZh": "redu.cloud 是为 AI 智能体打造的云平台，提供慷慨的免费额度。它能让智能体极快地获取所需的有状态资源，非常适合以智能体速度安全地部署应用、进行 DevOps、训练有状态 AI 模型以及修复线上事故。",
+      "description": "redu.cloud is a cloud made for AI agents, with a generous free tier. It allows your agents to get the stateful resources they need extremely fast, making them ideal for doing deployments of your app, DevOps, training stateful AI models and fixing live incidents at agent speed, safely.",
+      "thumbnail": "https://ph-files.imgix.net/d6048c69-1321-4b81-a67c-ae6f11ecbfc2.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b450ce48-4e51-47f7-b19a-600aa87afe1b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/redu-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YPBFA3CWCDIK4K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 89,
+      "comments": 9,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 17,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Widgeteer",
+      "tagline": "Describe a widget, get a working one on your site",
+      "summaryZh": "描述一个小部件，即可在你的网站上获得一个可用的小部件。",
+      "descriptionZh": "输入你的需求，比如“清洁报价计算器”或“餐桌预订表单”，Widgeteer 就会构建一个可用的小组件。你可以手动编辑，也可以通过提问来修改。提交内容会发送到电子邮件、Zapier、n8n 或 webhook。适用于 WordPress、Shopify 和任何网站。",
+      "description": "Type what you need, like \"a cleaning quote calculator\" or \"a table booking form\", and Widgeteer builds a working widget. Edit it by hand or by asking. Submissions go to email, Zapier, n8n or a webhook. Works on WordPress, Shopify and any website.",
+      "thumbnail": "https://ph-files.imgix.net/976d0bb1-5d10-4646-86d4-d98daf59d8f7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/5b32c48d-c335-4a01-b0a6-28dd8efed796.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/widgeteer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/OOLWNA563VM35I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 18,
+      "topics": [
+        "WordPress",
+        "Website Builder",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Ghostlaunch",
+      "tagline": "Test your startup idea on real clicks, not compliments",
+      "summaryZh": "用真实点击检验你的创业想法，而非恭维之词",
+      "descriptionZh": "描述你的想法，Ghostlaunch 会构建一个旨在转化的落地页，触达 Reddit 上已经在寻求解决你这个问题的人，并追踪每一次访问、点击和邮件。第 7 天：给出明确结论，所有线索都归你所有。",
+      "description": "Describe your idea and Ghostlaunch builds a landing page made to convert, reaches people on Reddit already asking for a fix to your problem, and tracks every visit, click and email. On day 7: a clear verdict, and every lead, yours to keep.",
+      "thumbnail": "https://ph-files.imgix.net/cc9e87a5-1a96-4742-9e57-af765c34591e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/66121766-6395-401f-9fea-c8463e5fb118.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ghostlaunch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MXDBNSW6ENU4UW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 30,
+      "comments": 14,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 19,
+      "topics": [
+        "Analytics",
+        "Marketing",
+        "SaaS"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "EverStamp: Timestamped Photos & Videos ",
+      "tagline": "Timestamped photos and videos anyone can verify",
+      "summaryZh": "任何人都能验证的带时间戳的照片和视频",
+      "descriptionZh": "EverStamp 是一款时间戳相机应用。它按照手机提供的信息，将日期、时间和地点添加到每张照片和视频中，并将拍摄内容整合为一个文件。关闭文件时，独立服务会添加合格时间戳，此后的任何更改都会显现。接收方可在任意浏览器中查验。影像带有 C2PA 内容凭证。面向企业：可按自有清单发起请求，并提供仪表板。适用于租赁交接、损坏索赔、检查等场景。",
+      "description": "EverStamp is a timestamp camera app. It puts the date, time and place in every photo and video, as your phone gives them, and keeps the captures together as one file. When you close the file, an independent service adds a qualified timestamp, and any later change shows up. The recipient can check it in any browser. Footages carries C2PA Content Credentials. For businesses: requests with your own checklist, and a dashboard. Made for rental handovers, damage claims, inspections and more.",
+      "thumbnail": "https://ph-files.imgix.net/02ce80ef-efb5-4675-a24a-cd84ecfb1298.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/bb86b382-17bb-4222-8c7a-1d3fb2498b8d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/everstamp-timestamped-photos-videos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/HBBW24UH7TSBND?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 29,
+      "comments": 11,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 20,
+      "topics": [
+        "Android",
+        "Productivity",
+        "Photo & Video",
+        "Security"
+      ],
+      "buckets": [
+        "productivity",
+        "design"
+      ],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    },
+    {
+      "name": "Help",
+      "tagline": "The app designed for targeted and transparent help",
+      "summaryZh": "这款应用专为精准且透明的援助而设计",
+      "descriptionZh": "Help是一个全球慈善平台，连接捐赠者、非营利组织和企业，让人人都能参与有意义的改变。基于爱、尊重、同情、技术、透明和安全等价值观，Help支持针对人类、动物和地球的定向且可问责的捐赠。平台上的筹款活动由经过验证的非营利合作伙伴网络主导，帮助捐赠者了解其捐款去向及所支持的影响。",
+      "description": "Help is a global charity platform, connecting donors, nonprofit organizations, and businesses to make meaningful change accessible to everyone. Built around the values of love, respect, compassion, technology, transparency, and safety, Help enables targeted and accountable giving in support of people, animals, and the planet. Fundraisers on the platform are led by a network of verified nonprofit partners, helping donors understand where their contributions go and the impact they support.",
+      "thumbnail": "https://ph-files.imgix.net/7d7aaf95-dbc2-4106-8f8e-a81c21e36b9a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f36f053d-1831-45fd-999c-99ad8baa0bd1.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/help-381?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FQCTSOFF5M5W2A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 111,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-02T08:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Charity & Giving"
+      ],
+      "buckets": [],
+      "date": "2026-11-03",
+      "productHuntDate": "2026-11-02",
+      "lastUpdated": "2026-11-03T16:58:58.721Z"
+    }
+  ]
+}
