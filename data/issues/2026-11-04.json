@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "date": "2026-11-04",
+    "productHuntDate": "2026-11-03",
+    "lastUpdated": "2026-11-04T17:09:12.835Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "04",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "AgentKit by Scalekit",
+      "tagline": "MCP gateway for production agents that acts on your behalf",
+      "summaryZh": "面向生产环境代理的MCP网关，可代表你执行操作",
+      "descriptionZh": "让你的智能体通过一个 MCP 网关，跨 600+ 应用使用 30,000+ 工具，从 Salesforce 到 GitHub。AgentKit 负责处理认证与集成，因此每个操作都以发起请求的用户身份、在其授予的权限范围内运行。通过 Virtual MCP Servers，只为每个智能体提供其任务所需的工具。将内部 API 添加为自定义连接器。使用 Triggers，在邮件到达的那一刻启动智能体。专为将智能体投入生产环境的开发者打造：每次调用都有日志记录。免费套餐：每月 10,000 次工具调用。",
+      "description": "Let your agents use 30,000+ tools across 600+ apps, from Salesforce to GitHub, through one MCP gateway. AgentKit handles auth and integrations, so every action runs as the user who asked, within the scopes they granted. Give each agent only the tools its job needs with Virtual MCP Servers. Add internal APIs as custom connectors. Use Triggers to start an agent the moment an email lands. Built for developers taking agents to production: every call is logged. Free tier: 10,000 tool calls a month.",
+      "thumbnail": "https://ph-files.imgix.net/a147b63d-f8dd-4b84-9883-81e2a138d0f7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/16386268-8e8a-44d8-91e1-579b11640a25.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/scalekit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/K2KQXD7ILBCL6E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 410,
+      "comments": 96,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 1,
+      "topics": [
+        "API",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Teamily AI",
+      "tagline": "Your personal agent, agent teams & people in one messenger",
+      "summaryZh": "你的个人代理、代理团队与人员，尽在一个信使中",
+      "descriptionZh": "人类与智能体协作的平台，人们与常驻智能体在统一、具备上下文感知的空间中共同完成工作。不同于单用户个人智能体，Teamily AI 支持多用户、多智能体团队协作。它构建于 AI 原生即时通讯工具之上，连接人员、智能体、文档、会议、通话、工作流和业务系统，以自动化办公工作和客户服务。智能体凭借持久记忆、主动智能和持续自我改进，成为真正的团队成员。免费开始使用。",
+      "description": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork. Built on an AI-native messenger, it connects people, agents, docs, meetings, calls, workflows, and business systems to automate office work and customer service. Agents become real teammates with persistent memory, proactive intelligence, and continuous self-improvement. Free to get started.",
+      "thumbnail": "https://ph-files.imgix.net/74a5d73a-76f1-40de-aa9c-900ab49843c5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/40c90f4e-b4e2-4a13-838f-0a7a8d7e1e49.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EKZU365TJG62XT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 355,
+      "comments": 200,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 2,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Social Networking"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Synter Canvas",
+      "tagline": "Your AI agent runs ads across 30+ ad platforms",
+      "summaryZh": "你的AI代理可在30多个广告平台上投放广告",
+      "descriptionZh": "你的AI代理可在30多个广告平台上构建、发布和优化广告活动，每次变更都有安全闸门和防护措施。每次验证写入收费0.25美元，广告支出零抽成。",
+      "description": "Your AI agent builds, launches and optimizes campaigns across 30+ ad platforms, with safety gates and guardrails on every change. $0.25 per verified write, 0% of ad spend.",
+      "thumbnail": "https://ph-files.imgix.net/45822f14-e130-4330-a377-a2b1941ef738.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/11ff7f2a-c10c-4569-bf20-895adace8d85.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/synter-canvas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/VWLUQCUJVICBLP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 181,
+      "comments": 27,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Marketing",
+        "Advertising",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Videco",
+      "tagline": "Turn every video into a content campaign with AI",
+      "summaryZh": "用AI将每个视频转化为内容营销活动",
+      "descriptionZh": "Videco 是面向营销团队的 AI 内容工作室和视频托管工作空间。在演示和网络研讨会中发现精彩片段，创建品牌化短视频剪辑，并在同一平台托管、嵌入和衡量视频。",
+      "description": "Videco is an AI content studio and video hosting workspace for marketing teams. Find standout moments in demos and webinars, create branded short-form clips, and host, embed, and measure video in one place.",
+      "thumbnail": "https://ph-files.imgix.net/26a34deb-6419-48e9-965a-fc350f65647e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/5fe88229-d456-4c8d-ad60-ffe4338ff116.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/videco?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/X2LXQUKZ33REIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 156,
+      "comments": 23,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 5,
+      "topics": [
+        "Marketing",
+        "SaaS",
+        "Video"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Calendarly ",
+      "tagline": "Your calendar and tasks, right on your iPhone Lock Screen",
+      "summaryZh": "你的日历和任务，就在你的 iPhone 锁屏上",
+      "descriptionZh": "Calendarly 将你的日历、提醒事项、Todoist 任务、笔记和倒计时绘制到 iPhone 锁屏壁纸上，并通过快捷指令自动化自动重绘。",
+      "description": "Calendarly draws your calendar, reminders, Todoist tasks, notes and countdowns onto the iPhone Lock Screen wallpaper, and redraws it automatically through a Shortcuts automation.",
+      "thumbnail": "https://ph-files.imgix.net/64d3b7a3-004c-4556-84c3-113ccbde836a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/72d71b51-e1ca-4f2c-9000-11d68fa4914f.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/326NNFAYMAN2FN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 135,
+      "comments": 20,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 6,
+      "topics": [
+        "Productivity",
+        "Task Management"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "LifeVal",
+      "tagline": "OpenAI's benchmark for everyday life tasks with AI",
+      "summaryZh": "OpenAI 针对日常生活中的 AI 任务所设的基准",
+      "descriptionZh": "LifeVal 是 OpenAI 新推出的一项评估，针对人们最希望获得帮助的日常任务，例如寻找托育服务、制定预算、订购杂货和获取政府服务。OpenAI 表示，它使用 LifeVal 已有一年，以推动 ChatGPT 转向真正的智能体工作。",
+      "description": "LifeVal is OpenAI's new eval for the everyday tasks people most want help with, like finding childcare, budgeting, ordering groceries and government services. OpenAI says it used LifeVal for a year to push ChatGPT toward real agent work.",
+      "thumbnail": "https://ph-files.imgix.net/f904aec8-e324-4aed-ae3b-ff68795ce44f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/985f8044-9031-45e7-9127-097c2a5f8066.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LUAD4D36GSESMI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 126,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "MachineMail",
+      "tagline": "Email inboxes for humans and bots",
+      "summaryZh": "面向人类和机器人的电子邮件收件箱",
+      "descriptionZh": "为你的 AI 智能体提供真实收件箱，用于接收和发送邮件。通过 MCP 或 API 连接，使用你自己的域名，并对每封入站邮件生成信任报告。免费版包含每月 3,000 条消息；付费方案每月 9 美元起。",
+      "description": "Give your AI agents real inboxes to receive and send emails. Connect them over MCP or API, use your own domain, and get a trust report on every inbound message. Free includes 3,000 messages/month; paid plans start at $9/month.",
+      "thumbnail": "https://ph-files.imgix.net/3122dc08-d778-43e5-9ab4-8546a8e2497f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/a79f3c9d-4eec-4228-8ca4-6909405ad33a.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/machinemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YGFRQB5ECPT5EA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 122,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Email",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Hookdeck Inspect",
+      "tagline": "Free webhook tester for you and your agent",
+      "summaryZh": "为你和你的代理提供免费的 webhook 测试工具",
+      "descriptionZh": "使用 Hookdeck Inspect 测试和调试 webhook。获取你和你的代理均可使用的实时 URL，以及 500 多家提供商的模拟 webhook。免费使用，无需账户或设置。",
+      "description": "Test and debug webhooks with Hookdeck Inspect. Get a live URL you and your agent can use, plus mock webhooks for 500+ providers. It's free, no account or setup required.",
+      "thumbnail": "https://ph-files.imgix.net/6455e649-a001-4cf3-bae9-0e4a2fe1b18e.vnd.microsoft.icon?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/0fc86edc-5a8e-455d-933f-c68291d892a7.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/hookdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ONA6KQJZWUEX2Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 120,
+      "comments": 15,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Tech"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "People Search by Context.dev",
+      "tagline": "People Search API: Find People by Role, Company & Location",
+      "summaryZh": "人员搜索API：按职位、公司和地点查找人员",
+      "descriptionZh": "用平实的英语描述你需要的人。每次调用最多可获取10份个人资料，包含职位、雇主、所在地、经验、技能和学校。",
+      "description": "Describe the people you need in plain English. Get up to 10 profiles per call with role, employer, location, experience, skills, and schools.",
+      "thumbnail": "https://ph-files.imgix.net/d9549d2d-d4fb-4887-82e2-6afcfd79af7a.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/77745799-715d-496d-9b60-d1dff8c80eeb.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3IKZZRN7VHAG4G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 112,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 10,
+      "topics": [
+        "Marketing",
+        "Developer Tools",
+        "Search"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Prism",
+      "tagline": "Cursor for hardware engineering",
+      "summaryZh": "面向硬件工程的 Cursor",
+      "descriptionZh": "Prism 是面向硬件工程的 AI 平台。CAD、物理求解器、3D 查看器、编码和报告功能集于一处，全部由智能体驱动。轻松实现从想法到经过验证的设计。可在 Windows、Mac 和 Linux 上免费试用。",
+      "description": "Prism is the AI platform for hardware engineering. CAD, physics solvers, 3D viewers, coding, and reporting together in one place, all driven by agents. Go from ideas to validated design effortlessly. Free to try on Windows, Mac and Linux.",
+      "thumbnail": "https://ph-files.imgix.net/41408dfc-130b-410f-926d-b95a9c6bc3b1.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3d6b05ce-142d-4faa-8030-a095ebabff59.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/prism-40?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/WQ4PICDS4EFLNI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 103,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Design Tools",
+        "Hardware",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Wavefunction",
+      "tagline": "A minimal, open-source coding agent for your Mac",
+      "summaryZh": "一个为你的 Mac 打造的极简开源编码代理",
+      "descriptionZh": "编程智能体正纷纷变成超级应用。Wavefunction 反其道而行：一款专为编程打造的极简桌面应用。它并行处理多项任务时，你仍可继续对话。可使用你的 ChatGPT 订阅、Anthropic、Google、OpenRouter 或本地模型。计算机操作在它自己的桌面上运行，而非你的桌面。免费且开源。",
+      "description": "Coding agents keep turning into super apps. Wavefunction goes the other way: a minimal desktop app built for coding. Keep chatting while it works on several tasks in parallel. Use your ChatGPT subscription, Anthropic, Google, OpenRouter or a local model. Computer use runs on its own desktop, not yours. Free and open source.",
+      "thumbnail": "https://ph-files.imgix.net/fcc9e65c-aebe-4070-9235-cd1c0f2a610f.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f08cc856-3096-45b3-a5d6-920b3028d4eb.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/wavefunction?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SFEXKHEQLNMBDT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 91,
+      "comments": 9,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Flockbay",
+      "tagline": "Free AI game maker built on Godot",
+      "summaryZh": "基于Godot构建的免费AI游戏制作工具",
+      "descriptionZh": "Flockbay 是一个基于 Godot 构建的免费 AI 游戏制作工具：它是官方 Godot 编辑器中的一个智能体，可编写 GDScript 和场景，然后对其进行试玩测试。它会运行游戏、发送输入事件、读取调试器并捕获视口。你的游戏始终是磁盘上的一个普通 Godot 4 项目。可从免费的托管 AI 开始，或自带 Claude Code、ChatGPT、Codex、API 密钥或 MCP 智能体，或在你的 GPU 上运行本地模型（Windows）。付费方案增加 Steam 页面草稿、预告片和开发日志。支持 Windows、macOS、Linux 上的 Godot 4.6+。",
+      "description": "Flockbay is a free AI game maker built on Godot: an agent in the official Godot editor that writes GDScript and scenes, then playtests them. It runs the game, sends input events, reads the debugger and captures the viewport. Your game stays a plain Godot 4 project on disk. Start on free hosted AI, or bring your own Claude Code, ChatGPT, Codex, API key or MCP agent, or a local model on your GPU (Windows). Paid plans add Steam page drafts, trailers and devlogs. Godot 4.6+ on Windows, macOS, Linux.",
+      "thumbnail": "https://ph-files.imgix.net/3cb74ec3-1549-408d-bf99-0508517ece29.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/6dcab770-f53c-44b7-a87f-96dd9a4f950d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/flockbay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GZRSEX4ORX2CW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 90,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Games"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Infino AI",
+      "tagline": "Search, vectors and SQL over one Parquet copy, for agents",
+      "summaryZh": "面向智能体，在单一 Parquet 副本上实现搜索、向量和 SQL 查询",
+      "descriptionZh": "Infino 是面向 AI 智能体的开源检索引擎。它把数据以 Parquet 格式保存一份在 S3 或本地磁盘上，文件内部包含 BM25 和向量索引。智能体可对其执行关键词、向量、混合和 SQL 搜索。采用 Apache-2.0 许可。Infino Cloud 已正式可用，并提供免费套餐。",
+      "description": "Infino is an open-source retrieval engine for AI agents. It keeps one copy of your data as Parquet on S3 or local disk, with BM25 and vector indexes inside the files. Agents run keyword, vector, hybrid and SQL search on it. Apache-2.0. Infino Cloud is generally available, with a free tier.",
+      "thumbnail": "https://ph-files.imgix.net/3d1bda38-c706-4b1a-a0d5-6b292e4a785f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/92d1fc81-dc57-4c1a-b74f-1ea1d5a28711.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/infino-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/W6TDK4JYTKTPLW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 89,
+      "comments": 9,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 15,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub",
+        "Database"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "nana",
+      "tagline": "One terminal for every coding agent, on Windows",
+      "summaryZh": "Windows 上所有编码代理共用一个终端",
+      "descriptionZh": "Nana 是 Windows 原生的终端复用器。可并排运行 Claude Code、Codex、OpenCode 等，每个都在独立的 git worktree 上。查看谁在工作、等待或已完成，审阅差异，并在关闭应用后让代理继续运行。免费测试版。",
+      "description": "Nana is a native terminal multiplexer for Windows. Run Claude Code, Codex, OpenCode and more side by side, each on its own git worktree. See who is working, waiting or done, review diffs, and keep agents running after you close the app. Free beta.",
+      "thumbnail": "https://ph-files.imgix.net/7e5b3ae0-4417-4994-997b-3cc804b2f629.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4d3f9e08-e478-4c43-af76-930f4732e543.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/nana-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2LNSLI64ECFD6O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 87,
+      "comments": 7,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 16,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "kwant",
+      "tagline": "AI bots that check each other's work before saying \"done\"",
+      "summaryZh": "互相检查工作成果、确认无误后才说“完成”的AI机器人",
+      "descriptionZh": "适用于你的 Mac、Linux 或 VPS 的开源 AI 团队。从 27 种角色中雇佣机器人；每条消息都会发送给最合适的机器人，并且你能看到原因。机器人将工作拆分为卡片，相互交接和测试，只有当 kwant 检查后，任务才会变为已验证。网络事实附带链接，可打开至确切引文。机器人在 Flight School 中获得自主权，但付款始终会询问，并且你选择每个机器人可以打开哪些网站。运行在你已付费的 Claude、Codex 或 Grok 上。",
+      "description": "Open-source AI team for your Mac, Linux or VPS. Hire bots from 27 roles; each message goes to the bot that fits, and you see why. Bots split work into cards, hand off and test each other, and a task turns Verified only when kwant checks it. Web facts come with links that open at the exact quote. Bots earn autonomy in Flight School, but payments always ask, and you choose which sites each bot may open. Runs on the Claude, Codex or Grok you already pay for.",
+      "thumbnail": "https://ph-files.imgix.net/70b06a16-d4b8-4a49-8cab-6305f787671e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/485d2926-22e6-42a5-85d7-9be86c04004c.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/kwant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/JCVIUDYJ7ITNON?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 83,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 17,
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Brink",
+      "tagline": "Turn your MacBook trackpad's edges into controls",
+      "summaryZh": "将MacBook触控板的边缘变成控制区域",
+      "descriptionZh": "Brink 是一款免费的 macOS 菜单栏应用，可将触控板边缘变为控制区。滑动右边缘调节音量，左边缘调节亮度，上边缘调节键盘背光。滑动底部可切换曲目，双击角落可静音。原生 HUD，触感反馈。",
+      "description": "Brink is a free macOS menu bar app that turns your trackpad's edges into controls. Slide the right edge for volume, the left for brightness, the top for keyboard light. Swipe the bottom to skip, double-tap the corner to mute. Native HUD, haptic ticks.",
+      "thumbnail": "https://ph-files.imgix.net/3bb54c37-ddf9-495d-a5ff-19690c26893d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/09877e2a-b364-4f8a-8639-bfbbfb7eb9c7.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/brink-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DQQDKS524H5XPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 18,
+      "topics": [
+        "Productivity",
+        "GitHub",
+        "Menu Bar Apps",
+        "Apple"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "One Roof",
+      "tagline": "A new way to build with agents. You stay in charge.",
+      "summaryZh": "用智能体构建的新方式。掌控权始终在你手中。",
+      "descriptionZh": "合唱编码的统一场所：多个 Claude Code、Codex、Gemini CLI、Kimi 和 Antigravity 会话协同工作，由你掌控。真实终端，一个收件箱汇总它们向你提出的所有请求，以及一个晨间页面说明夜间发生了什么。免费且开源。",
+      "description": "One place for chorus coding: several sessions of Claude Code, Codex, Gemini CLI, Kimi and Antigravity working together, with you in charge. Real terminals, one Inbox for everything they ask you, and a morning page that says what happened overnight. Free and open source.",
+      "thumbnail": "https://ph-files.imgix.net/2d4d879d-1ef0-40d0-a25a-755621949349.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3f224983-911e-4051-95c8-a1a7402ab09b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/one-roof?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XAAJ7JSOSP5EV2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 79,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 20,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "Testifly",
+      "tagline": "Autonomous AI QA. Zero prompting. Zero maintenance. ",
+      "summaryZh": "自主AI质量保证。零提示。零维护。",
+      "descriptionZh": "面向团队规模小、没有时间或资源进行测试和维护的CTO和创始人。连接你的Web应用，剩下的交给Testifly。自动发现流程、编写测试、自我修复，并通过视频解释失败原因。零提示。零维护。30天免费试用。",
+      "description": "CTOs and founders with small teams and no time or resources to test and maintain. Connect your web app and Testifly does the rest. Discovers flows, writes tests, self-heals, explains failures with video. Zero prompting. Zero maintenance. 30-day free trial.",
+      "thumbnail": "https://ph-files.imgix.net/3181d12a-fbcc-4643-95bd-0ee6ab099bf2.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b20cd380-4add-4ec0-9312-f8cb3a75d814.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/testifly-launch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/673ETOS256IMRH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 256,
+      "comments": 47,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Software Engineering",
+        "Development"
+      ],
+      "buckets": [],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "PowerShips",
+      "tagline": "Where battleships meets powers!",
+      "summaryZh": "战舰与强权交汇之处！",
+      "descriptionZh": "战舰分类。选择一个拥有主动技能和被动的类别，部署你的舰队，通过链接与朋友对战或在线寻找对手。免费，无需注册。",
+      "description": "Battleships with classes. Pick a class with an active ability and a passive, place your fleet and play a friend from a link or find an opponent online. Free, no sign-up.",
+      "thumbnail": "https://ph-files.imgix.net/beddd10b-b762-4b1e-af2c-e8b231ed8a39.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/061aa411-cdd7-4714-aa8e-9d4b7e46a051.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/powerships?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FFN7ZZF47IENMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 90,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Games"
+      ],
+      "buckets": [],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    },
+    {
+      "name": "BRCKS Chat",
+      "tagline": "The chat app for building sites. Nothing gets lost.",
+      "summaryZh": "用于构建网站的聊天应用。一切都不会丢失。",
+      "descriptionZh": "每个项目都有专属聊天群，供施工团队、分包商和客户使用，内置问题记录、预约、视频会议和客户门户。照片可转为问题记录，消息自动留存为记录。分包商和客户免费使用。由建筑从业者为英国工地打造。",
+      "description": "Every job gets its own chat for crews, subs and clients, with snags, bookings, video meetings and a client portal built in. Photos become snags, messages become a record. Subs and clients are free. Built by builders, for UK sites.",
+      "thumbnail": "https://ph-files.imgix.net/4dec3a97-825c-4515-9c8c-b05d0699266d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/945953a9-a5b0-4f3a-88d6-8c2f7127792a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/brcks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/X6BHEOBXAKIITL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-03T08:01:00Z",
+      "rank": 19,
+      "topics": [
+        "Messaging",
+        "SaaS",
+        "Construction"
+      ],
+      "buckets": [],
+      "date": "2026-11-04",
+      "productHuntDate": "2026-11-03",
+      "lastUpdated": "2026-11-04T17:09:12.835Z"
+    }
+  ]
+}
