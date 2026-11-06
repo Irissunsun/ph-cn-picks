@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "date": "2026-11-06",
+    "productHuntDate": "2026-11-05",
+    "lastUpdated": "2026-11-06T16:42:34.525Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "06",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Glasshand",
+      "tagline": "Give your agent a real iPhone and Mac",
+      "summaryZh": "给你的智能体一台真正的 iPhone 和 Mac",
+      "descriptionZh": "Glasshand 为你的 AI 智能体提供真实的 iPhone 和 Mac 供其使用。连接 Claude Code、Codex 或任何其他智能体，它只需一条提示即可租用一台设备。硬件位于我们的数据中心，你的智能体可以像你一样使用它：在 TikTok 上发帖、预订 Uber，或构建并测试 iOS 应用。租用期间，每台设备仅供你独享。使用完毕后，我们会抹除你的数据并将其恢复出厂设置。",
+      "description": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt. The hardware sits in our data center, and your agent uses it the way you would: posting on TikTok, booking an Uber, or building and testing iOS apps. Each device is yours alone for as long as you rent it. When you’re done, we erase your data and factory-reset it.",
+      "thumbnail": "https://ph-files.imgix.net/4ba278c5-6784-4b41-b572-91f3ce348422.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/1bb914f9-fc0f-48dd-97a1-036322f4641d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/glasshand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4HPTGSLZ23MFLT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 371,
+      "comments": 80,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 1,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Apple"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Living Brain",
+      "tagline": "Interoperable, efficient memory layer for agentic AI",
+      "summaryZh": "面向智能体AI的互操作、高效内存层",
+      "descriptionZh": "每段 AI 对话都包含值得留存的知识，但大部分都被困在彼此独立的聊天和工具中。Living Brain 捕获这些知识，将其与你已知的内容连接，并转化为持续演进的持久记忆。通过 API、SDK 或 MCP，将这份智能共享至各类 AI 模型、应用和 agent，让每次新交互都基于上一次积累，而非从头开始。在 ChatGPT、Claude、Gemini、OpenClaw、Hermes、Cursor、Codex 等平台间复用记忆。",
+      "description": "Every AI conversation contains knowledge worth keeping, but most of it gets trapped in separate chats and tools. Living Brain captures that knowledge, connects it to what you already know, and turns it into a persistent memory that keeps evolving. Share that intelligence across AI models, apps, and agents through API, SDK, or MCP, so every new interaction builds on the last instead of starting over. Reuse memory across ChatGPT, Claude, Gemini, OpenClaw, Hermes, Cursor, Codex and more",
+      "thumbnail": "https://ph-files.imgix.net/9e89db8f-2a53-436f-8257-4cb4970ec2b5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/0201946d-d283-4043-84ef-fdf57cc26d79.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/chatandbuild?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FLQZ3AXUUI5C2T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 246,
+      "comments": 39,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 2,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Rerun",
+      "tagline": "Turn your AI subscriptions into a team of coworkers",
+      "summaryZh": "把你的 AI 订阅变成一支同事团队",
+      "descriptionZh": "Rerun 将你的 ChatGPT 或 Claude 订阅变成一支 AI 同事团队。每位 AI 同事都配备工具、一台计算机和一个共享工作区，按计划或触发器运行，并在执行有风险的操作前先征求确认。现已开源（AGPL v3），支持自托管。",
+      "description": "Rerun turns your ChatGPT or Claude subscription into a team of AI coworkers. Each one has tools, a computer and a shared workspace, runs on a schedule or a trigger, and asks before risky actions. Now open-source (AGPL v3) and self-hostable.",
+      "thumbnail": "https://ph-files.imgix.net/7c4a85f1-6f1c-47eb-8e6f-e57232f4d987.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/0cb6c50c-7dbb-4b41-9d6e-e3aa1fce28ae.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/rerun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RMMH5HQHCIQO64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 255,
+      "comments": 14,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Pushary for Teams",
+      "tagline": "See who said yes to your team’s AI agents",
+      "summaryZh": "查看谁对你的团队 AI 智能体表示了同意",
+      "descriptionZh": "当 AI 代理停下来请求许可时，Pushary 会把问题发送给运行它的人，显示在其 Mac 的刘海区域或手机上。Lee 的代理会询问 Lee，Sam 的代理会询问 Sam。规则也可以改为向你的基础设施仓库负责人发送推送。来自手机、Mac 应用和仪表盘的答复都会连同姓名一并保存，因此当出现问题时，一个页面就能显示是哪个代理发起了询问、又是谁批准了。支持 Claude Code、Codex、Cursor、Agy 和 Hermes。",
+      "description": "When an AI agent stops to ask permission, Pushary sends the question to the person running it, in their Mac’s notch or on their phone. Lee’s agent asks Lee. Sam’s agent asks Sam. A rule can send a push to your infra repo to your lead instead. Answers from the phone, Mac app and dashboard are saved with a name, so when something breaks, one page shows whose agent asked and who said yes. Works with Claude Code, Codex, Cursor, Agy and Hermes.",
+      "thumbnail": "https://ph-files.imgix.net/31774cb0-fd5a-4c45-8346-e5985b5c71f3.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/7ddedf57-67d1-4970-8ecc-f676bae1c795.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pushary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FKYLG6Q6UE7GI2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 194,
+      "comments": 30,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Maritime",
+      "tagline": "Cloud computers for any AI agent, customized your way",
+      "summaryZh": "为任何AI代理定制的云计算机",
+      "descriptionZh": "Maritime 为 AI 智能体提供专属云电脑：持久工作区、一次性沙箱、Linux 和 Windows 桌面以及 Android 手机。智能体可以运行代码、使用浏览器，并在没有 API 的应用中工作，必要时可由人工接管。无论你是在构建个人助理，还是并行运行数千个任务，Maritime 都会处理好电脑本身，让你专注于智能体所做的事情。",
+      "description": "Maritime gives AI agents their own cloud computers: persistent workspaces, disposable sandboxes, Linux and Windows desktops, and Android phones. Agents can run code, use browsers, and work in apps without APIs, with a human able to take over when needed. Whether you’re building a personal assistant or running thousands of tasks in parallel, Maritime handles the computers so you can focus on what your agent does.",
+      "thumbnail": "https://ph-files.imgix.net/363682a9-4e9d-4f37-827e-d336678401e3.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/023a7e78-a4b7-40a8-8eac-dc9062e58de0.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/maritime?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LXZBKU4W5VMFPL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 199,
+      "comments": 8,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 5,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Clocknext",
+      "tagline": "Pricing and Billing Infrastructure for AI Agents",
+      "summaryZh": "AI代理的定价与计费基础设施",
+      "descriptionZh": "Clocknext 是一个面向 AI 原生应用和智能体的计费与变现平台。它专为 AI 创始人、收入团队和工程团队打造，可实时追踪产品中的 AI 使用情况，将其转化为可计费的指标并配合灵活的定价方案，同时在各个层级监控成本、利润率和盈利能力。",
+      "description": "Clocknext is a billing and monetization platform for AI-native apps and agents. It’s tailored for AI founders, revenue, and engineering teams, to track AI usage from your product in real time, turn it into billable metrics with flexible pricing plans, and monitor costs, margins, and profitability at every level.",
+      "thumbnail": "https://ph-files.imgix.net/cd42f1eb-4fe6-4ceb-b6c6-443994a070e0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/66f78526-f3da-4a5f-8e8f-0ffbdb1cbffe.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/clocknext?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7IUKMVZUC4C7ZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 146,
+      "comments": 48,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 6,
+      "topics": [
+        "SaaS",
+        "Artificial Intelligence",
+        "Monetization"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Bridge",
+      "tagline": "Video conferencing for the agentic era",
+      "summaryZh": "面向智能体时代的视频会议",
+      "descriptionZh": "这次发布标志着 Bridge 迈入新时代：一个智能体会议平台取代了碎片化的会议工具组合。Bridge 现将日程页面、自动准备、视频会议、实时智能、AI 笔记、智能体工作流和结构化记忆整合为面向人与智能体的统一互联体验。此次发布的核心是一种新型视频会议，专为可定制的 AI 智能体加入并参与会议而构建。",
+      "description": "This launch marks a new era for Bridge: one agentic meeting platform replacing the fragmented meeting stack. Bridge now brings scheduling pages, automatic preparation, video conferencing, live intelligence, AI notetaking, agentic workflows, and structured memory into one connected experience for people and agents. At the center of this launch is a new kind of video conferencing built for customizable AI agents to join and participant in meetings.",
+      "thumbnail": "https://ph-files.imgix.net/2edae94f-a7c7-4438-ad11-6516f5635503.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/efabcc09-9c33-4470-903f-023b13444278.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/meetonbridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PBNZKRHUASBSC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 141,
+      "comments": 29,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Productivity",
+        "Meetings",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Tao Browser",
+      "tagline": "Private browser with a separate login for every company",
+      "summaryZh": "每个公司都有独立登录的私密浏览器",
+      "descriptionZh": "Tao Browser 将每个公司、客户或项目保存在各自独立的空间中，各自拥有独立的 Cookie 和登录信息。可用 Face ID 或 Touch ID 锁定标签页，在设备上拦截广告和跟踪器，支持从 Arc 导入。无需账户，无遥测。在 iPhone、iPad 和 Mac（测试版）上免费。",
+      "description": "Tao Browser keeps each company, client or project in its own space with its own cookies and logins. Lock tabs with Face ID or Touch ID, block ads and trackers on your device, import from Arc. No account, no telemetry. Free on iPhone, iPad and Mac (beta).",
+      "thumbnail": "https://ph-files.imgix.net/ba986dcf-8027-414d-8c18-a1d171371acb.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f01ef2e1-c828-49b7-a936-910b538cadb6.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tao-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/67S6CGG52F2357?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 115,
+      "comments": 12,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Privacy"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Rainbrand",
+      "tagline": "The brand layer for agents",
+      "summaryZh": "代理的品牌层",
+      "descriptionZh": "Rainbrand 从你的网站、品牌指南和文件中构建并维护共享的品牌上下文。为你的智能体提供营销活动、网站、幻灯片、邮件、视频等所需的指引和素材。随着品牌演进，保持该上下文实时更新。可在 Claude、ChatGPT、Codex 或 Cursor 中使用，或通过 API 将其集成到你的产品中。",
+      "description": "Rainbrand builds and maintains shared brand context from your websites, brand guides and files. Give your agents the guidance and assets they need for marketing campaigns, websites, slides, email, video, and more. Keep that context current as your brands evolve. Use it with Claude, ChatGPT, Codex or Cursor, or build it into your product through the API.",
+      "thumbnail": "https://ph-files.imgix.net/08254e05-54b2-47d2-8eb7-f5b0a94c51a4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f4139cbb-5f5b-4b3f-bbd5-cb6628b56a11.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/rainbrand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FVQGXUQXBCJO2O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 111,
+      "comments": 17,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 9,
+      "topics": [
+        "API",
+        "Branding",
+        "Marketing"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Stitch.ai",
+      "tagline": "Your AI workspace for mail, calendar, notes, tasks and more",
+      "summaryZh": "你的AI工作空间，涵盖邮件、日历、笔记、任务等更多功能",
+      "descriptionZh": "Stitch.ai 将邮件、日历、联系人、任务、笔记、表格、幻灯片、看板和文件整合到一个互联的工作空间中。你的 AI 助手 Stitchy 全程与你协同工作。双工作区面板让你可以拖拽、放置，并将任何内容 Stitch 到所有内容。一切都不会丢失。AI 驱动的 Knots、Tags 和 Connections 让你的工作井然有序、易于呈现。所有功能均为内置：无需设置集成或额外的电子邮件客户端。在一个地方完成工作，不丢失上下文。",
+      "description": "Stitch.ai brings mail, calendar, contacts, tasks, notes, sheets, slides, boards, and files into one connected workspace. Stitchy, your AI assistant, works with you across it all. Dual workspace panels allow you to drag, drop, and Stitch anything to everything. Nothing gets lost. AI-powered Knots, Tags, and Connections keep your work organized and easy to surface. Everything is built in: no integrations or extra email clients to set up. Get your work done in one place, without losing context.",
+      "thumbnail": "https://ph-files.imgix.net/bc0766db-ab1a-4163-82f4-a0042960d85e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/554f25bc-9736-4938-a65e-ea524fff0c59.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/stitch-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RH3SUY5Z3KCC6L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 101,
+      "comments": 19,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 10,
+      "topics": [
+        "Email",
+        "Productivity",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Polylane for Google Cloud",
+      "tagline": "An AI on-call engineer for your Google Cloud apps",
+      "summaryZh": "为你的 Google Cloud 应用提供 AI 值班工程师",
+      "descriptionZh": "在Google Cloud上放心交付。Polylane调查应用中的问题，向你展示哪里出了错、影响了什么，并准备好修复方案供你审阅。无需翻查日志和仪表盘即可获得答案，让你少花时间救火，多花时间构建。",
+      "description": "Ship with confidence on Google Cloud. Polylane investigates issues in your apps, shows you what went wrong and what it affects, and prepares a fix for you to review. Get answers without digging through logs and dashboards, so you can spend less time firefighting and more time building.",
+      "thumbnail": "https://ph-files.imgix.net/9992b082-9e12-4d78-a537-bbf11d40a24f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/bca618b8-b50d-40c6-aa72-7af87c8626d7.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KQUCUSDESBKSUO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 98,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Wingmen",
+      "tagline": "Agentic outreach with real intent data",
+      "summaryZh": "基于真实意图数据的智能外联",
+      "descriptionZh": "Wingmen 找到那些已经表现出需要你所售产品的人：一条关于问题的帖子、一次新招聘、一次职位变动。它会评估谁值得联系以及为什么，根据他们实际说的话撰写开场白，并自动跟进，直到你的日历上安排出通话。可在网页应用中使用，或通过 Wingmen MCP 直接在 Claude 中运行。专为创始人、B2B 团队和代理机构打造。",
+      "description": "Wingmen finds people already showing they need what you sell: a post about the problem, a new hire, a job change. It scores who's worth reaching and why, writes the opener from what they actually said, and follows up on autopilot until there's a call on your calendar. Run it in the web app or straight from Claude with the Wingmen MCP. Built for founders, B2B teams and agencies.",
+      "thumbnail": "https://ph-files.imgix.net/17de9e1d-1ce9-43ae-b686-c99df0ec77e6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/03ab800a-59fb-49f6-85cf-5c7ca18f64dd.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/wingmen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/AK6GQ4EPT7KYYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 94,
+      "comments": 17,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Sales",
+        "Artificial Intelligence",
+        "Marketing automation"
+      ],
+      "buckets": [
+        "ai",
+        "productivity",
+        "design"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "FounderMail",
+      "tagline": "Mail for you and your agents, on your Cloudflare domain",
+      "summaryZh": "你和你的代理的邮件，在你的 Cloudflare 域名上",
+      "descriptionZh": "在您已在 Cloudflare 上运行的域名上使用真实电子邮件，无需按席位付费，也无需转发到 Gmail。您、您的团队和您的 AI 代理在同一个收件箱中工作，代理拥有自己的访问权限，而不是使用您的密码。",
+      "description": "Real email on the domains you already run on Cloudflare, without paying per seat or forwarding to Gmail. You, your team and your AI agents work from the same inbox, and agents get their own access instead of your password.",
+      "thumbnail": "https://ph-files.imgix.net/e5feb3bd-f6af-4c76-81aa-1e3da6ac70a8.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b4318889-6c91-4725-b781-4fb3ccaf36c4.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/foundermail-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RXB6F437RCU5I5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 83,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Email",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Nemotron 3.5 Transcribe",
+      "tagline": "Intelligent Transcription with a Speech LLM",
+      "summaryZh": "基于语音LLM的智能转录",
+      "descriptionZh": "Nemotron 3.5 Transcribe 是一个用于智能转录的开源语音 LLM：单一模型即可逐字或书面形式转录 40 种语言，支持上下文、说话人归属和词级时间戳，并通过自然语言指令进行选择。它是英语和多语言 Open ASR Leaderboards 上最佳的开源权重模型。",
+      "description": "Nemotron 3.5 Transcribe is an open speech LLM for intelligent transcription: a single model that transcribes 40 languages verbatim or in written form, with context, speaker attribution, and word timestamps, selected with a natural language instruction. It is the best open-weights model on the English and multilingual Open ASR Leaderboards.",
+      "thumbnail": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/17a10e9f-0886-485b-a2c1-383fdb2e76ae.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/QLRQFOGDK7HDXO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 85,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Open Source",
+        "Artificial Intelligence",
+        "Audio"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Tencent Hy4",
+      "tagline": "Tencent’s flagship model learns to see and use a computer",
+      "summaryZh": "腾讯的旗舰模型学会了看屏幕和使用电脑",
+      "descriptionZh": "Hy4是腾讯最新旗舰模型，面向办公任务、金融分析和游戏开发。据腾讯介绍，相比预览版，新增了图表和图像的视觉理解能力，以及跨命令行和图形界面的计算机使用能力，并在Blender和CAD上进行了训练。腾讯称内部幻觉率从12.95%降至7.2%。该模型已在腾讯云TokenHub、OpenRouter和腾讯应用中提供。权重承诺将在未来几天内发布。",
+      "description": "Hy4 is Tencent’s latest flagship model, aimed at office tasks, financial analysis and game development. New since the preview, per Tencent: visual understanding for charts and images, and computer use across command line and graphical interfaces, with training on Blender and CAD. Tencent says the internal hallucination rate fell from 12.95% to 7.2%. Available on Tencent Cloud TokenHub, OpenRouter and Tencent apps. Weights are promised in the coming days.",
+      "thumbnail": "https://ph-files.imgix.net/9b810626-29ab-47ae-acfb-0f0a472aaaf7.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/806c29d2-6e92-4322-b176-a865722e695d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/OC5QOQYA4W4WDU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 82,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 15,
+      "topics": [
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Okapi",
+      "tagline": "AI agents that fix API breaking changes in your repos",
+      "summaryZh": "在你的代码库中修复API破坏性变更的AI代理",
+      "descriptionZh": "AI agents 能在你的代码库中修复 API 破坏性变更。它面向那些应用和 agents 依赖第三方 API 的开发者。这些 API 时常变化，一个破坏性变更就可能让生产环境中的应用宕机。Okapi 让代码与其调用的每个 API 保持同步，使应用持续运行，团队不再疲于追踪变更日志。Okapi 适用于任何 API，且 100% 免费。",
+      "description": "AI agents that fix API breaking changes in your repos. It is built for developers whose apps and agents depend on third-party APIs. These APIs change all the time, and one breaking change can take your app down in production. Okapi keeps your code up to date with every API it calls, so your app keeps working and your team stops chasing changelogs. Okapi works with any API and is 100% free.",
+      "thumbnail": "https://ph-files.imgix.net/421d1730-ba59-456c-89ef-8b1855f66869.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/657750f5-71c9-4638-be41-bac9ee4cac06.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/okapi-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/WIKSDNR4TMVRYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 82,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 16,
+      "topics": [
+        "API",
+        "GitHub",
+        "Tech"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Zerg Client",
+      "tagline": "The coding agent harness that drives its own terminal panes",
+      "summaryZh": "驱动自身终端窗格的编码代理框架",
+      "descriptionZh": "Zerg AI 自有的编码工具，处于评估测试阶段。向它请求 Vim 或 htop，智能体会在其旁边的窗格中打开它们。窗格可容纳更多智能体，每个智能体使用各自的模型。可用模型取决于你的登录方式和提供商访问权限。搭载 Apple 芯片的 Mac。",
+      "description": "Zerg AI's own coding harness, in evaluation beta. Ask for Vim or htop and the agent opens them in panes beside it. Panes can hold more agents, each on its own model. Available models depend on your sign-in route and provider access. Mac with Apple chips.",
+      "thumbnail": "https://ph-files.imgix.net/ce2e455c-67c5-4f2c-8652-6be8e522226d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/5e7c049d-a540-4ab8-afb1-224508946fb4.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/zerg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XCM6CBWITPYUV7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 79,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 17,
+      "topics": [
+        "Software Engineering",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "TextKit",
+      "tagline": "Send + receive texts in the US and Canada with a simple API",
+      "summaryZh": "通过简单的API在美国和加拿大发送和接收短信",
+      "descriptionZh": "一个简单好用的短信API。可集成Claude和ChatGPT等100多种服务。AI辅助活动注册。人工支持。另外——比Twilio便宜50%",
+      "description": "A simple SMS api that just works. Integrates in 100+ services including claude and chatGPT. AI-assisted campaign registrations. Human support. Also - 50% cheaper than Twilio",
+      "thumbnail": "https://ph-files.imgix.net/e271ad55-db5f-45e2-90ae-c07d85f357a2.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/696c50f4-4011-4602-8e15-7325db716f85.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/textkit-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PTSCDZ5BRVUQLA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 77,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 18,
+      "topics": [
+        "API",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "Cosyra",
+      "tagline": "Launch and steer agents on your machines from your phone",
+      "summaryZh": "从手机启动并操控你机器上的代理",
+      "descriptionZh": "Cosyra 是一款适用于 iPhone 和 Android 的移动编码工具。无需管理自己的 VPS，即可在手机的云端 Ubuntu 终端上运行任何 agent。",
+      "description": "Cosyra is a mobile coding tool for iPhone and Android. Run any agent on your phone from a cloud Ubuntu terminal without managing your own VPS.",
+      "thumbnail": "https://ph-files.imgix.net/2cf6aa8f-2cde-456a-985a-5d3beda6f3fb.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/0dbd6abd-12fe-4415-b75b-855e9915d887.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cosyra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UUP5OZIW2YXAWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 75,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 19,
+      "topics": [
+        "Android",
+        "SaaS",
+        "Developer Tools",
+        "Tech"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    },
+    {
+      "name": "AI Employees by Easy-Peasy.AI",
+      "tagline": "Hire an AI team that splits the work and asks before sending",
+      "summaryZh": "雇佣一个AI团队，分工合作，发送前先询问",
+      "descriptionZh": "按角色雇佣 AI 员工：幕僚长、分析师、设计师、支持代表等 15 种角色，也可以描述你自己的需求。添加你的网站，团队会阅读它。在群聊中向所有人简报：负责人拆分工作，队友在话题中回复，你收到一份汇总。默认情况下，邮件、日历变更和应用操作会等待你的确认。每位员工都有记忆、自己的电脑，以及按计划或在收到邮件时运行的例程。你甚至可以给他们打电话。你的第一位员工免费。",
+      "description": "Hire AI employees by role: a Chief of Staff, analyst, designer, support rep and 15 more, or describe your own. Add your website and the team reads it. Brief everyone in a group chat: the lead splits the work, teammates reply in a thread and you get one write-up. By default, emails, calendar changes and app actions wait for your OK. Each employee has a memory, its own computer and routines that run on a schedule or when an email arrives. You can even call them. Your first employee is free.",
+      "thumbnail": "https://ph-files.imgix.net/6026d9ec-dd0b-4104-ab65-43daa834da5b.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/56519415-3608-4041-a4bd-d73facf74ce1.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/easy-peasy-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/S34A5WFMMA7OCQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 75,
+      "comments": 11,
+      "featured": true,
+      "publishedAt": "2026-11-05T08:01:00Z",
+      "rank": 20,
+      "topics": [
+        "Productivity",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-06",
+      "productHuntDate": "2026-11-05",
+      "lastUpdated": "2026-11-06T16:42:34.525Z"
+    }
+  ]
+}
