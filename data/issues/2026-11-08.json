@@ -1,0 +1,565 @@
+{
+  "meta": {
+    "date": "2026-11-08",
+    "productHuntDate": "2026-11-07",
+    "lastUpdated": "2026-11-08T15:55:27.290Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "08",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "ChatGPT Images 2.6",
+      "tagline": "Create, edit, and animate images with AI",
+      "summaryZh": "用AI创建、编辑和制作动画图像",
+      "descriptionZh": "Images 2.6 为 ChatGPT、Codex 和 API 带来更快的图像生成、更精确的编辑和原生 GIF 创建功能。可创建循环动画、在多次编辑中保持角色与产品一致性、导出 SVG，并控制生成复杂度。",
+      "description": "Images 2.6 brings faster image generation, more precise editing, and native GIF creation to ChatGPT, Codex, and the API. Create looping animations, maintain character and product consistency across edits, export SVGs, and control generation complexity.",
+      "thumbnail": "https://ph-files.imgix.net/27c1e3fb-bb68-4623-90e7-a5b8d7c2a4b6.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/fadf093d-32ce-4c7a-aeec-5e44f22f1f5e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZYSSWGXHU4P32K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 282,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 1,
+      "topics": [
+        "API",
+        "Artificial Intelligence",
+        "Tech"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "LiveReview",
+      "tagline": "Free, Risk-Aware Code Review: Auto Approve Low-Risk Changes",
+      "summaryZh": "免费、风险感知的代码审查：自动批准低风险变更",
+      "descriptionZh": "大多数 AI 审查工具只会标记问题。LiveReview 承诺带来生产级结果：更少事故、更少回滚、更少资深审查者负担。每个 PR 都会进行风险评分。风险最低的 30-50% 会被安全自动批准；有风险的则直接交给应该查看它们的工程师。该方法受 Meta 极为成功的内部 AI 审查系统启发，该系统使生产事故减少 50 倍、回滚减少 3 倍。LLM + 经事故训练的 ML + 代码图分析。免费且可自托管。",
+      "description": "Most AI review tools flag issues. LiveReview promises production results: fewer incidents, fewer rollbacks, less senior reviewer load. Every PR is risk-scored. The lowest-risk 30-50% are safely auto-approved; the risky ones go straight to the engineers who should see them. The approach is inspired by Meta's highly successful internal AI review system, where production incidents fell 50x and rollbacks 3x. LLM + incident-trained ML + code-graph analysis. Free and self-hostable.",
+      "thumbnail": "https://ph-files.imgix.net/b2c2dfcc-1984-408d-a268-16b35a67c388.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/c311bb6f-a0ba-4aee-afc0-30af541143ae.gif?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/livereview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UKG4GEUB6PLHOQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 246,
+      "comments": 50,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 2,
+      "topics": [
+        "SaaS",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Quest",
+      "tagline": "Your personal AI advisor for a more intentional life",
+      "summaryZh": "你的个人AI顾问，助你过上更有意识的生活",
+      "descriptionZh": "大多数AI助手帮你完成任务，而Quest会花时间了解你的个性、价值观、抱负和动机。它不只是记住对话，更是一位个人AI顾问，帮你反思、应对艰难选择，并做出与你自身相契合的决定。它不是另一个对你发号施令的助手，而是一位深思熟虑的顾问，帮你找到属于自己的路。",
+      "description": "Most AI assistants help you get things done. Quest takes the time to understand your personality, values, ambitions, and motivations. More than just remembering conversations, it's a personal AI advisor that helps you reflect, navigate difficult choices, and make decisions aligned with who you are. Not another assistant telling you what to do, but a thoughtful advisor helping you find your own path.",
+      "thumbnail": "https://ph-files.imgix.net/44f0c99a-1818-432e-9134-46f367f54526.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b2167481-109a-47e5-b81d-e777df440702.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FFHQV6QCOEHH7N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 236,
+      "comments": 27,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 3,
+      "topics": [
+        "Artificial Intelligence",
+        "Virtual Assistants",
+        "iMessage Apps"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Exa Monitors v2",
+      "tagline": "Web search on a schedule that calls your agent, $2/1k runs",
+      "summaryZh": "按计划进行网络搜索并调用你的代理，每千次运行收费2美元",
+      "descriptionZh": "Exa Monitors v2 是为 AI 代理按计划执行的网络搜索。描述要关注的内容，选择间隔，Exa 仅在出现新的相关内容时调用你的 webhook，并提供摘要或 JSON 输出及引用。据 Exa 称，v2 会记住已发送的内容，比 v1 更安静，每 1k 次运行收费 2 美元，低于此前的 15 美元。可监控价格、新闻、竞争对手、人物等。提供 Python SDK 和 API。",
+      "description": "Exa Monitors v2 is web search on a schedule for AI agents. Describe what to watch, pick an interval, and Exa calls your webhook only when something new and relevant turns up, with a summary or JSON output and citations. Per Exa, v2 remembers what it has already sent, is quieter than v1, and costs $2 per 1k runs, down from $15. Watch prices, news, competitors, people and more. Python SDK and API available.",
+      "thumbnail": "https://ph-files.imgix.net/37e2c4c1-361d-419e-a2f5-70bf1c6a56c0.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4ec2d393-59d1-46f7-add1-85ee89e98afa.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/exa-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TAD4DNQRSJ5L2K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 203,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 4,
+      "topics": [
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "GPT‑6 Cyber",
+      "tagline": "OpenAI’s cyber model, with vetted access for defenders",
+      "summaryZh": "OpenAI的网络模型，为防御者提供经审核的访问权限",
+      "descriptionZh": "GPT-6 Cyber 是 OpenAI 的网络安全模型，据 OpenAI 称，它将更强的安全研究与更好的对齐相结合。它驱动了 OpenAI 的 Linux 内核研究。在网络安全方面被评为 Critical，初期仅向一小批经过审核的 Daybreak Red 客户开放，需要身份验证、MFA 并提交申请。OpenAI 表示预计未来几周内扩大访问范围。目前尚无公开定价。",
+      "description": "GPT-6 Cyber is OpenAI’s cybersecurity model, which per OpenAI pairs stronger security research with better alignment. It powered OpenAI’s Linux kernel research. Rated Critical in cybersecurity, it starts with a small group of vetted Daybreak Red customers, with identity checks, MFA and an application required. OpenAI says broader access is expected over the coming weeks. No public pricing yet.",
+      "thumbnail": "https://ph-files.imgix.net/5dce3b05-8def-49c3-93ac-aa0ab3fa5b72.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3f2cc34d-7d0a-49f9-940f-a44eb473f053.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EQ2CDO3EYPSTVU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 149,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 5,
+      "topics": [
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Google Omni 1.2 Flash",
+      "tagline": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second",
+      "summaryZh": "Gemini Omni 1.2 Flash：15秒AI视频，每秒0.07美元",
+      "descriptionZh": "Gemini Omni 1.2 Flash 是 Google DeepMind 的视频生成与编辑模型，现已正式开放使用。据 Google 介绍，片段时长最长可达 15 秒，此前为 10 秒；720p 每秒收费 0.07 美元，比 Omni 1.1 低 30%。新增功能包括：无需重新生成即可进行多轮编辑，角色和风格更稳定，口型同步更清晰，镜头运动更流畅。可先以 360p 或 720p 生成草稿，再升级至 1080p 或 4K。该模型已在 Gemini API、Google Cloud、Flow 和 Vids 中提供。",
+      "description": "Gemini Omni 1.2 Flash is Google DeepMind’s video generation and editing model, now generally available. Per Google, clips run up to 15 seconds, up from 10, and 720p costs $0.07 per second, 30% less than Omni 1.1. New: multi-turn editing without regenerating, steadier characters and styles, clearer lip-sync and smoother camera moves. Draft at 360p or 720p, then upscale to 1080p or 4K. In the Gemini API, Google Cloud, Flow and Vids.",
+      "thumbnail": "https://ph-files.imgix.net/fbe25412-bf16-4b8c-b60a-d1532c64fbba.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/10ee44f8-9c81-430a-a535-2e2efcc4a5b1.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/google-omni-1-2-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EAQRQBPBLUGUTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 121,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 6,
+      "topics": [
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Muse Realtime Avatar",
+      "tagline": "Turn voice chats with Muse into live video calls",
+      "summaryZh": "将 Muse 的语音聊天升级为实时视频通话",
+      "descriptionZh": "Muse Realtime Avatar 为 Meta 的 Muse 智能体赋予了一张可进行视频聊天的面孔。语音和视频来自同一路语音流，因此嘴唇、表情、手势和姿态都会随每个词同步动作，回复约在 870 毫秒内开始。与仅驱动面部动画的说话头像不同，它还能移动手部和全身，并且角色在各轮对话之间保持一致。在 Meta 的实时通话测试中，评分者对其偏好度较 Runway Characters 高 78%，较 HeyGen LiveAvatar 高 88%。",
+      "description": "Muse Realtime Avatar gives Meta's Muse agent a face you can video chat with. Voice and video come from one speech stream, so lips, expressions, gestures and posture move with every word, and the reply starts in about 870 ms. Unlike talking-head avatars that only animate a face, it moves hands and full body too, and the character stays consistent from turn to turn. In Meta's live-call tests, raters preferred it 78% of the time over Runway Characters and 88% over HeyGen LiveAvatar.",
+      "thumbnail": "https://ph-files.imgix.net/153572c5-a082-42b4-8128-169e7954b061.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/0a953086-8cdf-4ed3-a43b-222c3ea7bad4.gif?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/CEQNYNERKKN54Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 109,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 7,
+      "topics": [
+        "Artificial Intelligence",
+        "Bots",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "seam",
+      "tagline": "Turn your Mac's notch into a Dynamic Island",
+      "summaryZh": "把你的 Mac 刘海变成灵动岛",
+      "descriptionZh": "Seam 把刘海变成灵动岛。可在任意应用中听写、控制音乐、查看 Claude Code 何时完成，并运行专注计时器。语音功能在你的 Mac 上运行。19.90 美元一次性买断，支持 2 台 Mac，含 48 小时免费试用，无需信用卡。",
+      "description": "Seam turns the notch into a Dynamic Island. Dictate into any app, control music, see when Claude Code finishes and run a focus timer. Voice runs on your Mac. $19.90 once for 2 Macs, with a 48-hour free trial and no card.",
+      "thumbnail": "https://ph-files.imgix.net/9511b22f-df7d-4cba-a0db-9a6164b331ad.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/2920b434-a041-451f-a000-97228e3a6627.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/seam-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/HR47JBOCYFZV7K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 97,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 8,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Instagram Edits for Desktop",
+      "tagline": "Instagram's free desktop video editor with AI agents",
+      "summaryZh": "Instagram 免费的桌面视频编辑器，配备 AI 代理",
+      "descriptionZh": "Instagram Edits 现已登陆 Mac，将专业视频剪辑与 AI 智能体相结合。通过 MCP 连接兼容的 AI 助手，完成粗剪和编辑，再使用多轨时间线、关键帧、调色和精确音频控制接手操作。导出无水印 4K 视频，使用 Instagram 音乐库，并直接发布到 Instagram。免费使用，核心编辑器无需订阅。",
+      "description": "Instagram Edits is now on Mac, bringing professional video editing and AI agents together. Connect compatible AI assistants through MCP to assemble rough cuts and make edits, then take over with a multi-track timeline, keyframes, color grading, and precise audio controls. Export watermark-free videos in 4K, use Instagram's music library, and publish directly to Instagram. Free to use, with no subscription required for the core editor.",
+      "thumbnail": "https://ph-files.imgix.net/a3247fdb-c67f-4258-9e4f-00aefc205483.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/383798a8-90e4-4756-98d4-c233554db1a9.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/instagram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TPRFPBACJLO5RW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 95,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 9,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "productivity",
+        "design"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Rex (Beta)",
+      "tagline": "Building the multiplexer for all work",
+      "summaryZh": "为所有工作构建多路复用器",
+      "descriptionZh": "你好，世界。我们一直在开发一款终端复用器，相信你会喜欢。原生应用（例如 macOS/iOS），可通过网页访问，支持多人协作。来自 Ghostty 和 Echo 的创作者。",
+      "description": "Hello, world. We've been building a terminal multiplexer and we think you're going to love it. Native apps (e.g., macOS/iOS), accessible from the web, multiplayer. From the creators of Ghostty and Echo.",
+      "thumbnail": "https://ph-files.imgix.net/be28d5af-7c91-4e21-addb-3f9c1695de41.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/400a76c4-c01f-41d3-a08e-d2e2fcd8e542.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/superlogical?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EYQQV7LWZ6MOGL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 93,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 10,
+      "topics": [
+        "Productivity",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Fleeep",
+      "tagline": "The notes app for people who make things.",
+      "summaryZh": "为创造者打造的笔记应用。",
+      "descriptionZh": "Fleeep 是一个宁静的空间，汇聚所有激发你灵感的事物。我们大多数人常把想法分散在五个地方：截图、笔记应用、收藏的帖子、书签和打开的标签页。Fleeep 将它们整合到一处，无论在线还是离线，都能在手机和电脑上使用。",
+      "description": "Fleeep is one calm place for everything that inspires you Most of us keep ideas in five places at once: screenshots, a notes app, saved posts, bookmarks and open tabs. Fleeep puts them in one place that works on your phone and your computer, online or off.",
+      "thumbnail": "https://ph-files.imgix.net/dc7c13d8-b00b-4245-8728-49aa84b73a0a.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3783fd9c-05a3-4e89-b7c0-500ed3c12a91.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/fleeep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/OTTCJ3I5YJRYVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 90,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 11,
+      "topics": [
+        "Productivity",
+        "Notes"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "The Writer's Quarter",
+      "tagline": "AI-Free Writing & Novel Planning Software",
+      "summaryZh": "无AI写作与小说规划软件",
+      "descriptionZh": "撰写你的稿件，构建你的角色，并让故事的每个部分在一个平静、可视化、无AI的工作空间中保持连贯。",
+      "description": "Write your manuscript, build your characters and keep every part of your story connected in one calm, visual, AI-free workspace.",
+      "thumbnail": "https://ph-files.imgix.net/f816fd92-c6af-4e4f-9d55-80aa9ab65e98.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b57da8bc-69ee-454b-b0cd-20c80bc7cff9.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/the-writer-s-quarter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/VU3QLCOX7R3I5B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 84,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 12,
+      "topics": [
+        "Productivity",
+        "Writing",
+        "Text Editors"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Sendoff",
+      "tagline": "Say \"send it.\" to automatically email your list",
+      "summaryZh": "说“发送”，即可自动向你的列表发送电子邮件",
+      "descriptionZh": "从 Claude 或 Codex 向你的列表发送邮件（新闻通讯、产品发布、公告），自托管在你自己的 Cloudflare 和 AWS 账户上，并通过 Amazon SES 发送。",
+      "description": "Sendoff emails your list (newsletters, launches, announcements) from Claude or Codex, self-hosted on your own Cloudflare and AWS accounts and sending through Amazon SES.",
+      "thumbnail": "https://ph-files.imgix.net/ab729f91-fbce-4c61-9724-2cbaa5262dba.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ebd280d2-c089-4f90-9834-973d7663431a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/sendoff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YLDMPZGFTOR2AI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 84,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 13,
+      "topics": [
+        "Open Source",
+        "Email Marketing",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "ClarifierAI for Chrome",
+      "tagline": "Use AI for writing & translating in your Chrome",
+      "summaryZh": "在Chrome中使用AI进行写作和翻译",
+      "descriptionZh": "Chrome 现已支持：ClarifierAI 仅对您选中的文本进行重写、修正和翻译，适用于任何文本输入框。在您输入的位置即可使用改进、礼貌、缩短、语法检查功能以及 119 种语言 ⚡️",
+      "description": "Now on Chrome: ClarifierAI rewrites, fixes and translates only the text you select, in any text field. Improve, Polite, Shorten, Grammar and 119 languages, right where you type ⚡️",
+      "thumbnail": "https://ph-files.imgix.net/5aefe7a7-0ea5-41d0-be8c-d8a04e686a98.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/503dc145-4249-4993-94ed-18e8048e364d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/clarifierai-rewrite-text-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/CYPGOTWEMKSBYK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 14,
+      "topics": [
+        "Chrome Extensions",
+        "Productivity",
+        "Languages",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Switchy",
+      "tagline": "Mac controls, deploys, 2FA & AI limits in your menu bar",
+      "summaryZh": "菜单栏中的 Mac 控制、部署、双重验证和 AI 限制",
+      "descriptionZh": "Mac 切换、部署状态、本地服务器、2FA 验证码和 Claude/Codex 限额，尽在一个原生菜单栏面板中。支持 Apple 芯片，macOS 14+。无需账户或信用卡即可免费使用 7 天，之后一次性支付 $4.99，最多可用于 3 台 Mac。",
+      "description": "Mac switches, deploy status, local servers, 2FA codes and Claude/Codex limits in one native menu bar panel. Apple silicon, macOS 14+. Free for 7 days without an account or card, then $4.99 once for up to 3 Macs.",
+      "thumbnail": "https://ph-files.imgix.net/4d5b31a7-7989-49a3-9393-2baf13b0a1a7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b3d3929a-d096-4f88-bd39-43938591082f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/switchy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FXHNI2Q6JPLMVW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 79,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 16,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Trace by Context.dev",
+      "tagline": "Weekly web scraping API benchmark",
+      "summaryZh": "每周网页抓取API基准测试",
+      "descriptionZh": "每周五用全新样本对比网页抓取API。考察页面访问、延迟百分位、文档质量、每页成本及失败原因，并附置信区间和页面级数据。",
+      "description": "Compare web scraping APIs on a fresh sample every Friday. Explore page access, latency percentiles, document quality, cost per page, and failure reasons, with confidence intervals and page-level data.",
+      "thumbnail": "https://ph-files.imgix.net/0e51d2e4-1d7e-4768-ad95-be443fde68cb.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ef18e7f7-9bbb-4599-91e5-5696365a183b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/5RK3D7YQJWFI4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 76,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 17,
+      "topics": [
+        "API",
+        "Artificial Intelligence",
+        "Data & Analytics"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Capnot",
+      "tagline": "Make Screen Demos Clear, Even on Mute",
+      "summaryZh": "让屏幕演示清晰可见，即使静音也能理解",
+      "descriptionZh": "Capnot 将字幕、注释和指针工具置于 Mac 上任何应用之上，因此即使静音，屏幕演示依然清晰易懂。你可以输入副标题，或添加跟随光标的气泡对话框，或直接说话让它实时为你生成字幕。绘制箭头、方框和编号步骤，模糊任何机密内容，然后聚光或放大关键部分。每个工具都只需一个快捷键，且适用于任何屏幕录制或屏幕共享软件。无需事后编辑，无需订阅。",
+      "description": "Capnot puts captions, annotations and pointer tools on top of any app on your Mac, so a screen demo still makes sense with the sound off. Type a subtitle, or a speech bubble that follows your cursor, or just talk and it captions you live. Draw arrows, boxes and numbered steps, blur anything secret, then spotlight or magnify the part that matters. Every tool is one hotkey away and works with any screen recorder or screen share. No editing afterwards, no subscription.",
+      "thumbnail": "https://ph-files.imgix.net/fac454b8-d6f3-430f-b7bf-65310d78595e.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/f516c1ea-b934-46a9-8d34-628644ca633b.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/capnot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NANZHGOOMCEIDX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 76,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 18,
+      "topics": [
+        "Productivity"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Deal Pilot",
+      "tagline": "AI SDR that books meetings in Japan, the US & SE Asia",
+      "summaryZh": "能在日本、美国和东南亚预约会议的AI SDR",
+      "descriptionZh": "Deal Pilot 按国家和角色查找并验证决策者，用英语、日语或中文撰写个性化冷邮件，并持续跟进直至安排会面。在 644 封经过 A/B 测试的邮件中，回复率为 6.0%。",
+      "description": "Deal Pilot finds and verifies decision-makers by country and role, writes personalized cold email in English, Japanese or Chinese, and follows up until there's a meeting. 6.0% reply rate across 644 A/B-tested emails.",
+      "thumbnail": "https://ph-files.imgix.net/efc401be-6fe0-4994-9e2c-577c5758d4ad.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ce2a4549-191b-4487-867f-662c2239f11c.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/deal-pilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TLWTIL7DWQSQPM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 76,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 19,
+      "topics": [
+        "Email",
+        "Sales",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "Duly",
+      "tagline": "Press the orb, ramble, and everything gets organized",
+      "summaryZh": "按下球体，随意讲述，一切都会整理得井井有条。",
+      "descriptionZh": "按下圆球，随口说。Duly 会将其转化为提醒、清单、想法和笔记。说“6点给妈妈打电话，买牛奶”，你就会得到一个提醒和一项购物清单条目。以同样的方式更改任何内容。每天可在 iPhone 和 iPad 上免费使用。",
+      "description": "Press the orb and ramble. Duly turns it into reminders, lists, ideas and notes. Say \"call mom at 6, buy milk\" and you get a reminder and a grocery item. Change anything the same way. Free to use every day, on iPhone and iPad.",
+      "thumbnail": "https://ph-files.imgix.net/07719a41-d76a-48c7-bd80-b247b241907f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/a7d482c9-63e7-4c41-8d34-d9a40b9b4535.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/duly-life-organizer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LN2J6B7S4DBEFB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 73,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 20,
+      "topics": [
+        "iOS",
+        "Productivity",
+        "Notes"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    },
+    {
+      "name": "kayet",
+      "tagline": "the minimalistic text editor for macOS",
+      "summaryZh": "macOS上的极简文本编辑器",
+      "descriptionZh": "一款安静、无干扰的 macOS 文本编辑器。",
+      "description": "A quiet, distraction-free text editor for macOS.",
+      "thumbnail": "https://ph-files.imgix.net/37811b41-9c03-4852-92df-ceac1ea2e19e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/682adb80-b859-4c77-ae00-62a78f548abc.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/kayet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/B5MM4CIBUHA56Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 81,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-07T08:01:00Z",
+      "rank": 15,
+      "topics": [
+        "Writing",
+        "Notes",
+        "Text Editors"
+      ],
+      "buckets": [],
+      "date": "2026-11-08",
+      "productHuntDate": "2026-11-07",
+      "lastUpdated": "2026-11-08T15:55:27.290Z"
+    }
+  ]
+}
