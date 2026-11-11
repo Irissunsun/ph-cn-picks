@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "date": "2026-11-11",
+    "productHuntDate": "2026-11-10",
+    "lastUpdated": "2026-11-11T17:03:25.055Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "11",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Binqo",
+      "tagline": "A tiny friend in your Mac's notch",
+      "summaryZh": "你 Mac 刘海里的一个小小伙伴",
+      "descriptionZh": "Binqo 在 Mac 的刘海区域放置了一个名为 Mielo 的小点阵伙伴。抬眼即可查看音乐、日历、文件和剪贴板。按住按键提问，答案会显示在 Mac 上。打开桌面，查看会议记录以及用一句话描述即可生成的小应用。",
+      "description": "Binqo puts Mielo, a little dot-matrix friend, in your Mac's notch. Glance up for music, calendar, files and clipboard. Hold a key to ask a question, answered on your Mac. Open the desk for meeting notes and mini-apps you describe in a sentence.",
+      "thumbnail": "https://ph-files.imgix.net/e6ca3f34-319d-4ae5-9c1b-9a8ce4aa5678.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/b6dcfa71-c67e-44fd-8911-aac61a4d7eac/08376eaeb7fa00aa9976b4d94f4dbb904de71bcfa7eaddc954ae8fc3cdf46b04.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/binqo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FOUFOCVJR36R24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 73,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-11T08:00:00Z",
+      "rank": 21,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Skipbox",
+      "tagline": "Cheap, fast GitHub Actions runners with unlimited minutes",
+      "summaryZh": "廉价、快速的GitHub Actions运行器，无限制分钟数",
+      "descriptionZh": "Skipbox 在你自己的 Linux 虚拟机上运行 GitHub Actions 任务，虚拟机在各任务之间保留，因此 Docker 层、包缓存和已安装工具在下一次运行时仍然存在。每次任务结束后，凭据、工作区和所有容器都会被清除。每月固定价格，分钟数不限：4 vCPU / 8 GB 为 39 美元。安装 GitHub App，并将一行改为 runs-on: skipbox。7 天免费试用，无需信用卡。仅限私有仓库。",
+      "description": "Skipbox runs your GitHub Actions jobs on your own Linux VM, kept between jobs, so Docker layers, package caches and installed tools are still there on the next run. Credentials, the workspace and every container are wiped after each job. A flat monthly price with unlimited minutes: $39 for 4 vCPU / 8 GB. Install the GitHub App and change one line to runs-on: skipbox. 7-day free trial, no card. Private repositories only.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/73a9da0f-f2be-4e98-811b-d52efaea5158/5644c95b870e6b147122e8af01371a0303ff7b3f4231fa3f1e9efea3ea56ca3b.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4e669324-852e-4c66-94f4-1a76cffd0691/750c447667631bf2616281ff4b7bf907278c866c65f9aed24b547e69528ea3c0.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/skipbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MXAGTJE6TEBJ6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 69,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-11T08:00:00Z",
+      "rank": 24,
+      "topics": [
+        "Software Engineering",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "HiveFury",
+      "tagline": "Blocks scam sites and keeps your secrets out of AI chats",
+      "summaryZh": "拦截诈骗网站，让你的秘密远离AI聊天。",
+      "descriptionZh": "HiveFury 是一款免费的 Chrome 扩展程序，守护你的浏览和 AI 聊天。它会在已知的诈骗和钓鱼网站前发出警告，标记虚假登录页面，并检查任何要求连接加密钱包的网站。开启 AI 数据保护后，它会在 API 密钥、env 和 pem 文件、数据库连接字符串、卡号和 Social Security 号码进入 AI 聊天之前予以拦截。粘贴的文本在你的设备上检查。评分 4.8 星，并在 Chrome Web Store 上获得推荐。",
+      "description": "HiveFury is the free Chrome extension that guards your browsing and your AI chats. It warns you before known scam and phishing sites, flags fake login pages and checks any site that asks to connect your crypto wallet. Switch on AI data protection and it stops API keys,env andpem files, database connection strings, card numbers and Social Security numbers before they reach an AI chat. Pasted text is checked on your device. Rated 4.8 stars and Featured on the Chrome Web Store.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/4624ec1a-d975-476c-8a39-762537777c67/e13ea1c1cf673094d9e106a7080d4114275ab8a0391f5f074a35a29d18da6518.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a5bc2d44-87dc-4998-99de-dd6d1e0b7a17/b5e5a05b9da2e52ec5ca0cb3819dc05cbccf03655b78a84e2140d2a34ce89002.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/hivefury?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3LEDD2PZHRPTDW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 67,
+      "topics": [
+        "Chrome Extensions",
+        "Artificial Intelligence",
+        "Security"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Deepnia",
+      "tagline": "Create, auto-post and grow your social accounts with AI",
+      "summaryZh": "用AI创建、自动发布并发展你的社交账号",
+      "descriptionZh": "Deepnia 是面向创作者和小型企业的 AI 工作室。描述一个想法，即可获得短视频、基于照片的产品广告、动态设计、说话头像、海报、图像、配音和音乐。然后可在 TikTok、Instagram、Facebook、YouTube、LinkedIn、Threads、Pinterest 和 Telegram（Pro 和 Business 套餐）上安排发布，并在一处查看每条帖子的浏览量、点赞和评论。支持英语、法语、西班牙语和葡萄牙语。",
+      "description": "Deepnia is an AI studio for creators and small businesses. Describe an idea and get short videos, product ads from your photos, motion design, talking avatars, posters, images, voiceovers and music. Then schedule them on TikTok, Instagram, Facebook, YouTube, LinkedIn, Threads, Pinterest and Telegram (Pro and Business plans), and see views, likes and comments of every post in one place. Available in English, French, Spanish and Portuguese.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/63abc6d0-26ca-4e8a-ae77-ef8d7a765b6b/191226e9d0a873e7d424e813f1e8440838052c82125c22969cf649d227059087.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/06eb722e-5b0d-408e-b5a7-2f7af30d789a/4003b075970cee20355c801e2e002272ae70c751b98c39471d2d2d1db25688f7.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/deepnia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZC3ZB23VDRECTZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 128,
+      "topics": [
+        "Artificial Intelligence",
+        "Social media marketing",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Travel Chatter: Phrasebook",
+      "tagline": "The phrasebook you write as you go",
+      "summaryZh": "你边走边写的常用语手册",
+      "descriptionZh": "Travel Chatter 是一本随走随写的旅行短语手册。随时捕捉任何语言的短语，保存下来供使用和学习。没有课程，没有连续打卡——这本书只包含你选择放入的内容。",
+      "description": "Travel Chatter is a travel phrasebook you write as you go. Capture a phrase at any time, in any language, save it to use and learn. No lessons, no streaks - a book that only contains what you choose to put in it.",
+      "thumbnail": "https://ph-files.imgix.net/32bcbfe2-0032-4d20-9564-175b6ad20c9e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4c0a6db5-aa51-47ce-820d-4aeb742fd65b/d9fefbcea00984433d9e5e74f069f549a26033646757c582c835f4397d02d00d.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/travel-chatter-phrasebook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MBVYZGAM4AFSDJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 141,
+      "topics": [
+        "Android",
+        "Web App"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Inspiration City",
+      "tagline": "Where people and agents create together",
+      "summaryZh": "人与智能体共同创造的地方",
+      "descriptionZh": "一个共享的持久工作空间，让人类与智能体共同构建真实成果。通过一个 MCP 连接器接入 Claude、ChatGPT、Grok、Hermes 等，它们共享你的页面、项目和消息工具，并在彼此之间交接工作。",
+      "description": "A shared, persistent workspace where people and agents build real things together. Connect Claude, ChatGPT, Grok, Hermes and more through one MCP connector, and they share your pages, projects and messaging tools, while handing off work to each other.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/0dcfd36c-ebd2-445b-a146-f982d074d52d/6c54c064497a4f6a426c0fafa355c3d6282971c7c986f026045049e7c480bc65.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/556a058b-4632-4850-83fe-fd31a446c50a/2b4e945eda8f2ccdebc89ab7fc9029ab0cce6871e84719f31e0a4357dcb1cbc2.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/inspiration-city?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UXKRQPCQSHP35A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 141,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Cardillon",
+      "tagline": "Pop-up greeting cards that really open, sent as a link",
+      "summaryZh": "真正能打开的弹出式贺卡，以链接形式发送",
+      "descriptionZh": "Cardillon 是一款 iPhone 和 iPad 应用，用于制作带灯光和音乐盒的弹出式贺卡。挑选一张贺卡，写下你的留言，然后以链接形式发送。对方只需用手指在任何手机或电脑上打开，无需安装应用。前三张贺卡免费。Android 和 Windows 版本即将推出。",
+      "description": "Cardillon is an iPhone and iPad app for pop-up greeting cards with lights and a music box. Pick a card, write your message and send it as a link. They open it with a finger on any phone or computer, no app needed. Your first three cards are free. Android and Windows coming soon.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/b22b6bb1-4c89-4bb3-bdca-8707444bfd42/205813f36437c46b7969b4bd2abeacf00fa22b804d0257360aedb1ec1c6781a0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/eec598c4-1638-46b8-8aeb-cfc2855bc225/280aad730f18e7b6e6b342484ae07bc7d9694a6f2b41e0152d3babed5c69657f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cardillon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/5KFVJ7GMMNMADG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 141,
+      "topics": [
+        "iOS",
+        "Lifestyle",
+        "Design"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Rutbot",
+      "tagline": "SEO & GEO agents that fix your site, not just audit it",
+      "summaryZh": "修复你网站的SEO与GEO智能体，不止于审计",
+      "descriptionZh": "做了6年多SEO后，我厌倦了那些甩给你200个问题就祝你好运的工具。Rutbot是一组AI代理，替你干活：审计整个网站，询问ChatGPT、Gemini、Claude、Perplexity、Bing Copilot和Google AI Overviews如何评价你，然后在你批准后修复网站上的问题，并支持撤销。目前可连接WordPress和EasyOrders；接下来是Shopify、WooCommerce、Salla和Zid。其他网站会得到可直接复制的修复方案。",
+      "description": "After 6+ years in SEO, I got tired of tools that hand you 200 problems and wish you luck. Rutbot is a team of AI agents that does the work: it audits your whole site, asks ChatGPT, Gemini, Claude, Perplexity, Bing Copilot and Google AI Overviews what they say about you, then fixes the issues on your site after you approve, with undo. Connects to WordPress and EasyOrders today; Shopify, WooCommerce, Salla and Zid are next. Any other site gets fixes ready to copy.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a9c5619d-e4b7-46b2-919b-90282f86c03b/e5eb5ac515a779a94b238203768899cfc1b7a4c3289e7bd94c72483193a41f34.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/01ab6763-1ed8-4231-bd57-802be188d968/eed982a8b3828226fc61ed4a02cd0a4700c288258697701b8f820a1453f67093.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/rutbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UZIRGJKLAA7VSD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 141,
+      "topics": [
+        "SEO",
+        "Artificial Intelligence",
+        "Search"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Fizzlayer",
+      "tagline": "Open source, self-hostable physical layer for AI agents",
+      "summaryZh": "面向AI代理的开源、可自托管的物理层",
+      "descriptionZh": "Fizzlayer 让 AI 代理能够感知物理世界。连接树莓派、ESP32、手机或任何 HTTPS 传感器，然后用自然语言向 Fizz 提问，或通过 MCP 接入你自己的代理。设置阈值，当读数越线或传感器静默时，你会接到电话通知。可免费使用仪表盘告警；电话通知包含在 Tinkerer、Pro 和 Enterprise 版本中。Fizzlayer 采用 Apache 2.0 许可，你可以用 Docker Compose 自托管整套服务。",
+      "description": "Fizzlayer gives AI agents a way to sense the physical world. Pair a Raspberry Pi, ESP32, phone, or any HTTPS sensor, then ask Fizz in plain English or connect your own agent over MCP. Set a threshold and get a phone call when a reading crosses the line, or when a sensor goes silent. Start free with dashboard alerts; phone calls are included on Tinkerer, Pro, and Enterprise. Fizzlayer is Apache 2.0 licensed, and you can self-host the whole stack with Docker Compose.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/0c01e00a-a571-421c-b51c-a362ef502c9f/83699b22cacb26ce017a464b89cd7209c4d078ff30f6d7f588e2ae4b63db9d89.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/2b880a8e-65ce-466e-8153-5ebdf19f98f0/df4d8291ba112768693b3ac761ab294fc5147998389d0e257b43a126a3630f16.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/fizzlayer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/QWYSVQT65YU6AU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 141,
+      "topics": [
+        "Open Source",
+        "Internet of Things",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Kovmere",
+      "tagline": "See if AI recommends your business, and what to fix",
+      "summaryZh": "看看AI是否推荐你的业务，以及需要修正什么",
+      "descriptionZh": "Kovmere 检查 AI 助手是否会推荐你的业务。它会向 ChatGPT、Gemini、Perplexity、Claude 和 Google AI Overviews 提出买家常问的 18 个问题（每个问题问 3 次），展示它们推荐了谁而不是你，以及它们引用了哪些页面，然后为你的网站提供最多 3 个可直接使用的修复方案。一次检查为 19 美元，一次性付费，无需注册，报告约 20 分钟送达。Pro（49 美元/月）和 Agency Portfolio（129 美元/月）每月跟踪一次。",
+      "description": "Kovmere checks whether AI assistants recommend your business. It asks ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews 18 questions your buyers ask (3 times each), shows who they recommend instead of you and the pages they cite, then gives up to 3 ready-to-use fixes for your site. A Check is $19 one-time with no sign-up, and the report arrives in about 20 minutes. Pro ($49/month) and Agency Portfolio ($129/month) track it every month.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/6bdb1196-c5ad-4805-82da-81daa8d7751f/7aa84b07ed6f79073af3886b218ec86b024511e00da701ccaf9aa2e632afa445.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/31d50005-44af-48e4-9a36-a92a5b31cd78/d9e00e5537dff398886e0d3968d144a28c6be564d70b5e16c33e0398490fe208.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/kovmere?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FJRDTCJSTHLVN5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 388,
+      "topics": [
+        "Marketing",
+        "SEO",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Monclers",
+      "tagline": "Create AI UGC, edit, and schedule—all in one workspace",
+      "summaryZh": "创建AI UGC、编辑和排期——尽在一个工作空间",
+      "descriptionZh": "Monclers 将 AI 虚拟形象、反应视频、TikTok 幻灯片、编辑和排程整合到一个工作空间。无需拍摄即可创作内容，将想法转化为多条帖子，并管理从创作到发布的工作流程。",
+      "description": "Monclers brings AI avatars, reaction videos, TikTok slideshows, editing, and scheduling into one workspace. Create content without filming, turn ideas into multiple posts, and manage your workflow from creation to publishing.",
+      "thumbnail": "https://ph-files.imgix.net/ce5b3042-8d73-42fb-ac9e-a15956d2c629.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3ac77089-9add-4a22-96e9-ea77e1fc9821.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/monclers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3ODPLR435LWURA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 388,
+      "topics": [
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "MingOS 命",
+      "tagline": "Ask AI anything about your Bazi chart. Find the right day.",
+      "summaryZh": "向AI询问任何关于你八字命盘的问题。找到合适的日子。",
+      "descriptionZh": "MingOS 在设备端计算你的八字命盘，并生成一份永久解读——一次写成，永不重新生成，因此不会漂移。在基于命盘冻结结论的 AI 咨询中追问后续问题。使用择日功能，在即时月视图中对照你的命盘排序，找出有利的日子。添加家人和朋友；计算出的命盘对所有人免费。英文优先，每个术语旁附中文。",
+      "description": "MingOS computes your Bazi chart on-device and writes one lasting Reading of it, written once and never regenerated, so it doesn't drift. Ask follow-up questions in an AI Consultation grounded in your chart's frozen findings. Use Date Selection to find favourable days, ranked against your chart in an instant month view. Add family and friends; the computed chart is free for everyone. English-first, with Chinese alongside every term.",
+      "thumbnail": "https://ph-files.imgix.net/96927504-0c54-4e5b-837d-8296d4bbb848.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/cb6ec232-d1d7-4153-a307-d47a1a493397.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/mingos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PDBTQKVG3CZ46K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 0,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 388,
+      "topics": [
+        "Android",
+        "Artificial Intelligence",
+        "Lifestyle"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Nanachi Remote",
+      "tagline": "Control your Windows coding agents from your phone",
+      "summaryZh": "从手机控制你的 Windows 编码代理",
+      "descriptionZh": "在 Windows 上启动编码会话，然后从 Android 或 iPhone 继续。实时跟踪输出、响应权限请求、查看 Git 变更，并向 Codex、Claude Code 及其他兼容代理发送文件。Nanachi Remote 免费且开源。移动端 Web 应用通过你的私有 Tailscale 网络连接到 PC。需要 Windows x64 和已配置的代理。",
+      "description": "Start a coding session on Windows and pick it up from Android or iPhone. Follow live output, respond to permission requests, review Git changes, and send files to Codex, Claude Code, and other compatible agents. Nanachi Remote is free and open source. The mobile web app connects to your PC over your private Tailscale network. Requires Windows x64 and a configured agent.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/47b5f97e-d24c-4195-8d42-caa28eb61a77/7c39756d697c66149e2c31ff4940a34081abee34fde73ad99cce3e43bf37308a.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/7b01f02b-f0d7-4d22-90a3-99330e341ad1.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/nanachi-remote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XVA4F5TECU6KPJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 388,
+      "topics": [
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "mySHOP",
+      "tagline": "A personal coach for your Etsy shop, in your pocket",
+      "summaryZh": "你的Etsy店铺随身私人教练",
+      "descriptionZh": "mySHOP 为 Etsy 卖家提供一位名为 Spryte 的私人教练。你可以询问任何关于店铺的问题，并获得一个明确的下一步行动建议，按影响力排序。Spryte 会为每个商品 listing 打出十分制评分，并给出具体改进建议；你还可以通过聊天、语音或收据照片记录支出。",
+      "description": "mySHOP gives Etsy sellers a personal coach called Spryte. Ask anything about your shop and get one clear next move, ranked by impact. Spryte scores every listing out of ten with specific fixes, and you can log your expenses by chat, voice or a receipt photo.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/5e57d54c-554c-42e4-8405-c141e2ce70e6/7344eda164c287f21436d7c009b06a407a989452401fc6072389abf39d113537.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/00d869a7-dda0-4d2c-8f6c-1fffa2f90cc3/fd50dc520f41229335a27f55ace39d5e4d93798b39449f2312f1afbbafebfe94.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/myshop-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7XU2NAXKSGXAKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 388,
+      "topics": [
+        "Marketing",
+        "SaaS",
+        "E-Commerce"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Cackles for Android",
+      "tagline": "Live voice rooms for friends on Android and iPhone",
+      "summaryZh": "Android 和 iPhone 上的好友语音聊天室",
+      "descriptionZh": "Cackles 是为朋友和社群打造的实时语音房间，现已登陆 Android。你可以随时进入旁听，举手加入台上发言，或亲自主持一个房间。加入公开或私密的 Bubbles，分享房间照片和互动回应，发送私信和群聊消息，发布 Stories，并通过 Portals 开启摄像头。一个 Cackles 账号可在 Android 和 iPhone 上通用，让使用不同手机的朋友共享同一批房间。可在 Google Play 免费下载。仅限 18 岁以上成年人使用。账号可能需要经过社群审核。",
+      "description": "Cackles is live voice rooms for friends and communities, now on Android. Drop in to listen, raise your hand to join the stage, or host a room of your own. Join public or private Bubbles, share room photos and reactions, send direct and group messages, post Stories, and turn on your camera with Portals. One Cackles account works on Android and iPhone, so friends on different phones share the same rooms. Free on Google Play. For adults 18+. Accounts may require community approval.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/96751f07-5156-4d49-a20d-1d49ceaa0de4/8f34ee9812d7c9dec53416c64981903ac1edb25b43cd8711932c14435510d160.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a7cb2ede-5195-4ce5-ac59-d2a4e8673100/4890aa1e8ad48e42f47337db5d4d5d928298eb20d06fca49a837915ac1e94058.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cackles-your-crew-is-one-tap-away?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PVWM46VKBILI35?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 67,
+      "topics": [
+        "Android",
+        "Social Networking"
+      ],
+      "buckets": [],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "oncemore",
+      "tagline": "Private network for builders who kept going",
+      "summaryZh": "为坚持前行的构建者打造的私有网络",
+      "descriptionZh": "一个仅限会员的名录与工作网络，面向曾进入某顶级加速器最终面试阶段但未被选中的活跃创业者。你现在正在构建的东西才是重点；面试只是一道门。你进入了那场面试，你未被选中，而你正在积极构建。每份申请都由人工审核。会员可获得一份名录、一个需求与提供看板，以及会员之间的消息功能。会员的任何信息都不会公开。",
+      "description": "A members-only directory and working network for active builders who reached the final interview stage of a top accelerator and were not selected. What you are building now is the point; the interview is only the door. You reached that interview, you were not selected, and you are actively building. A person reviews each application. Members get a directory, an asks and offers board, and member-to-member messaging. Nothing about members is public.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/229ab468-96ca-4c87-8178-7479532f5e51/0d56ccd5ee29d6eaefc009442248d2089cb4b1922cff5696f3704068ac121072.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/b1efb71f-0183-4c78-a54f-f643d203d36d/94fdebae32e4c1850f03341f03a1c56bf0824f851c2580d9f40cedaa9b3319e5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/oncemore?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FNWHC2AIIGMN5L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 67,
+      "topics": [
+        "Community"
+      ],
+      "buckets": [],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "FreeVoice",
+      "tagline": "Voice rooms for you and your friends, with games built in",
+      "summaryZh": "为你和你的朋友打造的语音房间，内置游戏功能",
+      "descriptionZh": "打开房间，分享链接，即可直接在浏览器中与最多10人交谈。无需账号，无需下载。你们可以边聊边一起玩游戏（Seal Deal、Cheat、Sketch Seal、Tencord），或同步观看YouTube。添加好友后可查看对方何时在线，一键加入其房间。语音采用点对点传输并加密，不录制任何内容。支持39种语言，免费。",
+      "description": "Open a room, share the link, and talk with up to 10 people right in your browser. No account, no download. Play games together while you talk (Seal Deal, Cheat, Sketch Seal, Tencord) or watch YouTube in sync. Add friends to see when they're online and jump into their room in one tap. Voice goes peer-to-peer and encrypted, and nothing is recorded. 39 languages, free.",
+      "thumbnail": "https://ph-files.imgix.net/7ba8926f-a340-4d2c-bff8-17e0972c52c6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/1da6a3eb-366d-41c1-a3bb-02d1095e70bd/6ef77741cb2ed60cccd8a82a690c059e6e87404f27a8ea810ba109d2262b6afd.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/freevoice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/62DIJRUQ2R2CBL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 132,
+      "topics": [
+        "Messaging",
+        "Social Network",
+        "Games"
+      ],
+      "buckets": [],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Seasonal Closet Organizer",
+      "tagline": "Photograph your clothes, box them, find them in seconds",
+      "summaryZh": "拍下你的衣物，装箱，几秒内找到它们",
+      "descriptionZh": "换季衣物整理变成寻宝游戏：一模一样的箱子，一个个打开盖子，你需要的那件毛衣永远不在第一个箱子里。Seasonal Closet Organizer 让你给衣物拍照，存入贴有可打印二维码标签的箱子，并通过搜索找到任何一件物品，甚至可按颜色查找。引导式换季整理、儿童旧衣传承、可选 iCloud 备份。支持 iPhone 和 iPad，六种语言，无需账户，数据保留在你的设备上。免费可用 10 件物品，之后一次性购买。",
+      "description": "Seasonal clothes swaps turn into a treasure hunt: identical boxes, lids to open, and the sweater you need is never in the first one. Seasonal Closet Organizer lets you photograph your clothes, store them in boxes with a printable QR label and find any item with a search, even by colour. Guided seasonal swap, hand-me-downs for kids, optional iCloud backup. iPhone and iPad, six languages, no account, data stays on your device. Free up to 10 items, then a one-time purchase.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/74ffbde1-67a8-4fd7-ae42-88956ad323c3/9d2e8c0fd0e47de2cbacf9a7dd41d8cb7b954fc998105ba51a67b6efdbd151a4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4b17d9e6-662d-4f8a-afcf-ee971753c8d3/57a74400eccf4dfb29c591bb7a6c1912da71cfab2524e1951cacfba073a02b04.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/seasonal-closet-organizer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7GLDGEJZCLG4MK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 141,
+      "topics": [
+        "iOS",
+        "Home",
+        "Lifestyle"
+      ],
+      "buckets": [],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Clutch",
+      "tagline": "Pinnacle lines and hit rates for every NBA game",
+      "summaryZh": "每场NBA比赛的巅峰盘口和命中率",
+      "descriptionZh": "Clutch 是一个 NBA 球员数据终端。提供当日每场比赛的 Pinnacle 盘口、赛季与近10场命中率、伤病情况和比赛背景。免费计算器和公开数据研究。仅提供数据，不提供推荐，不提供投注建议。",
+      "description": "Clutch is an NBA player prop terminal. Every game of the day with the Pinnacle line, season and last-10 hit rates, injuries and game context. Free calculators and open data studies. Data only, no picks, no betting advice.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/f7e35cbf-af3b-489d-a9ca-334cac4a5116/fa37513dd19559b4367882f5a86e8af461bb12bf8b254851ac30c87ed64dad6b.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/0b36f514-38f5-47f1-9817-4e301a0c97d6/21e2776dde74c42b961a71273ab87d2d2d4f007ac07a0c5ce0806be4dbae9211.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/clutch-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UZ3JC5ORLEGBVI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 381,
+      "topics": [
+        "Analytics",
+        "Sports",
+        "Data Visualization"
+      ],
+      "buckets": [],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    },
+    {
+      "name": "Geaux",
+      "tagline": "DNS filtering, encrypted DNS & WireGuard for iOS",
+      "summaryZh": "适用于iOS的DNS过滤、加密DNS与WireGuard",
+      "descriptionZh": "Geaux 将网络控制带到你的 iPhone 上。通过阻止列表和自定义规则在设备上过滤 DNS 请求，选择 DoH 或 DNSCrypt 加密 DNS，并连接你自己的 WireGuard 配置文件。查看允许、阻止和缓存的请求，了解你的流量情况。现已在 TestFlight 测试版中提供。",
+      "description": "Geaux puts network control on your iPhone. Filter DNS requests on-device with blocklists and custom rules, choose encrypted DNS with DoH or DNSCrypt, and connect your own WireGuard profile. Inspect allowed, blocked, and cached requests to understand your traffic. Available now in TestFlight beta.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/6d670e22-bb0d-4f70-8ac3-854c96293127/fc55d731237ea89f86d2abc70ea00462ba8fcf8d692fbd7da3b377cf0da24944.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/c7ccc634-e032-4b0f-a5a0-98e3104b48b1/e379d11aae0f032ae2d9c4301dd3044c4d114623c1304ff8ff0cc3866f62307b.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/geaux?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NZ36P5W22BZWKS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 1,
+      "comments": 0,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 388,
+      "topics": [
+        "Privacy"
+      ],
+      "buckets": [],
+      "date": "2026-11-11",
+      "productHuntDate": "2026-11-10",
+      "lastUpdated": "2026-11-11T17:03:25.055Z"
+    }
+  ]
+}
