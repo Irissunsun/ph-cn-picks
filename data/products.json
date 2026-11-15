@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-14",
-    "productHuntDate": "2026-11-13",
-    "lastUpdated": "2026-11-14T15:45:01.210Z",
+    "date": "2026-11-15",
+    "productHuntDate": "2026-11-14",
+    "lastUpdated": "2026-11-15T16:17:41.583Z",
     "status": "live",
     "source": "producthunt-api-v2",
     "timezone": "Asia/Shanghai",
@@ -11,55 +11,498 @@
     "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
     "issues": [
       {
-        "day": "14",
+        "day": "15",
         "title": "产品灵感日报 · 20 个新品"
       }
     ]
   },
   "products": [
     {
-      "name": "Flyerworks",
-      "tagline": "World’s first AI marketing & design agent for retail.",
-      "summaryZh": "全球首个面向零售的AI营销与设计智能体。",
-      "descriptionZh": "即时商务以分钟计，零售门店却因等待数天才能设计出促销方案而流失顾客。如今，数天变为数秒。认识Skippi，全球首个专为零售店和街角小店打造的AI智能体。拍下手写价目表，粘贴或口述即可。Skippi将原始价格转化为可编辑传单和匹配的货架标签，涵盖3000多种设计，定价零幻觉，支持WhatsApp分享和可直接打印的导出文件。街角小店已准备好再次引领潮流。",
-      "description": "Quick commerce moves in minutes, while retail stores lose shoppers waiting days to get an offer designed. Today, days become seconds. Meet Skippi, the world’s first AI agent built exclusively for retail and corner stores. Snap a handwritten price list, paste, or speak it. Skippi turns raw prices into editable flyers and matching shelf tags across 3,000+ designs with zero-hallucination pricing, WhatsApp sharing, and print-ready exports. The corner store is ready to lead again.",
-      "thumbnail": "https://ph-files.imgix.net/16e24c5d-0c32-40c1-bf3e-a32e568c75ba.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/e1e6b1ef-c002-42e3-9e53-d87a6823030b.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/flyerworks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/WWUMSCGIIEYLAH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "name": "HuntMonitor",
+      "tagline": "Watch today's hunt live: points, speed, rank moves",
+      "summaryZh": "今日狩猎直播：积分、速度、排名变动",
+      "descriptionZh": "HuntMonitor 是今日 Product Hunt 竞赛的实时仪表板。可按分数、评论、投票速度或猎人排序。保持一个标签页打开，查看某个发布是在攀升还是下滑。打开任意一行，查看当天的分数图表。实时更新，每 15 分钟生成快照。",
+      "description": "HuntMonitor is a live dashboard for today's Product Hunt race. Sort by points, comments, upvote speed, or hunter. Keep one tab open to see if a launch is climbing or slipping. Open any row for the day's points chart. Updates live, snapshots every 15 minutes.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/f5b41999-3ee1-41d7-9081-806d3c18bc8f/6faebf36d9fbfcf5dc981ddbe5919988987199a977b11118aa2a357cf4d8fe90.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/8013614c-3ce1-47fa-91df-384549d5375c/54a0b1cf1809f6e215b740f8bc723fe0994e0b01b5cff3b9c1a2fd46eb8bd0f5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/huntmonitor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/QPB2D4QRGA3BW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 105,
+      "comments": 10,
+      "featured": true,
+      "publishedAt": "2026-11-15T08:00:00Z",
+      "rank": 5,
+      "topics": [
+        "Productivity",
+        "Analytics",
+        "Tech"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Remindly",
+      "tagline": "Notes that remind you, on iPhone, iPad, Mac and web",
+      "summaryZh": "在 iPhone、iPad、Mac 和网页上提醒你的备忘录",
+      "descriptionZh": "Remindly 是一款快速的笔记应用，任何笔记都可以附带提醒：一次性、重复、全天或到达某地时。可通过打字、语音、扫描或网页剪藏来记录。在 iPhone、iPad、Mac 和网页端同步。可导入你的 Evernote 资料库。",
+      "description": "Remindly is a fast notes app where any note can carry a reminder: one-time, repeating, all-day, or when you arrive somewhere. Capture by typing, voice, scan, or the web clipper. Syncs across iPhone, iPad, Mac and web. Imports your Evernote library.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/0de2e00b-741f-4c1a-b994-c26452292532/9c019a5dcc9d44d21a74d21eb7d68bfbe291e3d533c51f3cf84e481544c3462e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/bbf15b54-b868-4fa5-b458-18347f73f7b9/956258ebf866fc8464202a4fb391d04f3a6b041eee65d26019edb1e59462f735.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/remindly-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/74WWDRRLYFAEJU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 91,
+      "comments": 4,
+      "featured": true,
+      "publishedAt": "2026-11-15T08:00:00Z",
+      "rank": 8,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Notes"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Perit Marketplace",
+      "tagline": "Sell your data and RL tasks to frontier AI labs",
+      "summaryZh": "将你的数据和强化学习任务出售给前沿人工智能实验室",
+      "descriptionZh": "Perit Marketplace 将你的数据和专业知识转化为前沿 AI 实验室的训练工作。两种参与方式：提交你拥有的数据（音频、视频、代码、文档、CAD 等；目前已列出 29 个数据集），或使用我们的虚拟机和模型额度在我们的平台上构建 RL 任务和基准测试。我们向实验室推介这些内容，获批的专家每周可扩展到数百个任务。由 Perit（YC F26）打造，目前 4.5 个月内营收已超过 1100 万美元。",
+      "description": "Perit Marketplace turns your data and expertise into training work for frontier AI labs. Two ways in: submit data you own (audio, video, code, docs, CAD and more; 29 datasets listed so far), or build RL tasks and benchmarks on our platform using our VMs and model credits. We pitch them to labs, and approved experts scale to hundreds of tasks a week. Built by Perit (YC F26), now past $11M in revenue in 4.5 months.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/3cc375cf-dede-4808-9d43-6a3d59aba779/e5b9575d336bbe42828d6dcbf5b5912e102883bbf8584e303c9281888bd6acaf.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/074771a9-8d84-4c1f-881c-08a0e6053e38/32d5ad3b788d09a6919d645db31f156abf462ca6dfb6195b73301844e17b2d14.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/perit-marketplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KPIYGDOPJZWXWT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 84,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-15T08:00:00Z",
+      "rank": 9,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Data"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Polylane for Security",
+      "tagline": "Catch exploitable vulnerabilities before they ship",
+      "summaryZh": "在发布前捕获可利用的漏洞",
+      "descriptionZh": "Polylane 审查即将进入生产环境的拉取请求，查找可利用的安全漏洞。发现结果会追踪攻击者控制的输入至存在漏洞的代码行，并附上证据和建议修复方案。安全候选会被排除并给出原因。每日依赖扫描可发现已知 CVE，优先处理最严重的漏洞，并在活跃且已部署的仓库上发起修复拉取请求。",
+      "description": "Polylane reviews production-bound pull requests for exploitable security flaws. Findings trace attacker-controlled input to the vulnerable line, with the evidence and suggested fix. Safe candidates are ruled out with a reason. Daily dependency scans find known CVEs, prioritise the most severe and open fix pull requests on active, deployed repositories.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/c5e0985a-1d0a-445b-8932-af6d592cc80b/46a0776f2f7e3437338fcd3a6839b5aac4cdbccb02a8babdb092ba7bad36799c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/64840922-f54b-46b0-b8d1-2860df8a0c60.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/QCBQLOKEAWHPOR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 82,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-15T08:00:00Z",
+      "rank": 11,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Security"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "ByteAsk Cloud Agents",
+      "tagline": "Find the fix in big codebases. Ship it from Slack.",
+      "summaryZh": "在大型代码库中定位修复。从 Slack 发布。",
+      "descriptionZh": "ByteAsk 为 Claude Code 和 Codex 提供整个仓库的索引，让它们从正确的文件开始。其 Cloud Agent 从 Slack、Jira 或浏览器接收 bug，在沙箱中构建和测试，并打开草稿 PR。注册即获 $50 额度，无需信用卡。",
+      "description": "ByteAsk gives Claude Code and Codex an index of your whole repo, so they start in the right file. Its Cloud Agent takes bugs from Slack, Jira or the browser, builds and tests in a sandbox, and opens a draft PR. Start with $50 of credit, no card.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/2ad62e69-9a71-4961-bb9a-eb4e9a22add9/532a0fe7ab0a184a5bc2a8f8041892550e279e653b1c67989e2d67e9802c921e.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a3ce2bc8-ff4e-4884-811a-4d659ae0bf1e/ccdd68228ab144dcad1c9f05202070bb5251aa0fddd2b0554ea471a9360c0c7c.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/byteask-cloud-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/Q6RWTAO4FCYFSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 80,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-15T08:00:00Z",
+      "rank": 12,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "GotEmail",
+      "tagline": "Fast, native and smart email for Mac and iPhone",
+      "summaryZh": "为Mac和iPhone打造的快速、原生且智能的电子邮件体验",
+      "descriptionZh": "GotEmail 是一款适用于 Mac 和 iPhone 的原生邮件应用。Gmail、Outlook、iCloud、Yahoo 及任何 IMAP 账户汇聚于一个快速收件箱，智能收件箱可筛选出重要邮件，并提供 AI 草稿、摘要以及了解你邮件的助手、一键登录验证码、稍后处理、定时发送、撤销发送、已读回执、标签和智能文件夹。无广告，无自有账户：你的邮件直接在设备与邮件服务商之间传输。一份许可涵盖所有 Mac 和 iPhone 应用。",
+      "description": "GotEmail is a native mail app for Mac and iPhone. Gmail, Outlook, iCloud, Yahoo and any IMAP account in one fast inbox, with a Smart Inbox that sorts out what matters, AI drafts, summaries and an assistant that knows your mail, one-click sign-in codes, snooze, send later, undo send, read receipts, labels and smart folders. No ads, no account of ours: your mail goes straight between your device and your provider. One license covers every Mac and the iPhone app.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a9c027b6-0202-47eb-aca2-b037cb876bdc/4e0a587ed0b0c0390507da9d2447f4212122a7c435a014ab1e42fb7eec29d8e4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/63afa1a9-2990-49c2-82fc-5eb3c508a100.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/gotemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/CKIE2QLMY5O6O5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 75,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-15T08:00:00Z",
+      "rank": 14,
+      "topics": [
+        "Mac",
+        "Email",
+        "Productivity"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Skepia",
+      "tagline": "Boost your creativity with daily mental fitness",
+      "summaryZh": "通过每日脑力锻炼提升创造力",
+      "descriptionZh": "Skepia 是一款以设计为先的移动应用，专注于心理健身与创造性思维。体验 100 多个基于 SCAMPER 和横向思维等技巧的挑战，并获得个性化反馈，揭示你的创造力画像。既然创意需要敏锐的头脑，那就享受重新构想的大脑训练：精心设计的谜题，难度足以让你思考，趣味性足以养成日常习惯。",
+      "description": "Skepia is a design-first mobile app for mental fitness and creative thinking. Take 100+ challenges built on techniques like SCAMPER and lateral thinking, with personalized feedback that reveals your creative profile. And since ideas need a sharp mind, enjoy brain training, reimagined: beautifully crafted puzzles, hard enough to make you think and fun enough to build a daily habit.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/22f1e089-c7a2-4151-bf75-059cfd5c192c/b3166a17edf424fbb707a868e3829d60264770e14e172932d7f678bd464e1384.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/f1ccadc9-6782-4aca-b9e8-2cda19003ede/b698147ae76ac1cf8c854fd4edeb74b2da2e9b41bbdb3c087f3b03683ac777aa.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/skepia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2A6A5JLE7JMPGI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 8,
+      "comments": 5,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 20,
+      "topics": [
+        "Productivity",
+        "Puzzle Games",
+        "Education"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "iOS Push Notification Mockup",
+      "tagline": "Free iPhone Lock Screen mockup with iOS 27 Liquid Glass",
+      "summaryZh": "免费 iPhone 锁屏样机，搭载 iOS 27 液态玻璃",
+      "descriptionZh": "几秒钟即可制作逼真的 iPhone 锁屏，并加入你自己的推送通知。最多可写三条通知，选择真实的应用图标或上传自己的图标，并添加聊天头像。选择墙纸以及 Liquid Glass 或纯色时钟。下载全分辨率 PNG，可选择带或不带 iPhone 边框，包括 iPhone Duo App Store 尺寸。免费、无需注册、无水印，你的图片绝不会离开浏览器。",
+      "description": "Make a realistic iPhone Lock Screen with your own Push Notifications in seconds. Write up to three notifications, pick a real app icon or upload your own, and add a chat avatar. Choose the wallpaper and a Liquid Glass or solid clock. Download a full-resolution PNG, with or without the iPhone frame, including iPhone Duo App Store sizes. Free, no sign-up, no watermark, and your images never leave your browser.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/08e73eba-3f08-4081-ad74-72323e0d9529/9372c9e93c9941b28740fbf178030f1cadc59ee31af0880f8d2049c7613bea75.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/b30a5745-c748-427f-991e-47178239d25f/450b602ac418ffcca0fd68f675d4a53e90c4db505692becf490fa285b247c493.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ios-push-notification-mockup?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/5RVHHOOXKIMA5Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "votes": 5,
       "comments": 1,
       "featured": false,
       "publishedAt": null,
-      "rank": 39,
+      "rank": 23,
       "topics": [
+        "iOS",
         "Design Tools",
-        "Marketing",
-        "Artificial Intelligence"
+        "Developer Tools"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Transformer.gg",
+      "tagline": "The agentic influencer marketplace",
+      "summaryZh": "代理型网红市场",
+      "descriptionZh": "代理式网红市场。真实创作者，按确认发布的帖子付费。可从仪表盘或你的代理运行。品牌发送付费邀约，创作者在X上发布，追踪链接归因每一次点击和销售。",
+      "description": "The agentic influencer marketplace. Real creators, paid on confirmed posts. Run it from the dashboard or from your agent. Brands send paid offers, creators post on X, and tracked links attribute every click and sale.",
+      "thumbnail": "https://ph-files.imgix.net/e5a80225-0da6-42f7-bee9-7e7f9b823aba.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/3bf52088-797d-44ee-828c-2edfb88091c4/aba6f3d504e1ec8f0375ffc73087b9e56797a54ee952f8f923ab8a0c7a2a83bd.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/transformer-gg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XGYDD3UFFPGIZL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 29,
+      "topics": [
+        "Twitter",
+        "Artificial Intelligence",
+        "Influencer marketing"
       ],
       "buckets": [
         "ai",
         "design"
       ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
     },
     {
-      "name": "Spark",
-      "tagline": "Turn your idea into a business",
-      "summaryZh": "把你的想法变成一门生意",
-      "descriptionZh": "Spark 是从想法到首位客户的最快途径。Spark 不仅帮你构建应用，还助你打造整个业务——从网站和托管，到账户和支付，再到电子邮件、营销，以及运营业务所需的后端工具。",
-      "description": "Spark is the fastest way to go from idea to your first customer. Instead of just building an app, Spark helps you build the whole business - from sites and hosting, to accounts and payments, to emails, marketing, and the backend tools you need to run your business.",
-      "thumbnail": "https://ph-files.imgix.net/c5c27221-ea9d-41da-bd00-57cc9440718e.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/68df9b3e-b82a-409c-83c2-06d664afca57.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/spark-0d205150-b52a-48f9-93c7-cd61f4132d23?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/FUXQY24F6MKX52?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "name": "ProMax Display",
+      "tagline": "Full screen that uses your MacBook's whole display",
+      "summaryZh": "全屏使用MacBook的整个显示屏",
+      "descriptionZh": "在全屏模式下，macOS 会让刘海旁边的区域保持黑色。ProMax Display 将其恢复：14 英寸 MacBook Pro 从 14.06 英寸屏幕变为完整的 14.2 英寸。还提供刘海后方内容的“后视镜”视图，以及用于菜单栏和 Dock 的触控板手势。适用于带刘海或灵动岛的 MacBook。",
+      "description": "In full screen, macOS leaves the strip beside the notch black. ProMax Display gives it back: a 14\" MacBook Pro goes from a 14.06\" screen to the full 14.2\". With a rear-view mirror for what's behind the notch, and trackpad gestures for the menu bar and Dock. For MacBooks with a notch or Dynamic Island.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a0490218-65cf-4ca2-a466-c4416e41832f/234e658c50826e69717d823766368fe25bf008798055c23d90fd4827b26d90e7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/89730c81-fc35-4a4d-b05f-e6af114e4000/03d267e86902923f778595cb198e494c8f8a4a18ba1f3f627071383f1fa1b046.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/promax-display?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/22MZI3UL23HDAS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "votes": 3,
       "comments": 1,
       "featured": false,
       "publishedAt": null,
-      "rank": 50,
+      "rank": 34,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Menu Bar Apps"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "CSS Animation Gallery",
+      "tagline": "100+ CSS animations you can tune and copy in one click",
+      "summaryZh": "100 多个 CSS 动画，一键调整并复制",
+      "descriptionZh": "预览100多种CSS动画，以及3D翻转卡片、立方体、轮播、滑块和悬停效果。在实时元素上调整速度、缓动和循环次数，一键复制含@keyframes的HTML和CSS。每个动画均为纯CSS，无需库，可轻松融入任何网站或框架。免费，无需注册。",
+      "description": "Preview 100+ CSS animations plus 3D flip cards, cubes, carousels, sliders and hover effects. Change the speed, easing and loop count on a live element, then copy the HTML and CSS with @keyframes in one click. Every animation is plain CSS with no libraries, so it drops into any site or framework. Free, no sign-up.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/7cc988ec-3ff9-4f54-a54b-eeb4bdb3259a/8ce3713f4999d4061739c302eed32489255d35dd8c0a3b4ee8eb67c95367b03e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a2f3a8e4-d347-4347-87da-92598d7c51d4/8e43034620fed4b120988f8a3b7e9c74a8023e3a206e71e53d599499b65f338a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/css-animation-gallery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/K4CDAJA5WIAX4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 42,
+      "topics": [
+        "Design Tools",
+        "Developer Tools",
+        "Web Design"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Wanderjet",
+      "tagline": "Turn focus sessions into flights you take with others",
+      "summaryZh": "将专注时段变成与他人一同踏上的飞行旅程",
+      "descriptionZh": "一款iPhone专注计时器，每次专注都是一段飞行。选择一个真实城市，工作到落地为止。在3D客舱中选座，每到一个国家收集一枚护照印章，或搭乘每小时出发的集体航班，与大家一同落地。",
+      "description": "A focus timer for iPhone where every session is a flight. Pick a real city and work until you land. Choose your seat in a 3D cabin, collect a passport stamp for each country, or board the group flight that leaves every hour and land with everyone else.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/44015213-3d23-4981-a73e-841d59e3dd55/6a93b119cb4ecca7bf7fa3980b560a850b4732ed04dcfadbb2b1d23156ee4a93.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/84b43b37-848d-4f18-a647-b1b15fa9956e/43b862abbc273d90d083a855315b19547fe576f63884433133238f2b388d779b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/wanderjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/Y7CXQO6LRQ2RXC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 42,
+      "topics": [
+        "iOS",
+        "Productivity",
+        "Time Tracking"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "DeclineKit",
+      "tagline": "Open-source failed payment recovery for Stripe",
+      "summaryZh": "面向 Stripe 的开源失败付款恢复工具",
+      "descriptionZh": "当 Stripe 订阅续费被拒时，DeclineKit 会以你的名义向客户发送邮件，其中包含指向 Stripe 托管卡片表单的链接，并在客户添加新卡后立即重试发票。开源：可免费自托管，或使用托管的 Cloud。",
+      "description": "When a Stripe subscription renewal is declined, DeclineKit emails your customer in your name with a link to a Stripe-hosted card form, then retries the invoice the moment they add a new card. Open source: self-host it free, or use the hosted Cloud.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/19140535-3970-406e-b496-97ec1a803198/fcc78dc65df5e8cc53ae8285fa28844f7070d09d8cd948cc77ff13c441b77f43.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/366f4abc-57cd-427e-aada-d9b5885ae1c6/d82c796cdcb1e1777574babe83a387b762ebb4475ec56f0294ac726dbc58166c.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/declinekit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/OJWZR2XJQTHFSS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 42,
+      "topics": [
+        "Open Source",
+        "Payments",
+        "SaaS",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Book2Life",
+      "tagline": "The reading app built to get you to the last page",
+      "summaryZh": "这款阅读应用旨在助你读到最后。",
+      "descriptionZh": "大多数书开了头，却少有读完的。Book2Life 是一款为解决这一问题而生的电子书阅读器：语音随读，逐词高亮；每个人物都有面孔，每个地点都有画面；Ask the Book 只根据你读过的页面作答。数千本免费经典，也可导入你自己的 EPUB。支持 iPhone、iPad、Mac、Android 和网页端。无需注册，即可在浏览器中试用。",
+      "description": "Most books get started. Fewer get finished. Book2Life is an ebook reader built to fix that: a voice reads along as each word lights up, every character gets a face and every place a picture, and Ask the Book answers only from pages you’ve read. Thousands of free classics, or bring your own EPUBs. On iPhone, iPad, Mac, Android and the web. Try it in your browser with no sign-up.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/ecf7c8f9-464e-428c-82ce-5c06926eed87/88f58738201355bfb8bb4c523884a4865c9c4d54a5a2f3fc8aa044e230202bb1.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/b8c7f6d2-2060-4dad-adf2-fc54cc6af492/a4aed1b694692fe60969ed64f172f1bad605139037b3f65463ef274ded6aaef8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/book2life?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4QCTCRSYEM5YSO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 42,
+      "topics": [
+        "Education",
+        "Artificial Intelligence",
+        "Books"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Chiban",
+      "tagline": "Open-source permitting software for small US towns",
+      "summaryZh": "面向美国小城镇的开源许可软件",
+      "descriptionZh": "Chiban 是面向美国小城镇的开源（AGPL-3.0）土地使用与许可软件。建筑与贸易许可可在柜台和线上办理，检查可在手机上完成，规划与分区委员会案件会通知附近业主，法规执行也一并纳入，全部按地块归档。每项截止日期都会显示其依据的州规则。工作人员可自行编辑表单和费用。随时可免费获取完整导出。可使用 Docker Compose 自托管，或选择托管服务。",
+      "description": "Chiban is open-source (AGPL-3.0) land-use and permitting software for small US towns. Building and trade permits at the counter and online, inspections on a phone, planning and zoning board cases with notices to nearby owners, and code enforcement, all filed under the parcel. Each deadline shows the state rule it runs on. Staff edit forms and fees themselves. A complete export is free at any time. Self-host with Docker Compose, or have it hosted.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/9103a58a-d033-44e1-a07a-7e35391a11d7/5d9878a5f2d3bd07e4c99d818cf05fb550c7ae085008e1f26bbe9dec7e0029f1.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/30b3bb52-a381-4375-989a-25958d84616b/7c929b263263783de28703d19dc3db2dfa5d38f032da80f7604300b5250c45b0.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/chiban?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7OY5CI5KXLMSUC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 42,
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "SaaS",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Catchline",
+      "tagline": "Bar path and joint angles on your lift video, on-device",
+      "summaryZh": "在你的举重视频中，杠铃轨迹和关节角度，设备端呈现",
+      "descriptionZh": "添加你的举重视频，即可在真实画面上看到标出的杠铃轨迹、身体线条和关节角度。适用于抓举、挺举、深蹲、硬拉、引体向上和双力臂。逐帧查看，自行绘制线条，并导出叠加内容已烧录进画面的视频。追踪在 iPhone 上运行：视频不会离开设备，也绝不会用于训练。每周可免费处理 3 个视频，Pro 解锁无限次。",
+      "description": "Add a video of your lift and get it back with the bar path, body lines and joint angles drawn on the real footage. Works for snatch, clean and jerk, squat, deadlift, pull-ups and muscle-ups. Step frame by frame, draw your own lines, and export a video with the overlays burned in. Tracking runs on your iPhone: your video never leaves it and is never used for training. Free for 3 videos a week, Pro unlocks unlimited.",
+      "thumbnail": "https://ph-files.imgix.net/a13c2f78-cbb0-49ed-a16d-202c5ef4192e.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4b78b46e-806b-48b4-bc1b-cae112d467b0.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/catchline?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DDIP2NSIR5PGPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 80,
+      "topics": [
+        "Privacy",
+        "GitHub",
+        "Fitness"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "zSign",
+      "tagline": "Send a PDF from a Chrome tab without paying per seat",
+      "summaryZh": "从Chrome标签页发送PDF，无需按席位付费",
+      "descriptionZh": "zSign 让你无需按席位付费或订阅即可签署协议。信封起价 27 美元 50 个，团队可免费添加，并可从仪表板、Chrome 标签页、Zapier 或你的 AI 助手发送。通过邮箱验证后，可免费获得 3 个信封。",
+      "description": "zSign gets your agreements signed without per-seat pricing or a subscription. Buy envelopes from $27 for 50, add your team for free, and send from the dashboard, a Chrome tab, Zapier or your AI assistant. Start with 3 free envelopes after email verification.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/cd394606-f69d-47c1-958d-d8803d821272/0d72a2c81fdaed96baad6a58286ddbc2a7d682eb376c69cbc3d5836ef6796f94.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/15594c04-8d55-475d-a4ae-64610c5eb153/f5243e08ca5b6c53a89ba40bf9a80680ba5a0c8be98fc39d5b035429722306f3.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/zsign?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/A6PN5OGVJI6CPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 94,
+      "topics": [
+        "Productivity",
+        "SaaS",
+        "Legal"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
+    },
+    {
+      "name": "Xeek Sites",
+      "tagline": "Design websites with AI, then refine every detail",
+      "summaryZh": "用AI设计网站，然后完善每一个细节",
+      "descriptionZh": "描述你想要的网站，Xeek Sites 会为你起草，随时可供你修改和发布。",
+      "description": "Describe the website you want and Xeek Sites drafts it, ready for you to change and publish.",
+      "thumbnail": "https://ph-files.imgix.net/befeb826-fe90-4a1c-84fb-59ec9e4f4b3b.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/9f403511-3f1e-4f09-8cce-8d30b711df19.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/xeek-sites?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BSATJ2ENC3IGBV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 94,
       "topics": [
         "Website Builder",
         "Artificial Intelligence",
@@ -69,495 +512,59 @@
         "ai",
         "developer"
       ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
     },
     {
-      "name": "NPC Filter",
-      "tagline": "Filter AI slop on LinkedIn, X and Reddit, and see why",
-      "summaryZh": "过滤领英、X和Reddit上的AI垃圾内容，并了解原因",
-      "descriptionZh": "能展示判断依据的AI帖子过滤器。NPC Filter是一款免费Chrome扩展程序，可识别LinkedIn、X和Reddit上疑似AI撰写的帖子，并对其进行模糊、标注或隐藏。每次标记都会列出所发现的迹象，例如“不是X，而是Y”的句式，或生硬的“serves as”措辞，这些迹象取自维基百科编辑识别AI写作的指南。本地规则在浏览器中运行，免费且无需账户。登录后，可对规则未能识别的帖子进行模型检查。仅检查帖子文本。一键即可显示任何帖子。",
-      "description": "The AI-post filter that shows its work. NPC Filter is a free Chrome extension that spots likely AI-written posts on LinkedIn, X and Reddit and blurs, labels or hides them. Every flag names the signs it found, like \"Not X, but Y\" framing or stiff \"serves as\" phrasing, taken from Wikipedia editors' guide to spotting AI writing. Local rules run in your browser, free, with no account. Sign in for model checks on posts the rules miss. Only post text is ever checked. Reveal any post in one click.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/7f419dfa-151d-4e87-9d6d-14f641dd41eb/d5516b1ef13e72c4b260a82a4a6c99bbb8d8bfe05cc29c78c5b00937a05e6847.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/144cb957-1a7d-45e3-8df2-c071f972b521/7f2a1fb0aca6131160a9a567fb40b479cb06b523f8b02408890b22649aa5d821.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/npc-filter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/P66GYNWKB2IHC4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 3,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 52,
-      "topics": [
-        "Chrome Extensions",
-        "Social Media",
-        "Artificial Intelligence"
-      ],
-      "buckets": [
-        "ai"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Nudgesmart",
-      "tagline": "Free popups, spin wheels & store widgets for Shopify",
-      "summaryZh": "Shopify 免费弹窗、抽奖转盘和店铺小部件",
-      "descriptionZh": "Nudgesmart 将 Shopify 访客转化为订阅者和买家。选择一个现成的弹窗（电子邮件捕获、转盘、刮刮卡、挑选礼物、调查或倒计时栏），并添加商店小部件，如免运费栏、产品标签和粘性加入购物车。智能定位读取 43 个行为信号，在正确时机展示每个弹窗，或者您也可以设置自己的规则。此外，您还可以在自有商店上创建 link-in-bio 页面。内置折扣码、Klaviyo 和 Mailchimp。限时免费。",
-      "description": "Nudgesmart turns Shopify visitors into subscribers and buyers. Pick a ready-made popup (email capture, spin wheel, scratch card, pick-a-present, survey or countdown bar) and add store widgets like free-shipping bars, product labels and sticky add-to-cart. Smart Targeting reads 43 behaviour signals to show each one at the right moment, or you set your own rules. Plus a link-in-bio page on your own store. Discount codes, Klaviyo and Mailchimp built in. Free for a limited time.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/3f9c14cc-4a77-448c-9dd1-a0d5e81003db/49b79019dcea03189b86763b8c7ec1b9e5757ec1ab5e39d1882c25f226af4dea.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/80c09cca-b978-445e-a54a-6e4d573f0762/1c1e869ef69d46822540d4856a5a1e7070718d26d682b4f27b0be1dc3cfe3ff4.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/nudgesmart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/62IT3QSEDXIOJF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 3,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 52,
-      "topics": [
-        "Marketing",
-        "Growth Hacking",
-        "E-Commerce"
-      ],
-      "buckets": [
-        "design"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Komrad",
-      "tagline": "The AI agent that does not work for you",
-      "summaryZh": "不为您服务的AI代理",
-      "descriptionZh": "西方特工会帮你订机票、写邮件。Komrad 这些都不做。一个来自虚构苏联部委的可用 AI 聊天工具。免费，无需登录，每天 10 张配给券。开启声音。",
-      "description": "Western agents book your flights and write your emails. Komrad will do none of that. A working AI chat from a fictional Soviet ministry. Free, no login, 10 ration coupons a day. Sound on.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/ba20cce8-db74-43b0-9809-c05f56691fb5/5088bde6261e595ef1ccf474686609fba8ef31ef9d75b417fb24f3a8e1b2a387.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/cb6dcae6-092e-45e8-a959-ca34c4aad2e0/360a8da257973a6931cdbc9d356e367c0b32d88aa022f74fba87a9136b0989a4.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/komrad?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/D4NDJMMIA5O2V4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 3,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 52,
-      "topics": [
-        "Web App",
-        "Funny",
-        "Artificial Intelligence"
-      ],
-      "buckets": [
-        "ai",
-        "developer"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Voice AI Stage Finder",
-      "tagline": "Know when self-hosting your voice agent starts to pay",
-      "summaryZh": "了解自托管语音代理何时开始划算",
-      "descriptionZh": "回答关于你通话的三个问题：每月分钟数、平台，以及是否有客户问过通话音频存放在哪里。在五级阶梯上获得你的阶段定位和接下来三步，以 PDF 形式发送到邮箱。背后的完整课程免费，无需注册。",
-      "description": "Answer three questions about your calls: minutes a month, platform, and whether a customer has asked where call audio lives. Get your stage on a five-step ladder and your next three steps, emailed as a PDF. The full course behind it is free, no sign-up.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/bf60aa6c-d81b-4325-958b-3fd71447feb2/d2f8ed27b034cc832f6c4d214a99645d8fb87611c0f1d341a5968353d4bae89a.gif?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/85a60405-b329-4065-b615-9e2a6b3c8466/b155e2fa7fdb2ebfd993ac4a80a8f0c631bfecca2e21ba5dfef6c4503c68db40.gif?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/voice-ai-stage-finder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/L4BHFRTTTK6W4I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "name": "Folio Ledger",
+      "tagline": "Track expenses. Review reports. Export your records.",
+      "summaryZh": "记录支出。查看报告。导出记录。",
+      "descriptionZh": "Folio Ledger 是一款面向个人和小型企业的支出跟踪应用。在一个便捷的仪表板中记录收入和支出、整理交易、监控支出并查看财务报告。使用 CSV、PDF 和 Excel 报告功能导出记录。用 Folio Ledger 让财务记录井然有序。",
+      "description": "Folio Ledger is an expense-tracking app for individuals and small businesses. Record income and expenses, organise transactions, monitor spending, and review financial reports in one convenient dashboard. Export your records using CSV, PDF and Excel reporting features. Keep your financial records organised with Folio Ledger.",
+      "thumbnail": "https://ph-files.imgix.net/0ba7612b-6a58-43cf-aded-52b87a467187.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/7aa38c5a-a287-4732-9790-5791386d27b1.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/folio-ledger?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GJW7DPSNR7RKKJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "votes": 2,
       "comments": 1,
       "featured": false,
       "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Developer Tools",
-        "Artificial Intelligence",
-        "GitHub"
-      ],
-      "buckets": [
-        "ai",
-        "developer"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "PhoneRecap",
-      "tagline": "Your phone year, told as a story — fully offline",
-      "summaryZh": "你的手机岁月，以故事形式呈现——完全离线",
-      "descriptionZh": "PhoneRecap 将你的 Android 手机使用情况变成一段简短故事：总时长、常用应用、你的手机人格、每月回顾以及可分享的卡片。它不申请联网权限，无需账号，也没有分析功能——一切数据都留在你的手机上。",
-      "description": "PhoneRecap turns your Android phone use into a short story: total hours, top apps, your phone personality, monthly recaps and shareable cards. It has no internet permission, no account and no analytics — everything stays on your phone.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/0b65e3e7-db7e-4eb6-b53f-3aa6d8961052/37382f778d9d5db81925b24b7fa8834ff031e8833db089e7598cf61185c324b2.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/0f33179e-4d30-47b6-8d77-457bd7f14c65/3028337fc85a5b6c502eb9d2f23462af2076a4a857e4e42f952a438e93caaf77.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/phonerecap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/U73P63LH4MSVZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Android",
-        "Productivity",
-        "Privacy"
-      ],
-      "buckets": [
-        "productivity"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Octo",
-      "tagline": "Octo is a private conversation coach",
-      "summaryZh": "Octo 是一位私人对话教练",
-      "descriptionZh": "Octo 是一款私密的对话教练。它会聆听你的一对一交流和会议，并依据你自己写下的原则，告诉你表现得如何，以及下次可以尝试的一件事。免费且开源；它运行在你自己的 Mac 上，音频始终不会离开设备。",
-      "description": "Octo is a private conversation coach. It listens to your 1:1s and meetings and tells you how you showed up, against principles you write yourself, with one thing to try next time. Free and open source; it runs on your own Mac, and the audio never leaves it.",
-      "thumbnail": "https://ph-files.imgix.net/75a5f639-e53c-44bf-8550-b5b0d8e0f72a.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/19be4ae1-3efb-4d08-a0d2-9cd505bfba63.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/octo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/YXRJVR42SHHKEI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Open Source",
-        "Privacy",
-        "Artificial Intelligence",
-        "GitHub"
-      ],
-      "buckets": [
-        "ai",
-        "developer"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Gaka",
-      "tagline": "Open your apps and move your windows without a click",
-      "summaryZh": "打开应用并移动窗口，无需点击",
-      "descriptionZh": "Gaka 无需点击即可打开应用和文件、移动窗口。输入几个字母就能打开任何内容，按 ⌃⌘V 调出你复制的内容，按住 ⌘⌃ 移动指针下的窗口。纯 AppKit 打造，非 Electron。一次性买断，14 天免费试用。",
-      "description": "Gaka opens your apps and files and moves your windows without a click. Type a few letters to open anything, press ⌃⌘V for what you copied, and hold ⌘⌃ to move the window under the pointer. Plain AppKit, no Electron. One-time purchase, 14-day free trial.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/df7b5354-06dc-42ab-a353-242ea387c7ba/16e8242adaf2da67ffdd691c38cc78ac7877201b36e0777faee1b9023079d864.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/8b8169cf-683b-44f9-94c6-f3484d8226dd/dcec9ca8cba550d4767eda54e8d3bd861f50f62eee8fc6199062eae948ffa5ff.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/gaka?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/XASBSX23OSG62Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Mac",
-        "Productivity",
-        "Search"
-      ],
-      "buckets": [
-        "ai",
-        "productivity"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Pixel Pet",
-      "tagline": "A tiny pixel desk pet that keeps you on task",
-      "summaryZh": "一个让你保持专注的迷你像素桌面宠物",
-      "descriptionZh": "Pixel Pet 是一款免费、开源的 Windows 桌面像素宠物。用自然语言输入任务（如“standup weekdays 9:30”），运行带连续记录的番茄钟专注计时器，查看实时网络速度，并统计你在 Claude Code、Codex 和 OpenCode 中使用的 AI token 数量。单个 1.8 MB 的 exe，约 18 MB 内存占用，无需账号，无遥测。五只宠物，五种主题。",
-      "description": "Pixel Pet is a free, open source pixel pet for your Windows desktop. Type tasks in plain language (\"standup weekdays 9:30\"), run a Pomodoro focus timer with streaks, see live network speed and count the AI tokens you use in Claude Code, Codex and OpenCode. One 1.8 MB exe, about 18 MB of RAM, no account, no telemetry. Five pets, five themes.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/66ccb54b-4934-4e75-9f84-a66890d0c77d/e14cf028c00141d6ece6d1c64721344dff816f6c8b064bc16b8272538d412657.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/e6808bd2-2189-4a10-8a3a-bba768905f8e/7d37981054e23deb2c0aa8ce1f4b538dade3044ec682026b6a1b38d29b5e4aab.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/pixel-pet-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/Q4HGGZBRVZMLIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Windows",
-        "Productivity",
-        "Open Source",
-        "GitHub"
-      ],
-      "buckets": [
-        "developer",
-        "productivity"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Depder",
-      "tagline": "Turn PDFs and screenshots into flashcards",
-      "summaryZh": "将PDF和截图转化为抽认卡",
-      "descriptionZh": "将你的 PDF 和截图转化为 AI 闪卡。保存前可检查并编辑卡片，然后在平静、专注的界面中按计划复习。通过 APKG 导入带上现有 Anki 牌组，将牌组整理到文件夹中，并在 iOS 或网页端学习。免费开始使用；Pro 版提供更高的生成额度和 Anki 导出功能。",
-      "description": "Turn your PDFs and screenshots into AI flashcards. Check and edit the cards before saving, then study with scheduled reviews in a calm, focused interface. Bring your existing Anki decks with APKG import, organize decks into folders, and study on iOS or the web. Free to start; Pro adds higher generation limits and Anki export.",
-      "thumbnail": "https://ph-files.imgix.net/3e17dd7c-ea0c-483e-9ffd-bdbd0a68f82c.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/c79259d8-0031-48ed-8efc-2d4fe5e1ed8f/5e97174a3a3e89bc2f4e2657fd71f577391f34fa7c30e2e011f1fba53152d62d.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/depder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/TFWSZPCUNPULGY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Education",
-        "Artificial Intelligence"
-      ],
-      "buckets": [
-        "ai"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Muscle Max",
-      "tagline": "Level your way up to real strength, one EMOM at a time",
-      "summaryZh": "每一次EMOM，让你逐步提升至真正的力量水平",
-      "descriptionZh": "10分钟EMOM训练，内置渐进超负荷。通过推、拉、腿部分级动作进阶，基准与真实力量挂钩：掌握俯卧撑，就能卧推225磅。挑战朋友超越你的成绩。免费。",
-      "description": "10-minute EMOM workouts with progressive overload built in. Level up through tiers of push, pull and leg moves, with benchmarks tied to real strength: master the push-up and you can bench 225. Challenge friends to beat your score. Free.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/674879c7-45bc-40ca-9539-e29aec8d7534/c876524a7c97289aa5824d38f27e51529999e33baedfb1d600f8ba46f24230d4.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/bdcf76d6-bf95-47ff-b8af-0260aff7df5c/885a75b441d485b72624fd911aceae3973f6e4d1f51ac48416da37f1b324c0c0.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/muscle-max?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/52OLAJYF5YHLUH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Web App",
-        "Health & Fitness",
-        "Fitness"
-      ],
-      "buckets": [
-        "developer"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "SpecStream Search API",
-      "tagline": "Live web search API for agents, from $1 per 1,000 searches",
-      "summaryZh": "面向智能体的实时网络搜索API，每1,000次搜索1美元起",
-      "descriptionZh": "一次 GET 调用即可在几秒内回答来自实时网络的问题，在你提问的那一刻读取内容，每个值背后都有对应页面。在 SimpleQA Verified 上得分 99，领先于 Parallel（97）、Perplexity（95）、Tavily（92）和 Exa（91），并在 WideSearch 上领先这四家。快速层级每 1,000 次搜索收费 1 美元。为 Tavily、Exa、Brave、Serper 或 Google Custom Search 编写的代码，只需更改基础地址和密钥即可迁移。注册即赠 10 美元额度，无需信用卡。",
-      "description": "One GET call answers a question from the live web in a few seconds, read at the moment you ask, with the page behind each value. On SimpleQA Verified it scores 99, ahead of Parallel (97), Perplexity (95), Tavily (92) and Exa (91), and it leads all four on WideSearch. $1 per 1,000 searches on the fast tier. Code written for Tavily, Exa, Brave, Serper or Google Custom Search moves by changing the base address and the key. $10 of credit at sign-up, no card.",
-      "thumbnail": "https://ph-files.imgix.net/73d2f311-63e4-4a27-9545-39cd213c2bb7.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/8a726d7e-a5cd-4259-abac-4cdcedd1c4c3/f9d234d8525cc2a37049d7c77319f53dbd84b2a87638918c2e8d68ae68bc7795.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/specstream?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/UHAX6SSKJVBCH4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "API",
-        "Developer Tools",
-        "Artificial Intelligence",
-        "GitHub",
-        "YouTube"
-      ],
-      "buckets": [
-        "ai",
-        "developer"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Drino Shots",
-      "tagline": "App Store & Google Play Screenshot Generator",
-      "summaryZh": "App Store 和 Google Play 截图生成器",
-      "descriptionZh": "在浏览器中制作 App Store 和 Google Play 截图：AI 撰写文案、50 种语言，外加功能图、产品页头图和搜索结果图，全部一键导出。免费开始。",
-      "description": "Make App Store and Google Play screenshots in your browser: AI-written captions, 50 languages, plus the feature graphic, product page header and search result image, all in one export. Free to start.",
-      "thumbnail": "https://ph-files.imgix.net/1ce27a26-36fa-4a5e-a319-9e04c661bc15.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/31244097-c071-447e-a0e1-9eca66263ed0.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/drino-shots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/USJ6KO6GLQYC6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Design Tools",
-        "Marketing",
-        "Developer Tools"
-      ],
-      "buckets": [
-        "developer",
-        "design"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "ARMED",
-      "tagline": "Version history and merging for Ableton Live projects",
-      "summaryZh": "Ableton Live 项目的版本历史与合并",
-      "descriptionZh": "一款免费的Mac应用，每当保存操作改变了音乐内容，它就会为你的Live工程保留一个版本，并附上一行说明变化内容。你可以回到任意版本，将同一首歌的不同变体并排保留，还能合并其中两个版本。Alpha阶段。音频不会被版本化。",
-      "description": "A free Mac app that keeps a version of your Live set every time a save changes the music, with a line saying what changed. Go back to any version, keep variations of a song side by side, and merge two of them. Alpha. Audio isn't versioned.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a8e37473-db0e-4bc7-b1f2-475b58b98715/2ca27f61381b67061d9e4029f49f94d71cdfed9bb7426e5a0e31364bac5521b3.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/a5a022a3-cd39-4920-ac3f-b8c79e98ad97/2e96a867b07188a12accd84777d4d1efe46ae0232059ba334eaeacd25b2632e1.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/armed-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/KZHSGL2FNPGUDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Mac",
-        "Productivity",
-        "Music"
-      ],
-      "buckets": [
-        "ai",
-        "productivity"
-      ],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Where Celebs Go",
-      "tagline": "The restaurants, bars and hotels celebs actually go to",
-      "summaryZh": "名流真正会去的餐厅、酒吧和酒店",
-      "descriptionZh": "《名人去处》是一本指南，介绍明星们常去的餐厅、酒吧和酒店。别再随便找地方了，去明星们去的地方吧。",
-      "description": "Where Celebs Go is a guide to the restaurants, bars and hotels famous people go to. Stop going to random places, go where the stars go.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/29babfe7-690c-4615-a94f-4e738e2f03fa/50489ae0f9ac8cd2caa5488307e660ca0c7e2f0c029080f545fea39827584592.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/e766ffc3-1826-4b8b-a103-351823976904/65f46a0c7e6b14691e6ef5dfe63d1b29e32dd4ba0056b29df82f77568b342867.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/where-celebs-go?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/M25TMHYSTU3E47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 3,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 50,
-      "topics": [
-        "Celebrities",
-        "Travel",
-        "Food & Drink"
-      ],
-      "buckets": [],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "Chainle",
-      "tagline": "One word connects every clue. Five daily rounds.",
-      "summaryZh": "一个词连接所有线索。每日五轮。",
-      "descriptionZh": "Chainle 是一款免费的每日单词关联游戏。在五个不限时的回合中，找出一个能串联起各条线索的英文单词，看看你的关联得分，并分享你的结果。通过无限练习继续探索，或在存档中重温之前的谜题。无需账号或下载应用，直接在浏览器中游玩。",
-      "description": "Chainle is a free daily word connection game. Find one English word that links the clues across five untimed rounds, see how your connections score, and share your results. Keep exploring with unlimited practice or revisit earlier puzzles in the archive. Play in your browser with no account or app download needed.",
-      "thumbnail": "https://ph-files.imgix.net/2da1fca8-aa29-478e-a4b5-77ca380e935e.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/96517c88-6bfa-4b58-971f-8d8cdbea55db/993a608cf636482b4dc13f714b52168c2188eac26cb2569cc6bc6bb4870a92fa.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/chainle-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/QZQTT2B75HKO3H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 3,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 52,
-      "topics": [
-        "Word Games"
-      ],
-      "buckets": [],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "DeltaK",
-      "tagline": "Free NSE & BSE option chains with full Greeks",
-      "summaryZh": "免费提供NSE和BSE期权链，包含完整的希腊值",
-      "descriptionZh": "DeltaK（读作Delta-kay）是一款面向印度指数期权的期权终端。提供NSE和BSE的实时期权链，覆盖Nifty、Bank Nifty、Fin Nifty、Midcap Nifty、Sensex和Bankex，每个行权价均显示delta、gamma、theta、vega和IV，并提供OI墙、最大痛点和FII/DII资金流。可在策略构建器中为结构定价，用通俗英文向现货市场提问，并在免费wiki中学习收益结构。无需登录即可开始。仅限模拟交易；此处内容不构成投资建议。支持：support@deltak.in",
-      "description": "DeltaK (say Delta-kay) is an options terminal for Indian index options. Live NSE and BSE option chains for Nifty, Bank Nifty, Fin Nifty, Midcap Nifty, Sensex and Bankex, with delta, gamma, theta, vega and IV on every strike, OI walls, max pain and FII/DII flow. Price a structure in the strategy builder, ask the cash market questions in plain English, and learn payoffs in a free wiki. No sign-in to start. Paper trading only; nothing here is investment advice. Support: support@deltak.in",
-      "thumbnail": "https://ph-files.imgix.net/6bb7c3b7-f3f0-47c0-b2bb-7edf558c6b8c.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/f11ffa4e-b536-40fc-8208-10fb7f443096/5e7db986e2e44af3326bdc16629ad3352c63f6849ede5aae84bf3bb3cb6d95a9.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/deltak?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/7ULTOIQS5EINZL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 89,
+      "rank": 94,
       "topics": [
         "Fintech",
-        "Investing",
-        "Data Visualization"
+        "Money",
+        "Personal Finance"
       ],
       "buckets": [],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
     },
     {
-      "name": "DropWire",
-      "tagline": "Fan-verified merch drop alerts",
-      "summaryZh": "粉丝认证周边上架提醒",
-      "descriptionZh": "DropWire 监控官方艺人和品牌周边商店，有新品上架时通知你。付费会员可在数秒内收到短信，以及推送、邮件和 Discord 通知。免费账户在商品上架约 30 分钟后收到推送提醒。每条提醒都链接到官方商店，而非转售商。粉丝可报告售罄和误报，这些报告会汇入一个信任评分，进而影响未来的提醒。覆盖流行、K-pop、嘻哈、摇滚和乡村等领域的 500 多位艺人。$59/年。",
-      "description": "DropWire watches official artist and brand merch stores and alerts you when something new drops. Paid members get a text within seconds, plus push, email and Discord. Free accounts get push alerts about 30 minutes after a drop. Every alert links to the official store, not a reseller. Fans report sold-outs and false alarms, and those reports feed a trust score that shapes future alerts. 500+ artists across pop, K-pop, hip-hop, rock and country. $59/yr.",
-      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/deae206e-ce2c-450c-aaef-e2b5cc4bbb49/083db3b973a43fd6a3be55d2b30546b9c378980dcf0e59ae68e42767d88c0ed2.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/bf650608-e364-44d2-b476-cc7feac71537/f26035508549027d9e9a02f7fe06bb95960498e157a220f3960fb4d2ba356127.png?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/dropwire-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/JD3KX7MDV4PB76?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "name": "FreshClock: Fridge & Pantry",
+      "tagline": "Eat it before it spoils, and see what you save",
+      "summaryZh": "在它变质前吃掉，看看你能节省什么",
+      "descriptionZh": "FreshClock 会在食物变质前提示该吃什么，并计算你节省的开支。几秒钟即可添加采购物品：点选常见食物、扫描条形码或拍摄收据。FreshClock 会为冰箱、冷冻室和食品储藏室填入典型保质期，然后按需优先食用的顺序排列所有物品。FreshClock Plus（可选订阅）：读取收据并每天获取食谱建议，回顾每个月的情况，并与家庭成员共享一个食品储藏室和购物清单。",
+      "description": "FreshClock shows what to eat before it spoils, and counts the money you save. Add a grocery run in seconds: tap common foods, scan a barcode, or snap your receipt. FreshClock fills in typical expiry dates for the fridge, freezer and pantry, then sorts everything by what needs eating first. FreshClock Plus (optional subscription): read receipts and get recipe ideas every day, look back at every month, and share one pantry and grocery list with your household.",
+      "thumbnail": "https://ph-files.imgix.net/57590022-fffc-4d65-a8d0-b80f20b1ba1a.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/825abed4-9ed1-40f3-9fb3-527b1de935c1.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/freshclock-fridge-pantry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4XDCRHO5HEOAZ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
       "votes": 2,
       "comments": 1,
       "featured": false,
       "publishedAt": null,
-      "rank": 112,
+      "rank": 94,
       "topics": [
-        "Android",
-        "Music",
-        "Fashion",
-        "Shopping"
+        "iOS",
+        "Food & Drink",
+        "Lifestyle"
       ],
       "buckets": [],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
-    },
-    {
-      "name": "LiteDAW",
-      "tagline": "A free pocket studio for vocals, synths and drums",
-      "summaryZh": "一个免费的口袋录音室，适用于人声、合成器和鼓",
-      "descriptionZh": "在手机上把灵感变成一首歌。导入伴奏，录制人声和备用版本，编排片段，演奏键盘和鼓，添加内置效果，并导出你的混音。LiteDAW 是一款适用于 iPhone 和 Android 的免费移动录音工作室，本地运行，无需账户。",
-      "description": "Turn an idea into a song on your phone. Import a backing track, record vocals and alternate takes, arrange clips, play keys and drums, add built-in effects, and export your mix. LiteDAW is a free mobile recording studio for iPhone and Android that works locally, with no account required.",
-      "thumbnail": "https://ph-files.imgix.net/31520d63-f0f5-4f8e-b47b-57d9d732e192.png?auto=format&h=450&w=800",
-      "image": "https://ph-files.imgix.net/launch-image-uploads/6f086fff-e1c1-4c11-b465-94887d275ac2/ae1721cf51cad132c8cbe1363aa0e7960294fbcdd28cf60964f84880ea228ded.jpeg?auto=format&h=675&w=1200",
-      "productHuntUrl": "https://www.producthunt.com/products/litedaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "websiteUrl": "https://www.producthunt.com/r/PNU7SJCKYHBZJM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
-      "votes": 2,
-      "comments": 1,
-      "featured": false,
-      "publishedAt": null,
-      "rank": 112,
-      "topics": [
-        "Android",
-        "Music",
-        "Audio"
-      ],
-      "buckets": [],
-      "date": "2026-11-14",
-      "productHuntDate": "2026-11-13",
-      "lastUpdated": "2026-11-14T15:45:01.210Z"
+      "date": "2026-11-15",
+      "productHuntDate": "2026-11-14",
+      "lastUpdated": "2026-11-15T16:17:41.583Z"
     }
   ]
 }
