@@ -1,0 +1,561 @@
+{
+  "meta": {
+    "date": "2026-11-16",
+    "productHuntDate": "2026-11-15",
+    "lastUpdated": "2026-11-16T19:30:57.350Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "16",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Dictate Safe",
+      "tagline": "Dictation for Mac and Windows that runs on your computer",
+      "summaryZh": "适用于Mac和Windows的听写功能，可在您的电脑上运行",
+      "descriptionZh": "按住按键说话，Dictate Safe 便可将你的话输入到你正在使用的任何应用中，无论 Mac 还是 Windows。默认情况下，语音在你自己的电脑上转换为文本，无需账户即可听写。它具备用于听写符号的代码模式、可通过浮动图标搜索的提示库，以及用于长时间任务的保持唤醒功能。仅支持英语。一次付费，无需订阅。25 次免费听写，无需账户和银行卡。",
+      "description": "Hold a key, speak, and Dictate Safe types your words into whatever app you are using, on Mac or Windows. Speech is turned into text on your own computer by default, and you need no account to dictate. It has Code Mode for dictating symbols, a prompt library you search from a floating icon, and Keep Awake for long tasks. English only. One payment, no subscription. 25 free dictations, no account and no card.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/251b81cc-2af4-483c-acab-cdd394e7b087/c35751fea55527fe901d771a17bd44c966e0969928564664446cb520b300ddc9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/52b68376-3f08-433a-bc13-5aaa2659ac92/454489d8b543d0a0c9e8fdcfd1487d7af85a53200ff024923bbf0d3f8d238287.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/dictate-safe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4H2POFK465QARR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 17,
+      "comments": 5,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 41,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Privacy"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Strokes",
+      "tagline": "Desktop writing app with offline AI and built-in readers",
+      "summaryZh": "桌面写作应用，具备离线AI和内置阅读器",
+      "descriptionZh": "Strokes 是一款桌面编辑器，面向一天中大部分时间都在处理文本的人。在 Strokes 中，你会找到一位个人 AI 写作助手，它经过专门训练，帮助你以自己的风格更快写作，同时不损失质量。而且你知道吗？这款 AI 在线和离线都能工作。想要完全的隐私？没问题。内置阅读器帮助你在把作品发给任何人之前获得反馈。适用于 Mac 和 Windows，提供免费方案。",
+      "description": "Strokes is a desktop editor for people who work with text most of their day. In Strokes you’ll find a personal AI writer, trained specifically to help you write in your own style faster, with no loss of quality. And you know what? The AI works both online and offline. Want full privacy? You got it. Built-in readers help you get feedback before you send your work to anyone. Available on Mac and Windows, with a free plan.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/ff13baf2-f3c4-4fba-b08e-6bfc656354cd/28e3d34d50671415f2d2f1030f405d71339b4b4bb2bbfcfe8f78147d30782548.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/7842d07f-72ab-449b-81f0-57a47f9e147f/01abb28b50c47466e6e8ea099c7fc275f10e9d31fe2e63fda30591b0af089406.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/strokes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KAFDXOKOAAP3OW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 9,
+      "comments": 5,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 45,
+      "topics": [
+        "Productivity",
+        "Writing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "WeConnect",
+      "tagline": "Enterprise operating platform for people and AI",
+      "summaryZh": "面向人与AI的企业运营平台",
+      "descriptionZh": "WeConnect 是一个门户，整合人力资源、薪酬、招聘、学习、项目、销售、会计和库存，共用同一数据层。人员与 AI 智能体在角色权限管理下协同工作。内置 copilot 和一个 MCP 连接器，让 Claude 或任何助手跨部门工作。包含印度薪酬（PF、ESI、TDS）和 GST 会计。",
+      "description": "WeConnect is one portal for HR, payroll, recruitment, learning, projects, sales, accounting and inventory, on one shared data layer. People and AI agents work side by side, governed by roles. A built-in copilot and one MCP connector let Claude or any assistant work across every department. Indian payroll (PF, ESI, TDS) and GST accounting are included.",
+      "thumbnail": "https://ph-files.imgix.net/c1b3d62c-20d9-452c-bc21-c67442e799c7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/dab77b22-0626-4e42-9407-80872742a340/af2c00eef405efef23c9843279495106c8c83dc47638a7a5d5a1717f949d97a0.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/weconnect?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/N6LSQMU2TKVOUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 8,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 46,
+      "topics": [
+        "SaaS",
+        "Artificial Intelligence",
+        "Human Resources"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Chalkie",
+      "tagline": "Ask anything. Watch it drawn and explained on a live board.",
+      "summaryZh": "问任何问题。看它在实时画板上被绘制并解释。",
+      "descriptionZh": "提出问题，Chalkie 会一笔一画地在板上画出答案，同时有语音讲解每个部分。没有大段文字。圈出画中的任何部分并提问，或输入追问，它会继续在同一块板上绘制。每节课还可按需提供 3D 模型、笔记、测验和视频导出。免费试用，无需登录：chalkie.in/try。套餐每月 4.99 美元起。",
+      "description": "Ask a question and Chalkie draws the answer on a board, stroke by stroke, while a voice explains each part. No walls of text. Circle any part of the drawing and ask about it, or type a follow-up, and it keeps drawing on the same board. Each lesson also gives you a 3D model on request, notes, a quiz, and a video export. Try free, no sign-in: chalkie.in/try. Plans from $4.99/mo.",
+      "thumbnail": "https://ph-files.imgix.net/ec151e4e-03b7-4951-91e2-3a0c5103d34f.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/7a7d5de4-c105-4188-b41b-1d15180345f1/4af26fe093d023160ecf6a68e455c6d3d508d63b273c26c074a5b3fb82634e7d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/chalkie?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BHUVGK3WJYPKFO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 71,
+      "topics": [
+        "Education",
+        "Artificial Intelligence",
+        "Online Learning"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Archseed",
+      "tagline": "Plan the work before your coding agent writes it",
+      "summaryZh": "在编码代理编写代码之前先规划工作",
+      "descriptionZh": "Archseed 是一个 CLI 优先的工作流，用于在让 Cursor、Claude Code、Codex 或其他编码代理实施之前，定义 V1 范围、非目标与护栏。从一段简短的项目描述开始，确认少数关键决策，获得一份可供审查、编码代理可遵循的项目契约。",
+      "description": "Archseed is a CLI-first workflow for defining V1 scope, non-goals, and guardrails before you ask Cursor, Claude Code, Codex, or another coding agent to implement. Start from one short project description, confirm the few decisions that matter, and get a reviewable project contract your coding agent can follow.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/dd4ba934-77db-42d7-9f2d-df7bb372db60/4027553b4eaa73f2579dcaade90b7ec279605031f6acc85b3abb0ce70f246851.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/1c809920-ae6b-4285-b482-50857f713704/0fb67b752f00f1a09e20ebe8b22d4407bf39eaa7b6fb1247a04b51300d5b2827.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/archseed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/RKNJKCY5ZAJ3UL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 71,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Descant",
+      "tagline": "Your zero-config software factory",
+      "summaryZh": "你的零配置软件工厂",
+      "descriptionZh": "Descant 是你的零配置软件工厂。它合并了 14,647 个用于构建自身的拉取请求，其中 5 个被回滚。它的下一个前沿是证明软件：首次尝试 Lean 便自主构建了一个开源 Unicode 分段库，并一次性完成了 Lean 检查的证明。在 Descant 内，不同模型通过结构化契约和基于证据的正确性检查相互挑战。零配置、零信任的云环境。成本按每项工作追踪，精确到分。",
+      "description": "Descant is your zero-config software factory. It merged 14,647 pull requests building itself, with 5 reverted. Its next frontier is proving software: first-ever try at Lean autonomously built an open-source Unicode segmentation library, complete with proofs Lean checked, in one shot. Within Descant, different models challenge each other through structured contracts and evidence-backed correctness checks. Zero-config, zero-trust cloud environments. Costs tracked per piece of work down to the cent",
+      "thumbnail": "https://ph-files.imgix.net/25824a74-eb14-4851-b811-89152d364f22.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/40a32b82-4d51-445f-a3fe-df6f86abdef6/8bfe9b3b85be6f1e810f9213c6bbf9eacc40898ec482fc94257456baa2552a61.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/descant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/X3ZUWNLJZ5PL4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 77,
+      "topics": [
+        "Software Engineering",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Vigilbase OS",
+      "tagline": "AI security for everyone, even with no security team",
+      "summaryZh": "人人皆可享AI安全，即便没有安全团队",
+      "descriptionZh": "攻击者现已使用AI，而你不应需要一个安全团队来跟上节奏。Vigilbase OS可接入你已在使用的工具。我们的AI代理Vigil会读取每一条警报，用直白的语言告诉你哪些需要你处理，并准备好修复方案供你批准。免费开始使用。",
+      "description": "Attackers now use AI, and you shouldn't need a security team to keep up. Vigilbase OS plugs into the tools you already use. Vigil, our AI agent, reads every alert, tells you in plain words which ones need you, and has the fix ready to approve. Free to start.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/b4e19a9e-6cc4-492f-bfab-8e7c914bdf04/ea0c4fcca22bfeda251bbe178ac96c626296fb14c248a685217d1299f06f0d42.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/310ef678-b9f0-4033-867c-dbf8d13ba16e/ffbc84647981c0cd8cf7575d950f0660f07b13e181827196740e617f1367062a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/vigilbase-os?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XAP57EF45OZTZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 77,
+      "topics": [
+        "SaaS",
+        "Artificial Intelligence",
+        "Security"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "ogdynamic",
+      "tagline": "Personalized OG, social & email images from a URL",
+      "summaryZh": "从URL生成个性化OG、社交和电子邮件图像",
+      "descriptionZh": "ogdynamic 是一个画布编辑器和基于 URL 的图像生成器，可用于任意规模的个性化视觉内容。在自由画布上设计一次模板，将图层标记为可覆盖，然后通过查询参数生成 OG 图像、社交横幅、博客封面和产品图片——无需 SDK。浏览器内预览运行与服务器相同的 Rust 渲染引擎，因此所见即所得。附带 86 个模板和一个用于 AI 原生图像设计的 MCP 服务器。",
+      "description": "ogdynamic is a canvas editor and URL-based image generator for personalized visuals at any scale. Design a template once on a free-form canvas, mark layers as overridable, and generate OG images, social banners, blog covers, and product images from query parameters — no SDK required. The in-browser preview runs the same Rust rendering engine as the server, so what you design is exactly what renders. Ships with 86 templates and an MCP server for AI-native image design.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/b277533e-82e4-410d-b7dd-20e2f20343cc/7ff555a17b3e57ccfdbf0fb19d70ff4d9646b120ddc9483327d08d98f15df8ec.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/1a909812-3b8d-4466-b4b6-3c44392326f1/ff36f4cd9bb27c69e5f013d54e650e32d88025cf10f177d9bffc29e8a7204023.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ogdynamic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SWN272HZR7B3QP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 77,
+      "topics": [
+        "Design Tools",
+        "Marketing",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "CSS Carousel Examples",
+      "tagline": "60 CSS carousels, from 3D spirals to infinite loops, to copy",
+      "summaryZh": "60个CSS轮播，从3D螺旋到无限循环，供您复制。",
+      "descriptionZh": "浏览60个可复制的轮播：3D龙卷风、螺旋与双螺旋、莫比乌斯环、全景、无限跑马灯、滚动吸附、封面流、视差、拖拽滑动堆叠等。打开任意卡片即可查看大型实时预览，调整卡片数量、速度或半径，一键复制HTML和CSS。大多数仅靠CSS运行；需要JavaScript的会标注JS，并附上一段简短、平实的代码片段。免费，无需注册。",
+      "description": "Browse 60 carousels you can copy: a 3D tornado, helix and double helix, Möbius ring, panorama, infinite marquees, scroll snap, coverflow, parallax, drag-to-swipe stacks and more. Open any card to see a large live preview, change the card count, speed or radius, and copy the HTML and CSS in one click. Most of them run on CSS alone; the ones that need JavaScript are marked JS and include a short, plain snippet. Free, no sign-up.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/08203ae8-340d-4bcc-9606-85e379363291/0b052d45f58e3a736117f4b03c1becf57ef6f8c5540c658d46f074b11b4d7951.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/f3bdcde2-ce63-4984-8c8f-2401ff4a8c8d/c73b948e962f058b63a4f2398cba4527479708900681c27889766c149013ee11.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/css-carousel-examples?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7W3R37I4ISZIFM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 77,
+      "topics": [
+        "Design Tools",
+        "Developer Tools",
+        "Web Design"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Toolsfolio",
+      "tagline": "Privacy-first iPhone tools for PDFs, photos and invoices",
+      "summaryZh": "隐私优先的 iPhone 工具，适用于 PDF、照片和发票",
+      "descriptionZh": "Toolsfolio 是一款以隐私为先的 iPhone 工具箱：50 多款日常工具完全在设备上运行，文件绝不会上传到任何地方。扫描、编辑、签名和压缩 PDF。制作发票、报价单和收据。转换、调整尺寸和抠出照片，还能生成二维码。即便是 Chat with PDF 这类智能工具，也使用 Apple 的端侧模型。无需账户、无广告、无追踪，离线也能用。同样为 iPhone Duo 打造。大多数工具免费；Pro 可解锁另外 21 款。",
+      "description": "Toolsfolio is a privacy-first toolbox for iPhone: 50+ everyday tools that run entirely on your device, so your files are never uploaded anywhere. Scan, edit, sign and compress PDFs. Make invoices, quotes and receipts. Convert, resize and cut out photos, and make QR codes. Even the smart tools, like Chat with PDF, use Apple's on-device model. No accounts, no ads, no tracking, and it works offline. Built for iPhone Duo too. Most tools are free; Pro unlocks 21 more.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/20237137-1695-4a8c-861a-8126e7e96786/3a765e8e5ad891580ad45caba1fd85a2d8849b3ea08f9c354d3829986f55ddf8.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4b0bd7cd-e025-45cc-94a3-b0ed0125733b/e5afe07073c711713d7a9a67e32fbdd4e1d2a4d1d7e967eea5cf66f5b4316380.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/toolsfolio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/W4MTMVYZQTAGUP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 106,
+      "topics": [
+        "iOS",
+        "Productivity",
+        "Privacy"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Schwanki",
+      "tagline": "Spaced repetition you can scroll",
+      "summaryZh": "可以滚动浏览的间隔重复",
+      "descriptionZh": "Schwanki 将抽认卡变成竖向信息流。上滑查看释义，右滑表示记住了，左滑表示忘记了。其余交给 FSRS 安排复习。你可以导入带有复习记录的 Anki 牌组，也可以添加来自 PDF（包括 Canva 导出文件）、Google Docs 或白板照片的课堂笔记。",
+      "description": "Schwanki turns flashcards into a vertical feed. Swipe up to see the meaning, right if you got it, left if you forgot. FSRS schedules the rest. Bring your Anki decks with their review history, or add class notes from PDFs (Canva exports too), Google Docs or a whiteboard photo.",
+      "thumbnail": "https://ph-files.imgix.net/5cbd3407-57f4-42cc-be80-1cdbf8f1b48c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/88abd5cc-7483-4d7f-80e6-85b3d9af84ae/856b01266c6c84156ecd377bd959beea63014518bc7c053671fd82e13476d303.gif?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/schwanki?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TGDVEUUWMPIQ2K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 116,
+      "topics": [
+        "Productivity",
+        "Education",
+        "Languages"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Scatter",
+      "tagline": "Study with AI on a mind map that grows with each question",
+      "summaryZh": "在思维导图上借助AI学习，每个问题都让导图不断扩展",
+      "descriptionZh": "我是一名患有ADHD的精神科住院医师。我开发Scatter，是因为AI聊天对于我想要的学习方式来说太受限了。你可以预览不熟悉的术语，并把后续问题作为地图上的分支打开，这样原始解释始终保持在视野中。使用你自己的API密钥即可免费使用。",
+      "description": "I’m a psychiatry resident with ADHD. I built Scatter because AI chats felt too constrained for the way I wanted to study. You can preview unfamiliar terms and open follow-up questions as branches on a map, so the original explanation stays in view. It’s free with your own API key.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/3fdc4334-9558-41fd-890f-7e7374bcc2f1/b94453f976a16349502d28d679ec9e022fb25963f196f6b5f2a2cb0e10b3278e.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/3440873a-6b36-4b47-878a-89a25eee93ae/50fbe912227c396f7d75f5a5324028347c05120d3458b9734f1d2e48d9acebc6.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/scatter-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4MFWTZPO2QVDZ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 129,
+      "topics": [
+        "Productivity",
+        "Education",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Apocalypse Mascots",
+      "tagline": "A Lovecraftian mascot that grows as your coding agent works",
+      "summaryZh": "一个随着你的编码代理工作而成长的洛夫克拉夫特式吉祥物",
+      "descriptionZh": "一个为你的编程代理准备的免费吉祥物，现已支持 Claude Code、Codex、Cursor、Gemini CLI 等。Yoggy 得名于 Yog-Sothoth，Shubby 得名于 Shub-Niggurath，它们会随着你交给代理的东西而成长：读取你的文件时长出眼睛，编辑文件时长出手，然后是你的 shell、开放网络、你的其他应用，以及更多自身的副本。一个说明文字会持续记录数量。它不发起网络调用，也不保留你的任何提示词。六种配色方案中已有三种推出。第三种形态 Shoggy 即将到来。",
+      "description": "A free mascot for your coding agent, now in Claude Code, Codex, Cursor, Gemini CLI, and more. Yoggy, after Yog-Sothoth, and Shubby, after Shub-Niggurath, grow with what you hand the agent: eyes when it reads your files, hands when it edits them, then your shell, the open web, your other apps, and more copies of itself. A caption keeps the tally. It makes no network calls and keeps none of your prompts. Three of six color schemes are out. Shoggy, the third form, is next.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/bcf54154-0004-433e-96d5-ec98a8cece32/e6ad259a56c0c8049bbecde2e76697c406980b062ebcc40eb812cd7e4959bf73.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/7e0d43bc-719e-4c94-aa18-029b3ac7d44c/5083ace6b08bec2484f264eb9829cc2e2e6491987e7a5c2dde062fb67cb27960.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/apocalypse-mascots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/VJ62NZK437C2N3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 144,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "DailyDrills for Excel",
+      "tagline": "Practice Excel daily, in your own language",
+      "summaryZh": "每天用你的语言练习 Excel",
+      "descriptionZh": "在浏览器中运行的简短每日Excel练习，函数名称采用你所用语言显示：SUM、SOMME或SUMME，与你的Excel界面一致。提供11种语言版本，指南和练习涵盖从基础到高级。免费开始。",
+      "description": "Short daily Excel drills that run in your browser, with function names in your language: SUM, SOMME or SUMME, as your Excel shows it. Available in 11 languages, with guides and exercises from basics to advanced. Start for free.",
+      "thumbnail": "https://ph-files.imgix.net/b9998500-d22e-48b2-9299-faa8ef654e59.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/29a3866d-98a2-4da3-9a4d-9dc88f69c598/925bbbcb78880e763b14c5b9f464ec2f597a5b4a022f74b7f524a4f1a9cd68ae.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/dailydrills-for-excel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/FHYJSZ3PAT4RGS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 144,
+      "topics": [
+        "Productivity",
+        "Spreadsheets",
+        "Education"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "ShareWithGuests",
+      "tagline": "Beautiful Event Links for Your Guests",
+      "summaryZh": "为您的宾客提供精美的活动链接",
+      "descriptionZh": "ShareWithGuests 将你的活动变成一个可分享的链接。选择主题，添加照片，然后开启宾客所需的应用：在地图上找到座位、查看当日日程、带饮食备注的菜单、用手机参与的问答游戏，以及一个共享 reel，所有照片和视频都汇集于此。适用于婚礼、生日、洗礼和外出旅行。免费设置，准备分享时按活动一次性付费。",
+      "description": "ShareWithGuests turns your event into one shareable link. Pick a theme, add your photos, then switch on the apps your guests need: find their seat on the floor plan, the day's schedule, the menu with dietary notes, a quiz played from their phones, and a shared reel where every photo and video lands in one place. Made for weddings, birthdays, christenings and trips away. Free to set up, then pay once per event when you're ready to share.",
+      "thumbnail": "https://ph-files.imgix.net/24c807d7-e35d-4cec-86c6-4616257bfba0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/bb3471e8-c93b-437f-8f31-039930c0c6eb/690e90b231c8d63da6f17b9a55dad92e5141c2a543a966663f0d9e72e3d6f5d4.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/sharewithguests?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3MVDKFXYRCE4SU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 63,
+      "topics": [
+        "Events",
+        "Photography"
+      ],
+      "buckets": [],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Scalp Score",
+      "tagline": "Shedding, oily or flaky scalp? Get your Scalp Score, free",
+      "summaryZh": "头皮掉屑、出油或起皮？免费获取你的头皮评分",
+      "descriptionZh": "头皮屑、头皮出油或起皮，还是断发？回答五个问题即可免费获得头皮评分，无需注册。可通过条形码、名称或成分照片查询产品，围绕洗头日制定护理流程，并记录照片日志。无广告，无佣金。Android。",
+      "description": "Shedding, an oily or flaky scalp, or breakage? Answer five questions for a free Scalp Score, no sign-up. Check products by barcode, name or ingredient photo, build a routine around your wash days, and keep a photo journal. No ads, no commissions. Android.",
+      "thumbnail": "https://ph-files.imgix.net/5a448544-d53d-4d5f-8021-b07a1a762b48.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d783b06a-c38c-48a7-a944-ad8c3d08e6cb.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/orga-hair-living-profile?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZVXWW3EVRYNQBD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 77,
+      "topics": [
+        "Android",
+        "Health & Fitness",
+        "Beauty",
+        "YouTube",
+        "Cosmetics"
+      ],
+      "buckets": [],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "entroit",
+      "tagline": "ERP software to handle more orders without more admin",
+      "summaryZh": "处理更多订单而无需增加管理人员的ERP软件",
+      "descriptionZh": "面向批发、电商、制造和第三方物流的ERP软件。处理更多订单，无需增加管理负担。整个运营尽在一个系统。数天即可上线，而非数周。选择专业版，我们会在您的业务持续运行的同时迁移数据并培训团队。每月349欧元起。无设置费。在为您正常运行之前免费。了解其运作方式。",
+      "description": "ERP software for wholesale, ecommerce, manufacturing and 3PL. Handle more orders without more admin. Your whole operation in one system. Go live in days, not weeks. With Professional, we migrate your data and train your team while your business keeps running. From €349 a month. No set-up fee. Free until it runs for you. See how it works.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/341e46db-cc2e-46b2-aabd-6eeee3f4d4e0/a114a950528cd1d9fa554677791676e33a0b88ed4901191a43bd53cf6a75a894.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/bccbc74b-9566-4564-8958-0ac048f05ba8/f78bdca1f40d0d2cc8517014d77f90da1419559f7519e7e6e90f988cbf83e37d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/entroit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NJZQ3WXJQHAVDG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 77,
+      "topics": [
+        "SaaS",
+        "E-Commerce",
+        "Operations"
+      ],
+      "buckets": [],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "MoveInCheck",
+      "tagline": "Your first flat in a new city, checked before you pay.",
+      "summaryZh": "在新城市的第一套公寓，付款前先查验。",
+      "descriptionZh": "搬到新城市却无法在支付押金前实地看房？MoveInCheck会派一名受过培训的当地检查员替你验房。你会收到一份附有照片的报告，说明哪些与房源描述相符、哪些不符，以及签约前该向房东询问什么。",
+      "description": "Moving to a new city and can’t visit a flat before paying the deposit? MoveInCheck sends a trained local checker to inspect it for you. You get a photo-backed report showing what matches the listing, what doesn’t, and what to ask the landlord before you sign.",
+      "thumbnail": "https://ph-files.imgix.net/1bcec670-2c9f-4067-89dd-6d45490c2c06.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/1bcec670-2c9f-4067-89dd-6d45490c2c06.svg?auto=format&h=450&w=800",
+      "productHuntUrl": "https://www.producthunt.com/products/moveincheck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/5UGA44YS62MXP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 125,
+      "topics": [
+        "Home",
+        "Travel",
+        "Business Travel"
+      ],
+      "buckets": [],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "Red Dirt Pro Studio Version 7.2.8",
+      "tagline": "A complete record label in one program for Windows",
+      "summaryZh": "一个完整的唱片厂牌管理程序，适用于Windows系统",
+      "descriptionZh": "Red Dirt Pro Studio 7.2.8 版本是一个集完整唱片厂牌功能于一身的程序：在您自己的 Windows 电脑上撰写、录制、混音和母带处理——无需订阅。它内置一支具名乐队：Shoelace 演奏小提琴，Joni Marie Flanary 演奏贝斯，Dale Whitefield 演奏曼陀林。您的歌曲保存在您自己的电脑上，音乐归您所有——可随意下载多次。前 100 份售价 250 美元，终身使用。来自德克萨斯州阿比林的 Redemption Road Music Group。",
+      "description": "Red Dirt Pro Studio Version 7.2.8 is a complete record label in one program: write, record, mix and master on your own Windows computer — no subscription. It comes with a named band inside: Shoelace on fiddle, Joni Marie Flanary on bass and Dale Whitefield on mandolin. Your songs save to your own computer, and your music is yours — download it as many times as you like. The first 100 copies are $250, lifetime. From Redemption Road Music Group in Abilene, Texas.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/70715d8d-47ab-4ecd-bbf3-75fd59dda9e1/853d7c1f913b24d0e46474ada827e37354b290507f681174d30b25b3286ae93d.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/ab574617-6e3a-471e-941f-da8b91f5e494/3eaa6644f94d501e098bbc7c7366a76daefe2f5d559f6be9d06263364b588476.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/red-dirt-pro-studio-version-7-2-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ENBZMPIKPKKLHD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 144,
+      "topics": [
+        "Music",
+        "Audio"
+      ],
+      "buckets": [],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    },
+    {
+      "name": "NetFixLab",
+      "tagline": "Your home runs on a network. Learn it from a comic.",
+      "summaryZh": "你的家运行在一个网络上。从漫画中了解它。",
+      "descriptionZh": "你是否想过视频如何传到手机，或者Wi-Fi为什么会掉线？NetFixLab通过漫画和动画视频讲解网络知识，然后像侦探一样破解真实网络案例。无需技术背景。从零开始，想学多深就学多深。",
+      "description": "Ever wondered how a video reaches your phone, or why the Wi-Fi drops? NetFixLab explains networking through comics and animated videos, then you crack real network cases like a detective. No tech background needed. Start from zero and go as far as you like.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/4321b002-7c8d-444b-a2ad-01524b4b2cd6/5d092fa58cbcffc9255037a63cb12e9d517449a58e26831fd4dcd1f5a38a770a.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/95519c53-e79c-4fd6-9025-ef1dddeaa3f5/9421e618927301e7aa68a543c375adf69ce67848bf23d558316aee99262ff645.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/netfixlab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EJ3FNLPOLQXXPQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 144,
+      "topics": [
+        "Education",
+        "Comics & Graphic Novels",
+        "Online Learning"
+      ],
+      "buckets": [],
+      "date": "2026-11-16",
+      "productHuntDate": "2026-11-15",
+      "lastUpdated": "2026-11-16T19:30:57.350Z"
+    }
+  ]
+}
