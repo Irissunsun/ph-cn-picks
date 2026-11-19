@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "date": "2026-11-19",
+    "productHuntDate": "2026-11-18",
+    "lastUpdated": "2026-11-19T18:11:44.948Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "19",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Wispr Flow Notetaker for iPhone",
+      "tagline": "Free AI meeting notes, wherever work takes you",
+      "summaryZh": "免费AI会议记录，无论工作带你去哪",
+      "descriptionZh": "Wispr Flow Notetaker 现已登陆 iPhone。你可以在手机上记录线下会议，在桌面端记录线上会议，全部免费。所有笔记在各设备间保持同步，让你随时接着上次的进度继续。",
+      "description": "Wispr Flow Notetaker is now on iPhone. Capture in-person meetings on your phone and virtual meetings on desktop, for free. All your notes stay together across devices, so you can pick up right where you left off.",
+      "thumbnail": "https://ph-files.imgix.net/d545eefc-74f2-46e1-839b-6abeddf195bd.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/8de37233-0082-433a-b6e7-e450f3fdd62f.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/HTWKRZXSXSNV54?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 105,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-19T08:00:00Z",
+      "rank": 11,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Alfred 6",
+      "tagline": "Supercharging macOS since 2010",
+      "summaryZh": "自2010年以来为macOS加速",
+      "descriptionZh": "Alfred 6 带来 Alfred UI，这是一套全新的 macOS 原生工具包，创作者可用它构建带真实界面的轻量工作流。此外，主题和偏好设置全面焕新，新增查询历史记录，并扩展了剪贴板历史记录。专为轻量高效、稳定与快速而打造。",
+      "description": "Alfred 6 brings Alfred UI, a new macOS-native toolkit creators can use to build lightweight workflows with real interfaces. Plus a fresh look across themes and preferences, a new Query History, and extended Clipboard History. Built for lightweight efficiency, stability and speed.",
+      "thumbnail": "https://ph-files.imgix.net/7454d06a-a2ca-42c3-95ca-8d5561eb4130.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d64496c8-a3e1-403a-9904-87badec7665f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/alfred?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SLO3STP6FKM77U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 79,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-19T08:00:00Z",
+      "rank": 22,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Polylane for Azure",
+      "tagline": "An AI on-call engineer for your Azure apps",
+      "summaryZh": "为你的 Azure 应用提供 AI 值班工程师",
+      "descriptionZh": "Polylane 调查 Azure Monitor 警报，通过日志、指标和资源变更追溯原因，并准备代码修复以供审查。它映射你的订阅，并将其连接到你的代码仓库和其他云。通过 Azure Lighthouse 使用一个模板连接，无需存储 Azure 凭据。",
+      "description": "Polylane investigates Azure Monitor alerts, traces the cause through logs, metrics and resource changes, and prepares code fixes for review. It maps your subscription and connects it to your repos and other clouds. Connect through Azure Lighthouse with one template and no stored Azure credentials.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/360a9811-30fc-44fc-b82d-9bd31433cced/f8af03fd42d025632d18091ed2e8549f67e766161178165066553efd4932cdd7.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/ba66399f-be65-4d11-9949-bdb8c568e6e3.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/EJOWKM6M4CT3QV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 76,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-19T08:00:00Z",
+      "rank": 27,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Duly",
+      "tagline": "Send invoices by texting your AI assistant",
+      "summaryZh": "通过给你的AI助手发短信来发送发票",
+      "descriptionZh": "再也不用打开开票软件了。给你的 AI 助手发条消息，告诉它向谁收费，几秒钟内就能收到一张带支付链接的精美发票。支持 Claude、Poke、Grok 以及任何 MCP 助手。一次性付费 49 美元，无需订阅。",
+      "description": "Never open invoicing software again. Text your AI assistant who to bill and get a beautiful invoice with a pay link back in seconds. Works with Claude, Poke, Grok and any MCP assistant. $49 once, no subscription.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/52bc6e12-6023-4e3c-9d0c-52c9def1204e/c80ebefd49ec2e2b863236371d302d93d152e603b909af99beed1a056d5311e9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/124fc01c-e044-4550-86b6-862bcff78d79/3a7356a6313271461c5396b9410d1a8b21f1560b87ea00a96072144bea3d4fb8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/duly-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TJSEC5KA4Z53O7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 12,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 44,
+      "topics": [
+        "Productivity",
+        "Freelance",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Leverprice",
+      "tagline": "Grow your revenue with price tests",
+      "summaryZh": "通过价格测试提升收入",
+      "descriptionZh": "让现有流量带来更多收益。Leverprice 面向新访客测试价格，只统计支付服务商确认的销售，并将更多流量导向收益最高的价格。它还能让每个国家从首次访问起就获得公平的价格。支持 Stripe、Paddle、Polar、Lemon Squeezy、Dodo 和 Creem。只需向你的 AI 代理发送一条提示即可完成设置。免费开始使用。",
+      "description": "Earn more from the traffic you already have. Leverprice tests prices on new visitors, counts only the sales your payment provider confirms, and sends more traffic to the price that earns the most. It also gives every country a fair price from the first visit. Works with Stripe, Paddle, Polar, Lemon Squeezy, Dodo and Creem. Set up with one prompt to your AI agent. Free to start.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a527e726-a4ab-48b7-a975-24325f0db8e9/2d4e535e7b28d6b5d1db1b7d607f14d2e89e4df2fe08deffd1a6117019dcf256.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/9fc3da0b-8e78-4fb7-8190-5e60e7221480/70e61f55d7e5f3c1b1dbeaf67689fdbf23a677ef17f61dc390692198c920a1ea.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/leverprice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZAY5VKVOWYJ2DI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 5,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 62,
+      "topics": [
+        "Payments",
+        "SaaS",
+        "Developer Tools"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "ADE",
+      "tagline": "Cloud computers for your coding agents, from 1¢ an hour",
+      "summaryZh": "为你的编码代理提供云计算机，每小时仅需1¢起",
+      "descriptionZh": "ADE 在云电脑上运行 Claude Code、Codex、Cursor 和 200 多种模型，每小时 1 美分起，每月赠送 100 小时免费时长。多个智能体可协同处理同一任务，在云端 Android 模拟器上测试你的应用（iOS 则通过你的 Mac 测试），各自拥有独立桌面，并能在聊天中打开、修复和合并 PR。支持 Mac、Windows、Linux、网页和 iPhone。免费且开源。",
+      "description": "ADE runs Claude Code, Codex, Cursor and 200+ models on cloud computers from 1¢ an hour, with 100 free hours every month. Agents coordinate on one job, test your app on Android simulators in the cloud (iOS through your Mac), get their own desktops, and open, fix and merge PRs from the chat. Works on Mac, Windows, Linux, web and iPhone. Free and open source.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/eb63698c-b3c0-44c6-a56d-16f951bbaccf/aaab7b048fe37096e9d8ff04424d5b3cd77b19abca51098c932614c7512f6ebe.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/ccf0019e-7d37-405d-a404-49a100447ffe/89d1223f33155000e25559d1a2cd2d1efbbb154404a180319ef2868a82c3aef2.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ade-agentic-development-environment?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YJ3IN6LCPCJ7CS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 5,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 62,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Wink",
+      "tagline": "The harness for self-improving frontier agents.",
+      "summaryZh": "用于自我改进前沿智能体的工具框架。",
+      "descriptionZh": "与一个编排器对话，它便会在真实终端中启动 Claude Code、Codex、Grok、Gemini 和 Muse 智能体。当你纠正它时，它会将教训记录下来；在代码方面，它会添加一项检查，一旦该错误再次出现便会失败。你的决定会以你自己的话保存，并附上日期。可从手机端查看。免费、开源、Windows。运行在你已付费的订阅上，无需 API 密钥。",
+      "description": "Talk to one orchestrator and it spawns Claude Code, Codex, Grok, Gemini and Muse agents in real terminals. When you correct it, it writes the lesson down, and on code it adds a check that fails if the mistake comes back. Your decisions are saved in your own words, with dates. Check in from your phone. Free, open source, Windows. Runs on the subscriptions you already pay for, no API keys.",
+      "thumbnail": "https://ph-files.imgix.net/7be633aa-9af3-4caa-8227-0115c3e9459a.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/ba4b1c3e-7d71-49a7-aa8a-7a45e3fcdc10/e403bb16db69770c1d81f6f54a70c39c90d36ece14b2184adc806c5012f2117e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/wink-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/OEX7PUBIIAP5BS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 4,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 72,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "PrintAIBook",
+      "tagline": "Turn your PDF or images into a real, printed book",
+      "summaryZh": "将你的PDF或图片变成真正的印刷书籍",
+      "descriptionZh": "PrintAIBook 可将任何书稿变成真正装订成册的平装书或精装书。内容可由 AI（ChatGPT、Midjourney、Canva）生成，也可由你亲自撰写。上传 PDF，或使用我们的免费工具从图片制作 PDF。付款前可预览每一页。无需账户，无需 ISBN，全球配送。",
+      "description": "PrintAIBook turns any book into a real, bound book, softcover or hardcover. Made with AI (ChatGPT, Midjourney, Canva) or written by you. Upload a PDF, or build one from images with our free tool. Preview every page before you pay. No account, no ISBN, shipped worldwide.",
+      "thumbnail": "https://ph-files.imgix.net/756e3b60-89d0-43fd-a8a3-7d412164d572.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/b969f38e-8ef0-446d-b06d-8f3f168276bb/875af14a6ba6d6b6e2982d5fe50246e34b1f3a728b925733ce6728b0511eda8f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/printaibook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/W5YSBECVOWNAE2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 78,
+      "topics": [
+        "Design Tools",
+        "Artificial Intelligence",
+        "Books"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Cornerhold",
+      "tagline": "Commercial real estate on autopilot.",
+      "summaryZh": "商业地产实现自动化运营。",
+      "descriptionZh": "Cornerhold 是面向商业地产的物业管理与会计软件：零售中心、写字楼和工业建筑。两个 AI 阅读器会提取每份租约的摘要，并为每项条款标注页码。你可以依据租约开具租金和 CAM 账单。账单核对功能会将两年的账单与租约条款进行比对，并以美元显示每处差异。可在网页端使用，也可通过其 MCP 连接器在 ChatGPT、Claude 和 Grok 中使用。AI 起草或提议的任何内容均需由人工批准。",
+      "description": "Cornerhold is property management and accounting for commercial real estate: retail centers, offices and industrial buildings. Two AI readers abstract each lease and cite the page for every term. You bill rent and CAM from the lease. A billing check compares two years of billing with what your leases say and shows each gap in dollars. Use it on the web, or from ChatGPT, Claude and Grok through its MCP connector. A person approves whatever the AI drafts or proposes.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/faad90d9-738b-42ba-aea3-a923f250698f/0ea690040dc03b75bbbefd39b4bf1c290cfe85f7a7f17687ac274a50b22b73cd.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/e87192d9-e8e0-4bba-b02b-517e25c1a0ba/d1337d25cbec0ff01db8e0d7da0d87770ff3a69dd452506fc612ce1c4086b9a8.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cornerhold?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XZ3RZAZ27GRQFI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 87,
+      "topics": [
+        "SaaS",
+        "Artificial Intelligence",
+        "Accounting"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Xannotate",
+      "tagline": "Screen record and Live call with screen share for agents",
+      "summaryZh": "为坐席提供屏幕录制和带屏幕共享的实时通话",
+      "descriptionZh": "录制屏幕、指向并讲解，然后交给 AI，或通过屏幕共享进行实时通话，借助 Annotate Live 获取关于屏幕内容的实时反馈，可与 Claude、Codex、Cursor 及其他编码代理配合使用。",
+      "description": "Record your screen, point and speak, and hand it off to AI or do a live call with screen sharing to get realtime feedback about what's on the screen with Annotate Live, works with Claude, Codex, and Cursor and other coding agents.",
+      "thumbnail": "https://ph-files.imgix.net/d9953b79-5865-401b-8655-75610dea404d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/94051742-34c5-4db3-b154-ef23002b6200/a0a29fecb7765ecfe80c01d319d1f23de13da29ef5e6ed829516d5029bef9b92.webp?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/annotate-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/L6NXAYUPNZVRPU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 87,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "SlidesLand",
+      "tagline": "TikTok and Instagram slideshows your AI agent makes",
+      "summaryZh": "你的AI代理制作的TikTok和Instagram幻灯片",
+      "descriptionZh": "将 SlidesLand 添加到 Claude、ChatGPT、Cursor 或任何 MCP 应用，然后请求生成 TikTok 或 Instagram 幻灯片。你的智能体会撰写内容；SlidesLand 提供 13 种经过验证的格式，查找真实照片，渲染并检查每一张幻灯片，并安排发布。免费 5 个幻灯片。",
+      "description": "Add SlidesLand to Claude, ChatGPT, Cursor or any MCP app, then ask for a TikTok or Instagram slideshow. Your agent writes it; SlidesLand brings 13 proven formats, finds real photos, renders and checks every slide, and schedules the post. 5 slideshows free.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/1f1b4005-8203-45ff-9e21-9bdb71df3c1a/d5d9119c52f3fc9d7778d0cf5101e968ba02a0eac4d2aebf10126c2c5c5de897.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4bc4b922-5b5d-49b1-8979-5ec4138e9baa/c6f5a249532636891b99f9b0d25a341c1b2acb4e56951a4f6ced837f5dbc7d61.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/slidesland?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NRSZCCSE3QZUI4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 94,
+      "topics": [
+        "Social Media",
+        "Artificial Intelligence",
+        "Social media marketing"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Launch Script by CinemaAI",
+      "tagline": "Turn your product URL into a cinematic launch film script",
+      "summaryZh": "把你的产品URL变成电影级发布影片脚本",
+      "descriptionZh": "粘贴你的产品URL，大约一分钟即可获得发布影片方案：核心创意、含旁白的六段式脚本、带图像提示的分镜清单（你的真实UI标注为录制，绝不生成）、15秒精简版，以及你需要证实的声明。专为SaaS、金融科技和AI初创公司打造。免费。想要制作影片？Product Hunt的创作者可从多伦多工作室CinemaAI获得固定价格CA$6,000的发布影片。",
+      "description": "Paste your product URL and get the plan for a launch film in about a minute: the one idea, a six-beat script with voiceover, a shot list with image prompts (your real UI marked as recorded, never generated), a 15-second cutdown, and the claims you'll need to prove. Built for SaaS, fintech and AI startups. Free. Want the film made? Product Hunt makers get a fixed CA$6,000 launch film from CinemaAI, a Toronto studio.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/9ba8c133-9422-4ce5-aa97-4216b8b15ae8/0e276b42b4377766c93c3a0836788b2999f8cf2019fae97e6338141f6e737c96.webp?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/333a8a8d-3cd0-4e24-a375-e8bb8def7ef6/84ad6154875b28142e517854d05fff36642e1b528c248a7b18d517006184b735.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cinemaai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/R2MGAJR5GFC7F5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 94,
+      "topics": [
+        "Marketing",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Milo - Friendly Agenda",
+      "tagline": "Plan the whole trip, from bookings to splitting costs",
+      "summaryZh": "规划整个行程，从预订到分摊费用",
+      "descriptionZh": "Milo 迄今最大的更新让共同规划更轻松。在一个流程中创建行程，包含日期、宾客、逐日安排、共享费用和提醒。向已开始的计划添加预订截图或 PDF，不会丢失已有内容。Milo 还会针对晚餐、约会、纪念日和生日调整表单，生日详情可从通讯录填入。",
+      "description": "Milo’s biggest update makes it easier to plan together. Build a trip with dates, guests, a day-by-day itinerary, shared costs, and a reminder in one flow. Add booking screenshots or PDFs to a plan you’ve already started without losing what’s there. Milo also adapts the form for dinners, appointments, anniversaries, and birthdays, with birthday details filled in from Contacts.",
+      "thumbnail": "https://ph-files.imgix.net/9c8796dd-c309-4d6b-8c35-5b7bcd869826.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d59bcf50-42e3-4d9f-9652-93b166cd1445.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/milo-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/57NSYO6TSPR4MM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Productivity",
+        "Calendar"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "WonderCast",
+      "tagline": "Stories starring your child, told in your voice",
+      "summaryZh": "以你的声音讲述，主角是你孩子的故事",
+      "descriptionZh": "创作以你的孩子为主角的故事，用熟悉的声音讲述。WonderCast融合了绘本、有声书、歌曲和短视频，支持逐词跟读和自选冒险。无需账号即可试听六个故事，之后可在网页、iPhone或iPad上创作自己的故事。家长声音克隆功能在Creator和Studio套餐中提供。",
+      "description": "Create stories starring your child, narrated in a familiar voice. WonderCast combines illustrated books, audiobooks, songs and short videos with word-by-word read-along and choose-your-own adventures. Try six stories without an account, then make your own on the web, iPhone or iPad. Parent voice cloning is available on the Creator and Studio plans.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/2af5fb23-1725-4f30-a1d4-7e0bc4d4a1ea/85bb908786048177491aa98b39b95d2d1750ce64baab4a96d322afa62c92cd23.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/9f6da47c-4d61-4294-8f00-0bab78eeb79a/aa5ad07f15a13abe9269207f6a1c64f75082ceb535b12b56bb420b2327a65338.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/wondercast?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/QC7SCDTDSQPRER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Artificial Intelligence",
+        "Books",
+        "Kids & Parenting"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Notchie 4.0",
+      "tagline": "The Mac teleprompter in your notch, now with a phone remote",
+      "summaryZh": "Mac提词器现已在你的刘海屏中，新增手机遥控功能",
+      "descriptionZh": "Notchie 将你的脚本置于 MacBook 刘海区域，正对摄像头下方，让你能读清每个字并保持眼神交流。4.0 版本新增手机遥控、逐词语音跟踪、内置屏幕录制、分段与提示、浮动模式和练习模式。",
+      "description": "Notchie puts your script in the MacBook notch, right under your camera, so you read every word and keep eye contact. 4.0 adds a phone remote, word-by-word voice tracking, built-in screen recording, sections and cues, floating mode and practice mode.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/b6740aff-01ad-4f29-807f-245d3e467dc0/371fd4c17a657ae11a5b06e02379da3863e34987f971c9a6a7db406360ef62a3.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/cf84783a-227b-42a6-9156-4d794a8e9955/ff06f00f2a86ba2aa39ae259d07529e1125bef776dd5a86485161e5706870dcb.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/notchie?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2WH23CK3YGAATC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Mac",
+        "Productivity",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "productivity",
+        "design"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "QuizWhiz",
+      "tagline": "Turn lectures and PDFs into notes, flashcards and tests",
+      "summaryZh": "将讲座和PDF转化为笔记、抽认卡和测试",
+      "descriptionZh": "录制讲座或上传PDF，QuizWhiz会生成笔记、抽认卡和练习题。每一项都链接到其来源的秒数或页面，因此答错时会打开你材料中的对应位置。免费开始使用；每学期29美元，永不自动续订。",
+      "description": "Record a lecture or upload a PDF, and QuizWhiz makes notes, flashcards and practice tests. Each one links to the second or page it came from, so a wrong answer opens your own material at that spot. Free to start; $29 a term that never renews.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/cef1c4cb-75d4-4e17-8069-4ff64ef2f279/4c05d6eb54d07cfd38bbadd40ab5980d5c1c89c4f92c202a908bf731846b6a41.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/e3ad893d-50e9-46ed-8421-859ef66436bf/bb00ec84e0204c977eaa60f4ee9f398a45f684ba2ebf846210cb501138159239.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/quizwhiz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MQZRFKVA7WGZFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Productivity",
+        "Education",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Pluck",
+      "tagline": "Drop anything. Get a short link back.",
+      "summaryZh": "放下任何东西，获取一个短链接作为回报。",
+      "descriptionZh": "Pluck 一步将文件、截图、视频、链接和笔记转为短链接。可从网页、iPhone 分享表单分享，或在 Mac 上复制任意内容后按 ⇧⌘U。可选用自己的域名，然后无需跟踪 cookie 即可查看浏览量、访客、来源、设备和下载情况。",
+      "description": "Pluck turns files, screenshots, videos, links, and notes into short links in one move. Share from the web, the iPhone share sheet, or copy anything on a Mac and press ⇧⌘U. Use your own domain if you want, then see views, visitors, referrers, devices, and downloads without tracking cookies.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/87d82582-29c1-4645-8cf7-07d04489f4b1/6ccc3775a4962ddd606b259b497af45d8191e85946802619b0b4ee99d131c4f9.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4a794424-27aa-4e58-b09e-427dd4e95ef4/76dd79fb681aae5794af0da8518996020d0ad4cfe6fbd7e530a5c2454bf0ccb0.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pluck-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/E5D4ETREYV6IP4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Mac",
+        "Productivity"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Supabase Keep-Alive Action",
+      "tagline": "Stop Supabase free-tier pausing with one GitHub Action",
+      "summaryZh": "用一个 GitHub Action 阻止 Supabase 免费套餐暂停",
+      "descriptionZh": "Supabase 在免费项目约 7 天无活动后将其暂停；被暂停的项目对每个请求都返回 HTTP 540。这个免费的 GitHub 工作流每天运行一次，使用 anon key 调用项目的 REST API，执行一次开销很小的查询，在遇到瞬时错误时重试，并写入一份任务摘要，明确说明项目是否已被暂停。纯 bash 和 curl，无需安装任何东西：添加两个 secret 并复制一个工作流文件。",
+      "description": "Supabase pauses free projects after about 7 days without activity; a paused project answers every request with HTTP 540. This free GitHub workflow runs once a day, calls your project's REST API with the anon key, runs one cheap query, retries on transient errors, and writes a job summary that says clearly if the project is already paused. Plain bash and curl, nothing to install: add two secrets and copy one workflow file.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/1220e3f0-43c4-4268-93d2-5e9c63e75e6c/dcae312a0b09b1fcf92fb7f11c255cdd08d169f2509c46ce7cee130f8b626228.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/7af090dc-0624-48be-9178-b50884082282/c0384d33179dce964bb61873c32ae96f5979299117a8bb1f7acf9edcf110be8e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/supabase-keep-alive-action?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/F75ZLJCYT32NDW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer"
+      ],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "mio click",
+      "tagline": "A fidget that's also a friend",
+      "summaryZh": "一个既是解压玩具又是朋友的存在",
+      "descriptionZh": "mio click 是一款手持点击器，配有一个机械按键和一块小屏幕。孵化一只 Squig、Goober 或 Meatball。没有两只是一样的，而且每次按下按键，你的那一只都会动。无论你带到哪里，它都会记录每一次点击，然后通过 Wi-Fi 同步到公开排行榜，你可以在那里查看你的 mio 排名、孵化一只新的，或与朋友交换。由一支父母团队小批量手工组装。按键额定点击次数为 5000 万次。",
+      "description": "mio click is a handheld clicker with one mechanical button and a tiny screen. Hatch a Squig, Goober or Meatball. No two are the same, and yours moves every time you press. It counts every click anywhere you take it, then syncs over Wi-Fi to a public leaderboard where you can see how your mio ranks, hatch a new one or swap with a friend. Assembled by hand in small batches by a team of parents. The button is rated for 50 million clicks.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/b763fd07-9e28-4b8b-ae27-58c436c13589/5ca58d886197e98c10f097c68c1400414d3fcaa18aab2e07046f23a3635ba217.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/9e0c3b1e-b04a-41ba-b125-ae1d07cc1e36/b3ae071da181537e5e0c0933df9c5eaa7a1e8a55da2002c1df5b344106eaf650.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/mio-click?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7QTHEXQJELGBYL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 88,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-19T08:00:00Z",
+      "rank": 16,
+      "topics": [
+        "Hardware",
+        "Kids & Parenting",
+        "Toys"
+      ],
+      "buckets": [],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    },
+    {
+      "name": "Account Executive Jobs",
+      "tagline": "Hire sales reps straight from ChatGPT",
+      "summaryZh": "直接从ChatGPT招聘销售代表",
+      "descriptionZh": "Account Executive Jobs 是专注销售岗位的招聘平台，拥有 9,000 多个 AE、SDR 和销售领导职位，每个职位都列出薪资。雇主可以通过我们的 MCP 应用，直接在 ChatGPT 或 Claude 内发布职位、查看申请人、比较简历并推进候选人。求职者同样可以在其中搜索、获得匹配并快速申请。",
+      "description": "Account Executive Jobs is the sales-only job board with 9,000+ AE, SDR and sales leadership roles, every one with pay listed. Employers can post jobs, read applicants, compare résumés and move candidates forward right inside ChatGPT or Claude through our MCP app. Job seekers search, get matched and Quick Apply the same way.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/7b2d6fd9-2d63-441d-a209-5f27183ddbf2/2ad4b5465d8c25fb339c46a1203c58ed060487f258d27277a050e00ef08f2b1c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/19b6ffb9-277c-487c-8b93-78ddcfd20ae1/56b0c8ef328e75f3fc7344112610c84cf4dfa17816e82ab9eabdec77ad27bb0d.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/account-executive-jobs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/YVCZGNORCPQ5ZF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 102,
+      "topics": [
+        "Hiring",
+        "Sales",
+        "Career"
+      ],
+      "buckets": [],
+      "date": "2026-11-19",
+      "productHuntDate": "2026-11-18",
+      "lastUpdated": "2026-11-19T18:11:44.948Z"
+    }
+  ]
+}
