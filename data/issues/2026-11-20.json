@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "date": "2026-11-20",
+    "productHuntDate": "2026-11-19",
+    "lastUpdated": "2026-11-20T17:44:26.249Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "20",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Tripmojo",
+      "tagline": "Agentic travel app that helps plan, book and run your trip",
+      "summaryZh": "智能旅行应用，帮助规划、预订并管理你的行程",
+      "descriptionZh": "Tripmojo 将你的预订邮件同步到一个共享行程中，然后由你的 AI 旅行代理 Mojo 协助管理。在群聊中规划，Mojo 会回答问题、发起投票并查找地点。出行当天，Mojo 会尝试为你办理登机手续、保存登机牌、提示延误和登机口变更，并告诉你何时出发。旅途中，它会保持当日计划实时更新并分摊费用。iOS 和 Android 上免费。",
+      "description": "Tripmojo syncs your booking emails into one shared trip, then Mojo, your AI travel agent, helps run it. Plan in a group chat where Mojo answers, runs polls and finds places. On travel day Mojo tries to check you in, saves your boarding pass, flags delays and gate changes, and tells you when to leave. On the trip it keeps today's plan current and splits expenses. Free on iOS and Android.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/8a624bfb-f6c8-4b12-8587-8eaff2451e94/63a72628f9a36b034e1430233822a19af6ca8df90e2db500df3effdba2d727cf.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/4f22488c-25e9-4997-89a4-ea0f004f9130.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MGYYGRQ2OTZNMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 193,
+      "comments": 90,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 2,
+      "topics": [
+        "Travel",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Docker",
+      "tagline": "Built to run on trust, for the agentic era",
+      "summaryZh": "为智能体时代而生，以信任为基。",
+      "descriptionZh": "Docker 正在为智能体时代演进。容器隔离的是工作负载，但智能体并非工作负载：它们是行动者，需要隔离、安全与治理。新版 Docker 为智能体提供可信的构建供应链、用于隔离它们的可信运行时（Docker Sandboxes），以及面向每个团队的智能体治理（Docker AI Governance），同时还有重新设计的品牌和 Moby 鲸鱼标志。",
+      "description": "Docker is evolving for the agentic era. Containers isolate workloads, but agents aren't workloads: they're actors that need isolation, security and governance. The new Docker brings a trusted supply chain for agents to build from, a trusted runtime to isolate them (Docker Sandboxes), and governance for agents across every team (Docker AI Governance), alongside a redesigned brand and Moby whale.",
+      "thumbnail": "https://ph-files.imgix.net/6be36375-d756-4f7b-b908-1e76bddc3ebc.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/f9c26226-386c-4f90-a572-1ae0bd5f37d5/8b2f103eaf81b2fb3b30665b49f415a8a92d8c2ac52873f02d4c0c4099df5da5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/docker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/4IV63EDN4UZ3NO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 158,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 3,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Security"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Bookella",
+      "tagline": "A reading tracker that helps you read more",
+      "summaryZh": "一个帮助你读更多书的阅读追踪器",
+      "descriptionZh": "Bookella 是一款适用于 iPhone、iPad 和 Android 的阅读记录与家庭图书馆应用。几秒内即可添加书籍：搜索 28 种语言的 1.22 亿种书目，从阅读清单中挑选，一次性扫描整架书的条形码，或让 AI 为你挑选下一本书。设定年度和每日阅读目标，记录阅读时长，追踪阅读速度。保存笔记和摘录，查看阅读时间和阅读量。还可从 Goodreads、StoryGraph 或 CSV 导入。无广告。",
+      "description": "Bookella is a reading tracker and home library for iPhone, iPad and Android. Add books in seconds: search 122 million titles in 28 languages, pick from reading lists, scan a whole shelf of barcodes at once, or let AI pick your next book. Set yearly and daily reading goals, time your sessions, and track your reading pace. Keep notes and quotes, and see when and how much you read. You can also import from Goodreads, StoryGraph or CSV. No ads.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/946196d0-8ea1-4a14-8e2f-3dc18455d7fb/1132b988430641476f4a3aed531767465de3983993ef983c115c0022ed6d1c65.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/8a6681f8-4500-455c-bf0b-5bd53e0b594a/0e7cd379dd6c378e1cc0984c133784beabffd174b92300832541e19e65e52213.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/bookella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XLV3656TB6CLUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 139,
+      "comments": 12,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 4,
+      "topics": [
+        "Android",
+        "iOS",
+        "Productivity",
+        "Books"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "MakePixel",
+      "tagline": "Pixel art editor for game sprites, tilesets and maps",
+      "summaryZh": "用于游戏精灵、图块集和地图的像素艺术编辑器",
+      "descriptionZh": "MakePixel 是一款在浏览器中运行的像素艺术编辑器，适用于游戏素材，也支持 iPad。使用你熟悉的 Aseprite 快捷键制作精灵动画，绘制几块图块即可生成完整的自动图块集，绘制关卡，并导出到 Godot、Unity 或 Tiled。免费开始使用。",
+      "description": "MakePixel is a pixel art editor for game assets that runs in your browser, iPad included. Animate sprites with the keys you know from Aseprite, draw a few tiles to get a full autotile set, paint levels, and export to Godot, Unity or Tiled. Free to start.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a31481e5-01bf-4fbd-a198-8f69b8cd5d4a/fb69569bee877554bee9ad1174683b7637326c735be7fb1e982bc4e92f5d25e0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/3e5edd57-5441-4493-ad9d-ae9755816bc4/abbbafaf54d7adf152c2c533ae8bbe4428169f0c60f463ae251111ba666e0925.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/makepixel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NJCEPA4Y4KCKSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 80,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 12,
+      "topics": [
+        "Design Tools",
+        "Indie Games",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "EarthSort",
+      "tagline": "Ask how to recycle anything and get your city's answer",
+      "summaryZh": "询问如何回收任何物品，获取您所在城市的答案",
+      "descriptionZh": "回收规则在每个城市边界都会不同，所以同一个杯子在家里可回收，到了单位却成了垃圾。大多数网站只给笼统的指引，往往对你所在的城市并不适用。Ask EarthSort 给你所在城市的答案：在 earthsort.com/ask 输入任何物品或上传照片。无需应用。覆盖美国 750 多个城市的本地规则，每天还在增加。想随时随地使用？免费的 EarthSort 应用用你的摄像头实现同样功能。",
+      "description": "Recycling rules change at every city line, so the same cup is recycling at home and trash at work. Most sites only give generic guidance that's often wrong for your city. Ask EarthSort gives you your city's answer: type any item or upload a photo at earthsort.com/ask. No app needed. Local rules for 750+ US cities, with more added every day. Want it on the go? The free EarthSort app does the same with your camera.",
+      "thumbnail": "https://ph-files.imgix.net/41ea569e-42d8-48e9-8a75-9813f1ab95f4.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/3f5a1351-a276-460d-af77-d5f07b61d628.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/earthsort?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MNWAUU6Y5MXT3E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 73,
+      "comments": 7,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 21,
+      "topics": [
+        "iOS",
+        "Artificial Intelligence",
+        "Climate Tech",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Conversaflex",
+      "tagline": "AI speaking practice for multilingual teams",
+      "summaryZh": "面向多语言团队的AI口语练习",
+      "descriptionZh": "面向法语、英语和西班牙语多语言团队的AI口语练习。员工与Madame AI练习真实工作场景（客户来电、会议、安全简报），并获得对每个发音的反馈。人力资源部门可获得A1至C2的CEFR分级、进度仪表盘和参与记录用于报告，包括魁北克第96号法案。GSK和Canam的团队正在使用。托管在加拿大，发音评分在Google Cloud Run上运行。",
+      "description": "AI speaking practice for multilingual teams in French, English and Spanish. Employees practise real work situations (client calls, meetings, safety briefings) with Madame AI and get feedback on every sound they say. HR gets CEFR placement from A1 to C2, a progress dashboard, and participation records for reporting, including Quebec's Bill 96. Used by teams at GSK and Canam. Hosted in Canada, with pronunciation scoring on Google Cloud Run.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/8d45ec10-9869-4109-89ea-cf7218039b95/291a701e3556f58f3428570ae28e24f79fc77f934eab8328155a9d544f9b737f.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/9c1256d3-f7e4-40be-ba39-aca5bd8c9233.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/conversaflex?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BUQWNJPOHLMZ6O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 71,
+      "comments": 6,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 22,
+      "topics": [
+        "Education",
+        "Languages",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "AI Gateway",
+      "tagline": "Manage your company's AI from one place",
+      "summaryZh": "在一个地方管理公司的AI",
+      "descriptionZh": "AI Gateway 将你的自托管模型以及 OpenAI、Groq、Together 等提供商统一置于一个兼容 OpenAI 的端点之后。它运行在你自己的服务器上。你的 GPU 优先承接流量，需要时由供应商介入，由你决定谁使用什么。",
+      "description": "AI Gateway puts your self-hosted models and providers like OpenAI, Groq and Together behind one OpenAI-compatible endpoint. It runs on your own servers. Your GPUs take the traffic first, vendors step in when needed, and you decide who uses what.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/fa9b340c-53d2-4ead-a881-2ca3bca2e949/9775eb156cf553244cf9e1ee4a03b2f4274ef04668e7325ceab7dea4595409da.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a30f29d4-e910-4fe9-95a2-9f23ff5cf243/486369b62a737f0e25e2e82cb1331fccde3ac259bfcafc79abe77c39e5ca9519.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ai-gateway-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NS263Q77RQ2QUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 70,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 23,
+      "topics": [
+        "SaaS",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Vatsalya Circle",
+      "tagline": "Family elder care: check-ins, missed alerts, SOS, scam help",
+      "summaryZh": "家庭老人照护：签到、漏报提醒、紧急求助、防诈骗帮助",
+      "descriptionZh": "一款免费应用，专为照护年迈父母的家庭设计。用药和每日报到像闹钟一样提醒，只有漏掉时家人才会收到通知，兄弟姐妹轮流照护，SOS 会通知所有人，安全核查帮助长辈应对诈骗电话。支持英语、印地语、孟加拉语、卡纳达语。",
+      "description": "A free app for families looking after ageing parents. Medicine and daily check-ins ring like an alarm, the family hears only when one is missed, siblings take turns, SOS alerts everyone, and Safety Check helps elders with scam calls. English, Hindi, Bengali, Kannada.",
+      "thumbnail": "https://ph-files.imgix.net/39011663-eb25-4287-96c6-7eddc0460879.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/c85c6f7e-a03f-4aba-ac30-a610ce0999f0/368b1a0569978efbe6a3a5dc4b3c4a67c464f64a7a7afcdf9ddd175fa2132368.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/vatsalya-circle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/5TET2GJ6UIUQYY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 69,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 26,
+      "topics": [
+        "Android",
+        "Health & Fitness",
+        "Productivity",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "AI Call",
+      "tagline": "An AI that answers and makes your business calls",
+      "summaryZh": "一款能接听并拨打商务电话的AI",
+      "descriptionZh": "AI Call 接听您的商务电话，并为您拨打外呼电话。AI 与来电者交谈，记录他们的需求，进行录音，并在需要时转接给您的员工。无基础费用：每个号码每月 5 美元，接通每分钟 0.30 美元。",
+      "description": "AI Call answers your business line and makes outbound calls for you. The AI talks with callers, takes down what they need, records it and puts them through to your staff when needed. No base fee: $5/month per number, $0.30 per connected minute.",
+      "thumbnail": "https://ph-files.imgix.net/e9eb761e-cf55-4d65-b639-10c5ebe23c64.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/c612e4c1-4607-4a66-9568-417da8302be7/9d0ba5df1eb2065a30b9de5390912bd978baaff1f55457e12bb7dd28bdc1b714.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/ai-call?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/NM25TQFORPLFJ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 65,
+      "comments": 5,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 34,
+      "topics": [
+        "Productivity",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Bimdrop",
+      "tagline": "BIM file sharing. Simple and fast",
+      "summaryZh": "BIM文件共享。简单快捷",
+      "descriptionZh": "在浏览器中打开并共享BIM和CAD文件：Revit（RVT）、IFC、STEP、IGES、Rhino（3DM）、Tekla（DB1、DSTV NC1）、DXF、BTLX、glTF/GLB、OBJ、FBX、DAE、STL、3MF、USDZ，共计70种文件类型。可通过链接分享或嵌入交互式3D查看器。试用无需注册。免费——每月10个文件。",
+      "description": "Open and share BIM and CAD files in the browser: Revit (RVT), IFC, STEP, IGES, Rhino (3DM), Tekla (DB1, DSTV NC1), DXF, BTLX, glTF/GLB, OBJ, FBX, DAE, STL, 3MF, USDZ and 70 file types in total. Share via link or embed an interactive 3D viewer. No sign-up needed to try it. Free — 10 files per month.",
+      "thumbnail": "https://ph-files.imgix.net/eabd4c2b-07e5-4a23-acc6-6ed7a1bccfe8.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/bf367f67-cc2b-4b37-b440-e8b40f6fd681/fae9732de50cdcd86fdf62ff2a30feafdd3a790153f2b01559555a201f36a90e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/bimdrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/G5M4ECRUYNBQ4E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 63,
+      "comments": 2,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 40,
+      "topics": [
+        "Design Tools",
+        "Construction",
+        "3D Modeling"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Telo",
+      "tagline": "Apple Health in ChatGPT and Claude, in any country",
+      "summaryZh": "ChatGPT 和 Claude 中的 Apple Health，在任何国家均可使用",
+      "descriptionZh": "Telo 是一款 iPhone 应用，可将你的 Apple Health 历史记录发送到你已在使用的 AI。连接一次后，即可向 ChatGPT、Claude、Gemini、Grok 或 Cursor 询问你的睡眠、训练和恢复情况。每个回答都会显示它所读取的记录。ChatGPT 和 Claude 内置的 Apple Health 连接仅限美国，且 Claude 的需要付费方案。Telo 在任何国家均可使用，也支持 Claude 的免费方案。最近 7 天免费。Pro 每年 $49，可获取完整历史记录。",
+      "description": "Telo is an iPhone app that sends your Apple Health history to the AI you already use. Connect once, then ask ChatGPT, Claude, Gemini, Grok or Cursor about your sleep, training and recovery. Every answer shows the records it read. The Apple Health connections built into ChatGPT and Claude are US-only, and Claude's needs a paid plan. Telo works in any country and on Claude's free plan. Your last 7 days are free. Pro is $49 a year for your full history.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/17aca591-7591-44fb-9abd-3da1849a3242/a0c42fd996ba222d5819c6929075bafff320afd600cabbc36ae3814501dd09fb.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/909427ba-901d-421e-aa39-96da608e70e1/a1f8cb553dae017e770e70134b9776800385a0179d7b4f787d5264acaefd5966.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/telo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7TA2T4TY2SV5SJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 61,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 46,
+      "topics": [
+        "Health & Fitness",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Megumi Planner",
+      "tagline": "Grow a garden together, and a community grows with it",
+      "summaryZh": "一起种植花园，社区也随之成长",
+      "descriptionZh": "邻里间最美好的时刻，有些就发生在花园里：孩子摘下人生第一颗无花果，邻居互换幼苗，陌生人因共享收获而成为朋友。Megumi Planner 帮助人们共同构想这样一个地方。在你土地的照片上绘制花园或食物森林，看它逐年生长，并通过链接分享，让每个人都能看到这个梦想并参与其中。因为共同规划的花园，会成为人人都有归属感的地方。Beta 版免费。🌱",
+      "description": "Some of the best moments in a neighborhood happen in a garden: kids picking their first fig, neighbors swapping seedlings, strangers becoming friends over a shared harvest. Megumi Planner helps people dream up that place together. Draw your garden or food forest on a photo of your land, watch it grow over the years, and share it with a link so everyone can see the dream and join in. Because a garden planned together becomes a place where everyone belongs. Free in beta. 🌱",
+      "thumbnail": "https://ph-files.imgix.net/2a6a6d2b-f299-4866-a53f-3311935d37ea.svg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/44c437c3-57a5-4be3-97cc-39ad1f5c3a3b.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/megumi-planner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KAJT5EVFO4EGDX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 61,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 47,
+      "topics": [
+        "Design Tools",
+        "Home",
+        "Climate Tech",
+        "Google Cloud Run"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "DMARC Pulse",
+      "tagline": "Find out who's sending email as your domain",
+      "summaryZh": "查明是谁在以你的域名发送邮件",
+      "descriptionZh": "Gmail 和 Yahoo 现在会将未通过 SPF、DKIM 或 DMARC 的邮件投入垃圾箱或直接拒收。你的 DMARC 报告能准确显示谁在以你的域名发送邮件，但它们以每日 XML 形式送达，没人会去读。DMARC Pulse 替你读取：按名称匹配每个发件人，标记伪造者，提供通俗易懂的修复建议，出问题时发送邮件提醒，并引导你从 p=none 逐步过渡到隔离。1 个域名免费，另有 16 个免费检查工具，无需注册。",
+      "description": "Gmail and Yahoo now push email that fails SPF, DKIM or DMARC to spam, or reject it. Your DMARC reports show exactly who sends as your domain, but they arrive as daily XML nobody reads. DMARC Pulse reads them for you: every sender matched by name, spoofers flagged, plain-language fixes, email alerts when something breaks, and a guided path from p=none to quarantine. Free for 1 domain, plus 16 free checkers with no signup.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/626f4c08-ea93-47c9-91c3-03219bedec82/c619f5c9ae9148a7445a53d4d0cd7662e467e3e5a3ad5051aad6a6c4e6fcfca2.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/50f0949d-1a13-428b-907a-b13a24e21981/079e58b7af0d61b051c956ed9d786ea3b776474462f29e93069c32d5fb992799.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/dmarc-pulse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/PM3C2RJILEUIBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 61,
+      "comments": 1,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 49,
+      "topics": [
+        "Email",
+        "SaaS",
+        "Security"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Anya",
+      "tagline": "A personal AI agent. Send a message, get finished work back.",
+      "summaryZh": "一个个人AI代理。发送消息，即可获得完成的工作成果。",
+      "descriptionZh": "Anya 是 IMAI 打造的一款个人 AI 智能体，运行于 WhatsApp 和 iMessage。发送消息，即可获得完成的工作成果。在会议前调研某个人或公司、寻找潜在买家，或完成复杂的预测分析。若需快速、经济的答案，可用 Instinct；若需处理复杂工作，则用 Anya：思考更深入，返工更少。前 500 名通过 imai.studio/anya 注册的 Product Hunt 新用户可获得 50 美元免费额度。",
+      "description": "Anya is a personal AI agent on WhatsApp and iMessage, made by IMAI. Send a message, get finished work back. Research a person or company before a meeting, find potential buyers, or work through a complex forecast. For fast, affordable answers, there's Instinct. For complex work, there's Anya: deeper thinking, less rework. The first 500 new Product Hunt users get $50 in free credits when they sign up through imai.studio/anya.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/af453fe9-712f-46f0-89c2-00bd7fe50f10/bab1cccd5d78325b70f222fd5cba30c6c3f787540327c6a61def1dfec44c0fe7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/40f2b0a0-d0c2-4b25-9bb9-2cd2c610f426/79aa77175080bbd202d9307c2484021de73cb07bcca341a9810d994bf33f3427.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/anya-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BTZGSFDX3JQSWZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 11,
+      "comments": 7,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 60,
+      "topics": [
+        "Productivity",
+        "Messaging",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Buzzmark",
+      "tagline": "Automated social media in your own voice",
+      "summaryZh": "以你自己的声音自动发布社交媒体内容",
+      "descriptionZh": "为你的品牌制造热度。Buzzmark 是一位代笔写手，用你自己的语气撰写、规划并安排你的社交媒体内容。Buzz 会从你发布的内容和你所做的每一次编辑中持续学习这种语气，并将你反复进行的编辑转化为规则。每份草稿在呈现给你之前，都会对照你的语气进行 0 到 100 的评分。Buzz 会为你起草一周的内容，并在 9 个平台上于受众的最佳时间发布。可通过 MCP 向 Claude 或 ChatGPT 提出请求，或使用 CLI 和 API。代理机构可获得白标客户门户。",
+      "description": "Create a buzz around your brand. Buzzmark is a ghostwriter that writes, plans and schedules your social media in your own voice. Buzz keeps learning that voice from what you publish and every edit you make, and turns the edits you repeat into rules. Every draft is scored 0 to 100 against your voice before you see it. Buzz drafts your week and posts at your audience's best times on 9 platforms. Ask from Claude or ChatGPT over MCP, or use the CLI and API. Agencies get a white-label client portal.",
+      "thumbnail": "https://ph-files.imgix.net/08407cfb-6ba3-43ae-aa9c-e35d7691ca9f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/16e4908c-63dd-4464-883a-a1bf7759f25e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/buzzmark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/44RDVU6D6TCW7Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 6,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 67,
+      "topics": [
+        "Social Media",
+        "Artificial Intelligence",
+        "Marketing automation"
+      ],
+      "buckets": [
+        "ai",
+        "productivity",
+        "design"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "RCM Kit",
+      "tagline": "AI agents for healthcare revenue cycle teams",
+      "summaryZh": "面向医疗收入周期团队的AI代理",
+      "descriptionZh": "RCM Kit 是 SNF 账单处理所依赖的 AI 基础。它连接账单系统、付款方和银行，隔离每位客户的数据，并运行代理来处理付款入账、催收应收账款和重新提交 Medicaid 账单，每一步都由员工审批。已上线并持续扩展。",
+      "description": "RCM Kit is the AI foundation SNF billing runs on. It connects to billing systems, payers and banks, keeps each customer’s data isolated, and runs agents that post payments, chase A/R and rebill Medicaid, with staff approving every step. Live and growing.",
+      "thumbnail": "https://ph-files.imgix.net/df7542e1-dc44-47fa-90cc-c09eb4e8ce0c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/8fbc6a00-d794-46cc-b4c8-36724ce5a427.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/rcm-kit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/HWZWXB4WAJ24MM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 6,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 68,
+      "topics": [
+        "Artificial Intelligence",
+        "Medical",
+        "Finance"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "SocialGTM",
+      "tagline": "The Swiss Army knife for go-to-market on social",
+      "summaryZh": "社交媒体市场推广的瑞士军刀",
+      "descriptionZh": "SocialGTM 在社交媒体上运行你的 go-to-market。它为 Reddit 和 X 制定 30 天增长路线图，撰写帖子并支持你安排发布，还能在 X、Reddit、HN、Bluesky 和 LinkedIn 上找到正在寻找类似工具的人，并以你的口吻回复。它还跟踪品牌和竞品提及、SEO 话题以及每一条线索，并配有 MCP 服务器。所有内容都由你审核，并由你本人在 X、Reddit、LinkedIn 和 HN 上点击发布。套餐每月 9 美元起。",
+      "description": "SocialGTM runs your go-to-market on social. It builds a 30-day growth roadmap for Reddit and X, writes your posts and lets you schedule them, and finds people asking for a tool like yours on X, Reddit, HN, Bluesky, and LinkedIn, with replies in your voice. It also tracks brand and competitor mentions, SEO threads, and every lead, and has an MCP server. You approve everything and press Post yourself on X, Reddit, LinkedIn, and HN. Plans start at $9 a month.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/43fa0b06-5b68-4699-9500-756cf1a907a6/8ad3c320fe6bdeb5db47f843c5c50cb3aa317ec88b737c51299c22e6e12ba5b0.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/544fbd41-fff1-446f-9eed-9f8133e1417e/51851c46913313f90a89a99f1b3f7eaffbf1f087a26762034176bc13c09dc565.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/socialgtm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MR2WKSOCT4YEO3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 6,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 69,
+      "topics": [
+        "Sales",
+        "Social Media",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Shhots AI for iOS",
+      "tagline": "Turn one product photo into photos and video ads on iPhone",
+      "summaryZh": "在iPhone上将一张产品照片转化为照片和视频广告",
+      "descriptionZh": "在iPhone上将产品照片转化为工作室照片、创作者风格UGC、电影感视频和播客广告。面向无需组织拍摄即可创建营销素材的在线卖家和品牌营销人员。可从47种照片风格中选择，用12种语言制作UGC，或生成10–30秒的产品视频。选择你的照片，挑选一种风格，然后在应用中创作。今天就试试吧！",
+      "description": "Turn a product photo on your iPhone into studio photos, creator-style UGC, cinematic videos and podcast ads. For online sellers and brand marketers creating campaign assets without organizing a shoot. Choose from 47 photo styles, make UGC in 12 languages, or generate 10–30 second product videos. Pick your photo, choose a look, and create in the app. Try it today!",
+      "thumbnail": "https://ph-files.imgix.net/e2c835d1-a55a-4be9-8be9-326f2313600b.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/bbf36e86-08c1-40ff-8461-ddc6aaed6cf2.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/shhots-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TC3IQ77QKE4UMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 5,
+      "comments": 3,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 73,
+      "topics": [
+        "iOS",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Best Electrician Jobs",
+      "tagline": "Hire electricians from Claude or ChatGPT",
+      "summaryZh": "从Claude或ChatGPT聘请电工",
+      "descriptionZh": "一个面向电工和低压技术人员的招聘板，由一个人运营了两年。6,000+个在招职位和35,000+份熟练工简历。雇主现在可以连接Claude或ChatGPT来查看申请人、阅读简历、起草职位和暂停发布。",
+      "description": "A job board for electricians and low-voltage techs, run by one person for two years. 6,000+ open jobs and 35,000+ journeyman résumés. Employers can now connect Claude or ChatGPT to check applicants, read résumés, draft jobs and pause postings.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/3fc8e60c-6991-49fe-ba70-6dd8b1667faf/9c1fe8c7b6910499f3662e046ff0e31c2486fe81691ef3c6c63efc5daa8656b5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/f4ffb365-8297-4940-bdc4-07c00d35d1e8/65b80c62c4e34ec45cc17cb27a689892f155c00084f23e9466053675e81a46ca.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/best-electrician-jobs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/TCPNKNAMPZMOWI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 4,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 76,
+      "topics": [
+        "Hiring",
+        "Artificial Intelligence",
+        "Career"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    },
+    {
+      "name": "Thruddle",
+      "tagline": "Discover events in UK pubs: live music, quizzes and more",
+      "summaryZh": "发现英国酒吧活动：现场音乐、问答游戏等",
+      "descriptionZh": "Thruddle 是在英国各地发现附近优质酒吧的最便捷方式。只需轻点一下，即可查看附近的现场音乐、问答之夜和酒吧活动。定期活动会标注“每周”或“每月”，让你清楚哪些是一次性活动，哪些是常规活动。按你真正关心的条件筛选：纯正麦芽酒、啤酒花园、可携犬入内、台球桌、体育直播、适合家庭、WiFi 等。在地图上或以列表形式浏览附近的酒吧，附带照片和无障碍信息。营业时间、清晰的“现在营业”……",
+      "description": "Thruddle is the easiest way to discover great pubs near you across the UK. See live music, quiz nights, and pub events near you in a single tap. Recurring events are tagged \"Weekly\" or \"Monthly\" so you know what's a one-off and what's a regular. Filter by what you actually care about: real ale, beer gardens, dog-friendly, pool tables, live sports, family-friendly, WiFi and more. Browse pubs near you on a map or as a list, with photos and accessibility info. Opening hours, a clear \"Open now\"...",
+      "thumbnail": "https://ph-files.imgix.net/f0ddaeb0-ca57-454c-b11e-1c6808f5a033.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/565e46ce-ed40-4c52-90f5-dc6adeb047c6/ad91f43e6c2b8d7046eb3c3d2b1d07fab715284d76339091dd19b981931f59d5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/thruddle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GD2373B4LD652B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 63,
+      "comments": 3,
+      "featured": true,
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "rank": 41,
+      "topics": [
+        "Android",
+        "Travel",
+        "Maps",
+        "Food & Drink",
+        "Google Cloud Run"
+      ],
+      "buckets": [],
+      "date": "2026-11-20",
+      "productHuntDate": "2026-11-19",
+      "lastUpdated": "2026-11-20T17:44:26.249Z"
+    }
+  ]
+}
