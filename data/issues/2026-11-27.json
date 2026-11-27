@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "date": "2026-11-27",
+    "productHuntDate": "2026-11-26",
+    "lastUpdated": "2026-11-27T18:53:19.718Z",
+    "status": "live",
+    "source": "producthunt-api-v2",
+    "timezone": "Asia/Shanghai",
+    "productHuntTimezone": "America/Los_Angeles",
+    "attribution": "Product data attributed to Product Hunt.",
+    "commercialUsage": "Product Hunt API must not be used for commercial purposes without Product Hunt approval.",
+    "issues": [
+      {
+        "day": "27",
+        "title": "产品灵感日报 · 20 个新品"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Contral",
+      "tagline": "The AI coding agent that checks its work and teaches you",
+      "summaryZh": "会检查自身工作并教你的人工智能编程助手",
+      "descriptionZh": "Contral 已结束测试版。在 Contral 中使用 Claude Code、Codex、Cursor、OpenCode、Gemini CLI 或 Copilot CLI，并使用你自己的账户。Contral 会对照你的要求检查每一轮对话，向较小模型发送具体的纠正，用教学卡片解释每处更改，并可一键撤销整轮对话。此外还有 Defense Mode、Scrimba 的视频讲解，以及支持 5 种语言的 Learn 模式。可在 VS Code、Cursor、Windsurf 等编辑器中使用，也可使用 Contral IDE。免费开始使用。",
+      "description": "Contral is out of beta. Use Claude Code, Codex, Cursor, OpenCode, Gemini CLI or Copilot CLI inside Contral, on your own account. Contral checks every turn against what you asked for and sends smaller models a specific correction, explains every change with a teaching card, and undoes a whole turn in one click. Plus Defense Mode, video explanations by Scrimba, and Learn mode in 5 languages. In VS Code, Cursor, Windsurf and more, or the Contral IDE. Free to start.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/0b641793-5cc4-47f1-882e-410707c12ce9/d540f0b18265279afd0ae243aaf2a47794fb09ed769b70b292a6a25f769493cc.gif?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a2a2c891-e8c3-455b-b564-f0fd762943c3/30f02d762188c97a780b0daf912a478ba550b831eed63846669a6713af8a799f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/contral?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/O345273IOJN5AK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 157,
+      "comments": 31,
+      "featured": true,
+      "publishedAt": "2026-11-27T08:00:00Z",
+      "rank": 3,
+      "topics": [
+        "Education",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Periscope",
+      "tagline": "Turn any work into an API",
+      "summaryZh": "将任何工作转化为API",
+      "descriptionZh": "描述一项任务，并获取对应的端点。智能体通过其自有云桌面上的屏幕自行完成工作，可使用任何软件，无论多旧。可通过 REST 调用，或从 Claude、ChatGPT 或 Cursor 经 MCP 调用。免费方案无需信用卡。",
+      "description": "Describe a task and get an endpoint for it. An agent does the work through the screen on its own cloud desktop, in any software, however old. Call it over REST, or from Claude, ChatGPT or Cursor over MCP. The Free plan needs no card.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/4b7b9d4e-5dd9-4c08-a93e-8170e36d3581/ede18927d229dd57605d871697a8d50c78c2075e7aea00ef09bcdfb55b2a0897.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/dd56eb17-2c45-4418-9f69-b6e6be240469/58ad5f556ebb9214f978de9e33d0faed0d0ad2733fa2b4df4a9c48683010499f.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/periscope-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/MKDWAD6MXFEF3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 141,
+      "comments": 17,
+      "featured": true,
+      "publishedAt": "2026-11-27T08:00:00Z",
+      "rank": 4,
+      "topics": [
+        "API",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Pushary Calls",
+      "tagline": "Miss your AI agent’s ping? Pushary calls you.",
+      "summaryZh": "错过了 AI 助手的提示？Pushary 会打电话通知你。",
+      "descriptionZh": "你的 AI agent 在做任何大事之前都会停下来询问。如果你正在吃午饭，它就会一直等着，直到你回来。Pushary 会把问题发送到你的手机上。如果你错过了，Pushary 会打电话给你。你听到 agent 想要什么，然后回答 yes、no，或者告诉它该怎么做。之后它会继续工作。来电只会在你选择的时间段内响起。支持 Claude Code、Codex、Gemini CLI、Grok Build、Hermes 等。",
+      "description": "Your AI agent stops to ask before it does anything big. If you're at lunch, it sits there until you're back. Pushary sends the question to your phone. Miss it, and Pushary calls you. You hear what the agent wants and say yes, no, or what to do instead. Then it keeps working. Calls only ring in hours you pick. Works with Claude Code, Codex, Gemini CLI, Grok Build, Hermes and more.",
+      "thumbnail": "https://ph-files.imgix.net/93ca09eb-0ef0-4da7-80fd-cdc290e30ede.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/4f69e994-9708-422c-89f7-787f6920a1c9/66c420b7397f4d3a48025a3d2425db753cd38e388501dd30aa04ce9812150d99.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pushary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/KPT5IG56HJWKXE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 126,
+      "comments": 24,
+      "featured": true,
+      "publishedAt": "2026-11-27T08:00:00Z",
+      "rank": 5,
+      "topics": [
+        "Android",
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Cinemation - AI Long Videos Maker",
+      "tagline": "Create long videos, cinema, serials, promotions & more.",
+      "summaryZh": "制作长视频、电影、剧集、宣传片等。",
+      "descriptionZh": "Cinemation 是一款 AI 电影制作工具，可将创意或脚本转化为长视频（最长 30 分钟），并确保每个场景中的角色和地点保持一致。选择类型、时长和演员阵容；它会撰写脚本、规划远景/中景/特写镜头、生成画面，并将它们拼接成一部完整影片。用自然语言即可编辑任意镜头。支持真人实拍、3D、动漫、黏土动画或卡通风格；16:9、9:16 或 1:1 画幅；5 种语言。面向创作者、营销人员和教育工作者。",
+      "description": "Cinemation is an AI movie maker that turns an idea or script into long videos (up to 30 min) with the same characters and locations in every scene. Pick a genre, length and cast; it writes the script, plans wide/medium/close-up shots, generates the visuals and stitches them into one film. Edit any shot in plain English. Live action, 3D, anime, claymation or cartoon; 16:9, 9:16 or 1:1; 5 languages. For creators, marketers and educators.",
+      "thumbnail": "https://ph-files.imgix.net/cae3ea24-d455-4dc6-a19c-f3673ad5bc90.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/795ad6ec-da33-42e9-8ffb-a520367e7357/332c9c80d7cf842af3fde562091c0b0aacef70c981f4009585a5ecb49f12b442.webp?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cinemation-ai-long-videos-maker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/VVNCEAMA2XWDNB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 8,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 27,
+      "topics": [
+        "Marketing",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Nexim",
+      "tagline": "Edit video like a doc. Free forever, in your browser",
+      "summaryZh": "像编辑文档一样编辑视频。永久免费，在浏览器中即可使用。",
+      "descriptionZh": "通过编辑转录文本即可编辑视频和播客。核心工作室100%免费：无限本地编辑，无上限，无需信用卡。剪掉重拍片段，去除填充词和停顿，用说话者本人的声音修正错误词语，设置实时字幕样式，对比编辑版与原版，撤销任何操作，导出MP4/M4A。手机上即可使用。设备端私密AI。可选按需付费云服务。",
+      "description": "Edit video and podcasts by editing the transcript. The core studio is 100% free: unlimited local editing, no caps, no card. Cut retakes, strip fillers and pauses, fix a wrong word in the speaker’s own voice, style live subtitles, A/B Edited vs Original, undo anything, and export MP4/M4A. Works on your phone. Private on-device AI. Optional pay-as-you-go cloud.",
+      "thumbnail": "https://ph-files.imgix.net/3e9b7834-406d-41bb-b515-cd705b0ad6d6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/552b72d4-77cb-4e18-a419-7092271ed7a0/c5498cf7f6e01baef5a00c5aa4b815e9ce2937046981ff8131fbfd6ce815a4bf.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/nexim?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/BF4CWGVR2DVSF2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 7,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 28,
+      "topics": [
+        "Artificial Intelligence",
+        "Audio",
+        "Video"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Amly",
+      "tagline": "Set your goals and keep your focus on them every day",
+      "summaryZh": "设定你的目标，并每天保持对它们的专注。",
+      "descriptionZh": "很容易迷失目标、失去动力或不再相信自己。Amly 帮助你保持专注，并相信你正在构建的东西：用自己的目标、语录、照片、贴纸和现成模板，按你的方式设计一块愿景板，然后把它放到主屏幕上。每天看到你的目标，保持动力，持续朝着它们前进。",
+      "description": "It's easy to lose sight of your goals, lose motivation, or stop believing in yourself. Amly helps you stay focused and believe in what you're building: design a vision board your way with your own goals, quotes, photos, stickers and ready-made templates, then put it on your home screen. See your goals every day, stay motivated and keep moving toward them.",
+      "thumbnail": "https://ph-files.imgix.net/543dc0bb-73e0-46a0-851c-553c39716699.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/1fa8f177-c90c-493f-b21e-4836b1be3a96.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/amly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LIZANCMFQC6JHN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 6,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 30,
+      "topics": [
+        "Productivity",
+        "Lifestyle"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Viraloop",
+      "tagline": "Don't just get views. Get paying customers.",
+      "summaryZh": "不要只追求浏览量，要赢得付费客户。",
+      "descriptionZh": "浏览量付不了账单。添加你的网站，Viraloop 就会创建、排期并自动发布一个月的短视频内容，专为在 TikTok、Instagram、YouTube 和 Facebook 上销售你的产品而打造。在 Turbo Mode 中滑动浏览 AI UGC 视频、幻灯片、梗图和广告，为你的细分领域混剪热门格式，从 500+ AI 头像中选择，并让日历每天自动发布。REST API、MCP server 和 CLI 让你的智能体运行整个循环。",
+      "description": "Views don't pay the bills. Add your website and Viraloop creates, schedules and auto-posts a month of short-form content built to sell your product on TikTok, Instagram, YouTube and Facebook. Swipe through AI UGC videos, slideshows, memes and ads in Turbo Mode, remix trending formats for your niche, pick from 500+ AI avatars, and let the calendar post daily. A REST API, MCP server and CLI let your agents run the whole loop.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/c8deede6-1ff7-490b-9d44-9ae3bb898637/e4b2cacd267cd8bf534cc8de081f00920062b806317cdf4aacea01bdd0c5486c.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/91494b25-1be7-4b05-9340-5630f9e82f79/36f53eae5efdfb89ff4d1609955e5571268b33ce662b04d7f49633d5fb3cbdd6.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/viraloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/ZAGCDCRQPIDV7T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 5,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 35,
+      "topics": [
+        "Social Media",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Seira.bot",
+      "tagline": "One workspace. Your entire AI agent team.",
+      "summaryZh": "一个工作空间，你的整个AI代理团队。",
+      "descriptionZh": "别再在多个 AI 对话之间来回切换。用 Claude Code、Codex、Gemini 以及 20 多个受支持的 agent 组建一支专业 agent 团队。在一个工作区中分配角色、委派任务、运行周期性工作流并审查重要操作。直接使用你已有的 AI 账户。Seira 是开源的（Apache 2.0），提供适用于 Windows 和 Linux 的免费桌面应用，并支持自托管。从一个 bot 开始，逐步组建你的团队。",
+      "description": "Stop juggling separate AI chats. Build a team of specialized agents with Claude Code, Codex, Gemini and 20+ supported agents. Assign roles, delegate tasks, run recurring workflows and review important actions from one workspace. Bring the AI accounts you already use. Seira is open source (Apache 2.0), with a free desktop app for Windows and Linux and self-hosting options. Start with one bot, then build your team.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/b304a340-6bde-43c7-b286-5238743a089f/9607887eda6a2167ae1fee5fd75810a620d014ec2d78afff3e1d0b50dc87e4dd.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/035456d7-b722-499d-a1d6-cf849bca7a2a/4a2727bfdedb5bc95cbf8d492020439f8adf4d14401cee09f63bb0ff3d9f43a5.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/seira-bot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/2N63IVAVZYBUFB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 4,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 40,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "buckets": [
+        "ai",
+        "developer",
+        "productivity"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Solea",
+      "tagline": "The free DJ app for Mac, with live stems",
+      "summaryZh": "Mac 上的免费 DJ 应用，支持实时分轨",
+      "descriptionZh": "Solea 是一款完全本地运行的免费 Mac DJ 应用。指向你已有的文件夹：每首曲目约一秒即可完成速度、节拍网格和调性分析，不会复制或上传任何内容。播放时可把任意曲目拆分为鼓、贝斯、人声和乐器，各自对应一个打击垫。波形最高以 120 fps 运行。可将播放列表、提示点和节拍网格导出到 U 盘供 Pioneer 播放器使用，无需 rekordbox。内置控制器映射，最多支持 4 个唱盘。要求 macOS 15 或更高版本，Apple Silicon。",
+      "description": "Solea is a free DJ app for the Mac that runs fully local. Point it at the folders you already have: tempo, beatgrid and key are ready in about a second per track, and nothing gets copied or uploaded. Split any track into drums, bass, vocals and instruments as it plays, each on its own pad. Waveforms run at up to 120 fps. Export playlists, cues and beatgrids to a USB stick for Pioneer players, no rekordbox needed. Controller mappings built in, up to 4 decks. macOS 15 or later, Apple Silicon.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/0deccec3-81fb-42c6-92d5-ff527cd2f1ae/aeb09bb22313b888f1cfb63ef69b302eb73314dcdc6f5477b1e1c038d821c5a6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/21310775-03ef-4d1c-8bc1-5f4a8c2aafa5/1c37805100f78b45db13690f60e5bef89a27b7f5905e9aba55e9d6133af9884a.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/solea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/DH5X2JBRNURUQA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 4,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 41,
+      "topics": [
+        "Mac",
+        "Music"
+      ],
+      "buckets": [
+        "ai"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "OPIKey",
+      "tagline": "API infrastructure for AI agents",
+      "summaryZh": "面向AI代理的API基础设施",
+      "descriptionZh": "OPIKey 将所有 API 汇聚一处，并打包成单一的 OPI（一个编程接口），让你的 AI 代理能够直接取用。",
+      "description": "OPIKey brings all of your APIs together in one place and packages them into a single OPI (one programming interface) so that your AI agents can pick up and use right away.",
+      "thumbnail": "https://ph-files.imgix.net/efeebd4c-7f67-4f56-a85e-27639c7e83b6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/d937d53a-37fa-4873-b207-fd4a91692547.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/opikey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/G2PWTS5RZT6DRC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 53,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "M84 Patch",
+      "tagline": "Figma-like visual UI editor for GPT, Claude & Cursor",
+      "summaryZh": "面向 GPT、Claude 和 Cursor 的类 Figma 可视化 UI 编辑器",
+      "descriptionZh": "M84 Patch 是一个开源、零依赖的可视化 UI 编辑器（Chrome MV3 扩展 + AI Skill），隔离在封闭的 Shadow DOM 中。可在任意 localhost 或线上站点上指向元素、调整 :root 令牌、应用响应式 clip-path 遮罩、重排 DOM 块，或钉注笔记，然后复制结构化的 # Visual UI Patch 提示词，供 ChatGPT、Claude、Antigravity、Cursor、Windsurf、Copilot 或 Gemini 使用。零内联 CSS，由产品设计师为设计师与 Vibecoder 打造。MIT 许可。",
+      "description": "M84 Patch is an open-source, zero-dependency Visual UI Editor (Chrome MV3 Extension + AI Skill) isolated in a closed Shadow DOM. Point, tweak :root tokens, apply responsive clip-path masks, reorder DOM blocks, or pin notes on any localhost or live site — then copy a structured # Visual UI Patch prompt for ChatGPT, Claude, Antigravity, Cursor, Windsurf, Copilot, or Gemini. Zero inline CSS, built by a Product Designer for Designers & Vibecoders. MIT licensed.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/e5f0757f-accc-4d39-9155-8a1e57f6830d/10c0b6e3019cdec6cd6a8351662959fa3201103ce4fdada2a97cc304aab43b04.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/7b36f8c8-45c0-49fb-a985-232d3f5e3ee8/3dbc9374a0f6931515ba99aa8844b0ab82acaa24c932fb608bfc69cdc979ee4e.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/m84-patch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GCKGHBRT6H5QZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 58,
+      "topics": [
+        "Design Tools",
+        "Open Source",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "buckets": [
+        "developer",
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "LearnXops Build Your Own Lab",
+      "tagline": "Turn any tech topic into a tested hands-on lab with AI",
+      "summaryZh": "用AI将任何技术主题转化为经过测试的动手实验。",
+      "descriptionZh": "任选一个技术主题，再选择一个常规实验、Kubernetes 实验或 AI agent 实验。你自己的 AI agent 会编写一个包含 3 到 6 个任务的场景，每个任务都带有提示、解决方案和检查项。随后，LearnXops 桌面应用会在你的电脑上测试每个任务：每个检查项在应用解决方案前必须失败，应用后必须通过。失败的步骤会被修复并重新测试，只有所有任务都通过的实验才会保存到 My Labs，并配有终端、提示和 AI 教练。Beta 版，面向 Pro 会员。",
+      "description": "Name any tech topic and pick a regular lab, a Kubernetes lab or an AI agent lab. Your own AI agent writes a scenario with 3 to 6 tasks, each with a hint, a solution and a check. The LearnXops desktop app then tests every task on your computer: each check must fail before its solution and pass after it. Failing steps get fixed and tested again, and only a lab where every task passes is saved to My Labs, ready with a terminal, hints and an AI coach. Beta, for Pro members.",
+      "thumbnail": "https://ph-files.imgix.net/f4557aec-1f9a-4de3-b98e-cbd284de2a2f.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/b4f0d0b1-2c6e-42e5-a085-c036df222e65.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/learnxops-build-your-own-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/XBWPODWWQNUN54?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 62,
+      "topics": [
+        "Education",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Cuts",
+      "tagline": "Turn photos and clips into polished video stories",
+      "summaryZh": "将照片和片段转化为精美的视频故事",
+      "descriptionZh": "Cuts 是一款基于模板的 iPhone 和 iPad 视频编辑器。选择竖屏模板，添加照片和片段，自定义动画文字，并以 1080p 导出。内置布局、转场、滤镜和胶片颗粒，帮助你制作旅行故事、产品宣传和日常剪辑。保存项目后可稍后继续编辑。免费下载，提供可选的 Plus 和 Pro 订阅。",
+      "description": "Cuts is a template-based video editor for iPhone and iPad. Pick a vertical template, add photos and clips, customize animated text, and export in 1080p. Built-in layouts, transitions, filters, and film grain help you create travel stories, product promos, and everyday edits. Save projects and return to them later. Free to download, with optional Plus and Pro subscriptions.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/64402583-c213-4456-9de0-32551d00c253/deb28739d25620aee03969536372f46ac4111761621eddd071e442b782305d24.jpeg?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/8b0fd393-8647-43d8-bea7-0447a1b2dc8e/1e6503a43bc172744c42711cc55ab897b2a5947f467048da001c31e4778ba188.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/cuts?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/LUPICXT5EYEH4M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 62,
+      "topics": [
+        "Photo & Video"
+      ],
+      "buckets": [
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "GetLeads",
+      "tagline": "Unlimited B2B Lead Database",
+      "summaryZh": "无限B2B潜在客户数据库",
+      "descriptionZh": "通过MCP将你的AI代理连接到5.42亿+ B2B联系人、本地商家和招聘信息。用自然语言搜索、丰富和筛选线索。无需导出，无需仪表盘——直接问你的AI即可。",
+      "description": "Connect your AI agent to 542M+ B2B contacts, local businesses, and job posts via MCP. Search, enrich, and filter leads in plain language. No exports, no dashboards - just ask your AI.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/9e84c979-b8c7-47ae-ae49-f18efb3aaafd/d5a2660b70c0f2c7e411714623228784cb854d636a0f70377af79aa5f8eba8e6.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/mcp-draft-media/ed6f0e55-c97f-45af-913d-cbd19d96724b.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/getleads?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/GE2BMAAYNCJN5H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 0,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 89,
+      "topics": [
+        "Sales",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Sticker World",
+      "tagline": "Design 3D stickers, wax seals, badges & pop-up cards online",
+      "summaryZh": "在线设计3D贴纸、火漆印章、徽章和立体贺卡",
+      "descriptionZh": "Sticker World 是一个交互式浏览器 3D 工作室，可用全息贴纸装饰 3D 物体、压印 3D 蜡封、设计 58mm 徽章，并制作 3D 立体贺卡。可将照片转为模切 PNG 贴纸，用 AI 生成设计，或浏览原创贴纸包。以访客身份免费试用 3D 工作室——无需注册——并可导出 PNG、GIF、MP4 或可打印 A4 纸张。",
+      "description": "Sticker World is an interactive browser 3D studio for decorating 3D objects with holographic stickers, stamping 3D wax seals, designing 58mm pin badges, and building 3D pop-up greeting cards. Turn photos into die-cut PNG stickers, generate designs with AI, or browse original sticker packs. Try the 3D studio free as a guest—no signup required—and export PNG, GIF, MP4, or printable A4 sheets.",
+      "thumbnail": "https://ph-files.imgix.net/3273d088-b5e3-44e6-820d-b03b060117ca.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/9fdb9831-f934-428d-aa50-4234757b6d01/81852a96df35f8563b1b93b7eb6532342c0026a3c5f978890105a09611282cde.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/sticker-world?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/26SSCOPNY3BNKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 89,
+      "topics": [
+        "Design Tools",
+        "Artificial Intelligence",
+        "Graphic Design"
+      ],
+      "buckets": [
+        "ai",
+        "design"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "pomela",
+      "tagline": "Build reliable, full-stack apps with AI",
+      "summaryZh": "用AI构建可靠的全栈应用",
+      "descriptionZh": "Pomela 是一个以可靠性为核心的 AI 驱动平台。无需编写代码，即可通过自然语言创建完整、可用的应用程序和网站。我们的使命是让 AI 生成的软件更加可靠，从初始构建到每一次编辑和部署。现已进入公开测试阶段。支持 16 种语言。可免费试用。",
+      "description": "Pomela is an AI-powered platform built around reliability. Create complete, functional applications and websites from natural language, without writing code. Our mission is to make AI-generated software more dependable, from the initial build to every edit and deployment. Now in public beta. Available in 16 languages. Free to try.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/7684b5be-276b-4fc6-b166-269192fa58f2/a1d5f37cc29cebebb97544a81658fa59992ad1f66f21c096d5e820bb5a7600b9.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/0734a158-6079-4b1c-8c35-1e85afe9a228/3ac2f8ce31eb1e189b183dca60746107acd1408252c46e70eb00ae3d6c602208.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/pomela?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/SITFBDJIJFZMKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 2,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 100,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "No-Code"
+      ],
+      "buckets": [
+        "ai",
+        "developer"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "SnipeSeats",
+      "tagline": "Get the table you couldn't. Booked the moment it opens.",
+      "summaryZh": "订到那张你订不到的桌。一开放就预订。",
+      "descriptionZh": "SnipeSeats 会监控你订不到的热门餐厅的预订网站，一旦有空位就立即订桌。创建狙击任务时设置餐厅、用餐人数和日期，然后就可以继续你的夜晚安排。当有空桌释放时，SnipeSeats 会用你自己的预订账户完成预订。仅在成功订到时收费：每次预订 $15，每月 $49 可订 4 次，或使用自己的代理服务器每次 $6。Resy 和 Tock 已上线。OpenTable、SevenRooms、Yelp 和 TheFork 即将推出。",
+      "description": "SnipeSeats watches booking sites for the restaurants you can't get into, and books the table the moment one opens. Create a snipe with the venue, party size and dates, then get on with your night. When a table drops, SnipeSeats books it in your own booking account. You pay only when it books: $15 per booking, $49 a month for 4, or $6 on your own proxies. Resy and Tock are live. OpenTable, SevenRooms, Yelp and TheFork are coming soon.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/f7826b0f-9320-43b4-b3ec-c7abb4194aad/271dcdecda7f1908c749bdc6d08bc41697953bd80a5af92bd916690402573b2d.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/435dd75a-4cbc-42e9-a1ac-caad805d57a2/00c6fc3d2790442a94e58975ca46f486cd984f3b5c0ae193774c97b171ca9d36.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/snipeseats?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/43Y5YASCDNKXYP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 115,
+      "topics": [
+        "Productivity",
+        "Bots",
+        "Food & Drink"
+      ],
+      "buckets": [
+        "productivity"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Moov",
+      "tagline": "Short movement breaks for people who work on a Mac",
+      "summaryZh": "适合在Mac上工作的人的短暂活动休息",
+      "descriptionZh": "Moov 提醒你在工作日中进行短暂的活动休息。跟随六种引导式拉伸之一，并可选择启用动作检测，该功能在你的 Mac 上运行，不会上传摄像头画面。专为 Apple 芯片 Mac 打造。免费试用 7 天，无需信用卡。付费方案每月 3.99 美元起，提供年度和终身选项。",
+      "description": "Moov reminds you to take short movement breaks during your workday. Follow one of six guided stretches, with optional movement checks that run on your Mac without uploading camera footage. Built for Apple silicon Macs. Try it free for 7 days, no card required. Paid plans start at $3.99 USD/month, with annual and lifetime options.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/76f9ecb7-00a2-4531-b36f-bb7a60dae5a2/17975d36e89f163de9bae6424ef862870759c3a30ae8198beac1fe38cead10f2.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/69de67b5-ec2d-46a7-815d-e55ca637f399/9b5e39f530a8c6021f435dc19bbb54c0535bec5319644b217438f7f8d0e4fd4e.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/moov-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/7KXTNB72DWOLTV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 115,
+      "topics": [
+        "Mac",
+        "Health & Fitness",
+        "Productivity"
+      ],
+      "buckets": [
+        "ai",
+        "productivity"
+      ],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Reelight",
+      "tagline": "Analog film looks for your phone, processed on-device",
+      "summaryZh": "手机上的模拟胶片效果，设备端处理",
+      "descriptionZh": "Reelight 将你的照片转化为模拟胶片风格。提供 36 种手工调校的胶片效果，经典彩色与黑白乳剂均基于参考帧重建，带有真实的颗粒、光晕和漏光。可直接拍摄或从相册载入，按需微调，并以完整分辨率保存。所有处理均在设备端完成：无需上传，无需账户。免费下载，含一周 Pro 试用；Pro 售价 $3.99。",
+      "description": "Reelight turns your photos into analog frames. Choose from 36 hand-tuned film looks, classic colour and black-and-white emulsions rebuilt from reference frames, with real grain, halation and light leaks. Shoot live or load from your camera roll, fine-tune if you want, and save at full resolution. Everything is processed on the device: no uploads, no account. Free to download with a one-week Pro trial; Pro is $3.99.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/3b00ad1d-e23e-41de-ac0a-09b56674c336/20cafa7907028ebc2f542295e368871136182fc9ebb3db902afdb26e6611a3c7.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/1c7855bd-972b-4e2a-a2f2-2fb1b101c36a/8bdb3213fb71b495e4771b706f987eafbfb316a0325b92a954d4836dcde5ca1a.jpeg?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/reelight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/3KGPDUHULOHUXI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 3,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 62,
+      "topics": [
+        "Android",
+        "iOS",
+        "Photography"
+      ],
+      "buckets": [],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    },
+    {
+      "name": "Workprint",
+      "tagline": "On-device darkroom for your iPhone camera roll",
+      "summaryZh": "iPhone 相机胶卷的机内暗房",
+      "descriptionZh": "Workprint 会扫描你的相机胶卷，找出重复照片、相似照片、截图、模糊画面、大体积视频和拍摄的杂物，然后在任何内容进入“最近删除”之前，由你逐帧决定保留或跳过。所有分析都在你的 iPhone 上进行：无需账户，不上传云端，不进行广告追踪。可选的一次性 19.99 美元终身解锁无限剪辑、视频压缩和实况照片静帧。",
+      "description": "Workprint sweeps your camera roll for duplicates, look-alikes, screenshots, soft frames, heavy videos, and photographed clutter—then you keep or pass every frame before anything hits Recently Deleted. All analysis stays on your iPhone: no account, no cloud upload, no ad tracking. Optional $19.99 lifetime unlocks unlimited cuts, video shrinking, and Live Photo stills.",
+      "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/ea82e07a-5d2d-42c3-99b1-711df8731c42/bbe59308ce8ad29b82653170c573c0378472b0eefe0374bd4a707e29c5433ca5.png?auto=format&h=450&w=800",
+      "image": "https://ph-files.imgix.net/launch-image-uploads/a1d8303d-3426-4463-8f7e-eddfc0f2aaa8/130d2cfeb4fa3bb81e2e64353fd3edea4bc07313437e3d4dc47f4dbace365efa.png?auto=format&h=675&w=1200",
+      "productHuntUrl": "https://www.producthunt.com/products/workprint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "websiteUrl": "https://www.producthunt.com/r/UVLLGE6KMGYXWT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PH+CN+Picks+%28ID%3A+286153%29",
+      "votes": 2,
+      "comments": 1,
+      "featured": false,
+      "publishedAt": null,
+      "rank": 115,
+      "topics": [
+        "iOS"
+      ],
+      "buckets": [],
+      "date": "2026-11-27",
+      "productHuntDate": "2026-11-26",
+      "lastUpdated": "2026-11-27T18:53:19.718Z"
+    }
+  ]
+}
